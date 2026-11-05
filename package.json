@@ -4,12 +4,15 @@
   "private": true,
   "type": "module",
   "description": "An open, community-built language learning app. Filipino first.",
-  "license": "MIT",
+  "license": "AGPL-3.0-or-later",
   "scripts": {
     "dev": "python3 -m http.server 4173 --directory dist --bind 127.0.0.1",
     "test": "node --test tests/*.test.mjs",
     "validate": "node scripts/validate-courses.mjs",
-    "check": "npm run validate && npm test"
+    "check": "npm run validate && npm test && npm run test:audio",
+    "test:audio": "python3 -m unittest discover -s tests -p audio_pipeline_test.py"
   },
-  "engines": { "node": ">=20" }
+  "engines": {
+    "node": ">=20"
+  }
 }

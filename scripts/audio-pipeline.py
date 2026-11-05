@@ -1,49 +1,47 @@
 #!/usr/bin/env python3
 """Offline synthesis -> per-clip human review -> promotion. Never called by the app."""
-import argparse,base64,datetime,hashlib,json,os,re,subprocess,sys,tempfile,urllib.request,urllib.error
+import argparse,base64,datetime,hashlib,json,os,re,subprocess,sys,time,urllib.request,urllib.error
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 CHECKS=('pronunciation','stress','naturalness','completeness')
 PILOT_IDS=['say-hello-1','introduce-yourself-1','getting-unstuck-1','ordering-1','getting-around-1','learning-1','foundation-ng-mga-2','foundation-ng-mga-3','a2-plans-1','c1-synthesis-6','g2-q3-cause-1','g3-q3-aspect-1']
 def digest(data):return hashlib.sha256(data).hexdigest()
-def load_env():
- p=ROOT/'.env.local'
+def load_env(path=None,key_name='OPENAI_API_KEY'):
+ if not re.fullmatch(r'[A-Z][A-Z0-9_]*',key_name):raise RuntimeError('Invalid API-key variable name.')
+ if os.environ.get(key_name):os.environ.setdefault('OPENAI_API_KEY',os.environ[key_name])
+ p=path or ROOT/'.env.local'
  if p.exists():
   for line in p.read_text().splitlines():
-   m=re.fullmatch(r'\s*(OPENAI_API_KEY|OPENAI_TTS_MODEL|OPENAI_TTS_VOICE)\s*=\s*(.*?)\s*',line)
-   if m:os.environ.setdefault(m[1],m[2].strip('"\''))
+   m=re.fullmatch(r'\s*(?:export\s+)?([A-Z][A-Z0-9_]*)\s*=\s*(.*?)\s*',line)
+   if m and m[1] in [key_name,'OPENAI_TTS_MODEL','OPENAI_TTS_VOICE']:
+    os.environ.setdefault('OPENAI_API_KEY' if m[1]==key_name else m[1],m[2].strip('"\''))
 def approved(item):
  r=item.get('review',{})
  return r.get('status')=='approved' and bool(r.get('reviewer','').strip()) and bool(re.fullmatch(r'\d{4}-\d{2}-\d{2}',r.get('reviewedAt',''))) and all(r.get('checks',{}).get(k) is True for k in CHECKS)
-def normalize(text):return re.sub(r'[^\w\s]','',text.lower()).split()
+INSTRUCTIONS=('Read the supplied Filipino (Tagalog) text exactly, once, as a native Philippines speaker. '
+              'Use a warm, clear, natural teaching voice and a normal, unhurried pace. '
+              'Use accurate lexical stress, vowel sounds, glottal stops, ng/mga and natural phrase boundaries. '
+              'Use the context to disambiguate words such as bukas and basa. '
+              'No introduction, translation, explanation, English accent or extra words.')
+
 def openai_audio(text,model,voice):
- try:import websocket
- except ImportError:raise RuntimeError('Install the optional authoring dependency: pip install websocket-client')
  key=os.environ.get('OPENAI_API_KEY')
- if not key:raise RuntimeError('Set OPENAI_API_KEY in the ignored .env.local file or environment.')
- # GA Realtime API, PCM 24 kHz. One session per clip prevents context leakage.
- ws=websocket.create_connection('wss://api.openai.com/v1/realtime?model='+model,header=['Authorization: Bearer '+key],timeout=60)
- chunks=[];transcript=''
- try:
-  while json.loads(ws.recv()).get('type')!='session.created':pass
-  ws.send(json.dumps({'type':'session.update','session':{'type':'realtime','model':model,'output_modalities':['audio'],'audio':{'output':{'voice':voice,'format':{'type':'audio/pcm','rate':24000}}},'instructions':'You read Filipino (Tagalog) teaching texts in a natural native Philippines voice. Speak only the supplied text, exactly once. Preserve every word. Use accurate lexical stress, glottal stops and natural Filipino phrasing. No English accent, translation, commentary, introduction or extra words. Use a clear, natural pace. Never pronounce Filipino words as English letter names.'}}))
-  while True:
-   event=json.loads(ws.recv())
-   if event.get('type')=='error':raise RuntimeError('OpenAI rejected the session settings; inspect the API documentation and account access.')
-   if event.get('type')=='session.updated':break
-  ws.send(json.dumps({'type':'response.create','response':{'conversation':'none','input':[{'type':'message','role':'user','content':[{'type':'input_text','text':'Read exactly this Filipino text:\n'+text}]}],'output_modalities':['audio'],'max_output_tokens':4096}}))
-  while True:
-   event=json.loads(ws.recv());kind=event.get('type')
-   if kind=='response.output_audio.delta':chunks.append(base64.b64decode(event['delta']))
-   elif kind=='response.output_audio_transcript.done':transcript=event.get('transcript','')
-   elif kind=='error':raise RuntimeError('OpenAI audio generation failed; no recording was approved.')
-   elif kind=='response.done':
-    if event.get('response',{}).get('status')!='completed':raise RuntimeError('Audio response was incomplete.')
-    break
- finally:ws.close()
- if not chunks or not transcript:raise RuntimeError('No complete audio/transcript was returned.')
- if normalize(transcript)!=normalize(text):raise RuntimeError('Generated transcript differs from the script. Regenerate and review; clip was not saved.')
- return subprocess.run(['ffmpeg','-hide_banner','-loglevel','error','-f','s16le','-ar','24000','-ac','1','-i','pipe:0','-f','mp3','-codec:a','libmp3lame','-b:a','64k','pipe:1'],input=b''.join(chunks),capture_output=True,check=True).stdout
+ if not key:raise RuntimeError('Set OPENAI_API_KEY in the environment, .env.local, or an existing --env-file.')
+ payload={'model':model,'voice':voice,'input':text,'instructions':INSTRUCTIONS,'response_format':'mp3'}
+ for attempt in range(4):
+  req=urllib.request.Request('https://api.openai.com/v1/audio/speech',data=json.dumps(payload).encode(),headers={'Authorization':'Bearer '+key,'Content-Type':'application/json'})
+  try:
+   with urllib.request.urlopen(req,timeout=180) as response:data=response.read()
+   if len(data)<100 or not (data.startswith(b'ID3') or data[0]==255 and data[1]&224==224):raise RuntimeError('Speech API did not return an MP3 recording.')
+   return data
+  except urllib.error.HTTPError as e:
+   # Never print error bodies: an authentication response can contain a key fragment.
+   if e.code not in (429,500,502,503,504) or attempt==3:raise RuntimeError(f'OpenAI speech generation returned HTTP {e.code}. No recording was approved.') from None
+   time.sleep(3*(attempt+1))
+  except (urllib.error.URLError,TimeoutError):
+   if attempt==3:raise RuntimeError('Speech request failed after bounded retries. Existing cached clips were kept.') from None
+   time.sleep(3*(attempt+1))
+ raise RuntimeError('Speech request failed.')
 
 def google_audio(text,voice):
  # Existing authorized ADC only; never enables APIs, billing or changes a cloud project.
@@ -70,25 +68,25 @@ def promote(manifest,course):
   if digest(data)!=item.get('sha256'):raise RuntimeError('Audio changed since review: '+item['entryId'])
   if not re.fullmatch(r'[a-z0-9/_-]+\.mp3',item['file']):raise RuntimeError('Unsafe audio filename.')
   entry=entries[item['entryId']];target=ROOT/'dist/audio'/item['file'];target.parent.mkdir(parents=True,exist_ok=True);target.write_bytes(data)
-  entry['audio']='audio/'+item['file'];entry['audioReview']={**item['review'],'text':item['text'],'sha256':item['sha256'],'provider':manifest['provider'],'model':manifest['model'],'voice':manifest['voice'],'synthetic':True};count+=1
+  entry['audio']='audio/'+item['file'];entry['audioReview']={**item['review'],'text':item['text'],'sha256':item['sha256'],'provider':manifest['provider'],'model':manifest['model'],'voice':manifest['voice'],'synthetic':True,'requestHash':item.get('requestHash'),'instructions':manifest.get('instructions','')};count+=1
  if not count:raise RuntimeError('No approved recordings to promote; human review is required.')
  (ROOT/'dist/courses/fil-en.json').write_text(json.dumps(course,ensure_ascii=False,indent=2)+'\n')
  print(f'Promoted {count} reviewed recordings. Run npm run check and commit the real audio via Git LFS.')
 
 def main():
- ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('action',choices=['plan','generate','promote']);ap.add_argument('--provider',choices=['openai','google'],default='openai');ap.add_argument('--voice');ap.add_argument('--model');ap.add_argument('--all',action='store_true');ap.add_argument('--pilot-approval',type=Path);ap.add_argument('--manifest',type=Path);args=ap.parse_args();load_env()
+ ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('action',choices=['plan','generate','promote']);ap.add_argument('--provider',choices=['openai','google'],default='openai');ap.add_argument('--voice');ap.add_argument('--model');ap.add_argument('--all',action='store_true');ap.add_argument('--pilot-approval',type=Path);ap.add_argument('--manifest',type=Path);ap.add_argument('--env-file',type=Path,help='Read an existing private environment file; never copy its key.');ap.add_argument('--key-variable',default='OPENAI_API_KEY',help='Variable name used in the existing private env file.');args=ap.parse_args();load_env(args.env_file,args.key_variable)
  course=json.loads((ROOT/'dist/courses/fil-en.json').read_text())
  if args.action=='promote':
   if not args.manifest:raise RuntimeError('Specify the reviewed manifest with --manifest.')
   return promote(json.loads(args.manifest.read_text()),course)
  voice=args.voice or (os.getenv('OPENAI_TTS_VOICE','marin') if args.provider=='openai' else 'fil-ph-Neural2-A')
- model=args.model or (os.getenv('OPENAI_TTS_MODEL','gpt-realtime-2.1-mini') if args.provider=='openai' else 'Neural2')
+ model=args.model or (os.getenv('OPENAI_TTS_MODEL','gpt-4o-mini-tts') if args.provider=='openai' else 'Neural2')
  if not re.fullmatch(r'[A-Za-z0-9-]+',voice) or not re.fullmatch(r'[A-Za-z0-9.-]+',model):raise RuntimeError('Use a simple provider voice/model identifier.')
  selected=[e for l in course['lessons'] for e in l['entries'] if args.all or e['id'] in PILOT_IDS]
  if args.all and args.action=='generate':
   if not args.pilot_approval:raise RuntimeError('Review the pilot before generating the library. Supply --pilot-approval.')
   pilot=json.loads(args.pilot_approval.read_text())
-  if any(pilot.get(k)!=v for k,v in [('provider',args.provider),('model',model),('voice',voice)]):raise RuntimeError('Pilot approval is for a different provider/model/voice.')
+  if any(pilot.get(k)!=v for k,v in [('provider',args.provider),('model',model),('voice',voice),('instructions',INSTRUCTIONS if args.provider=='openai' else '')]):raise RuntimeError('Pilot approval is for a different provider/model/voice.')
   if set(i['entryId'] for i in pilot.get('items',[]))!=set(PILOT_IDS) or not all(approved(i) for i in pilot['items']):raise RuntimeError('Every pilot clip needs a named, complete human review.')
   for i in pilot['items']:
    if digest((ROOT/'audio-review'/i['file']).read_bytes())!=i.get('sha256'):raise RuntimeError('Pilot audio changed after review.')
@@ -96,19 +94,22 @@ def main():
  old=json.loads(path.read_text()) if path.exists() else {}
  if old and any(old.get(k)!=v for k,v in [('provider',args.provider),('model',model),('voice',voice)]):raise RuntimeError('Existing manifest belongs to another voice/model.')
  previous={i['entryId']:i for i in old.get('items',[])}
- manifest={'schemaVersion':1,'courseId':course['id'],'provider':args.provider,'model':model,'voice':voice,'synthetic':True,'items':[]}
+ manifest={'schemaVersion':1,'courseId':course['id'],'provider':args.provider,'model':model,'voice':voice,'instructions':INSTRUCTIONS if args.provider=='openai' else '', 'responseFormat':'mp3','synthetic':True,'items':[]}
  for entry in selected:
-  stem=entry['id']+'-'+digest(entry['text'].encode())[:12];item={'entryId':entry['id'],'text':entry['text'],'translation':entry['translation'],'file':f'{folder}/{stem}.mp3','sha256':None,'review':{'status':'draft','reviewer':'','reviewedAt':'','checks':dict.fromkeys(CHECKS,False),'notes':''}}
+  request_hash=digest(json.dumps({'text':entry['text'],'provider':args.provider,'model':model,'voice':voice,'instructions':manifest['instructions'],'responseFormat':'mp3'},sort_keys=True,ensure_ascii=False).encode())
+  stem=entry['id']+'-'+request_hash[:16];item={'entryId':entry['id'],'text':entry['text'],'translation':entry['translation'],'requestHash':request_hash,'file':f'{folder}/{stem}.mp3','sha256':None,'review':{'status':'draft','reviewer':'','reviewedAt':'','checks':dict.fromkeys(CHECKS,False),'notes':''}}
   prior=previous.get(entry['id'])
-  if prior and prior.get('sha256'):
+  if prior and prior.get('sha256') and prior.get('requestHash')==request_hash:
    if prior.get('text')!=entry['text'] or digest((ROOT/'audio-review'/prior['file']).read_bytes())!=prior['sha256']:raise RuntimeError('Existing clip changed; use a new manifest after review.')
    manifest['items'].append(prior)
    continue
-  if args.action=='generate':
+  output=ROOT/'audio-review'/item['file']
+  if args.action=='generate' and output.exists():
+   data=output.read_bytes();item['sha256']=digest(data)
+  elif args.action=='generate':
    data=openai_audio(entry['text'],model,voice) if args.provider=='openai' else google_audio(entry['text'],voice)
-   output=ROOT/'audio-review'/item['file'];output.parent.mkdir(parents=True,exist_ok=True)
-   if output.exists():raise RuntimeError('Refusing to overwrite a pilot recording; use a new voice/output set.')
-   output.write_bytes(data);item['sha256']=digest(data);print('Generated draft: '+entry['id'])
+   output.parent.mkdir(parents=True,exist_ok=True)
+   output.write_bytes(data);item['sha256']=digest(data);print('Generated draft: '+entry['id'],flush=True)
   manifest['items'].append(item)
   # Retain work if a later request fails; never discard a generated pilot silently.
   path.parent.mkdir(parents=True,exist_ok=True);path.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')

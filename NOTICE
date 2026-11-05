@@ -1,0 +1,14 @@
+Tara!
+Copyright (c) 2026 Tara contributors
+
+Tara application code is licensed under the GNU Affero General Public License,
+version 3 or (at your option) any later version (AGPL-3.0-or-later).
+See LICENSE for the full license text.
+Corresponding source: https://github.com/smichea/tara
+
+Course text and contributed recordings are licensed separately under CC BY-SA 4.0;
+see CONTENT-LICENSE.md. Identified historical public-domain excerpts retain that status.
+
+The quiz engine bundled in dist/museum/*.rmg.json is from manaty/game-quizz,
+under its existing MIT license. Each package preserves the upstream notice and
+license text. Tara's quiz content remains CC BY-SA 4.0.

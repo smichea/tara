@@ -24,7 +24,7 @@ Open <http://127.0.0.1:4173>. Python 3 runs the development server; Node 20+ run
 - Level navigation and saved writing responses in localStorage; long-form expression is self-assessed, not compared against one required sentence.
 - Meaning choices, sentence building and written recall; equivalent answers and optional Filipino politeness are accepted, while mistakes get another attempt.
 - Spaced repetition, completed lessons, daily goals, streaks and XP saved automatically in localStorage, plus an explicit Save progress button in Settings.
-- Phrasebook with search; stored, human-reviewed audio playback with normal/slower speed. Browser TTS is disabled; production recordings await pilot generation and review.
+- Phrasebook with search; stored, human-reviewed audio playback with normal/slower speed. Browser TTS is disabled; 12 generated pilot clips are available for listening review; lesson audio awaits approval.
 - 15 downloadable Retro Museum quiz/game packs for shared-screen and phone play; the open host supports ranking and cooperative modes. See [multiplayer setup](docs/multiplayer.md).
 - Responsive interface, reduced-motion-aware animations and an offline service worker; install through the browser when supported.
 - A visual course editor for words, phrases, teaching tips, accepted spellings and new language pairs.
@@ -34,7 +34,7 @@ Open <http://127.0.0.1:4173>. Python 3 runs the development server; Node 20+ run
 
 ## Honest limits
 
-This is a guided practice course, not a complete CEFR syllabus, school qualification or substitute for speaking with people. Level labels describe editorial practice targets inspired by CEFR, not externally validated proficiency or a promise that completing a tab achieves that level. Course content is an original draft **awaiting fluent-speaker and teacher review**. See [curriculum notes](docs/curriculum.md) and [school alignment](docs/school-alignment.md). The school pathway bridges selected skills from every preceding grade; it does not claim exhaustive yearly coverage or replace assigned full literary works and live performance. Stored audio must be checked clip by clip by a named fluent speaker before publication. No pronunciation quality has been claimed without listening review. See [audio generation and review](docs/audio.md). No microphone, speech recognition or pronunciation scoring is included.
+This is a guided practice course, not a complete CEFR syllabus, school qualification or substitute for speaking with people. Level labels describe editorial practice targets inspired by CEFR, not externally validated proficiency or a promise that completing a tab achieves that level. Course content is an original draft **awaiting fluent-speaker and teacher review**. See [curriculum notes](docs/curriculum.md) and [school alignment](docs/school-alignment.md). The school pathway bridges selected skills from every preceding grade; it does not claim exhaustive yearly coverage or replace assigned full literary works and live performance. Stored lesson audio must be checked clip by clip by a named fluent speaker before activation. No pronunciation quality has been claimed without listening review. See [audio generation and review](docs/audio.md). No microphone, speech recognition or pronunciation scoring is included.
 
 The shared contribution workflow uses **GitHub review**, not an in-app account system or a live database. Local drafts are not published automatically. A proposal opens on GitHub for the contributor to review and submit; a maintainer must integrate it and a fluent speaker must review language content. Review dates and learning progress are device-local; there is no cloud sync. Imported courses stay labelled as unreviewed drafts, even when their file claims reviewed status.
 
@@ -64,7 +64,7 @@ To self-host, copy `dist/` to a static web server. HTTPS or localhost is needed 
 
 ## License
 
-- **App code:** [MIT](LICENSE).
+- **App code:** [AGPL v3 or later](LICENSE).
 - **Course text and contributed audio:** [CC BY-SA 4.0](CONTENT-LICENSE.md).
 - Author attribution is included in each course. Preserve upstream attribution when modifying or redistributing a course.
 
@@ -84,6 +84,7 @@ Recorded-audio and storage regression checks use the same optional Playwright se
 
 ```sh
 TARA_CHROMIUM=/path/to/chromium node tests/audio-browser.mjs
+TARA_CHROMIUM=/path/to/chromium node tests/audio-review-browser.mjs
 ```
 
 These checks verify recorded-file playback wiring with an explicit test fixture,

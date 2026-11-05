@@ -3,34 +3,40 @@
 The learning app never invokes browser speech synthesis or an AI API. It plays
 only local files with a complete, named review bound to the exact text and file
 SHA-256. Editing the text or replacing bytes invalidates approval. Slower
-playback preserves pitch. No recording has been claimed approved or generated
-as part of the initial curriculum expansion.
+playback preserves pitch. The 12 generated pilot recordings remain drafts; none has been claimed
+approved for lesson playback.
 
 ## Produce a small pilot before the library
 
-Use a maintainer’s API credentials, never a learner’s. Keep `OPENAI_API_KEY` in
-an environment variable or the ignored `.env.local` file, never in `dist/`.
-The pipeline supports OpenAI Realtime audio and Google Cloud TTS using existing
-ADC (`gcloud auth application-default login` in the intended project). It does
-not enable APIs or change billing/project settings. The provider integrations
-need a real authorized API call before their output can be assessed.
+Use a maintainer’s API credentials, never a learner’s. The workflow follows the
+Weekly Review generator: OpenAI `/v1/audio/speech`, `gpt-4o-mini-tts`, voice
+`marin`, stored MP3 files and a request-based cache. **No transcription request,
+transcript generation or word alignment is performed.**
 
-For OpenAI authoring only, install `websocket-client` in a local virtualenv;
-`ffmpeg` converts the returned PCM to 64-kbit/s MP3. Neither is an app dependency.
-As documented on 5 November 2026, OpenAI’s Speech API models are deprecated, so
-the generator uses the current Realtime workflow rather than sending a Realtime
-model to `/v1/audio/speech`.
+The script uses Python’s standard library and needs no Python packages. It reads
+`OPENAI_API_KEY` from the environment or an existing private file; credentials
+stay in memory and are never copied into the project, manifest or audio files.
+A differently named variable can be selected explicitly:
 
 ```sh
-python3 -m venv .venv-audio
-.venv-audio/bin/pip install websocket-client
-.venv-audio/bin/python scripts/audio-pipeline.py plan
-.venv-audio/bin/python scripts/audio-pipeline.py generate --voice marin
-# A second voice is a separate pilot:
-.venv-audio/bin/python scripts/audio-pipeline.py generate --voice cedar
-# Alternative, if the intended Google project already has TTS enabled:
-python3 scripts/audio-pipeline.py generate --provider google --voice fil-ph-Neural2-A
+python3 scripts/audio-pipeline.py plan
+python3 scripts/audio-pipeline.py generate --env-file /path/to/private.env
+# An existing variable with a different name:
+python3 scripts/audio-pipeline.py generate --env-file /path/to/private.env \
+  --key-variable YOUR_EXISTING_OPENAI_KEY
 ```
+
+This deliberately matches the Weekly Review model. As documented on 5 November
+2026, OpenAI schedules the Speech API TTS models for retirement on 6 January 2027.
+The offline generator will need migration then; stored MP3 playback is independent
+of that API. No API or key is needed by learners.
+
+The cache key includes the full text, provider, model, voice, instructions and
+format. Changing any of these generates a new file and resets its review. Matching
+files are reused, including after a partially completed generation.
+
+Google Cloud TTS with existing authorized ADC remains an alternative. The script
+does not enable APIs or change cloud billing settings.
 
 `plan` is offline and free of API calls. `generate` makes paid provider requests
 under the configured account. It synthesizes only the 12 pilot phrases by default,
@@ -41,11 +47,10 @@ Google lists dedicated Filipino voices, but support does not establish perfect
 pronunciation. OpenAI also lists Tagalog and states that its built-in voices are
 optimized for English. Compare pilot voices with a competent native/fluent
 listener; do not infer correctness from the brand or an automatic transcript.
-The script checks returned OpenAI transcript fidelity, which is an additional
-script check, not a pronunciation test.
+There is no automatic transcript comparison. Listening review checks the
+pronunciation and whether every word was read correctly.
 
 Sources: [OpenAI speech guide](https://developers.openai.com/api/docs/guides/text-to-speech),
-[Realtime conversations](https://developers.openai.com/api/docs/guides/realtime-conversations),
 [Google supported voices](https://docs.cloud.google.com/text-to-speech/docs/list-voices-and-types).
 
 ## Human review
@@ -66,7 +71,7 @@ samples with a qualified reviewer before expanding pronunciation coverage.
 Only after **all 12 pilot clips** for the same provider/model/voice are approved:
 
 ```sh
-.venv-audio/bin/python scripts/audio-pipeline.py generate --all \
+python3 scripts/audio-pipeline.py generate --all \
   --pilot-approval audio-review/reviewed-openai-marin.json
 ```
 
@@ -93,3 +98,22 @@ rejects pointer files or a byte hash different from the approved review. Other
 static hosts must also materialize LFS before packaging. The Sites helper packages
 the actual working-tree files. Bundled recordings are cached for offline use.
 No credentials or synthesis requests are sent to learners’ browsers.
+
+## Published listening pilot
+
+[Listen to the 12 samples](https://smichea.github.io/tara/pronunciation-review/).
+The pilot is separate from lesson playback and clearly labelled unapproved.
+A fluent reviewer can listen, check criteria, write corrections and export a
+review manifest; the page never submits a review or activates lesson audio.
+
+To rebuild that small review page after generating a new pilot:
+
+```sh
+python3 scripts/publish-audio-pilot.py audio-review/openai-gpt-4o-mini-tts-marin-pilot.json
+```
+
+These short pilot files total about 0.53 MB and are kept as ordinary MP3 files in
+Git under `dist/pronunciation-review/`, so both static hosts serve actual bytes.
+Approved lesson audio under `dist/audio/` uses Git LFS as described above. The
+public listening pilot contains only course text and synthesis/review metadata,
+never provider credentials. Code is AGPL-3.0-or-later; samples retain CC BY-SA 4.0.

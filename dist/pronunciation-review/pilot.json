@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "courseId": "fil-en",
+  "provider": "openai",
+  "model": "gpt-4o-mini-tts",
+  "voice": "marin",
+  "instructions": "Read the supplied Filipino (Tagalog) text exactly, once, as a native Philippines speaker. Use a warm, clear, natural teaching voice and a normal, unhurried pace. Use accurate lexical stress, vowel sounds, glottal stops, ng/mga and natural phrase boundaries. Use the context to disambiguate words such as bukas and basa. No introduction, translation, explanation, English accent or extra words.",
+  "responseFormat": "mp3",
+  "synthetic": true,
+  "items": [
+    {
+      "entryId": "say-hello-1",
+      "text": "Kumusta ka?",
+      "translation": "How are you?",
+      "requestHash": "34d39738936024361a0113682d393033648aee3e2741e5c2e546303b6fbed388",
+      "file": "openai-gpt-4o-mini-tts-marin/say-hello-1-34d3973893602436.mp3",
+      "sha256": "6b2ec32104bce7572bb8e78be51857508dee715829e83889eaa11b08c3c4362f",
+      "review": {
+        "status": "draft",
+        "reviewer": "",
+        "reviewedAt": "",
+        "checks": {
+          "pronunciation": false,
+          "stress": false,
+          "naturalness": false,
+          "completeness": false
+        },
+        "notes": ""
+      }
+    },
+    {
+      "entryId": "introduce-yourself-1",
+      "text": "Ako si Marco.",
+      "translation": "I’m Marco.",
+      "requestHash": "a8b6909d56edb5d8cf757cfaf52c042f42a848c0dbc89b0c0ad403702f07492e",
+      "file": "openai-gpt-4o-mini-tts-marin/introduce-yourself-1-a8b6909d56edb5d8.mp3",
+      "sha256": "89c1748b8825a273883932ca90c73a22b6787903d82c4faa96152213db689236",
+      "review": {
+        "status": "draft",
+        "reviewer": "",
+        "reviewedAt": "",
+        "checks": {
+          "pronunciation": false,
+          "stress": false,
+          "naturalness": false,
+          "completeness": false
+        },
+        "notes": ""
+      }
+    },
+    {
+      "entryId": "getting-unstuck-1",
+      "text": "Hindi ko maintindihan.",
+      "translation": "I don’t understand.",
+      "requestHash": "520ca10f5f3fda7052ed554212afe00724d93331bf9fb2f875144bd3adbe65c4",
+      "file": "openai-gpt-4o-mini-tts-marin/getting-unstuck-1-520ca10f5f3fda70.mp3",
+      "sha256": "a689e9f03398bec8885465aaa72fdff2abbb843397bc598aa570b1b5b2c4ea3b",
+      "review": {
+        "status": "draft",
+        "reviewer": "",
+        "reviewedAt": "",
+        "checks": {
+          "pronunciation": false,
+          "stress": false,
+          "naturalness": false,
+          "completeness": false
+        },
+        "notes": ""
+      }
+    },
+    {
+      "entryId": "ordering-1",
+      "text": "Pabili po.",
+      "translation": "I’d like to buy something, please.",
+      "requestHash": "b82083f9c49542de6f5c5c517b3d106cc3fe99a8dd7c44761dd6b63548718108",
+      "file": "openai-gpt-4o-mini-tts-marin/ordering-1-b82083f9c49542de.mp3",
+      "sha256": "21796ecf7c8baecf6dafee5fc3fb2b71d084476d06040d35bf50df1b7f74739d",
+      "review": {
+        "status": "draft",
+        "reviewer": "",
+        "reviewedAt": "",
+        "checks": {
+          "pronunciation": false,
+          "stress": false,
+          "naturalness": false,
+          "completeness": false
+        },
+        "notes": ""
+      }
+    },
+    {
+      "entryId": "getting-around-1",
+      "text": "Nasaan ang banyo?",
+      "translation": "Where is the bathroom?",
+      "requestHash": "09d154b7a1e7c85fcd105e1f6a7d4c565037fac701ba9362608ffb8a593eb5ed",
+      "file": "openai-gpt-4o-mini-tts-marin/getting-around-1-09d154b7a1e7c85f.mp3",
+      "sha256": "26eb07fc87f73f50289f7b40c763dbc3a8f78f6e43b40bed755c1c2ee317a0be",
+      "review": {
+        "status": "draft",
+        "reviewer": "",
+        "reviewedAt": "",
+        "checks": {
+          "pronunciation": false,
+          "stress": false,
+          "naturalness": false,
+          "completeness": false
+        },
+        "notes": ""
+      }
+    },
+    {
+      "entryId": "learning-1",
+      "text": "Nag-aaral ako ng Filipino.",
+      "translation": "I’m learning Filipino.",
+      "requestHash": "b7c7cc011c2bfcd30a7590e6910352b039f8865cca67a41121ab45e5463e9de2",
+      "file": "openai-gpt-4o-mini-tts-marin/learning-1-b7c7cc011c2bfcd3.mp3",
+      "sha256": "b1f580bac65adaaf4669e7496230dbcb6c0c2fbb21817a77e9349db9275b90b1",
+      "review": {
+        "status": "draft",
+        "reviewer": "",
+        "reviewedAt": "",
+        "checks": {
+          "pronunciation": false,
+          "stress": false,
+          "naturalness": false,
+          "completeness": false
+        },
+        "notes": ""
+      }
+    },
+    {
+      "entryId": "a2-plans-1",
+      "text": "Pupunta tayo bukas.",
+      "translation": "We will go tomorrow.",
+      "requestHash": "c5fc820d0dd50a1cfac0ef846be074d972bd226a837604609c136a8b34d18ffc",
+      "file": "openai-gpt-4o-mini-tts-marin/a2-plans-1-c5fc820d0dd50a1c.mp3",
+      "sha256": "628506d59a29d1fc37f7a63c6b7ad025b2cb3150bf5ccdc950f261032c10e7a9",
+      "review": {
+        "status": "draft",
+        "reviewer": "",
+        "reviewedAt": "",
+        "checks": {
+          "pronunciation": false,
+          "stress": false,
+          "naturalness": false,
+          "completeness": false
+        },
+        "notes": ""
+      }
+    },
+    {
+      "entryId": "c1-synthesis-6",
+      "text": "Nananatiling bukas ang tanong tungkol sa pagpapatupad.",
+      "translation": "The question of implementation remains open.",
+      "requestHash": "ed76bb06e4b516bd2207a6d6f2b35ca0c3026e519686da16ccaef2fd26476960",
+      "file": "openai-gpt-4o-mini-tts-marin/c1-synthesis-6-ed76bb06e4b516bd.mp3",
+      "sha256": "e0167174174376e8b505c882e24f9890978029eafd804ca61fbbcb6d0a56c076",
+      "review": {
+        "status": "draft",
+        "reviewer": "",
+        "reviewedAt": "",
+        "checks": {
+          "pronunciation": false,
+          "stress": false,
+          "naturalness": false,
+          "completeness": false
+        },
+        "notes": ""
+      }
+    },
+    {
+      "entryId": "foundation-ng-mga-2",
+      "text": "Mga aklat ito.",
+      "translation": "These are books.",
+      "requestHash": "bf455ccedd80620883c5e55ccd5d2c9d7108cf7e5832a31109e69a5a2b968629",
+      "file": "openai-gpt-4o-mini-tts-marin/foundation-ng-mga-2-bf455ccedd806208.mp3",
+      "sha256": "70050c9350eafadc63762d3c88e3d13db68c02a8e1fa306f657177139615a9af",
+      "review": {
+        "status": "draft",
+        "reviewer": "",
+        "reviewedAt": "",
+        "checks": {
+          "pronunciation": false,
+          "stress": false,
+          "naturalness": false,
+          "completeness": false
+        },
+        "notes": ""
+      }
+    },
+    {
+      "entryId": "foundation-ng-mga-3",
+      "text": "Aklat ng guro.",
+      "translation": "The teacher’s book.",
+      "requestHash": "01c6a7fe199d891ceeaeafcbb6a63bf7f673504d1e9bcfc1bd80f3cb7185ebbf",
+      "file": "openai-gpt-4o-mini-tts-marin/foundation-ng-mga-3-01c6a7fe199d891c.mp3",
+      "sha256": "f7eaa116b06a5caeffe3bb6789d94e94c1f28600772daf4e5ed344986e3e8e94",
+      "review": {
+        "status": "draft",
+        "reviewer": "",
+        "reviewedAt": "",
+        "checks": {
+          "pronunciation": false,
+          "stress": false,
+          "naturalness": false,
+          "completeness": false
+        },
+        "notes": ""
+      }
+    },
+    {
+      "entryId": "g2-q3-cause-1",
+      "text": "Umulan kaya nabasa ang daan.",
+      "translation": "It rained, so the road became wet.",
+      "requestHash": "02274ce6be5fb7c3a3059a80c57f97d7776a1ad7fc3d2c722ae192c652afa612",
+      "file": "openai-gpt-4o-mini-tts-marin/g2-q3-cause-1-02274ce6be5fb7c3.mp3",
+      "sha256": "d5571c8ba0a1375423b3cda78e6658fef8c3152aa48f76737220ea70a7eeee52",
+      "review": {
+        "status": "draft",
+        "reviewer": "",
+        "reviewedAt": "",
+        "checks": {
+          "pronunciation": false,
+          "stress": false,
+          "naturalness": false,
+          "completeness": false
+        },
+        "notes": ""
+      }
+    },
+    {
+      "entryId": "g3-q3-aspect-1",
+      "text": "Nagbasa ako kahapon.",
+      "translation": "I read yesterday.",
+      "requestHash": "75c92ed2f771eca0543401c2befc21376defd079143ef91904e3328d969e38a0",
+      "file": "openai-gpt-4o-mini-tts-marin/g3-q3-aspect-1-75c92ed2f771eca0.mp3",
+      "sha256": "8b94fc9ca33106728cc695b399dcc20a44ecf5f9264211f08731f5fd2941628b",
+      "review": {
+        "status": "draft",
+        "reviewer": "",
+        "reviewedAt": "",
+        "checks": {
+          "pronunciation": false,
+          "stress": false,
+          "naturalness": false,
+          "completeness": false
+        },
+        "notes": ""
+      }
+    }
+  ]
+}

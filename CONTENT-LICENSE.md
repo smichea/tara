@@ -18,7 +18,7 @@ audio recordings in `docs/audio-attribution.md` when adding recordings.
 
 Starter Filipino content: Tara contributors (2026), original draft examples;
 not yet reviewed by a fluent speaker. App code is licensed separately under
-MIT; see LICENSE.
+AGPL-3.0-or-later; see LICENSE.
 
 ## Historical excerpts and multiplayer packs
 

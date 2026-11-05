@@ -60,7 +60,7 @@ workflow in v0.1.
 
 ## Code and design
 
-Code is MIT; language content and audio are CC BY-SA 4.0. Keep the runtime
+Code is AGPL-3.0-or-later; language content and audio are CC BY-SA 4.0. Keep the runtime
 independent of paid APIs, advertising, analytics and unnecessary dependencies.
 All learner features should remain usable without account creation. Preserve
 keyboard access, mobile layouts and offline behavior. Add meaningful regression
