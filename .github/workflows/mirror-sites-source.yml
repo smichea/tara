@@ -26,7 +26,9 @@ jobs:
               raise SystemExit('A credential-free HTTPS source URL is required.')
           env = {**os.environ, 'GIT_TERMINAL_PROMPT':'0',
                  'SOURCE_GIT_AUTH':'Authorization: Bearer '+os.environ['SITE_SOURCE_TOKEN']}
-          subprocess.run(['git', '-c', 'credential.helper=', '-c', 'http.extraHeader=',
+          # LFS payloads are already hosted by the primary GitHub repository.
+          # The source mirror only copies Git objects, without running push hooks.
+          subprocess.run(['git', '-c', 'core.hooksPath=/dev/null', '-c', 'credential.helper=', '-c', 'http.extraHeader=',
                           '-c', 'http.followRedirects=false',
                           '--config-env=http.'+remote+'.extraHeader=SOURCE_GIT_AUTH',
                           'push', remote, 'HEAD:refs/heads/main'], env=env, check=True)
