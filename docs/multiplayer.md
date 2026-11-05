@@ -22,13 +22,50 @@ These are phrase quizzes, not proof of school competency or a substitute for the
 reading/writing tasks. Scores live in the museum room; they do not award Tara XP.
 Content remains visibly draft in Tara and credited as CC BY-SA 4.0 in the packs.
 
-## Existing museum
+## Direct play (recommended)
 
-Use Tara’s **Download questions**, then import that bank into a compatible
-Retro Museum quiz collection. Start the museum’s quiz activity, choose the bank,
-mode, question count and timer, and show the room’s QR invitation. Everyone uses
-the same room with their own phone. Museum operator/import rights may be required.
-This repository does not alter a production museum or publish to its marketplace.
+Choose the course and practice selection in **Play together**, then press
+**Play in Retro Museum**. A preparation page opens with that exact quiz,
+including locally imported or edited courses. Choose the mode, 1–100 questions,
+time per question and authored/random order. Create the room and invite the
+players through its QR code. No file download or upload is required.
+
+The default destination is `https://play.retro-museum.net/tara`. The link carries
+versioned compressed questionnaire data in its fragment, not a public course URL.
+Only the selected questions and their attribution are transferred; Tara progress,
+XP and learner profiles stay local. The destination clears the fragment after
+opening and keeps pending content in session storage for reload. The fixed quiz
+engine creates an unlisted room and retains its exact package for reconnection.
+No marketplace publication, AI-review claim or license change occurs.
+
+For an updated local Retro Museum installation, expand **Use your own museum
+host** and enter its LAN address ending in `/play/`, such as
+`http://192.168.1.20:4310/play/`. Tara then opens `/play/tara` on that museum.
+The local transfer needs the two devices to reach the museum; it needs no
+public catalog download or Internet connection. The museum receives the bank,
+uses its bundled quiz engine and creates a separate multiplayer room. It does
+not modify the regie's persistent questionnaire collection or selected stations.
+
+The `game-quizz` 1.4 transfer module validates the quiz schema and prepares at
+most 100 questions using its pinned engine. SDK 1.11 applies its normal origin,
+capacity, organiser-credential and creation-rate checks while retaining a
+private, checkpointed package outside the public game listing. Tara's content
+keeps CC BY-SA 4.0 attribution. Direct links support up to 1,000 questions,
+2 MB expanded data and 180,000 fragment characters. Larger authored courses
+should choose a level or school stage. No source URL is fetched by the host.
+
+**Download questions** and **Download game pack** remain available for older
+hosts and manual/offline transfers. They are optional exports.
+
+Maintainer browser integration check:
+
+```sh
+TARA_MUSEUM_ENGINE=/path/to/game-quizz node tests/museum-direct-browser.mjs
+```
+
+It opens a locally edited course through Tara's actual button, verifies that
+progress was not sent, creates a configured mounted-host room, loads its QR,
+joins two independent phone contexts and displays the first exact question.
 
 ## Standalone open host
 

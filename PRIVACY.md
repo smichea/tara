@@ -19,6 +19,7 @@ external AI API calls. Learning does not require a Tara account.
   is disabled. Offline maintainer tools can send public course text to a chosen
   synthesis provider; no API key or generation request is sent from the learning
   app. Playback runs only on a speaker-button tap. No microphone is requested.
+- Play in Retro Museum sends only the selected question bank and attribution to the chosen museum host, using a versioned link fragment. It sends no Tara progress, XP, learner profile or API key. The host clears the fragment after opening, keeps pending questions in session storage for reload, and creates a room when you choose its rules. Room creation submits the quiz to that host and pins its package in private room storage; it does not publish it to the public catalog.
 - Multiplayer bank/game downloads remain on your device until you import them
   elsewhere. Opening Retro Museum follows an external link. A multiplayer host
   receives the nickname, optional avatar, answers and session credentials used

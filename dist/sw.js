@@ -1,8 +1,8 @@
 import {audioURL,isSharedAudioURL} from './media.js';
 import {LESSON_CACHE_PREFIX,audioRangeResponse} from './offline.js';
-const CACHE = 'tara-shell-v11';
+const CACHE = 'tara-shell-v12';
 const ROOT = new URL('./', self.location.href);
-const FILES = ['./', './index.html', './app.js', './lib.js', './curriculum.js', './museum.js', './speech.js', './media.js', './offline.js', './glosses.js', './style.css', './icon.svg', './icon-192.png', './icon-512.png', './icon-maskable-512.png', './apple-touch-icon.png', './manifest.webmanifest', './LICENSE.txt', './NOTICE.txt', './courses/index.json'];
+const FILES = ['./', './index.html', './app.js', './lib.js', './curriculum.js', './museum.js', './museum-link.js', './speech.js', './media.js', './offline.js', './glosses.js', './style.css', './icon.svg', './icon-192.png', './icon-512.png', './icon-maskable-512.png', './apple-touch-icon.png', './manifest.webmanifest', './LICENSE.txt', './NOTICE.txt', './courses/index.json'];
 self.addEventListener('install', event => {
   event.waitUntil((async()=>{
     const cache = await caches.open(CACHE);
