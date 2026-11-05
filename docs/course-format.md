@@ -70,6 +70,7 @@ fields are checked before import. Maximum imported JSON size: 2 MB.
   `reviewers` and human sign-off. Local imports are always shown as drafts.
 - Optional `derivedFrom`: prior course ID, author and license; created by the
   editor when improving an existing course, to preserve upstream attribution.
+- Optional `attributions`: up to 100 upstream credit objects (courseId, author, license). The editor preserves these through repeated community edits.
 - `license` is `CC-BY-SA-4.0`. Do not overwrite another author's credit.
 
 ## How exercises work

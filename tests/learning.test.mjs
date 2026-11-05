@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
-import {normalize,accepts,validateCourse,freshProgress,safeProgress,scheduleCard,finishSession,streak,localDay,shuffle} from '../dist/lib.js';
+import {normalize,accepts,validateCourse,freshProgress,safeProgress,scheduleCard,finishSession,streak,localDay,shuffle,forkCourse} from '../dist/lib.js';
 const course=JSON.parse(await readFile(new URL('../dist/courses/fil-en.json',import.meta.url)));
 const entry=course.lessons[0].entries[0];
 test('starter course has 12 complete lessons and unique entries',()=>{assert.deepEqual(validateCourse(course),[]);assert.equal(course.lessons.length,12);assert.equal(course.lessons.flatMap(l=>l.entries).length,48);});
@@ -18,3 +18,10 @@ test('streak includes yesterday until today is completed and handles date rollov
 test('streak remains consecutive across European daylight saving boundaries',()=>{const now=new Date(2026,9,26,12);assert.equal(streak({'2026-10-24':1,'2026-10-25':1,'2026-10-26':1},now),3);});
 test('backups round-trip but reject corrupt or prototype-bearing input',()=>{const p=finishSession(freshProgress(),course,'say-hello',[{entry,correct:true}]).progress;assert.deepEqual(safeProgress(p),p);assert.throws(()=>safeProgress({...p,xp:-1}));assert.throws(()=>safeProgress({...p,cards:{x:{due:1,successes:999,mistakes:0}}}));assert.throws(()=>safeProgress(JSON.parse('{"version":1,"xp":0,"lessons":{},"cards":{},"activity":{},"awards":{"__proto__":true}}')));});
 test('shuffling repeated tokens preserves each token identity',()=>{const items=[{id:0,text:'ba'},{id:1,text:'ba'},{id:2,text:'ka'}];assert.deepEqual(shuffle(items,()=>0).map(t=>t.id).sort(),[0,1,2]);assert.deepEqual(items.map(t=>t.id),[0,1,2]);});
+
+test('forks of community edits retain all upstream credits and reset review status',()=>{
+ const first=forkCourse(course);first.author='Second contributor';first.status='reviewed';first.reviewers=['Reviewer'];
+ const second=forkCourse(first);second.author='Third contributor';
+ assert.deepEqual(second.attributions.map(a=>a.author),['Tara contributors','Second contributor']);
+ assert.equal(second.status,'draft');assert.deepEqual(second.reviewers,[]);assert.deepEqual(validateCourse(second),[]);
+});

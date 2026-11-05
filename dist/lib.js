@@ -24,6 +24,7 @@ export function validateCourse(course) {
   if (course.license !== 'CC-BY-SA-4.0') errors.push('Content license must be CC-BY-SA-4.0.');
   if (!str(course.author, 100)) errors.push('Author attribution is required.');
   if (course.derivedFrom && (!str(course.derivedFrom.author,100) || !safeId.test(course.derivedFrom.courseId || '') || course.derivedFrom.license !== 'CC-BY-SA-4.0')) errors.push('Invalid upstream course attribution.');
+  if (course.attributions != null && (!Array.isArray(course.attributions) || course.attributions.length > 100 || !course.attributions.every(a => a && str(a.author,100) && safeId.test(a.courseId || '') && a.license === 'CC-BY-SA-4.0'))) errors.push('Invalid contributor attribution list.');
   if (!['draft', 'reviewed'].includes(course.status)) errors.push('Status must be draft or reviewed.');
   if (course.status === 'reviewed' && (!Array.isArray(course.reviewers) || !course.reviewers.length || !course.reviewers.every(x => str(x,100)))) errors.push('Reviewed courses require named reviewers.');
   if (!Array.isArray(course.lessons) || !course.lessons.length || course.lessons.length > 100) return [...errors, 'A course needs 1–100 lessons.'];
@@ -98,4 +99,16 @@ export function safeProgress(value) {
     }
   }
   return result;
+}
+
+export function forkCourse(course) {
+  const draft = structuredClone(course);
+  const credit = {courseId:course.id, author:course.author, license:course.license};
+  const credits = [...(course.attributions || []), ...(course.derivedFrom ? [course.derivedFrom] : []), credit];
+  draft.attributions = credits.filter((item, i) => credits.findIndex(other => other.courseId === item.courseId && other.author === item.author) === i);
+  draft.derivedFrom = credit;
+  draft.author = '';
+  draft.status = 'draft';
+  draft.reviewers = [];
+  return draft;
 }

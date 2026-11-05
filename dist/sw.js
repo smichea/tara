@@ -1,4 +1,4 @@
-const CACHE = 'tara-shell-v1';
+const CACHE = 'tara-shell-v2';
 const ROOT = new URL('./', self.location.href);
 const FILES = ['./', './index.html', './app.js', './lib.js', './style.css', './icon.svg', './manifest.webmanifest', './courses/index.json'];
 self.addEventListener('install', event => {
