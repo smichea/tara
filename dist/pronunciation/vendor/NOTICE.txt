@@ -1,0 +1,10 @@
+Tara optional speaking tools
+
+ZIPA weights: CC BY 4.0; see ZIPA-LICENSE.txt.
+ONNX Runtime Web 1.24.2: MIT; see ORT-LICENSE.txt.
+eSpeak NG Emscripten 0.3.5: GPL-3.0-or-later; see ESPEAK-COPYING.txt.
+The eSpeak preload data has been reduced to French, Indonesian (phoneme reconstruction only), English and common tables. No Tagalog text-to-speech voice is claimed.
+Corresponding source and build scripts: espeak-source-00.bin through espeak-source-04.bin in this directory. Concatenate these five files in numerical order to recreate espeak-source.tar.gz, then extract it.
+Upstream fork: https://github.com/echogarden-project/espeak-ng
+Kaldi Fbank implementation: guettli/pp at f4f1dd1c9825f6ec3d8d296a290d00f27c188871, file marked Apache-2.0; project MIT, see FBANK-APACHE-2.0.txt and PHONEME-PARTY-LICENSE.txt. Source and build file are in Tara scripts/phonetics-source.
+Tara integration source: https://github.com/smichea/tara (AGPL-3.0-or-later). Third-party components retain their own licenses.

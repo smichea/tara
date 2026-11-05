@@ -28,8 +28,7 @@ python3 scripts/generate-audio-library.py \
 
 Credentials remain in process memory and are never copied into course data,
 audio, logs or public files. Generation makes paid maintainer API requests.
-Learners need no key or account. No transcription, Whisper request, transcript
-comparison, word alignment, microphone or pronunciation scoring is used.
+Learners need no key or account. The stored-audio generation pipeline performs no transcription or pronunciation scoring. The separate optional speaking feature described below uses a local microphone and phoneme recognition, without an API request.
 
 The cache binds the full text, provider, model, voice, instructions and format. Delivery files are encoded with FFmpeg as mono 24 kHz / 48 kbps MP3 to keep downloads small; original synthesis files remain in the ignored maintainer cache. The published SHA-256 binds the delivery bytes. FFmpeg is a maintainer tool, never a browser dependency.
 Library updates reload the course before writing, preserving concurrent word
@@ -115,3 +114,21 @@ recordings available offline. No synthesis key or learner text is sent at runtim
 This avoids transferring a second large copy of the shared media archive during
 private publication. The manifest selects `out/`; GitHub Pages still ships
 `dist/`, including every recording.
+
+## Optional on-device speaking prototype
+
+A microphone button opens a dialog. If tools are missing it offers an explicit, cancellable 85.5 MB download. Opening it alone never downloads the model. `pronunciation/assets.json` pins every runtime/model/data file by size and SHA-256. Completed downloads are kept in `tara-speaking-v1`, reused after reload and preserved across shell updates. Downloaded lessons and learning progress are independent.
+
+ZIPA Small CR-CTC 500k INT8 (70,677,672 bytes, CC BY 4.0) runs through ONNX Runtime Web 1.24.2 (MIT), single-threaded WASM in a module worker. Its Kaldi-compatible Fbank WASM source and Zig build file are in `scripts/phonetics-source`. Recordings are capped at 16 seconds. Buffered partial re-analysis updates the approximate spelling as the user speaks; this is not a causal streaming model and latency depends on the device.
+
+French reference phones come from eSpeak, including contextual liaison when word groups align. Filipino uses draft spelling rules with explicit ng/mga handling and common allophone equivalences. Phone-to-letter spans retain the original word. Uncertain alignment falls back to the word. Phonetic symbols are rendered only when the advanced toggle is enabled. Recognition is independent of the expected text. The model is not prompted or constrained to output the lesson.
+
+Model playback retains approved Marin audio. Its optional word timings come from alignment of recognised model sounds and are approximate. If the recogniser cannot reproduce the expected model word, feedback for that word is marked uncertain rather than blaming the learner. Missing model audio does not prevent practice. There is no automatic correctness grade or speaking XP.
+
+“What the AI heard” sends the **recognised phonemes**, not their approximate spelling, to a trimmed local eSpeak NG Emscripten synthesizer (GPL-3.0-or-later). It is a robotic reconstruction, not the teaching voice. eSpeak has no Tagalog voice in this build: shared phonetic sounds use its Indonesian phoneme table. Natural Tagalog synthesis and lexical stress are not claimed. My voice replays the original PCM, including per-word segments; Save my recording downloads a WAV only on request. Microphone data is not uploaded or automatically saved.
+
+`dist/pronunciation/vendor/NOTICE.txt` records attribution and license links. The eSpeak source archive (five numbered binary parts, concatenated in order) and build instructions are served beside the runtime; its preload data is reduced to French, Indonesian, English and common tables. The private Sites artifact omits vendor files, resolving them to the public GitHub Pages copy; download and offline-cache logic is otherwise the same.
+
+Synthesis checks its emitted phoneme events against the requested recognised sequence. Unsupported sounds or a large mismatch produce an unavailable message and offer the original voice instead of silently playing a corrected spelling.
+
+The exact upstream ONNX and ORT WASM bytes are split into 4 MiB parts for static hosting and resumable explicit downloads, then reassembled only in worker memory. Each part is independently pinned and verified; no model conversion is introduced by this split.

@@ -1,0 +1,2 @@
+Kaldi-compatible Fbank source from guettli/pp at f4f1dd1c9825f6ec3d8d296a290d00f27c188871. The source file declares Apache-2.0; the upstream project is MIT. Full licenses and attribution are in dist/pronunciation/vendor/FBANK-APACHE-2.0.txt, PHONEME-PARTY-LICENSE.txt and NOTICE.txt.
+Build with Zig 0.15.2: zig build --release=fast

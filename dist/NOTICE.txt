@@ -12,3 +12,7 @@ see CONTENT-LICENSE.md. Identified historical public-domain excerpts retain that
 The quiz engine bundled in dist/museum/*.rmg.json is from manaty/game-quizz,
 under its existing MIT license. Each package preserves the upstream notice and
 license text. Tara's quiz content remains CC BY-SA 4.0.
+
+Optional speaking recognition/synthesis components retain their own licenses.
+See pronunciation/vendor/NOTICE.txt for ZIPA (CC BY 4.0), ONNX Runtime (MIT),
+Kaldi Fbank (Apache-2.0) and eSpeak NG (GPL-3.0-or-later), plus source access.

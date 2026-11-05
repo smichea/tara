@@ -18,7 +18,7 @@ external AI API calls. Learning does not require a Tara account.
 - Sound plays stored files. The private Sites copy loads the shared public voice library from GitHub Pages; public and self-hosted copies serve their bundled files locally. Both cache recordings for offline use. Playback requires an individual recording review or a voice approved through listening tests in the course language. Browser text-to-speech
   is disabled. Offline maintainer tools can send public course text to a chosen
   synthesis provider; no API key or generation request is sent from the learning
-  app. Playback runs only on a speaker-button tap. No microphone is requested.
+  app. Playback runs only on a speaker-button tap. Optional speaking practice requests the microphone only after the learner chooses Start speaking.
 - Play in Retro Museum sends only the selected question bank and attribution to the chosen museum host, using a versioned link fragment. It sends no Tara progress, XP, learner profile or API key. The host clears the fragment after opening, keeps pending questions in session storage for reload, and creates a room when you choose its rules. Room creation submits the quiz to that host and pins its package in private room storage; it does not publish it to the public catalog.
 - Multiplayer bank/game downloads remain on your device until you import them
   elsewhere. Opening Retro Museum follows an external link. A multiplayer host
@@ -35,3 +35,7 @@ Deleting browser data also removes the offline cache. If a device is shared,
 other people with access to its browser profile can see the stored progress and
 drafts. No cloud sync or remote account deletion is necessary for Tara's local
 learning data.
+
+- The first microphone-button tap opens a modal offering the optional 85.5 MB speaking-tool download. Merely opening this modal downloads no model, runtime or synthesis data. Download requires an explicit button tap. Pinned files are verified with SHA-256 and kept in `tara-speaking-v1` Cache Storage, independently of app-shell and lesson caches. Later sessions reuse them, including offline. Removing speaking tools preserves lessons and learning progress. Browser storage eviction or clearing site data can require downloading again.
+- Speaking recognition runs ZIPA in a local WASM worker. The local reconstruction synthesizer receives recognised phonemes, never sends audio or text to an AI API, and does not use the browser speech service. The private Sites copy downloads these public, versioned tools from the same GitHub Pages library as recorded audio; hosting sees ordinary file requests. The model is shared by both language courses on this browser profile.
+- Microphone samples, recognised sounds and comparisons stay in memory. Closing speaking practice releases the microphone and discards the recording; backgrounding Tara stops capture. Save my recording explicitly downloads a WAV to your device. Tara does not automatically retain or upload voice recordings. The advanced phonetic-display preference is kept in local storage separately for each course language.

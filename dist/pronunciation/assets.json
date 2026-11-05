@@ -1,0 +1,199 @@
+{
+  "version": 1,
+  "model": "ZIPA Small CR-CTC 500k INT8",
+  "bytes": 85504186,
+  "files": [
+    {
+      "file": "ort.wasm.bundle.min.mjs",
+      "bytes": 72787,
+      "sha256": "3f8c055f038d84b3d48d9e2da56019f60ab4f75764a067d54d48bd9199bcb4fc",
+      "type": "text/javascript"
+    },
+    {
+      "file": "ort-wasm-simd-threaded.mjs",
+      "bytes": 24274,
+      "sha256": "b538a29137066dbed1f0f449fb081dfd35ccde3d5b155adc34532cefa3b23ee2",
+      "type": "text/javascript"
+    },
+    {
+      "file": "fbank.wasm",
+      "bytes": 635828,
+      "sha256": "e9f022ea0377fa3fd45ca587cb7dab3cbc6dd1c27257fa64e8268473343580e7",
+      "type": "application/wasm"
+    },
+    {
+      "file": "espeak-ng.js",
+      "bytes": 805905,
+      "sha256": "3f4f84ff0bf346008995c57414ef094561bbdb9c792b018c0eca92b2593e421b",
+      "type": "text/javascript"
+    },
+    {
+      "file": "espeak-ng.data",
+      "bytes": 933622,
+      "sha256": "b87b49ea83efd7147fd2ce19fb0a696672dbba6ae971503207eb43e045f008e8",
+      "type": "application/octet-stream"
+    },
+    {
+      "file": "tokens.txt",
+      "bytes": 769,
+      "sha256": "f8e042a0c9130532b22d03ec7cae2f75a23fbec70c450c31a8efb51787b2b8fe",
+      "type": "text/plain"
+    },
+    {
+      "file": "NOTICE.txt",
+      "bytes": 999,
+      "sha256": "d4e6bea83f76c359f406ec92e98a4e583a54f27756abe9b6fc75a633a1ace418",
+      "type": "text/plain"
+    },
+    {
+      "file": "ORT-LICENSE.txt",
+      "bytes": 1073,
+      "sha256": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c",
+      "type": "text/plain"
+    },
+    {
+      "file": "ESPEAK-COPYING.txt",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "type": "text/plain"
+    },
+    {
+      "file": "PHONEME-PARTY-LICENSE.txt",
+      "bytes": 1083,
+      "sha256": "a355a3420dd256330a90183cc0982f8f69d4e48d631372c4673183f960b33206",
+      "type": "text/plain"
+    },
+    {
+      "file": "FBANK-APACHE-2.0.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "type": "text/plain"
+    },
+    {
+      "file": "ZIPA-LICENSE.txt",
+      "bytes": 539,
+      "sha256": "56ed870fcedcb77ac83d26b154d4f05dbfff1c34c45afe6e6be3faf80e7c0af4",
+      "type": "text/plain"
+    },
+    {
+      "file": "zipa-00.bin",
+      "bytes": 4194304,
+      "sha256": "2777ac87b4c956a6d400e7907bb13401cbc823f301706a78cc1a30dda3dd0435",
+      "type": "application/octet-stream"
+    },
+    {
+      "file": "zipa-01.bin",
+      "bytes": 4194304,
+      "sha256": "20b6849940b30b6f6bc7b75531ce0bd156f69c84012b7d4d3c21788bf7e365b5",
+      "type": "application/octet-stream"
+    },
+    {
+      "file": "zipa-02.bin",
+      "bytes": 4194304,
+      "sha256": "219ea0681328a62555e2da68c24993031fb508ac8ca9d4d825aa6acda0e655bc",
+      "type": "application/octet-stream"
+    },
+    {
+      "file": "zipa-03.bin",
+      "bytes": 4194304,
+      "sha256": "4f7a05d2c91616ba321825a6fc183edff7473f23169a0a22357ea4c862ca8312",
+      "type": "application/octet-stream"
+    },
+    {
+      "file": "zipa-04.bin",
+      "bytes": 4194304,
+      "sha256": "1f92b0c19350d969fd223096bd51f34e5e0ce14c8bfa8abeae5af98b24963ac1",
+      "type": "application/octet-stream"
+    },
+    {
+      "file": "zipa-05.bin",
+      "bytes": 4194304,
+      "sha256": "ae731656c3a25c0cbe6fe311b255c79a5a3db639e8a24f04b169f4f04a733e83",
+      "type": "application/octet-stream"
+    },
+    {
+      "file": "zipa-06.bin",
+      "bytes": 4194304,
+      "sha256": "485507a8b96f4c01bea9657c6656a928252b0d55de912a71fc97b751135863d2",
+      "type": "application/octet-stream"
+    },
+    {
+      "file": "zipa-07.bin",
+      "bytes": 4194304,
+      "sha256": "feb94e8095ff9e3e148d0bc194c1ef415da506268695aa07ee56dc9a511c79e8",
+      "type": "application/octet-stream"
+    },
+    {
+      "file": "zipa-08.bin",
+      "bytes": 4194304,
+      "sha256": "96a8965d0aec6924d065f183816d434deada84bd71c5b83bdf1358811ce75e45",
+      "type": "application/octet-stream"
+    },
+    {
+      "file": "zipa-09.bin",
+      "bytes": 4194304,
+      "sha256": "4040c448da9c4634ea22024aecbb52b42e3d5c74278ab956c1e7b93f88a3710f",
+      "type": "application/octet-stream"
+    },
+    {
+      "file": "zipa-10.bin",
+      "bytes": 4194304,
+      "sha256": "573369fae49c378f87b81907a22dc0b89c5b226d92d78749275c536dedfb5e25",
+      "type": "application/octet-stream"
+    },
+    {
+      "file": "zipa-11.bin",
+      "bytes": 4194304,
+      "sha256": "6a01e88769d78818b37fb7fc6b6faf7860a0af8f96b7578515e1d1c12d8bbb93",
+      "type": "application/octet-stream"
+    },
+    {
+      "file": "zipa-12.bin",
+      "bytes": 4194304,
+      "sha256": "d2a6251dff4fb49e3a6963aca9d4f7537d41b99174773f18478fb58371a859da",
+      "type": "application/octet-stream"
+    },
+    {
+      "file": "zipa-13.bin",
+      "bytes": 4194304,
+      "sha256": "cf3f3b2971574ed5ad5cf4bd8dcb6a9c996ed371140ba89aba78e4d6b646c19a",
+      "type": "application/octet-stream"
+    },
+    {
+      "file": "zipa-14.bin",
+      "bytes": 4194304,
+      "sha256": "bc62dd3c0a083ff512490f5efee3aa42641c7a0b90e922516f85c66d9cb5eed2",
+      "type": "application/octet-stream"
+    },
+    {
+      "file": "zipa-15.bin",
+      "bytes": 4194304,
+      "sha256": "1a890532ec80fe5e936b8d696c4295593a4664e1721c6b44fdac85cec7c27d31",
+      "type": "application/octet-stream"
+    },
+    {
+      "file": "zipa-16.bin",
+      "bytes": 3568808,
+      "sha256": "90a67f0ef0422b5c16bf37722b3436f5f6f914b8b6c7f8a6d85c534512ddb0ae",
+      "type": "application/octet-stream"
+    },
+    {
+      "file": "ort-wasm-00.bin",
+      "bytes": 4194304,
+      "sha256": "3b73d643a77e253cd9c4bacbb3db3f0afee12229afb7ac9ca9de405129518244",
+      "type": "application/octet-stream"
+    },
+    {
+      "file": "ort-wasm-01.bin",
+      "bytes": 4194304,
+      "sha256": "56fb3eaaa04bc4b22b79d6ad0fe5d027305b064a1508d17a9656a258b096dcba",
+      "type": "application/octet-stream"
+    },
+    {
+      "file": "ort-wasm-02.bin",
+      "bytes": 3914522,
+      "sha256": "0ce909d80ccfe0ef6346fed6954a14aad6d5934c1de8ba0c5720b65a58fc71c2",
+      "type": "application/octet-stream"
+    }
+  ]
+}

@@ -15,3 +15,7 @@ audio-review/*.json
 audio-review/*/
 
 out/
+
+scripts/phonetics-source/.zig-cache/
+scripts/phonetics-source/build/
+scripts/phonetics-source/zig-out/

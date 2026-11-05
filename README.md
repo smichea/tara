@@ -29,6 +29,7 @@ Open <http://127.0.0.1:4173>. Python 3 runs the development server; Node 20+ run
 - Spaced repetition, completed lessons, daily goals, streaks and XP saved automatically in localStorage, plus an explicit Save progress button in Settings.
 - Searchable phrasebook and contextual English word hints on hover, keyboard focus or tap for all 576 expressions; meanings are editable in the community editor and work offline.
 - Stored OpenAI Marin audio for phrases, readings and model responses, with normal/slower playback. The user approved this voice after listening to the 12-sample pilot; metadata distinguishes voice selection from individual clip review. Browser TTS is disabled.
+- Optional microphone practice for French and Filipino: the first microphone tap offers an explicit **85.5 MB** download with progress and cancellation. Verified tools stay in a separate durable cache for future/offline sessions. ZIPA recognises sounds locally; letters are highlighted, approximate recognised spelling can be synthesised, and the original voice can be replayed. IPA is off by default and available only through an advanced option. Recordings are temporary unless explicitly saved as WAV.
 - 15 downloadable Retro Museum quiz/game packs for shared-screen and phone play; the open host supports ranking and cooperative modes. See [multiplayer setup](docs/multiplayer.md).
 - Responsive interface, reduced-motion-aware animations and an offline service worker; install through the browser when supported.
 - A visual course editor for words, phrases, teaching tips, contextual word meanings, accepted spellings and new language pairs.
@@ -38,7 +39,7 @@ Open <http://127.0.0.1:4173>. Python 3 runs the development server; Node 20+ run
 
 ## Honest limits
 
-This is a guided practice course, not a complete CEFR syllabus, school qualification or substitute for speaking with people. Level labels describe editorial practice targets inspired by CEFR, not externally validated proficiency or a promise that completing a tab achieves that level. Course content is an original draft **awaiting fluent-speaker and teacher review**. See [curriculum notes](docs/curriculum.md) and [school alignment](docs/school-alignment.md). The school pathway bridges selected skills from every preceding grade; it does not claim exhaustive yearly coverage or replace assigned full literary works and live performance. The synthetic voice was selected after a user listening review of the 12-sample pilot. This is a voice approval, not a claim that every generated clip was individually reviewed or that all pronunciation is flawless. Individual clip reviews and corrected human recordings remain welcome. See [audio generation and review](docs/audio.md). No microphone, speech recognition or pronunciation scoring is included.
+This is a guided practice course, not a complete CEFR syllabus, school qualification or substitute for speaking with people. Level labels describe editorial practice targets inspired by CEFR, not externally validated proficiency or a promise that completing a tab achieves that level. Course content is an original draft **awaiting fluent-speaker and teacher review**. See [curriculum notes](docs/curriculum.md) and [school alignment](docs/school-alignment.md). The school pathway bridges selected skills from every preceding grade; it does not claim exhaustive yearly coverage or replace assigned full literary works and live performance. The synthetic voice was selected after a user listening review of the 12-sample pilot. This is a voice approval, not a claim that every generated clip was individually reviewed or that all pronunciation is flawless. Individual clip reviews and corrected human recordings remain welcome. See [audio generation and review](docs/audio.md). Optional speaking practice runs ZIPA locally in a Web Worker. It offers experimental sound comparisons, not a validated pronunciation score.
 
 The shared contribution workflow uses **GitHub review**, not an in-app account system or a live database. Local drafts are not published automatically. A proposal opens on GitHub for the contributor to review and submit; a maintainer must integrate it and a fluent speaker must review language content. Review dates and learning progress are device-local; there is no cloud sync. Imported courses stay labelled as unreviewed drafts, even when their file claims reviewed status.
 
@@ -129,3 +130,11 @@ TARA_CHROMIUM=/path/to/chromium node tests/school-browser.mjs
 ```
 
 French course and learner-isolation browser check: `node tests/carina-browser.mjs`.
+
+Speaking browser QA (requires FFmpeg, or set `TARA_SPEECH_FIXTURE` to a WAV):
+
+```sh
+TARA_PLAYWRIGHT_MODULE=/path/to/playwright/index.mjs node tests/pronunciation-browser.mjs
+```
+
+This uses real ZIPA/WASM inference with a synthetic fixture, including a network-off reload. It does not establish human pronunciation accuracy or phone latency. ZIPA sometimes misrecognises approved model audio; the UI abstains from precise corrections on those words. Filipino spelling rules are a draft and stress is not assessed.
