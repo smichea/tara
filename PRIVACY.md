@@ -12,8 +12,10 @@ external AI API calls. Learning does not require a Tara account.
   press Submit. Do not put secrets or private information into contributions.
 - Contributions submitted on the public repository are public. GitHub has its
   own account and privacy terms. The app never creates GitHub issues itself.
-- Audio files are served by the host. System text-to-speech may use your device
-  provider's online voice service, according to its settings. It runs only when
+- Browser text-to-speech is the default for sound. It may use your device
+  provider's online voice service, according to its settings; there is no Tara TTS
+  server or API key. Optional fallback audio files are served by the host.
+  Speech runs only when
   you press a speaker button. The app requests no microphone access.
 - GitHub Pages, Sites and other hosting providers receive ordinary web requests
   and may keep access logs or apply their own authentication. A private Sites

@@ -25,3 +25,21 @@ test('forks of community edits retain all upstream credits and reset review stat
  assert.deepEqual(second.attributions.map(a=>a.author),['Tara contributors','Second contributor']);
  assert.equal(second.status,'draft');assert.deepEqual(second.reviewers,[]);assert.deepEqual(validateCourse(second),[]);
 });
+test('Thank you accepts salamat po, respectful and common equivalent formulations',()=>{
+ const thanks=course.lessons[0].entries.find(e=>e.text==='Salamat!');
+ for(const value of ['salamat po','SALAMAT, PO!','salamat ho','maraming salamat','maraming salamat po'])assert(accepts(value,thanks,'fil'),value);
+ for(const value of ['hindi salamat','salamat ako','salamat po po','salamat hindi'])assert(!accepts(value,thanks,'fil'),value);
+});
+test('optional Filipino politeness is language-specific and does not erase a required respectful form',()=>{
+ assert(accepts('Hindi ko po maintindihan.',{text:'Hindi ko maintindihan.'},'fil'));
+ assert(!accepts('po thank you',{text:'Thank you'},'en'));
+ assert(!accepts('Salamat',{text:'Salamat po.'},'fil'));
+ assert(accepts('salamat ho',{text:'Salamat!'},'tl-PH'));
+});
+test('declared equivalent sentence structures and expanded contractions are accepted',()=>{
+ const name=course.lessons.find(l=>l.id==='introduce-yourself').entries[0];
+ assert(accepts('Marco ang pangalan ko',name,'fil'));
+ const doing=course.lessons.find(l=>l.id==='small-talk').entries[0];
+ assert(accepts('Ano ang ginagawa mo?',doing,'fil'));
+ assert(!accepts('Ano ang ginagawa ko?',doing,'fil'));
+});

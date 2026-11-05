@@ -2,8 +2,18 @@ export const SCHEMA_VERSION = 1;
 export function normalize(value) {
   return String(value).normalize('NFKC').toLocaleLowerCase().replace(/[’‘]/g, "'").replace(/[.,!?;:¡¿。！？]/g, '').replace(/\s+/g, ' ').trim();
 }
-export function accepts(answer, entry) {
-  return [entry.text, ...(entry.accepted || [])].some(value => normalize(value) === normalize(answer));
+export function accepts(answer, entry, languageCode = '') {
+  const actual = normalize(answer);
+  const expected = [entry.text, ...(entry.accepted || [])].map(normalize);
+  if (expected.includes(actual)) return true;
+  // In Filipino, adding one optional politeness particle keeps the meaning.
+  // A required particle in the taught answer is retained (e.g. a respect lesson).
+  if (/^(fil|tl)(-|$)/i.test(languageCode)) {
+    const words = actual.split(' ');
+    const particles = words.filter(word => word === 'po' || word === 'ho');
+    if (particles.length === 1) return expected.includes(words.filter(word => word !== 'po' && word !== 'ho').join(' '));
+  }
+  return false;
 }
 export function shuffle(items, random = Math.random) {
   const result = [...items];

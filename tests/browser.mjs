@@ -26,9 +26,11 @@ try{
   }else{
    const entry=course.lessons[0].entries.find(e=>e.translation===prompt);assert(entry);
    if(title==='Build the phrase.')for(const word of entry.text.split(/\s+/))await page.locator('.token-bank').getByRole('button',{name:word,exact:true}).filter({visible:true}).first().click();
-   else await page.locator('#answer-input').fill(entry.text);
+   else await page.locator('#answer-input').fill(entry.text==='Salamat!'?'salamat po':entry.text);
   }
+  const courtesyAnswer=await page.locator('#answer-input').count()&&(await page.locator('#answer-input').inputValue())==='salamat po';
   await page.getByRole('button',{name:'Check answer'}).click();
+  if(courtesyAnswer)assert.equal(await page.locator('.feedback.bad').count(),0,'salamat po must be accepted');
   await page.getByRole('button',{name:'Continue',exact:true}).click();
  }
  const progress=await page.evaluate(()=>JSON.parse(localStorage.getItem('tara-progress-v1')));

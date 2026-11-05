@@ -78,11 +78,16 @@ fields are checked before import. Maximum imported JSON size: 2 MB.
 Learners see each phrase, translation and usage note before practicing. The
 engine makes meaning-choice questions and written/word-order recall exercises.
 Answer checking ignores case, common punctuation and repeated whitespace, while
-preserving meaningful accents and diacritics. Approved spelling alternatives
-belong in `accepted`. Distinct meanings serve as choice distractors.
+preserving meaningful accents and diacritics. Equivalent spellings, contractions and sentence structures belong in `accepted`.
+In Filipino courses, adding one optional `po` or `ho` is also accepted when the
+answer otherwise matches. Required respectful forms are preserved. Other words,
+including negation and pronouns, are not discarded. Distinct meanings serve as choice distractors.
 
-Audio is optional and never used as a prerequisite. A matching installed voice
-is used when no recording exists. For writing systems with no spaces, written
+Browser text-to-speech is the default playback method, with the course language
+requested explicitly (Filipino/Tagalog uses `fil-PH`). A matching voice is selected
+when available; an initially empty voice list does not disable playback. Native
+recordings remain optional and are a fallback on browsers without speech support.
+Offline speech requires a locally available voice. For writing systems with no spaces, written
 recall is used instead of an English-style word-order puzzle. Dedicated word
 segmentation, right-to-left interface localization, pronunciation scoring and a
 full translation system for the app's navigation remain future work.

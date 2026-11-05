@@ -24,7 +24,9 @@
           "translation": "How are you?",
           "note": "A friendly greeting.",
           "accepted": [
-            "Kamusta ka?"
+            "Kamusta ka?",
+            "Kumusta?",
+            "Kamusta?"
           ]
         },
         {
@@ -32,21 +34,35 @@
           "kind": "phrase",
           "text": "Mabuti naman.",
           "translation": "I’m doing well.",
-          "note": "A natural answer to “Kumusta ka?”"
+          "note": "A natural answer to “Kumusta ka?”",
+          "accepted": [
+            "Mabuti.",
+            "Mabuti ako.",
+            "Mabuti naman ako."
+          ]
         },
         {
           "id": "say-hello-3",
           "kind": "phrase",
           "text": "Ikaw?",
           "translation": "And you?",
-          "note": "Use this to return the question."
+          "note": "Use this to return the question.",
+          "accepted": [
+            "At ikaw?",
+            "Ikaw naman?"
+          ]
         },
         {
           "id": "say-hello-4",
           "kind": "phrase",
           "text": "Salamat!",
           "translation": "Thank you!",
-          "note": "Maraming salamat means “thank you very much”."
+          "note": "Maraming salamat means “thank you very much”.",
+          "accepted": [
+            "Salamat po!",
+            "Maraming salamat!",
+            "Maraming salamat po!"
+          ]
         }
       ]
     },
@@ -61,21 +77,33 @@
           "kind": "phrase",
           "text": "Ako si Marco.",
           "translation": "I’m Marco.",
-          "note": "Si introduces a person’s name."
+          "note": "Si introduces a person’s name.",
+          "accepted": [
+            "Marco ang pangalan ko.",
+            "Ang pangalan ko ay Marco."
+          ]
         },
         {
           "id": "introduce-yourself-2",
           "kind": "phrase",
           "text": "Ano ang pangalan mo?",
           "translation": "What’s your name?",
-          "note": "Mo means “your” here."
+          "note": "Mo means “your” here.",
+          "accepted": [
+            "Anong pangalan mo?",
+            "Ano’ng pangalan mo?"
+          ]
         },
         {
           "id": "introduce-yourself-3",
           "kind": "phrase",
           "text": "Kaibigan ko siya.",
           "translation": "He / she is my friend.",
-          "note": "Siya can mean he or she."
+          "note": "Siya can mean he or she.",
+          "accepted": [
+            "Siya ay kaibigan ko.",
+            "Siya ang kaibigan ko."
+          ]
         },
         {
           "id": "introduce-yourself-4",
@@ -107,7 +135,11 @@
           "kind": "phrase",
           "text": "Pakiulit.",
           "translation": "Please repeat.",
-          "note": "Paki- makes a request polite."
+          "note": "Paki- makes a request polite.",
+          "accepted": [
+            "Paki-ulit.",
+            "Paki ulit."
+          ]
         },
         {
           "id": "getting-unstuck-3",
@@ -175,14 +207,20 @@
           "kind": "phrase",
           "text": "Gutom na ako.",
           "translation": "I’m hungry now.",
-          "note": "Na adds the sense of “now” or “already”."
+          "note": "Na adds the sense of “now” or “already”.",
+          "accepted": [
+            "Gutom ako."
+          ]
         },
         {
           "id": "food-2",
           "kind": "phrase",
           "text": "Gusto ko ng tubig.",
           "translation": "I want some water.",
-          "note": "Ng introduces what you want here."
+          "note": "Ng introduces what you want here.",
+          "accepted": [
+            "Gusto ko ng isang basong tubig."
+          ]
         },
         {
           "id": "food-3",
@@ -218,7 +256,10 @@
           "kind": "phrase",
           "text": "Magkano po ito?",
           "translation": "How much is this, please?",
-          "note": "Ito means “this”."
+          "note": "Ito means “this”.",
+          "accepted": [
+            "Magkano ito?"
+          ]
         },
         {
           "id": "ordering-3",
@@ -293,7 +334,10 @@
           "kind": "phrase",
           "text": "Nasaan si Mama?",
           "translation": "Where is Mum?",
-          "note": "Use si before a person’s name or name-like family title."
+          "note": "Use si before a person’s name or name-like family title.",
+          "accepted": [
+            "Nasaan si Nanay?"
+          ]
         },
         {
           "id": "home-3",
@@ -394,7 +438,10 @@
           "kind": "phrase",
           "text": "Anong ginagawa mo?",
           "translation": "What are you doing?",
-          "note": "Anong is a common contracted form of ano ang."
+          "note": "Anong is a common contracted form of ano ang.",
+          "accepted": [
+            "Ano ang ginagawa mo?"
+          ]
         },
         {
           "id": "small-talk-2",
@@ -408,7 +455,11 @@
           "kind": "phrase",
           "text": "Oo.",
           "translation": "Yes.",
-          "note": "Opo is the respectful form."
+          "note": "Opo is the respectful form.",
+          "accepted": [
+            "Opo.",
+            "Oho."
+          ]
         },
         {
           "id": "small-talk-4",
@@ -451,7 +502,10 @@
           "kind": "phrase",
           "text": "Salamat sa tulong mo.",
           "translation": "Thank you for your help.",
-          "note": "Sa introduces what you are thanking someone for."
+          "note": "Sa introduces what you are thanking someone for.",
+          "accepted": [
+            "Salamat sa iyong tulong."
+          ]
         }
       ]
     }

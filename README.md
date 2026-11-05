@@ -19,9 +19,9 @@ Open <http://127.0.0.1:4173>. Python 3 runs the development server; Node 20+ run
 ## What works today
 
 - 12 short Filipino lessons with 48 words and phrases, taught before they are tested.
-- Meaning choices, sentence building and written recall; mistakes get another attempt.
-- Spaced repetition, completed lessons, daily goals, streaks and XP stored on the device.
-- Phrasebook with search; audio recordings or a matching installed system voice, when available.
+- Meaning choices, sentence building and written recall; equivalent answers and optional Filipino politeness are accepted, while mistakes get another attempt.
+- Spaced repetition, completed lessons, daily goals, streaks and XP saved automatically in localStorage, plus an explicit Save progress button in Settings.
+- Phrasebook with search; browser text-to-speech for lessons, phrases and corrections, with normal and slower playback.
 - Responsive interface and an offline service worker; install through the browser when supported.
 - A visual course editor for words, phrases, teaching tips, accepted spellings and new language pairs.
 - Local course import and export; editor drafts save as you type.
@@ -30,7 +30,7 @@ Open <http://127.0.0.1:4173>. Python 3 runs the development server; Node 20+ run
 
 ## Honest limits
 
-This is **v0.1**, not a complete course or a substitute for speaking with people. The Filipino starter content is an original draft **awaiting fluent-speaker review**. It has no human audio recordings yet. The app enables speech only if an appropriate voice or recording exists; it does not read Filipino with an English voice. No voice recognition or pronunciation scoring is claimed.
+This is **v0.1**, not a complete course or a substitute for speaking with people. The Filipino starter content is an original draft **awaiting fluent-speaker review**. Sound uses browser text-to-speech by default; no human recordings or external TTS API are required. A matching Filipino/Tagalog voice is selected when the browser lists one. If voices have not loaded yet, the app still requests `fil-PH` so the browser can resolve the language. Voice availability, pronunciation and online/offline behavior depend on the browser and device. The app never explicitly selects an English voice for Filipino. No voice recognition or pronunciation scoring is claimed.
 
 The shared contribution workflow uses **GitHub review**, not an in-app account system or a live database. Local drafts are not published automatically. A proposal opens on GitHub for the contributor to review and submit; a maintainer must integrate it and a fluent speaker must review language content. Review dates and learning progress are device-local; there is no cloud sync. Imported courses stay labelled as unreviewed drafts, even when their file claims reviewed status.
 
@@ -75,3 +75,12 @@ TARA_CHROMIUM=/path/to/chromium node tests/browser.mjs
 
 The optional test needs the `playwright` package installed locally, or its module
 path supplied in `TARA_PLAYWRIGHT_MODULE`; it adds no runtime dependency.
+
+Browser TTS and storage regression checks use the same optional Playwright setup:
+
+```sh
+TARA_CHROMIUM=/path/to/chromium node tests/audio-browser.mjs
+```
+
+These checks verify browser API requests using a speech stub. They do not claim
+to validate audible speech quality or voice availability on a learner's device.
