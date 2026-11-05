@@ -6,7 +6,8 @@ external AI API calls. Learning does not require a Tara account.
 - Progress, XP, review dates, saved written responses, level/school/quiz selections, editor
   drafts and imported courses use browser
   local storage on the current device. They are not sent to a Tara database. Carina uses a separate local progress record from Marco; selecting a course restores its learner’s progress. A progress backup exports the current learner, while imported courses and the editor draft remain shared on this browser.
-- An offline service worker caches the app, registered course files, bundled word meanings and the first lesson’s audio. Other audio is cached after listening.
+- An offline service worker caches the app, registered course files, bundled word meanings and the first lesson’s audio. Other audio is cached after listening. Downloads lets you explicitly save a lesson’s available phrase, reading and model-response recordings before listening. Download metadata and audio stay in this browser’s Cache Storage, separate from progress in local storage. App-shell updates preserve selected downloads. Removing a lesson download does not reset progress. Progress backups do not include audio.
+- Installation adds Tara to your home screen. An installed app may use separate storage from its browser; download lessons and restore any progress backup in the copy you intend to use. The optional storage-protection button asks the browser to retain local data, subject to browser support and permission. Clearing browser/site data still removes it.
 - Word hints read bundled course data and make no dictionary or AI requests. Offline maintainer tools may send public course sentences to an AI provider to draft glosses. These glosses remain community-editable draft course content.
 - Exported JSON backups and course files are downloaded to your device.
 - Propose contribution opens a GitHub page with the proposed course content in

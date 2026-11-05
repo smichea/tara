@@ -71,6 +71,11 @@ model-response file against its SHA-256.
 
 The offline shell includes the first lesson’s audio. Other recordings are
 cached when listened to, avoiding a large download before the app can open.
+Downloads also saves entire selected lessons, including readings and model
+responses, in separate durable caches. Each recording's SHA-256 is checked before
+the lesson is marked ready. Cancelled/failed downloads are resumable. These caches
+survive shell updates; deleting a download preserves learning progress. Fully
+cached recordings serve byte-range responses directly, including while offline.
 Browsers request media using HTTP byte ranges. The service worker passes through
 HTTP 206 responses, stores complete ranges as HTTP 200 when possible, and never
 discards valid network playback because Cache API rejects a partial response.

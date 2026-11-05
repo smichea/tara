@@ -66,6 +66,31 @@ Tests cover answer normalization, backup validation, scheduling, streaks, duplic
 
 To self-host, copy `dist/` to a static web server. HTTPS or localhost is needed for service workers and installation. Bump the cache name in `dist/sw.js` when changing bundled assets. A single deployment contains all registered courses.
 
+## Install and study offline
+
+Open Settings → Manage downloads, or Downloads above the learning path. Choose
+individual lessons, filter by level/search, or download the lessons currently
+shown. Downloads include every available approved phrase, reading and model-response
+recording. Keep Tara open until “Ready offline” appears. Interrupted downloads
+can be resumed; completed downloads can be removed without resetting progress.
+All registered course text and word hints are cached with the app.
+
+Use Install Tara when offered. On Android, Chrome’s menu also offers Install app
+or Add to Home screen. On iPhone/iPad, use Safari → Share → Add to Home Screen.
+Download lessons in the installed copy; its storage may differ from browser storage.
+Settings exports a progress backup for transferring learning between copies/devices.
+
+`dist/offline.js` verifies downloaded audio against the course SHA-256, commits
+completion after every file is stored, and keeps selected lessons in independent
+`tara-lesson-v1-*` caches. Updating the shell never deletes these caches. Cached
+audio supports HTTP byte ranges for mobile players. “Keep downloads on this device”
+requests persistent browser storage; the browser controls whether it is granted.
+Clearing site data removes downloads and progress. Audio is not in progress backups.
+
+Maintainer browser check: `node tests/offline-browser.mjs` (Playwright required).
+It covers a never-played six-recording lesson, an app-shell update, offline reload,
+real playback, mobile layout and removal preserving progress.
+
 ## License
 
 - **App code:** [AGPL v3 or later](LICENSE).

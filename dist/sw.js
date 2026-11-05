@@ -1,7 +1,8 @@
 import {audioURL,isSharedAudioURL} from './media.js';
-const CACHE = 'tara-shell-v10';
+import {LESSON_CACHE_PREFIX,audioRangeResponse} from './offline.js';
+const CACHE = 'tara-shell-v11';
 const ROOT = new URL('./', self.location.href);
-const FILES = ['./', './index.html', './app.js', './lib.js', './curriculum.js', './museum.js', './speech.js', './media.js', './glosses.js', './style.css', './icon.svg', './manifest.webmanifest', './LICENSE.txt', './NOTICE.txt', './courses/index.json'];
+const FILES = ['./', './index.html', './app.js', './lib.js', './curriculum.js', './museum.js', './speech.js', './media.js', './offline.js', './glosses.js', './style.css', './icon.svg', './icon-192.png', './icon-512.png', './icon-maskable-512.png', './apple-touch-icon.png', './manifest.webmanifest', './LICENSE.txt', './NOTICE.txt', './courses/index.json'];
 self.addEventListener('install', event => {
   event.waitUntil((async()=>{
     const cache = await caches.open(CACHE);
@@ -25,6 +26,13 @@ self.addEventListener('activate', event=>event.waitUntil((async()=>{
 self.addEventListener('fetch', event=>{
   if (event.request.method!=='GET' || (!event.request.url.startsWith(ROOT.href)&&!isSharedAudioURL(event.request.url))) return;
   event.respondWith((async()=>{
+    // Explicit downloads write only their own durable lesson cache.
+    if(event.request.cache==='no-store')return fetch(event.request);
+    const isAudio=/\.(mp3|ogg|wav)$/.test(new URL(event.request.url).pathname);
+    if(isAudio)for(const name of await caches.keys())if(name.startsWith(LESSON_CACHE_PREFIX)){
+      const stored=await (await caches.open(name)).match(event.request.url);
+      if(stored?.status===200)return audioRangeResponse(event.request,stored);
+    }
     const cache=await caches.open(CACHE);
     try {
       const response=await fetch(event.request);
@@ -46,7 +54,7 @@ self.addEventListener('fetch', event=>{
       return response;
     } catch {
       const cached=await cache.match(event.request);
-      if(cached)return cached;
+      if(cached)return isAudio?audioRangeResponse(event.request,cached):cached;
       if(event.request.mode==='navigate')return (await cache.match(new URL('./index.html',ROOT))) || Response.error();
       return Response.error();
     }
