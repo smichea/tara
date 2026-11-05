@@ -14,4 +14,4 @@ __pycache__/
 audio-review/*.json
 audio-review/*/
 
-site-dist/
+out/

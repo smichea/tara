@@ -102,11 +102,11 @@ metadata or an automated transcript.
 
 ## Shared media for the private Sites copy
 
-`node scripts/build-private.mjs` prepares the ignored `site-dist/` artifact.
+`node scripts/build-private.mjs` prepares the ignored `out/` artifact.
 The private Sites hostname resolves only the hashed built-in Marin MP3 paths to
 the same public GitHub Pages library. Other paths and self-hosted deployments
 remain local. CORS-enabled playback and the service worker cache keep listened
 recordings available offline. No synthesis key or learner text is sent at runtime.
 This avoids transferring a second large copy of the shared media archive during
-private publication. The manifest selects `site-dist/`; GitHub Pages still ships
+private publication. The manifest selects `out/`; GitHub Pages still ships
 `dist/`, including every recording.
