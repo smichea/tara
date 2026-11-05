@@ -1,4 +1,4 @@
-const CACHE = 'tara-shell-v6';
+const CACHE = 'tara-shell-v7';
 const ROOT = new URL('./', self.location.href);
 const FILES = ['./', './index.html', './app.js', './lib.js', './curriculum.js', './museum.js', './speech.js', './style.css', './icon.svg', './manifest.webmanifest', './LICENSE.txt', './NOTICE.txt', './courses/index.json'];
 self.addEventListener('install', event => {
@@ -26,7 +26,11 @@ self.addEventListener('fetch', event=>{
     const cache=await caches.open(CACHE);
     try {
       const response=await fetch(event.request);
-      if(response.ok && !response.redirected) await cache.put(event.request,response.clone());
+      // Cache API rejects partial (206) media responses. Never discard playable
+      // network audio because caching failed or browser storage is full.
+      if(response.status===200 && !response.redirected && !event.request.headers.has('Range')) {
+        try { await cache.put(event.request,response.clone()); } catch {}
+      }
       return response;
     } catch {
       const cached=await cache.match(event.request);
