@@ -1,6 +1,7 @@
-const CACHE = 'tara-shell-v8';
+import {audioURL,isSharedAudioURL} from './media.js';
+const CACHE = 'tara-shell-v10';
 const ROOT = new URL('./', self.location.href);
-const FILES = ['./', './index.html', './app.js', './lib.js', './curriculum.js', './museum.js', './speech.js', './glosses.js', './style.css', './icon.svg', './manifest.webmanifest', './LICENSE.txt', './NOTICE.txt', './courses/index.json'];
+const FILES = ['./', './index.html', './app.js', './lib.js', './curriculum.js', './museum.js', './speech.js', './media.js', './glosses.js', './style.css', './icon.svg', './manifest.webmanifest', './LICENSE.txt', './NOTICE.txt', './courses/index.json'];
 self.addEventListener('install', event => {
   event.waitUntil((async()=>{
     const cache = await caches.open(CACHE);
@@ -12,7 +13,7 @@ self.addEventListener('install', event => {
       await cache.add(url);
       const course = await (await cache.match(url)).json();
       // Keep installation small; later recordings are cached as they are played.
-      for (const entry of course.lessons[0].entries) if (entry.audio && /^audio\/[a-zA-Z0-9/_-]+\.(mp3|ogg|wav)$/.test(entry.audio)) await cache.add(new URL(entry.audio,ROOT).href);
+      for (const entry of course.lessons[0].entries) if (entry.audio && /^audio\/[a-zA-Z0-9/_-]+\.(mp3|ogg|wav)$/.test(entry.audio)) await cache.add(audioURL(entry.audio,ROOT.href));
     }
     await self.skipWaiting();
   })());
@@ -22,7 +23,7 @@ self.addEventListener('activate', event=>event.waitUntil((async()=>{
   await self.clients.claim();
 })()));
 self.addEventListener('fetch', event=>{
-  if (event.request.method!=='GET' || !event.request.url.startsWith(ROOT.href)) return;
+  if (event.request.method!=='GET' || (!event.request.url.startsWith(ROOT.href)&&!isSharedAudioURL(event.request.url))) return;
   event.respondWith((async()=>{
     const cache=await caches.open(CACHE);
     try {

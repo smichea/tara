@@ -20,9 +20,9 @@ def generate(text,cache,pilot):
  if not path.exists():
   item=next((i for i in pilot['items'] if i['text']==text),None) if pilot['instructions']==RECIPE['instructions'] else None
   if item:
-   data=(ROOT/'audio-review'/item['file']).read_bytes()
+   data=(Path(pilot['_audioRoot'])/item['file']).read_bytes()
    if digest(data)!=item['sha256']:raise RuntimeError('Pilot bytes changed.')
-  else:data=pipeline.openai_audio(text,RECIPE['model'],RECIPE['voice'])
+  else:data=pipeline.openai_audio(text,RECIPE['model'],RECIPE['voice'],instructions=RECIPE['instructions'])
   tmp=path.with_suffix('.tmp');tmp.write_bytes(data);tmp.replace(path)
  # Keep the original synthesis cache and use a smaller, speech-quality delivery MP3.
  delivery=ROOT/'artifacts/audio-delivery48'/(key+'.mp3');delivery.parent.mkdir(parents=True,exist_ok=True)
@@ -32,14 +32,21 @@ def generate(text,cache,pilot):
   tmp.replace(delivery)
  return key,delivery
 
-def main():
- p=argparse.ArgumentParser(description=__doc__);p.add_argument('--course',default='fil-en',choices=['fil-en','fr-en']);p.add_argument('--approval',type=Path,required=True);p.add_argument('--env-file',type=Path);p.add_argument('--key-variable',default='OPENAI_API_KEY');p.add_argument('--workers',type=int,default=4);a=p.parse_args();pipeline.load_env(a.env_file,a.key_variable)
- if a.course=='fr-en':RECIPE['instructions']='Read the supplied French text exactly once in natural, clear metropolitan French. Use a warm teaching voice with accurate French vowels, nasal vowels, elisions, obligatory liaisons and natural phrase boundaries. Read dates and royal names naturally in French. No introduction, translation, explanation or extra words.'
- approval=json.loads(a.approval.read_text());pilotpath=ROOT/'dist/pronunciation-review/pilot.json';pilot=json.loads(pilotpath.read_text())
- if approval.get('scope') not in ('voice-pilot','voice-selection') or not approval.get('reviewer') or approval.get('recipeHash')!=recipe_hash() or approval.get('pilotManifestSha256')!=digest(pilotpath.read_bytes()) or not re.fullmatch(r'\d{4}-\d{2}-\d{2}',approval.get('approvedAt','')):raise RuntimeError('A matching, explicit user voice-pilot approval is required.')
+def validate_approval(approval,pilot,pilot_bytes,course_id):
+ if approval.get('status')=='rejected' or approval.get('scope')!='voice-pilot' or not approval.get('reviewer') or approval.get('recipeHash')!=recipe_hash() or approval.get('pilotManifestSha256')!=digest(pilot_bytes) or not re.fullmatch(r'\d{4}-\d{2}-\d{2}',approval.get('approvedAt','')):
+  raise RuntimeError('A matching, explicit user voice-pilot approval is required.')
  for k,v in RECIPE.items():
-  if k!='instructions' and pilot.get(k)!=v:raise RuntimeError('Pilot recipe mismatch.')
- if len(pilot['items'])!=12:raise RuntimeError('Expected 12 listening samples.')
+  if pilot.get(k)!=v:raise RuntimeError('Pilot recipe mismatch: '+k)
+ expected=3 if course_id=='fr-en' else 12
+ if len(pilot.get('items',[]))!=expected or approval.get('sampleCount')!=expected:raise RuntimeError('Unexpected listening sample count.')
+ if course_id=='fr-en' and (approval.get('language')!='fr' or pilot.get('language')!='fr'):raise RuntimeError('A French listening pilot is required.')
+
+def main():
+ p=argparse.ArgumentParser(description=__doc__);p.add_argument('--course',default='fil-en',choices=['fil-en','fr-en']);p.add_argument('--approval',type=Path,required=True);p.add_argument('--pilot-manifest',type=Path);p.add_argument('--env-file',type=Path);p.add_argument('--key-variable',default='OPENAI_API_KEY');p.add_argument('--workers',type=int,default=4);a=p.parse_args();pipeline.load_env(a.env_file,a.key_variable)
+ if a.course=='fr-en':RECIPE['generationVersion']=2;RECIPE['instructions']="Tu es une locutrice française native, avec un accent naturel de France métropolitaine. Lis uniquement le texte fourni, une seule fois, en français. Prononce les voyelles françaises, le u, les voyelles nasales, le r français, les élisions et les liaisons nécessaires comme une Française. Garde une voix chaleureuse, claire et naturelle, à un rythme pédagogique sans exagération. Lis les dates et les noms des rois en français. Aucun accent anglais ou tagalog. N'ajoute ni introduction, ni traduction, ni commentaire."
+ approval=json.loads(a.approval.read_text());pilotpath=a.pilot_manifest or ROOT/'dist/pronunciation-review/pilot.json';pilot=json.loads(pilotpath.read_text())
+ validate_approval(approval,pilot,pilotpath.read_bytes(),a.course)
+ pilot['_audioRoot']=str(pilotpath.parent if a.pilot_manifest else ROOT/'audio-review')
  path=ROOT/'dist/courses'/(a.course+'.json');course=json.loads(path.read_text());texts=list(dict.fromkeys(text for _,text in targets(course)));cache=ROOT/'artifacts/audio-library';cache.mkdir(parents=True,exist_ok=True);results={}
  with concurrent.futures.ThreadPoolExecutor(max_workers=max(1,min(a.workers,6))) as pool:
   jobs={pool.submit(generate,t,cache,pilot):t for t in texts}
@@ -51,7 +58,7 @@ def main():
  for entry,text in targets(course):
   if text not in results:raise RuntimeError('Course text changed during generation; rerun to complete the new text.')
   key,cached=results[text];data=cached.read_bytes();rel='audio/'+course['languageCode']+'/marin/'+key[:24]+'.mp3';dest=ROOT/'dist'/rel;dest.parent.mkdir(parents=True,exist_ok=True);dest.write_bytes(data)
-  entry['audio']=rel;entry['audioReview']={'status':'pilot-approved' if approval['scope']=='voice-pilot' else 'voice-selected','scope':approval['scope'],'text':text,'sha256':digest(data),'recipeHash':recipe_hash(),'voiceApproval':approval['id'],'synthetic':True,'encoding':'MP3 mono 24 kHz, 48 kbps'};count+=1
+  entry['audio']=rel;entry['audioReview']={'status':'pilot-approved','scope':approval['scope'],'text':text,'sha256':digest(data),'recipeHash':recipe_hash(),'voiceApproval':approval['id'],'synthetic':True,'encoding':'MP3 mono 24 kHz, 48 kbps'};count+=1
  course['audioVoiceApprovals']=[approval]
  tmp=path.with_suffix('.tmp');tmp.write_text(json.dumps(course,ensure_ascii=False,indent=2)+'\n');tmp.replace(path)
  print(f'Stored {count} recordings, {len(results)} distinct texts. Voice-pilot approval is recorded separately from individual clip review.')

@@ -61,8 +61,7 @@ Support for a language alone does not establish pronunciation quality.
 
 ## Publication, caching and playback
 
-The compressed Marin delivery libraries (48.6 MB combined, each file under
-1 MB) are versioned as ordinary Git bytes under `dist/audio/{fil,fr}/marin/`.
+The compressed Marin delivery libraries (each file under 1 MB) are versioned as ordinary Git bytes under `dist/audio/{fil,fr}/marin/`.
 This keeps static publication portable and avoids LFS pointer files and an extra
 media download quota for this small library. Larger contributed/source
 MP3/OGG/WAV recordings retain the general Git LFS rules. `.lfsconfig` identifies
@@ -86,8 +85,28 @@ Its small MP3 files are ordinary Git files (about 0.53 MB); the main voice libra
 
 ## French course
 
-Carina's French course uses the selected Marin voice with French-specific reading
-instructions. Its `voice-selected` / `voice-selection` metadata explicitly refers
-to the earlier Filipino voice choice; it does not claim a French listening review.
-French clips remain synthetic and individual corrections are welcome. Generate
-with `--course fr-en --approval audio-review/marin-french-selection.json`.
+French generation passes French-specific instructions to the speech API and
+uses a separate versioned recipe so incorrect cached recordings cannot be reused.
+Playback requires approval of a French listening pilot. On 5 November 2026,
+smichea heard three corrected French samples and confirmed: “Oui, la
+prononciation française est bonne”. This approval is bound to the French
+version 2 recipe and the bundled `pronunciation-review/fr/pilot.json` manifest.
+Choosing a voice for Filipino does not establish its French pronunciation.
+Incorrect earlier French recordings are removed when publishing replacements.
+
+The three French samples cover everyday speech, Carina's introduction, and royal names. After listening approval, record its actual
+reviewer, statement, date, language (`fr`), sample count (3), recipe hash and pilot
+manifest digest. Generate with `--course fr-en --pilot-manifest /path/to/pilot.json
+--approval /path/to/french-approval.json`. No listening approval is inferred from
+metadata or an automated transcript.
+
+## Shared media for the private Sites copy
+
+`node scripts/build-private.mjs` prepares the ignored `site-dist/` artifact.
+The private Sites hostname resolves only the hashed built-in Marin MP3 paths to
+the same public GitHub Pages library. Other paths and self-hosted deployments
+remain local. CORS-enabled playback and the service worker cache keep listened
+recordings available offline. No synthesis key or learner text is sent at runtime.
+This avoids transferring a second large copy of the shared media archive during
+private publication. The manifest selects `site-dist/`; GitHub Pages still ships
+`dist/`, including every recording.

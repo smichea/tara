@@ -24,10 +24,10 @@ INSTRUCTIONS=('Read the supplied Filipino (Tagalog) text exactly, once, as a nat
               'Use the context to disambiguate words such as bukas and basa. '
               'No introduction, translation, explanation, English accent or extra words.')
 
-def openai_audio(text,model,voice):
+def openai_audio(text,model,voice,instructions=None):
  key=os.environ.get('OPENAI_API_KEY')
  if not key:raise RuntimeError('Set OPENAI_API_KEY in the environment, .env.local, or an existing --env-file.')
- payload={'model':model,'voice':voice,'input':text,'instructions':INSTRUCTIONS,'response_format':'mp3'}
+ payload={'model':model,'voice':voice,'input':text,'instructions':INSTRUCTIONS if instructions is None else instructions,'response_format':'mp3'}
  for attempt in range(4):
   req=urllib.request.Request('https://api.openai.com/v1/audio/speech',data=json.dumps(payload).encode(),headers={'Authorization':'Bearer '+key,'Content-Type':'application/json'})
   try:

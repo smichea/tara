@@ -14,7 +14,7 @@ external AI API calls. Learning does not require a Tara account.
   press Submit. Do not put secrets or private information into contributions.
 - Contributions submitted on the public repository are public. GitHub has its
   own account and privacy terms. The app never creates GitHub issues itself.
-- Sound plays stored files from the same host, using an individually reviewed recording or a voice selected through listening tests. Browser text-to-speech
+- Sound plays stored files. The private Sites copy loads the shared public voice library from GitHub Pages; public and self-hosted copies serve their bundled files locally. Both cache recordings for offline use. Playback requires an individual recording review or a voice approved through listening tests in the course language. Browser text-to-speech
   is disabled. Offline maintainer tools can send public course text to a chosen
   synthesis provider; no API key or generation request is sent from the learning
   app. Playback runs only on a speaker-button tap. No microphone is requested.

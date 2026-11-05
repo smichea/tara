@@ -1,0 +1,5 @@
+// Both hosted copies share the public, content-addressed speech library.
+export const SHARED_MEDIA_ROOT='https://smichea.github.io/tara/';
+const BUNDLED=/^audio\/(fil|fr)\/marin\/[a-f0-9]{24}\.mp3$/;
+export function audioURL(path,base){const root=new URL(base);return new URL(path,root.hostname==='tara-filipino-marco.manaty.chatgpt.site'&&BUNDLED.test(path)?SHARED_MEDIA_ROOT:root).href;}
+export function isSharedAudioURL(value){const url=new URL(value);return url.origin==='https://smichea.github.io'&&url.pathname.startsWith('/tara/')&&!url.search&&!url.hash&&BUNDLED.test(url.pathname.slice('/tara/'.length));}

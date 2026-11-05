@@ -4,12 +4,43 @@ from unittest.mock import patch
 ROOT=Path(__file__).resolve().parents[1]
 spec=importlib.util.spec_from_file_location('tara_audio',ROOT/'scripts/audio-pipeline.py')
 audio=importlib.util.module_from_spec(spec);spec.loader.exec_module(audio)
+library_spec=importlib.util.spec_from_file_location('tara_library',ROOT/'scripts/generate-audio-library.py')
+library=importlib.util.module_from_spec(library_spec);library_spec.loader.exec_module(library)
 MP3_FIXTURE=b'ID3'+b'\0'*200  # Transport fixture only, never a pronunciation sample.
 class Response:
  def __enter__(self):return self
  def __exit__(self,*args):pass
  def read(self):return MP3_FIXTURE
 class AudioPipelineTests(unittest.TestCase):
+ def test_library_passes_its_recipe_instructions_to_the_speech_request(self):
+  recipe={'provider':'openai','model':'gpt-4o-mini-tts','voice':'marin','instructions':'Lis en français.','responseFormat':'mp3','generationVersion':2}
+  text='Bonjour !'
+  with tempfile.TemporaryDirectory() as directory,patch.dict(library.RECIPE,recipe,clear=True):
+   root=Path(directory);cache=root/'cache';cache.mkdir();delivery=root/'artifacts/audio-delivery48';delivery.mkdir(parents=True)
+   key=library.digest(json.dumps({'text':text,**recipe},sort_keys=True,ensure_ascii=False).encode());(delivery/(key+'.mp3')).write_bytes(MP3_FIXTURE)
+   with patch.object(library,'ROOT',root),patch.object(library.pipeline,'openai_audio',return_value=MP3_FIXTURE) as generate:
+    library.generate(text,cache,{'instructions':'Filipino instructions','items':[]})
+    generate.assert_called_once_with(text,'gpt-4o-mini-tts','marin',instructions=recipe['instructions'])
+
+ def test_french_approval_cannot_reuse_a_filipino_or_old_recipe_pilot(self):
+  recipe={'provider':'openai','model':'gpt-4o-mini-tts','voice':'marin','instructions':'Lis en français.','responseFormat':'mp3','generationVersion':2}
+  with patch.dict(library.RECIPE,recipe,clear=True):
+   pilot={**recipe,'language':'fr','items':[{}, {}, {}]};raw=json.dumps(pilot).encode()
+   approval={'scope':'voice-pilot','reviewer':'Test reviewer','approvedAt':'2026-11-05','language':'fr','sampleCount':3,'recipeHash':library.recipe_hash(),'pilotManifestSha256':library.digest(raw)}
+   library.validate_approval(approval,pilot,raw,'fr-en')
+   for change in [{'language':'fil'},{'sampleCount':12},{'status':'rejected'},{'recipeHash':'0'*64}]:
+    with self.assertRaises(RuntimeError):library.validate_approval({**approval,**change},pilot,raw,'fr-en')
+   with self.assertRaisesRegex(RuntimeError,'instructions'):library.validate_approval(approval,{**pilot,'instructions':'Read in Tagalog.'},raw,'fr-en')
+
+ def test_french_instructions_are_sent_instead_of_the_filipino_default(self):
+  calls=[]
+  def send(request,**kwargs):calls.append(json.loads(request.data));return Response()
+  french='Lis uniquement en français, avec un accent français natif.'
+  with patch.dict(os.environ,{'OPENAI_API_KEY':'unit-test-not-a-real-key'},clear=True),patch.object(audio.urllib.request,'urlopen',send):
+   audio.openai_audio('Bonjour !','gpt-4o-mini-tts','marin',instructions=french)
+  self.assertEqual(calls[0]['instructions'],french)
+  self.assertNotIn('Tagalog',calls[0]['instructions'])
+
  def test_disconnected_speech_request_retries_without_transcription(self):
   with patch.dict(os.environ,{'OPENAI_API_KEY':'unit-test-not-a-real-key'},clear=True),patch.object(audio.urllib.request,'urlopen',side_effect=[audio.http.client.RemoteDisconnected('closed'),Response()]) as send,patch.object(audio.time,'sleep'):
    self.assertEqual(audio.openai_audio('Bonjour !','gpt-4o-mini-tts','marin'),MP3_FIXTURE)

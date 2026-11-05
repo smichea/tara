@@ -200,7 +200,7 @@ async function boot(){try{
  course=[...courses,...custom].find(c=>c.id===read('tara-selected',null))||courses[0];
  loadProgress();
  render();
- if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').catch(()=>{});
+ if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js',{type:'module'}).catch(()=>{});
  }catch(e){$('#app').innerHTML=`<main class="boot"><span class="brand">tara<span>!</span></span><h1 style="margin-top:30px">Let’s get you connected.</h1><p>${esc(e.message)} Check your connection and reload.</p><button class="btn" id="reload">Try again</button></main>`;$('#reload').onclick=()=>location.reload();}}
 document.addEventListener('visibilitychange',()=>{if(document.hidden)speech.stop();});
 boot();

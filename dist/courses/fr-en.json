@@ -32,14 +32,14 @@
               "text": "Bonjour"
             }
           ],
-          "audio": "audio/fr/marin/70f1ce2ba6f0a9a83649ab5b.mp3",
+          "audio": "audio/fr/marin/ee85c8972fb966e1d67069ca.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Bonjour !",
-            "sha256": "73e57a6ad6f1dcc8e0e91475534c467e53dec541897c99219c5e18f5b9d94b6d",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "1a02c4ef639440519f8355df1a76ebccd3c81ab450b1ce32857d306cb2113f6f",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -64,14 +64,14 @@
               "text": "Carina"
             }
           ],
-          "audio": "audio/fr/marin/855ff67aea9ee15fe839f5e6.mp3",
+          "audio": "audio/fr/marin/a0913d2f81641ee1a785db5c.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Je m’appelle Carina.",
-            "sha256": "a68fafd5874afe218c6fcc31a8e5f8c45c154542df6bbc2eec053dc5046c7400",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "8a24b2d66d5fdffcfd91dab9906ebd15e12d87f31d65e0bed2d3366b2a23858b",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -96,14 +96,14 @@
               "text": "traiteur"
             }
           ],
-          "audio": "audio/fr/marin/91464dd79e1bb794173931f6.mp3",
+          "audio": "audio/fr/marin/832224289a2f69ff88a26776.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Je suis traiteur.",
-            "sha256": "a07f6c80b9d931fdbbe9637b9b4c55429f9ba71499071df7a7f86ae538afa6fc",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "ab1fb81dd066068ed231509cb53eac413c540c97da35881b4672f53a6d51f0dd",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -123,14 +123,14 @@
               "text": "Enchantée"
             }
           ],
-          "audio": "audio/fr/marin/99cca53912758fa72f5e7b36.mp3",
+          "audio": "audio/fr/marin/4d3496a3fda813fe04aaf6c1.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Enchantée !",
-            "sha256": "749c717ff7381223a14fa532edafd8ec66a616ffd4205f52a3ce9219d89d5111",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "7d1cbb664741addd9decb369a08c250d748576d9225f96d1fb736f0e5e70ccd4",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -172,14 +172,14 @@
               "text": "français"
             }
           ],
-          "audio": "audio/fr/marin/1f81b62623a0213390f69c4a.mp3",
+          "audio": "audio/fr/marin/b7842fab7b47384725f46810.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Je parle un peu français.",
-            "sha256": "adf6810ba61d0fb82a4af98ab3c7065df98c41a600988a0189a061f94c093e89",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "a2b5b27626658b6bee50ef54c7104500a007ac582e6f12d08c9298a4c45eff62",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -208,14 +208,14 @@
               "text": "pas"
             }
           ],
-          "audio": "audio/fr/marin/fac48ea44dddd3d2b4ff6a06.mp3",
+          "audio": "audio/fr/marin/9821dcb0603fcc20d623d14c.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Je ne comprends pas.",
-            "sha256": "aafda74090ccb76a9127c84b654e64a893b49cdbf7aa59a471b38626562715fa",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "f882ec181b3a6f446c134738d6d0174c171ef13cd6acb1bdd03f33d16a1dfcd2",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -248,14 +248,14 @@
               "text": "plaît"
             }
           ],
-          "audio": "audio/fr/marin/8104f139ead5a0c300ca991e.mp3",
+          "audio": "audio/fr/marin/17d58a8e6a2a5b1347458a5f.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Pouvez-vous répéter, s’il vous plaît ?",
-            "sha256": "cde9df16f3855895147b10bf0d055a664f8289e3149f34a9fe7a9fbfed445e57",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "a90a99f8b1771e5401f3e096ef73b92bd1bf3af4e795b2d6dc911efc07428ec2",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -288,14 +288,14 @@
               "text": "plaît"
             }
           ],
-          "audio": "audio/fr/marin/663c32032ea39150dc0d1c5c.mp3",
+          "audio": "audio/fr/marin/bbaa3ab7b63911f294c95917.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Plus lentement, s’il vous plaît.",
-            "sha256": "e56a0a9ff3757389e599cd0cd8fd5781743b0c50daa63a163d342bfbe9930997",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "3d7674b0efb23d2ac11663d5bd2de8f060e11e3f9a7fa0599915ccc2dd92a59e",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -325,14 +325,14 @@
               "text": "beaucoup"
             }
           ],
-          "audio": "audio/fr/marin/72f9d93b3f02c46d337f3c2b.mp3",
+          "audio": "audio/fr/marin/95d85496a977f99abbb818c0.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Merci beaucoup.",
-            "sha256": "46519e9c753c248cd227c3960954407126686ded704b06d97131eaa25bf4eda1",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "3b6a735f72d820efca892b08b5f0e63797797b6fbda70de00408f9786c41d437",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -353,14 +353,14 @@
               "text": "plaisir"
             }
           ],
-          "audio": "audio/fr/marin/c12b04a5a7b5889a5d60970a.mp3",
+          "audio": "audio/fr/marin/58266f5c4e59214d33342469.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Avec plaisir.",
-            "sha256": "3765866ace8931d5b664550901992cdb8a5638a1a0f30e5974f279b0a43a013a",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "9570236821d1ec2f61add8157dc6ba6497b2c3c1f1fac827ff640ed8e2e6c9a2",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -377,14 +377,14 @@
               "text": "Excusez-moi"
             }
           ],
-          "audio": "audio/fr/marin/229aec90200c3e90cba8d3c1.mp3",
+          "audio": "audio/fr/marin/e8d4cf892da3aecc382253af.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Excusez-moi.",
-            "sha256": "f83bdb07de26c503af18d361ac553cf6762e39a410cf4ee70c9efd0fd4fffe53",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "52b9140179798f4e2725d41f26e617584eacd50215c0fe401ce7b5d42d4bd5b9",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -405,14 +405,14 @@
               "text": "journée"
             }
           ],
-          "audio": "audio/fr/marin/1a95af6b884fe6d87df14d74.mp3",
+          "audio": "audio/fr/marin/11b7202d350c8f07c9383064.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Bonne journée !",
-            "sha256": "5d5adc94292a8b3089d2f8b9d468ecf0f17244a82a3a874430e6bb32fe3d3676",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "f265d0888fb645d21de602913ac0111e8304cffaca8e487abc3002d65614fc9f",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -442,14 +442,14 @@
               "text": "cuisiner"
             }
           ],
-          "audio": "audio/fr/marin/0567880f8698b9222ab68db6.mp3",
+          "audio": "audio/fr/marin/41bfad4f323bba784fadc58b.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "J’aime cuisiner.",
-            "sha256": "ba4cfafefb616fde9c645758fe148d593b2e063ae58950941c042e99927c7a7f",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "7a2dbec01aaed1a7a3f934ba02f8eff64af74aa189c351b4502eb8e280bc28b2",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -474,14 +474,14 @@
               "text": "gastronomie"
             }
           ],
-          "audio": "audio/fr/marin/3777ec3e30f7ea8753d5110d.mp3",
+          "audio": "audio/fr/marin/35d463baac5a41e5e796db94.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "J’aime la gastronomie.",
-            "sha256": "e473b73d8eb1a6d6ae34b9f85ab0aa356392fb88886edb120750e5a86a75d9cd",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "7d5601c40f6eb3ada4eca5bd0f93a982fdb0342db8ec047af0604787a95caf80",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -502,14 +502,14 @@
               "text": "Paris"
             }
           ],
-          "audio": "audio/fr/marin/491db24e800cbd930f83927b.mp3",
+          "audio": "audio/fr/marin/17e6f5dbb57894cb861dc7a9.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "J’adore Paris.",
-            "sha256": "500431ccf57c63f9fdd0bd7eadca92679431c9cc1e4210d2c6a8f8222146ccaf",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "7c84c2c4f5dd7631b1dea9a776c693951750b1e869dc392f780f832638577886",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -538,14 +538,14 @@
               "text": "m’intéresse"
             }
           ],
-          "audio": "audio/fr/marin/7865d6515c83c9467bb5e0ea.mp3",
+          "audio": "audio/fr/marin/78d537c62a99b49265cf690a.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "L’histoire de France m’intéresse.",
-            "sha256": "7879e6df433735b77f07b9cb0e4d5dc02812ab99c00fd874bddb1245829c650e",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "9471e6e272052710fc366f85188c2f8e50d28ba420db87ee98063aa0a1075884",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -595,14 +595,14 @@
               "text": "plaît"
             }
           ],
-          "audio": "audio/fr/marin/4346325a3afd3c12032e3469.mp3",
+          "audio": "audio/fr/marin/44a5581191efdcf44d2516f2.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Je voudrais un café, s’il vous plaît.",
-            "sha256": "46b0babf9b43aefb4b63628d6afb71f9637d5f31d0353115a738c33d9cc62518",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "88e0add8012e11e04715e751efbafa1350f1aceaf6f6ea11750c63d7442328b6",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -635,14 +635,14 @@
               "text": "plaît"
             }
           ],
-          "audio": "audio/fr/marin/9b38bd1ddb1120a10c836bb1.mp3",
+          "audio": "audio/fr/marin/42dbc6cb48d4056175bd8155.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Un thé, s’il vous plaît.",
-            "sha256": "b68ff09f08d4cafe93d648f1bff9f72fbe2d07b539eb02740850719af4d2ee57",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "daacb2aba1f14ee7935709bee5ed749ce5621fac629cae6aaf15f1b341a2a687",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -667,14 +667,14 @@
               "text": "lait"
             }
           ],
-          "audio": "audio/fr/marin/2a975802542831876d8f7b58.mp3",
+          "audio": "audio/fr/marin/e14ea8e9b01d32ad47aad82d.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Avec du lait.",
-            "sha256": "4e3dc3ad1290d317c253ea30394b8822e86c975fc480791bdf76d78d43afbf84",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "c2293c68895ede2c2d57dd052935d61e4b566fbce0605646f6937c06077e881c",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -703,14 +703,14 @@
               "text": "plaît"
             }
           ],
-          "audio": "audio/fr/marin/a1cc5458f57f1d2b0ee99a2d.mp3",
+          "audio": "audio/fr/marin/f8f4395c94d311f42b1f16df.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "L’addition, s’il vous plaît.",
-            "sha256": "0bb4ebd5d0c93b8cbc90d93ff52fd82fb3bab1f4f7c7026ca3feefc44428b830",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "59e530f60a84d7d8d1c978b059983c7a175ad4ff25eec56de74b867c914edaab",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -752,14 +752,14 @@
               "text": "plaît"
             }
           ],
-          "audio": "audio/fr/marin/883263bb2a63982e707e09f2.mp3",
+          "audio": "audio/fr/marin/1f5910b00472f5399f83b8b6.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Une baguette, s’il vous plaît.",
-            "sha256": "fe2a79f9c08acf1025549ca87de082c720096c518d155f09697377ff0e89ee0c",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "f2ac60152b478390c5647a50a0a51f19bdda03ecb0f8a963a408dd1d5e19cb7e",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -788,14 +788,14 @@
               "text": "croissants"
             }
           ],
-          "audio": "audio/fr/marin/06de2d0761b231dcac818b36.mp3",
+          "audio": "audio/fr/marin/94f7ac58119b389867258ad4.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Je prends deux croissants.",
-            "sha256": "2e3f032fb04439fb3cf9fea88b04e6cdd68b4e37c857654be7657f1f86794924",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "ed5a8dca42e62bc4051f8347e461de8a315237e38e261ba30352d39b384189c0",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -823,14 +823,14 @@
           "accepted": [
             "C’est pour emporter."
           ],
-          "audio": "audio/fr/marin/22ef0d78cb6ab31ce94648ae.mp3",
+          "audio": "audio/fr/marin/25090a9ab1e5e37728a38ef4.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "C’est à emporter.",
-            "sha256": "296b03283b755f9b6f33fe278681f353150fd7870f3667953b9c50b98064fe81",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "265b2336784784f36f4a8d7d738ac753548a960405fec607b320626721d910c8",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -855,14 +855,14 @@
               "text": "coûte"
             }
           ],
-          "audio": "audio/fr/marin/9b8042c4650ce7d4fed7bccc.mp3",
+          "audio": "audio/fr/marin/6ffc9c6a047df2cc2a3dbbac.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Combien ça coûte ?",
-            "sha256": "17a3462487d54ca1951bafb942f74d74aecc26e6d6024072da0fd81fbbe8be4b",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "9746a0c66db9589c3fbd1d6643d5b5000f45c10c79f2aed4135a351071bf130c",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -900,14 +900,14 @@
               "text": "tomates"
             }
           ],
-          "audio": "audio/fr/marin/6c7c9980716502a4fa4937fc.mp3",
+          "audio": "audio/fr/marin/6bded3c54f97865d6a59831f.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Je voudrais des tomates.",
-            "sha256": "4ad1fc499acf011390f10bca8f1bac3800f5f0fde6d878347718e57ea40142a2",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "12832c2196cf566d2bd5b83f2e96055f5a5c14f280fce701465ec456ab26a0e6",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -948,14 +948,14 @@
               "text": "plaît"
             }
           ],
-          "audio": "audio/fr/marin/2c0b5c6ab243e134f2358d73.mp3",
+          "audio": "audio/fr/marin/49a98976aebd7f1ca88b8dfe.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Un kilo de pommes, s’il vous plaît.",
-            "sha256": "7747cb7ec6aa67acf298453719996fc5f0089676258988237cc3f9877cb9b2c8",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "16f1f60f0d941067ccb337ef969e1c5a9799eb9aadd5116094f0071684d8204e",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -988,14 +988,14 @@
               "text": "fromage"
             }
           ],
-          "audio": "audio/fr/marin/28247a8c79823a6a04892aa5.mp3",
+          "audio": "audio/fr/marin/b2c46c2f51c73f8e6e3957eb.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Deux cents grammes de fromage.",
-            "sha256": "2005ed9eb41ecce3bd14f56eb049d33d4efe19a2e0092e407f6d0bfad754a865",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "3f7f169740556e46a627866929b8f3fe09298f4e6cd9dfa3c5f0e2b196ec3ad2",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -1028,14 +1028,14 @@
               "text": "saison"
             }
           ],
-          "audio": "audio/fr/marin/f188aeb2fcfbe6ed13c81ccb.mp3",
+          "audio": "audio/fr/marin/020278f6254f8c3d7d5a539d.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Est-ce que c’est de saison ?",
-            "sha256": "1d15e2172ca8f1b6fb0c4a5eec42e5ddd8e8f2851f91a02282db55a1565ea56e",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "b52d059139da34d94005d2ad9e36d829d3c5bca52241a67a3afa449cf125ad58",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -1077,14 +1077,14 @@
               "text": "personnes"
             }
           ],
-          "audio": "audio/fr/marin/351d7522d5be5ae6ad465c4c.mp3",
+          "audio": "audio/fr/marin/505fecba6aa8b0b30b810fa9.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Il y a quatre personnes.",
-            "sha256": "7ca2742523efbcecd37ea48964045f85319eecdf8bb3aa9ede676d096b4c04f1",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "c810a05ed54d32f0da3c65181f8a4e20376e0843c3262a27652019ee72a2b71e",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -1113,14 +1113,14 @@
               "text": "œufs"
             }
           ],
-          "audio": "audio/fr/marin/e2d8fba387dbd9e1574ad0f7.mp3",
+          "audio": "audio/fr/marin/91963539b93b4de1ddd99818.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Je voudrais six œufs.",
-            "sha256": "119cecd28377f4826a4a6e9c13f3a55ab792dbaa9fe79d2be800fdf8b181bb4d",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "b808ecadac6f195e03ef9026877b1d3e02cc160c3630a6e7893629857f1a909c",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -1149,14 +1149,14 @@
               "text": "euros"
             }
           ],
-          "audio": "audio/fr/marin/75cda827ab409f2d13b1e9dc.mp3",
+          "audio": "audio/fr/marin/16382b7efea5b2e05f032fa1.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Ça fait dix euros.",
-            "sha256": "ef41dd64a11fa0de04b1dc4f389a40dda3912abfa40a046837a9bb69c9ed53e7",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "0bbf1c0b2997512bfb6c8f454a8ed1ce51d376c017dc92c8347b4247709b55b5",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -1193,14 +1193,14 @@
               "text": "plaît"
             }
           ],
-          "audio": "audio/fr/marin/b670d25331285ed02f19d78a.mp3",
+          "audio": "audio/fr/marin/071b22e3eb84e7f820712921.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Trois euros cinquante, s’il vous plaît.",
-            "sha256": "909d851d9ea0244e56eb986342fa0a5fa45d49bb7d93c471e547311688577623",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "822fc0706a88b4f028b7dc81a8aef17746096df295298a819c35804b6e422b91",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -1242,14 +1242,14 @@
               "text": "couteau"
             }
           ],
-          "audio": "audio/fr/marin/27d812d4d4ea70e4067b9c71.mp3",
+          "audio": "audio/fr/marin/37999fecb9e4b0f9a4bceaa6.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Il me faut un couteau.",
-            "sha256": "68bccad69ee9de54bf20213cac90d82ceef48b1058f58b1208478ff4c146a86f",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "ac8d867a5dfe9d7c318bb39b2907a59e1fccf9f0df54a9d95f4fcd616ed1f022",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -1274,14 +1274,14 @@
               "text": "légumes"
             }
           ],
-          "audio": "audio/fr/marin/af4cbe0d3f09a27d81367e26.mp3",
+          "audio": "audio/fr/marin/4d35061f314503e999c44c37.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Couper les légumes.",
-            "sha256": "26b274fef4cdb8d3ac3df900b1791a243078b7845b508239b625bb7ab256011a",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "56adb77c3613652e23af7910590bfa61711d7d9cc4cbb83fac77b2ad75617c53",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -1302,14 +1302,14 @@
               "text": "doucement"
             }
           ],
-          "audio": "audio/fr/marin/de35214ac689a3352bd38c8b.mp3",
+          "audio": "audio/fr/marin/cc2c9a89b6259ff4b81e5a7f.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Mélanger doucement.",
-            "sha256": "396852941fc72c40bf8cca570501f7612e5e57998e9e40aa6e1b4c8939eba11d",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "74a7d235b633489a1024b60f88c1bdfecf37503d38d052e8fcc12337f9382127",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -1334,14 +1334,14 @@
               "text": "sauce"
             }
           ],
-          "audio": "audio/fr/marin/54324c1d4a47dea344e7456f.mp3",
+          "audio": "audio/fr/marin/a24ac16798444064ca34b120.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Goûter la sauce.",
-            "sha256": "eec00c1f60fd96be60e55a1681f2d431688cc83aede20b0c678a84357e57cd3c",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "6ef9fdb6ac4f6de179fdc6a3ccb467cca6200ced2ddda6cdd127852fc6c28448",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -1373,14 +1373,14 @@
             "explanation": "The sauce is stated or directly supported by the passage."
           }
         ],
-        "audio": "audio/fr/marin/a062d320aa58432af1037a54.mp3",
+        "audio": "audio/fr/marin/9b27c0dc3e871b5508e0c55d.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Carina prépare une soupe. Elle coupe les légumes et mélange doucement. Elle goûte la sauce.",
-          "sha256": "9073d80f5d3b654b85d9d0a518c4ab52e917fc496a954b24ff38f131171b0659",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "49398a6468f8e4054ac26c7f5ada597308047d12b126a91d93bee0166a25867f",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -1393,14 +1393,14 @@
           "I have tried the words from the lesson.",
           "I can explain what my sentences mean in English."
         ],
-        "audio": "audio/fr/marin/d68cbf78418ac4930bea1208.mp3",
+        "audio": "audio/fr/marin/1b3783b7ff817155201a797b.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Il me faut un couteau. Couper les légumes.",
-          "sha256": "756de5e42aa3796c9ceabd78d96a720d5bc23a400b3f098d2cf2364fbfaa57cc",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "946e94c09c9db573b42f29000fd00b84de4bb557d8ca6001bb7a9cecdb1a6336",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -1441,14 +1441,14 @@
               "text": "d’huile"
             }
           ],
-          "audio": "audio/fr/marin/2972f04b22b9200a310556b8.mp3",
+          "audio": "audio/fr/marin/1796907d885e21ca81b3bec7.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Une cuillère à soupe d’huile.",
-            "sha256": "91f2cd3cbdea70142b7f18eb5db0acb36b77a762c53ed9ff6a039ceb8bbf332d",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "dbb487e44664d08f98382edd467203dce4b3cb5a35b31177ac8f54f296f66705",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -1485,14 +1485,14 @@
               "text": "sucre"
             }
           ],
-          "audio": "audio/fr/marin/1168cf0257e381b05963ffad.mp3",
+          "audio": "audio/fr/marin/5d9a75d606d6bc27de6a4d94.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Une cuillère à café de sucre.",
-            "sha256": "7b6e27f19c60f234de569228f7e38e9e5c7181feb5248197bd80d0527c6fda71",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "f3df670ce50492b8bf13b25ff1c269836739c6fbab58b64b7ba38b257111cfc8",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -1521,14 +1521,14 @@
               "text": "lait"
             }
           ],
-          "audio": "audio/fr/marin/b0c69ee01c246e64f93dac0a.mp3",
+          "audio": "audio/fr/marin/7b6de3a08e07cc3f3f2126c2.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Un demi-litre de lait.",
-            "sha256": "2621d99355f4dad41e6cb1bc35a4e0f3592fbc703ec2f745ade42665e418b8d3",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "9236247a2586feba5725e391996065edd573ed0206ebf8d013b1792327bd9918",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -1557,14 +1557,14 @@
               "text": "sel"
             }
           ],
-          "audio": "audio/fr/marin/98766e88408a9a14747323dd.mp3",
+          "audio": "audio/fr/marin/f49735a094277a88778ed3d2.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Un peu de sel.",
-            "sha256": "acf9b90d69ef9b61f154872d20100f742ab95a52d27001ed12fcf936f7b4f7f5",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "0d44bbf4de5f011efad6f9aa17160b1501efd44c8960cfa3fded31d0f11a7e1d",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -1596,14 +1596,14 @@
             "explanation": "Sugar is stated or directly supported by the passage."
           }
         ],
-        "audio": "audio/fr/marin/1039b7c9d47098a313da22d1.mp3",
+        "audio": "audio/fr/marin/abd0ad0ae53607be562fa72e.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Carina mesure un demi-litre de lait. Elle ajoute une cuillère à café de sucre. Elle mélange doucement.",
-          "sha256": "c4017e8f8a298a7d3f4b0183f2438183037fb9f3535ec5efaa33fea79b0e6a8a",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "2af3072466ba0cc827168b4ed375bf020032f0b200c99388306ce70c996fb70a",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -1616,14 +1616,14 @@
           "I have tried the words from the lesson.",
           "I can explain what my sentences mean in English."
         ],
-        "audio": "audio/fr/marin/76adee07ad52ceabf9aeeefe.mp3",
+        "audio": "audio/fr/marin/139ddf8651f9ec2c3940b531.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Une cuillère à soupe d’huile. Une cuillère à café de sucre.",
-          "sha256": "205b17c434a22276b6f839736e5625d1dfbcc10b64aa1e329695ff87439afe15",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "9b23c3601d93c0828413c2642d9504dda5aac326e7f27124c45544bd9f1cfe80",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -1652,14 +1652,14 @@
               "text": "délicieux"
             }
           ],
-          "audio": "audio/fr/marin/ed2554a4f0ae2d8c73f14646.mp3",
+          "audio": "audio/fr/marin/0bc092f92818f91982cea2d6.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "C’est délicieux.",
-            "sha256": "bebeb9f3b799c7373e8ac92d7f1d3c6e9009270e038abf1735bc54c56e542e2e",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "b919f5653cc27de5736435733430271b6e35c56368f7aae8c85d0e8480933a76",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -1688,14 +1688,14 @@
               "text": "sucré"
             }
           ],
-          "audio": "audio/fr/marin/a7e48b4874b114029919ea22.mp3",
+          "audio": "audio/fr/marin/9fe8fc83f4c0bfd91db652fc.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "C’est un peu sucré.",
-            "sha256": "5d116306d9c65e65e7741fc647eb13c12a6c360561f5cbb3df99807da42838c2",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "ca60fcbc98bb7ec37da605c47fcc2cff53076e41c27d0c7fd61135a3bdcd4852",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -1728,14 +1728,14 @@
               "text": "salée"
             }
           ],
-          "audio": "audio/fr/marin/2f6c1d9e39f079d3afd427e1.mp3",
+          "audio": "audio/fr/marin/b0a631c8a880e17528c04c23.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "La sauce est trop salée.",
-            "sha256": "f5e98f8a9af6777b2ead9941eedf5f91bdb8a7a0d844448910e0bf2112b523f0",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "07976db4df9a29e8e5b6e3aceef63f98d866d7d704a87bef98cac08c1f5c82ce",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -1764,14 +1764,14 @@
               "text": "délicates"
             }
           ],
-          "audio": "audio/fr/marin/1b42d72c697efc8e1f685846.mp3",
+          "audio": "audio/fr/marin/730c196c8bae29967460a0b4.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "J’aime les saveurs délicates.",
-            "sha256": "c28c3f481e37634f4f8ad1d4f29f48b60dbf7bec0c0513bbc9b43e892afe763f",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "7ced22b82c882653ffb12bc303f763257507c80bf88ee88a16b212dd2172c45d",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -1803,14 +1803,14 @@
             "explanation": "Delicate flavours is stated or directly supported by the passage."
           }
         ],
-        "audio": "audio/fr/marin/ef30d88146684905ad00e427.mp3",
+        "audio": "audio/fr/marin/5293307d1f422cf1a0c5fd3b.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "La sauce est trop salée. Le dessert est un peu sucré. Carina préfère les saveurs délicates.",
-          "sha256": "39ffcd0b0b63da826dabc65dc6d9e12cf35e7a7fa538c34b81a69da50d4ca789",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "640af7027cacf38f4924a54639965ec1028c82b21180fe6c1f8f62aba2b7dec3",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -1823,14 +1823,14 @@
           "I have tried the words from the lesson.",
           "I can explain what my sentences mean in English."
         ],
-        "audio": "audio/fr/marin/51f190445be9e8b37130e94b.mp3",
+        "audio": "audio/fr/marin/ea712fc52cbd9627fcc724eb.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "C’est délicieux. C’est un peu sucré.",
-          "sha256": "ce54f87746a665fb1ebe2a32f1654f92a0381a3b7dca6d43a14bf5a2fe7252a9",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "e1432ab331b7fdd574bbfdb8d76a2fbec9e626d32fadfc95e9dd0926b192aef8",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -1875,14 +1875,14 @@
               "text": "pommes"
             }
           ],
-          "audio": "audio/fr/marin/a0eb5a9f9314be8b3a812be3.mp3",
+          "audio": "audio/fr/marin/04b532cf7597661ca4eeb3d2.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Je préfère la tarte aux pommes.",
-            "sha256": "8eee86fb0ce592be96bf903ef4eeb1541e976625dfbebac2766e6d56ffb77fe6",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "638c9b16c91333a6018ce20a115b8256f403cf75da544dca13cb4bb9219531a0",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -1911,14 +1911,14 @@
               "text": "chocolat"
             }
           ],
-          "audio": "audio/fr/marin/424d1b5ac1d8e778ce2c7aa5.mp3",
+          "audio": "audio/fr/marin/a0bc1b19ad7f3771dc758ffa.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Vous aimez le chocolat ?",
-            "sha256": "b6d0e5e3320b7d35c9f8dff955f456103c47327ab14fedfddc1741ebc9ec199d",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "cf3584b724c68f731f3b28a6e0c37fd317e290d56bb019e564ef08aeb94281d5",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -1951,14 +1951,14 @@
               "text": "maison"
             }
           ],
-          "audio": "audio/fr/marin/5e5fa5ddc2ed98974904de5d.mp3",
+          "audio": "audio/fr/marin/5adb7be41fa732c52376abae.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Ce dessert est fait maison.",
-            "sha256": "037aaa7bbe6dbcf020a344ae05559dd75e9c815bb3f8492d81b41280af344b2b",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "cd4b57989a49db33d7908296b97349dc8e8625156180dbc108ff6a14c7130737",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -1995,14 +1995,14 @@
               "text": "plaît"
             }
           ],
-          "audio": "audio/fr/marin/bc763e02890fce662ac8aa89.mp3",
+          "audio": "audio/fr/marin/6228e3e4a83b1199434b090c.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Une petite part, s’il vous plaît.",
-            "sha256": "ccfe9a8aa43a6c4b38be16bf878f616c407f7fba1cfa6246e890c223cc39ae43",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "0f88bc6b63923d4a58fdc46dec2bd0430bf620a02a10b8527ab4df5e114cfe6c",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -2034,14 +2034,14 @@
             "explanation": "Apple tart is stated or directly supported by the passage."
           }
         ],
-        "audio": "audio/fr/marin/a301233099efeb6769f4eafd.mp3",
+        "audio": "audio/fr/marin/0f65ac01d70e8fbe2d950caf.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Le client aime le chocolat. Carina préfère la tarte aux pommes. Elle propose aussi un dessert au chocolat.",
-          "sha256": "9dd249c37c32487b3943d81f67ba62cafbedba5e4dc9c486e9f63bb038a7daf7",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "5388dc94d300e20b9b4bfd83aa0b0021837de4baf7ec23849b883b6c30953a2c",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -2054,14 +2054,14 @@
           "I have tried the words from the lesson.",
           "I can explain what my sentences mean in English."
         ],
-        "audio": "audio/fr/marin/6897fda8e2ce3d5a6c4419ec.mp3",
+        "audio": "audio/fr/marin/8bd66be2dc398b80fd8efc52.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Je préfère la tarte aux pommes. Vous aimez le chocolat ?",
-          "sha256": "6c99dc1fb5c5bba95ea5ef76e04b1888c9559d6fa2cbd01df15222f03e52bb26",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "87758fada458c96b77bdb3623e6988052c65f387eedf955b6aee3a3d2f0b6798",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -2098,14 +2098,14 @@
               "text": "buffet"
             }
           ],
-          "audio": "audio/fr/marin/3135df8d83f9092a1e6c8e1c.mp3",
+          "audio": "audio/fr/marin/ed75f2add082398b64ff30e2.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Vous souhaitez un buffet ?",
-            "sha256": "76e6cea6f3b2dcb7c8dbedba5999001528ee34c401f26fa2c5049b3fd98680d0",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "9ea8f1e3a0b76a09496a1946fb4c2cf36d1f4b246148672cd53d5727f0f95d7b",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -2134,14 +2134,14 @@
               "text": "personnes"
             }
           ],
-          "audio": "audio/fr/marin/31ecfb99cf08c0c30f4f582e.mp3",
+          "audio": "audio/fr/marin/ac44a5e422b4448931a294c6.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Pour combien de personnes ?",
-            "sha256": "f38702be4b1e066a6f8c5d6543916372cf9af76cdfa09e1a054a275aab83c88c",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "2ced46a4c0d3c9f6bfaa595eb4fe81efd97ef5f14a5db430816269b1f4470620",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -2178,14 +2178,14 @@
               "text": "l’événement"
             }
           ],
-          "audio": "audio/fr/marin/a8fa33c7366fd4c2953d92b9.mp3",
+          "audio": "audio/fr/marin/0b5776d1ec7939d7bb5ee352.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Quelle est la date de l’événement ?",
-            "sha256": "1747a673a768f6a987237faf5b2d7104f219c8ee68c69a378e66fb1e92a447b9",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "ddd8d272c93ea78f448c4cdccf21af983435c8665b6912c8c77ad9c47be1e00d",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -2214,14 +2214,14 @@
               "text": "budget"
             }
           ],
-          "audio": "audio/fr/marin/f490ecae150a32d9cc5e9fa9.mp3",
+          "audio": "audio/fr/marin/f63fee6c5ca16a56a093600f.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Quel est votre budget ?",
-            "sha256": "9674383cd82842cf50cdb4ea1237457bbc54ce8701b5426446bf29fca9eebe86",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "f6321642a489fdb731b2bf4077932065c067efbcf9ec417b00d97033656b823a",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -2253,14 +2253,14 @@
             "explanation": "A birthday is stated or directly supported by the passage."
           }
         ],
-        "audio": "audio/fr/marin/4170644df5d897a418712fae.mp3",
+        "audio": "audio/fr/marin/977c0fe6b9cb46dec2eea9cd.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Une cliente souhaite un buffet pour vingt personnes. L’événement est un anniversaire. Carina demande la date et le budget.",
-          "sha256": "10040cd50fb05e03dedcc0c69cebdb583be05d164fbfa56fd601dd9c0b478f9a",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "6b1519808d4143db6369a4d2545315a9690b9dc3700c2da0dc31b12257b14cb1",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -2273,14 +2273,14 @@
           "I have tried the words from the lesson.",
           "I can explain what my sentences mean in English."
         ],
-        "audio": "audio/fr/marin/915fdbb56b77fdb7b3827112.mp3",
+        "audio": "audio/fr/marin/bfb30ec5a28188dbf45f86cd.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Vous souhaitez un buffet ? Pour combien de personnes ?",
-          "sha256": "2d74f7142b0d09deee265f30119e3f0b26f6e3f4b37e7ef5545630185c11ec05",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "49426fabbe94cfb2a99df8a892bb034db7cfa38330c3201523acc27fb9a6d0e2",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -2317,14 +2317,14 @@
               "text": "alimentaires"
             }
           ],
-          "audio": "audio/fr/marin/a6ee39031bdaafb96faf0d46.mp3",
+          "audio": "audio/fr/marin/3a4a628a6084dae8c9ab196a.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Avez-vous des allergies alimentaires ?",
-            "sha256": "118edae2345989cf59d3a98eaa6a7c6ab188a84949d48de9cd3fbfc1ed5a955e",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "bc3dee368d7f442c35b172e18e48634eff978c62a898c297a2e62c4b87d9dd62",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -2357,14 +2357,14 @@
               "text": "ingrédients"
             }
           ],
-          "audio": "audio/fr/marin/54833fbd24a14242cfe1abe7.mp3",
+          "audio": "audio/fr/marin/16101e104b92c0cb028fb133.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Je vais vérifier les ingrédients.",
-            "sha256": "f3e15f3ca8cc5d16338e2c93344ce5b906ca4df2effec6e8d5cd8d4a51e85d70",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "d71a172e0ab06c2f8574f23a8fd87834b8665f59bc31befc42a3fde759602a2b",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -2397,14 +2397,14 @@
               "text": "végétarien"
             }
           ],
-          "audio": "audio/fr/marin/f54306a2c6fda35b11c0bf9d.mp3",
+          "audio": "audio/fr/marin/98349cf094a679f24760a2e1.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Vous préférez un plat végétarien ?",
-            "sha256": "208d4ad5a250275447420cdc41f3ea1360db5eaee78bed577524e77c5ac2ff59",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "d62838d5a75c432f09d68ab1a1cdbb671a44761a24b62bec8af66095398c395c",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -2437,14 +2437,14 @@
               "text": "lait"
             }
           ],
-          "audio": "audio/fr/marin/0ea0544d1f931633d9e2a588.mp3",
+          "audio": "audio/fr/marin/a8cba1318f081ef5efe48ddb.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Cette recette contient du lait.",
-            "sha256": "b24c86ee605df0e6575a39566cff3a7e698fed064295f300ab262f6e01fc37b0",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "1b03c77e2eaadaa525f5e7cf127182ba7795be56507608acdbfc097c25d21891",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -2476,14 +2476,14 @@
             "explanation": "The ingredients is stated or directly supported by the passage."
           }
         ],
-        "audio": "audio/fr/marin/7c5097b71369591574d57924.mp3",
+        "audio": "audio/fr/marin/54be2de66c7facbd99563794.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Le client demande un plat végétarien. La sauce contient du lait. Carina vérifie les ingrédients avant de répondre.",
-          "sha256": "cf99d5e3df5c9cfe7e455eb8560c455e729f261e145c0ffcc93c1ad84bc423d5",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "314825ef98e7b631c9a8cf93d1947cdf0fbd8c67ba3a9ced895dd5a49b4d5b3f",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -2496,14 +2496,14 @@
           "I have tried the words from the lesson.",
           "I can explain what my sentences mean in English."
         ],
-        "audio": "audio/fr/marin/2161fab6d822b5aaa4e7b118.mp3",
+        "audio": "audio/fr/marin/f2f355cb1b20dbc7082e1282.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Avez-vous des allergies alimentaires ? Je vais vérifier les ingrédients.",
-          "sha256": "5cdf56ebad4341afd47dc2dbe123f8c0253e66206d8fb48a31cab131364c4b69",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "daa0e693d5945802b03d560daf10182ff8ec91e887d56337f46ee1441ee2b93a",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -2536,14 +2536,14 @@
               "text": "merci"
             }
           ],
-          "audio": "audio/fr/marin/c73475c68579ef26a72bd46a.mp3",
+          "audio": "audio/fr/marin/2e1a4e359a0e83a860326cce.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Je regarde, merci.",
-            "sha256": "f807c9b29f5ec1ae0467b8d6cd18fa67083f36ad609be56eaab77e7692d81b7a",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "44bd633d7425cdb88b15fd3f4b4cad972cfde9a847716732d476931563bf830c",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -2572,14 +2572,14 @@
               "text": "sac"
             }
           ],
-          "audio": "audio/fr/marin/5fedef404c948f944eaa7cf1.mp3",
+          "audio": "audio/fr/marin/d878ebfb3ec3e958655b4366.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Combien coûte ce sac ?",
-            "sha256": "ce3e046b72ae66a539636d5cb94d8c0bd8287ba06c733b47b4dc593132d0746b",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "c6048edc675ab14c87c07e8d235ee8ddd3780c2bfb1babac4748bb6664bdda47",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -2604,14 +2604,14 @@
               "text": "couleur"
             }
           ],
-          "audio": "audio/fr/marin/743cb79a107b97cb2ad166f2.mp3",
+          "audio": "audio/fr/marin/9750181a277db25c3bb8967b.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "J’aime cette couleur.",
-            "sha256": "bb3c5b5dad8352489a75bcee8f2cf9aefd28c8b930bbeeefa7be577411ad8715",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "204db2b11338239342e60b808caba733d7bc0f56dc97dd9202593c8ec3297ac2",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -2644,14 +2644,14 @@
               "text": "carte"
             }
           ],
-          "audio": "audio/fr/marin/8078e806ec85c505cb6931ea.mp3",
+          "audio": "audio/fr/marin/e6407a9c2ed58766fb7a6eec.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Je peux payer par carte ?",
-            "sha256": "911b078f9266adf2678964e6b1290dcd4eb493d7a6c8516d3a5606cf3a7bf15c",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "115b208d8684f6f5b20824ab4c0b40a9d78f9d51db25b8510e3e93fe208e27fd",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -2683,14 +2683,14 @@
             "explanation": "By card is stated or directly supported by the passage."
           }
         ],
-        "audio": "audio/fr/marin/d016abc0d2a770e1faa552b3.mp3",
+        "audio": "audio/fr/marin/58ee12c452847beeee07a187.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Carina regarde un sac bleu. Elle aime cette couleur et demande le prix. Elle souhaite payer par carte.",
-          "sha256": "b646ce729ba8a816db14da0186caf5bab8cbb08f0fbcdad446ee2a1dbafb9762",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "e7e420fcb9849d0308b5e467dd2ac862f960532f4954e6995d3c8a70d3cd2b77",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -2703,14 +2703,14 @@
           "I have tried the words from the lesson.",
           "I can explain what my sentences mean in English."
         ],
-        "audio": "audio/fr/marin/b932122e21feba5376e90ee2.mp3",
+        "audio": "audio/fr/marin/551eda4dd6721e68c6aa4be0.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Je regarde, merci. Combien coûte ce sac ?",
-          "sha256": "d3a0b539d585cd0278092138075d47b9be5d6411b834cb8bddd38f260ac6b6d2",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "ea076066f771feab167ad681fe4e651b5cca72a7afe56b66cae2f34de1bf1b7e",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -2751,14 +2751,14 @@
               "text": "robe"
             }
           ],
-          "audio": "audio/fr/marin/bac6115acbd2bbfd560ab878.mp3",
+          "audio": "audio/fr/marin/ee262a38ee2b481d32b45a8d.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Je peux essayer cette robe ?",
-            "sha256": "fa075b311d607d3a3031b00b51419cdbe4b09651c5df010de8e33cb4878df54b",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "bb0bbe940d00156ba311d0086e264549179b6dba440d28b86afe093d88914edf",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -2791,14 +2791,14 @@
               "text": "d’essayage"
             }
           ],
-          "audio": "audio/fr/marin/686df41b4c23c8ead882e4bd.mp3",
+          "audio": "audio/fr/marin/0f976307b4f2475197d6b7b2.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Où sont les cabines d’essayage ?",
-            "sha256": "56db35bebf43d97144ffb2c5e6d161bbb5723f4a0ce6bc6a400d2f1f2fb4d63a",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "c4a751dd1895cea7f5316be3753ab3488d06a74a05942c60ec145259b681d4a9",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -2835,14 +2835,14 @@
               "text": "grande"
             }
           ],
-          "audio": "audio/fr/marin/26e6e33219d04ad0d9acd479.mp3",
+          "audio": "audio/fr/marin/172885bb93653e2827cfd406.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Vous avez une taille plus grande ?",
-            "sha256": "05db2a9d28d95c5fc5a3bd5aed1af7c80e2fb722126c0b8224ef50adea86bb25",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "ba7fdd71d824d361b668b64490204cb6e953e6e90b7eaa73dcd4f2e4dc2b2ca6",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -2875,14 +2875,14 @@
               "text": "petit"
             }
           ],
-          "audio": "audio/fr/marin/b894c18b5bc4ee084d339665.mp3",
+          "audio": "audio/fr/marin/1898b676a9f0c26fca3a2492.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "C’est un peu trop petit.",
-            "sha256": "86b85c0c914543507cd1a822bcc95f64b45dcc9124e7f5f09c38f0e227afe36b",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "8b36a9ca30d85742e557255e54b9eb221c0d96c799353c232581e9bb59b0f587",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -2914,14 +2914,14 @@
             "explanation": "A larger size is stated or directly supported by the passage."
           }
         ],
-        "audio": "audio/fr/marin/323e2ace090586a59cd4d51b.mp3",
+        "audio": "audio/fr/marin/1bc0a59646a9b408824a966c.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Carina essaie une robe. Elle aime la couleur, mais la robe est trop petite. Elle demande une taille plus grande.",
-          "sha256": "a8279f9eaf9f39857e72d274fc690f3ccb7e444a7fa5cdb57b014ab36a93d5fd",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "1e1c061c630bd8c33a0c56f3e88ddfa037351e5d972e4b7243d426536e475a29",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -2934,14 +2934,14 @@
           "I have tried the words from the lesson.",
           "I can explain what my sentences mean in English."
         ],
-        "audio": "audio/fr/marin/0484385c0b5c136109b85705.mp3",
+        "audio": "audio/fr/marin/593aadab2572dd82d71974ce.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Je peux essayer cette robe ? Où sont les cabines d’essayage ?",
-          "sha256": "7d01ae891414f100a3cc8a87cc13617203d00e6e61a7bb90b119aa1d409b86ca",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "0d6a929230c6027d5403fb6615e6664d877e812f658ea8f5284c42f4e29521be",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -2986,14 +2986,14 @@
               "text": "métro"
             }
           ],
-          "audio": "audio/fr/marin/bba26f55b419ff168d173e96.mp3",
+          "audio": "audio/fr/marin/5131d47c8f7abf1e111910b0.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Où est la station de métro ?",
-            "sha256": "75f5846e2f4f32c411ddd122e3475c8284b74de0cc7dae59c1a601ba4dbdecad",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "0eb8d5562858d7a498064df0fd90ed2b4cde71e91081859c410c9dc9dd07153b",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -3018,14 +3018,14 @@
               "text": "gauche"
             }
           ],
-          "audio": "audio/fr/marin/64ffca5f4b6f97f565fb6570.mp3",
+          "audio": "audio/fr/marin/b243932e06787a896a026441.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "C’est à gauche.",
-            "sha256": "c1cb5ba823efe259e22aa3c8bbb183553e223bc153676c961599ef4d5c55b46d",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "0ed85a48f2922d583c22f3db5573a6bdeab0a8d3c17100205c104046653d7136",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -3050,14 +3050,14 @@
               "text": "droit"
             }
           ],
-          "audio": "audio/fr/marin/df5919c1eb698fde06c9d3b3.mp3",
+          "audio": "audio/fr/marin/a4bc43ab837073b7225a2321.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Allez tout droit.",
-            "sha256": "67e93564a1a1a780e916f33d84894c9e27ee6d2ce72657c3caf2a708bbee3177",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "092bc9b8bfcfe113785a8433f964d2e56ac934b76846d12024a83696dc8fbf4e",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -3082,14 +3082,14 @@
               "text": "d’ici"
             }
           ],
-          "audio": "audio/fr/marin/534db8088cc92c4e874c83d0.mp3",
+          "audio": "audio/fr/marin/41d824b2ee08b247223c586c.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "C’est loin d’ici ?",
-            "sha256": "76aa9226ae8f9f84444d8f52e2ac8228af20be4ef2607f51b964b308d537f8f0",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "1c20bb207b1e54a345e94af3cb29750d30fefb9c2c107660c6be7031f3a48749",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -3121,14 +3121,14 @@
             "explanation": "The left is stated or directly supported by the passage."
           }
         ],
-        "audio": "audio/fr/marin/08d4f4b7b20dae4f9bb17875.mp3",
+        "audio": "audio/fr/marin/402b05e617ca9c68854df7d0.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Carina cherche la station de métro. Une personne lui dit : « Allez tout droit. La station est à gauche. »",
-          "sha256": "3246e699f22122c64d54fb1277e3c26d5465c58e25d11491a3fe3c4f96253b47",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "962251f96efe1d2f09b233499c84c35f5fb7390064b7590b388aad0e48c1586b",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -3141,14 +3141,14 @@
           "I have tried the words from the lesson.",
           "I can explain what my sentences mean in English."
         ],
-        "audio": "audio/fr/marin/e328c2cda990a0fe27512c4e.mp3",
+        "audio": "audio/fr/marin/ee1ab902fa5535f3c0d046ff.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Où est la station de métro ? C’est à gauche.",
-          "sha256": "7fc92eff2e22071c0d0aa7014ac0e42ce7536e4356ec3007caa2bbee4e4585f6",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "b7ce260345688b7af5e6951bf7c3e7093841a01edc0e0dcda3b29c46065bdd29",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -3185,14 +3185,14 @@
               "text": "réservation"
             }
           ],
-          "audio": "audio/fr/marin/197fc8ec283666227e8b5477.mp3",
+          "audio": "audio/fr/marin/e53097eab8ebdb53c13ea17b.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Nous avons une réservation.",
-            "sha256": "9b265d0aca8abe2ed76107a6cf38136f6077d7595fe9427b9feeffd572364af0",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "f723282d1f57a2c6d332e08ae54cb84cc2433abf1991bc36e58f743941cfd7f6",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -3229,14 +3229,14 @@
               "text": "jour"
             }
           ],
-          "audio": "audio/fr/marin/ae839352d998213ea2d1d8e5.mp3",
+          "audio": "audio/fr/marin/009f028afb9a13597eb10493.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Quel est le plat du jour ?",
-            "sha256": "ab50af6707369c263d8a303e0b7e7cf8851f5909d60f59979f5a480628be4da0",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "b3c1d7fa75e86735198dacb1f92a39341d8d876be3fc9afe67739e2832b56b0c",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -3265,14 +3265,14 @@
               "text": "conseillez"
             }
           ],
-          "audio": "audio/fr/marin/af2b8a0d09b1007a467e2047.mp3",
+          "audio": "audio/fr/marin/824adc9665018bfc438122b5.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Qu’est-ce que vous conseillez ?",
-            "sha256": "171a6d70c9a8a0a89beb7fd6e18f125d38d53cc5dae0163869c4074c11bc1b57",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "6b5d305c71da56b02c8421a21363fe930374702b119b139467f3394a36c2b40b",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -3305,14 +3305,14 @@
               "text": "plat"
             }
           ],
-          "audio": "audio/fr/marin/dc326bef0f63dc8a2310c8e9.mp3",
+          "audio": "audio/fr/marin/18851aad0872c4a2b683b7d4.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Je vais prendre ce plat.",
-            "sha256": "83045929803bbda0a740c916e65b226fd1a9b494f1b70d11295b761ee167114c",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "9e2496bffc68d8a1a83795929d1371000e07214a56dd63430582e7218d9ab808",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -3344,14 +3344,14 @@
             "explanation": "The dish of the day is stated or directly supported by the passage."
           }
         ],
-        "audio": "audio/fr/marin/5895c6baec01de8ecdbf3e27.mp3",
+        "audio": "audio/fr/marin/9e4362365b83b3e6fc988149.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Carina et son mari ont une réservation. Carina demande le plat du jour. Elle écoute le conseil du serveur.",
-          "sha256": "0456b36d3e839fe00bc032def0d47f8f82a2a972eb68d14fe93dd6cfff38d6cb",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "da311bbf784529d17eeb99d13a23b1b0fbc1df0f652dce598fdff1f7b919b882",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -3364,14 +3364,14 @@
           "I have tried the words from the lesson.",
           "I can explain what my sentences mean in English."
         ],
-        "audio": "audio/fr/marin/b9515fc14ab0f69b401de630.mp3",
+        "audio": "audio/fr/marin/6338cb0382eadc43b1f617ef.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Nous avons une réservation. Quel est le plat du jour ?",
-          "sha256": "34cf19fbb8ba5f0b209a3ef2285e743521806dda5f110994403f0a5ec715257a",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "38e3175b6c9a42a7d1d0c86d14565bc483c1dd3fc5ecd0b5f55e14ea5c17daa5",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -3408,14 +3408,14 @@
               "text": "magnifique"
             }
           ],
-          "audio": "audio/fr/marin/80387a87c9f5badf6497926f.mp3",
+          "audio": "audio/fr/marin/ac9ff162f3c3601acdb35433.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Ce monument est magnifique.",
-            "sha256": "19704cd6dbd589de8a915a2ce5ae65dccba6702caefa52c78a66c57017eb84f8",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "ca7a72972b5bfc5f669a2e8fa487c1ba6b2a79b95529cdf7b8c4a211f1212d00",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -3448,14 +3448,14 @@
               "text": "château"
             }
           ],
-          "audio": "audio/fr/marin/8cf3df03130466aeb57f008d.mp3",
+          "audio": "audio/fr/marin/ca39f0950d28ff110083a5cb.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Je voudrais visiter ce château.",
-            "sha256": "f511f4bc8c03e341e0274feafae6691d89c6df46a8795ed9b949f1ba9ed9c6d0",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "c0589a1609fcb680ef70bbec4d57213c34967a497b4b7dc6529aec46bb343f7e",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -3488,14 +3488,14 @@
               "text": "musée"
             }
           ],
-          "audio": "audio/fr/marin/b505f5f43f9cd803d8513ad9.mp3",
+          "audio": "audio/fr/marin/399eb7898f26053d4f09c27f.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Où est l’entrée du musée ?",
-            "sha256": "b6d772bba94bad968a30d40c8fba91711a3f24a5eae34d26e169964a62f733f8",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "a8ada397288b26acbc022487d89ec0817b6fb5c6ddbd85237ae31f8e06bc86cd",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -3532,14 +3532,14 @@
               "text": "temps"
             }
           ],
-          "audio": "audio/fr/marin/f5a3a0efcf7e4cc0adfd2f60.mp3",
+          "audio": "audio/fr/marin/20c88b6b6a45295c7d8932e5.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "La visite dure combien de temps ?",
-            "sha256": "2adb676287c3c073a8ccd3a6831e0151bbd8d9047c7dd499956395686233462d",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "8241002e195ec6c996370c38e44df4976f32be0b341cffd7383e8a1d544db1fa",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -3571,14 +3571,14 @@
             "explanation": "The length of the visit is stated or directly supported by the passage."
           }
         ],
-        "audio": "audio/fr/marin/059195b1e30a2dea0c398b46.mp3",
+        "audio": "audio/fr/marin/11dfa680b7b8b450c556af53.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Carina admire un monument. Elle cherche l’entrée du musée. Avant d’entrer, elle demande combien de temps dure la visite.",
-          "sha256": "23634386a9153c40c0236367c06cbb2d56ce709a43365d28349fab4994cd5c9a",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "6cd54077ea80a5dfd7a2f654d5b3dc84660a7637be95e86e1d75c8459eb5258f",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -3591,14 +3591,14 @@
           "I have tried the words from the lesson.",
           "I can explain what my sentences mean in English."
         ],
-        "audio": "audio/fr/marin/9c220f3a9e6d1b9f8601dfc2.mp3",
+        "audio": "audio/fr/marin/698cbbebb3c5abfaa56533c4.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Ce monument est magnifique. Je voudrais visiter ce château.",
-          "sha256": "ccd95a6cbdaf7d92ed75559a7fa83498109cd6481011052139c3607f0cce85a5",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "498653fcd4da6a40108ecf46f0a5198da475f9bd344b8af5d444e869cd976687",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -3639,14 +3639,14 @@
               "text": "reine"
             }
           ],
-          "audio": "audio/fr/marin/24de1d711cc82183e0fb4e03.mp3",
+          "audio": "audio/fr/marin/22b0941aef1dbcc31ae333c3.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Le roi et la reine.",
-            "sha256": "f7c124cedb22e1f0f9ba0532bcf136c1c41bffa55b9a6a7cb4f976ae6069cb79",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "7617442e9431cee9fa22be87d64f9de389e6b1e0b1dd530dc7a864359c30f410",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -3675,14 +3675,14 @@
               "text": "royal"
             }
           ],
-          "audio": "audio/fr/marin/452f5300e36dec753f61810f.mp3",
+          "audio": "audio/fr/marin/47d2041825191c9ee91bc061.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "C’est un palais royal.",
-            "sha256": "91ed6e7fd8485d33d96e2038602c2c70df509088b9652c5550337dd65b1e76b8",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "3d474b630600cc5007f64618067db2246947ebb186e273293ceee092791f7c21",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -3715,14 +3715,14 @@
               "text": "château"
             }
           ],
-          "audio": "audio/fr/marin/1a04918b93828da9272bcd41.mp3",
+          "audio": "audio/fr/marin/ab45d67108c4844c8a98137b.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "La cour vit au château.",
-            "sha256": "efc65857b9c3dabe51fe71e5f662b43d4e408fb7a9820cda8ab4c51d2cd9a27a",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "5af28aa64e4121d4ff659aab48a76942ad33dc6943f3328bcd793a58f8e90cda",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -3751,14 +3751,14 @@
               "text": "histoire"
             }
           ],
-          "audio": "audio/fr/marin/e9c6d0475b4297f576753756.mp3",
+          "audio": "audio/fr/marin/8789621e8395f91ba6a1d711.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "J’aimerais connaître son histoire.",
-            "sha256": "03c16bc0d871b7810fcdb57756e79eb14e81caf1b43a7afe8102854b63c991b6",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "5c4582a1982e3859d7d8348a254f863fd50cbaa9ad5589eafee707903e6adec0",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -3790,14 +3790,14 @@
             "explanation": "The history of the place is stated or directly supported by the passage."
           }
         ],
-        "audio": "audio/fr/marin/4fedf63b30767a9e8c4bc64d.mp3",
+        "audio": "audio/fr/marin/90640fc97df6fe9b0d4f2393.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Dans ce récit, le roi et la reine vivent dans un palais. La cour est réunie au château. Carina veut connaître l’histoire du lieu.",
-          "sha256": "2a9e66d6b813db5df8d2f53ce06b27612b898a478ca813a526bb97974c6a3e6f",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "703c96675a9a49fbd894cc8c043d48e41c95f429b4fc3be6a1864e25b9ae1d2b",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -3810,14 +3810,14 @@
           "I have tried the words from the lesson.",
           "I can explain what my sentences mean in English."
         ],
-        "audio": "audio/fr/marin/63fed9d833cfb165d48ed536.mp3",
+        "audio": "audio/fr/marin/ffdf9d999ca9525dc78493c4.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Le roi et la reine. C’est un palais royal.",
-          "sha256": "c66b3035c7e9595c3b726a6bcff22a26bb315e4eabceedcbf89a331df841162c",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "46958c473e70970f2a7596b29f8527bd26e4744c4d278635259e62d78ee0b691",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -3862,14 +3862,14 @@
               "text": "soupe"
             }
           ],
-          "audio": "audio/fr/marin/a5aa05f8d624ba1b5a52eadb.mp3",
+          "audio": "audio/fr/marin/c33f3fdfc0c6fb9bf75d806e.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "En entrée, je propose une soupe.",
-            "sha256": "685f4e1d2ec75b131e400004c71155823f1ca68a978ceeefc59633c1ce385b74",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "dc6d1cc5a1f3973d5d8a8e5cb7dbe97b46cd23daa2a7bcd95d3c28eb18e98708",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -3910,14 +3910,14 @@
               "text": "légumes"
             }
           ],
-          "audio": "audio/fr/marin/6167c0b95c768f506aea3e36.mp3",
+          "audio": "audio/fr/marin/8e845fcdf4e9af9e54f2bf9b.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Le plat principal est accompagné de légumes.",
-            "sha256": "744ed7f0286d5616ab4ce77a14cd5f8b47143b0be1f2c27b15debfedd5351a8a",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "a362516ca5abcfc75a503286dc5aa84d3136977c4a8ef16eb2a5bf78af140229",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -3950,14 +3950,14 @@
               "text": "dessert"
             }
           ],
-          "audio": "audio/fr/marin/dc29830ee8493775616ea760.mp3",
+          "audio": "audio/fr/marin/ecadd21893cad451d837fb9b.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Ensuite, nous servirons le dessert.",
-            "sha256": "1d87be1c15710ec39b25acf98224c3d36e4c5e486982f5d617de38adff855a38",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "6a7861100816a607c189d3a045cce4e1c270aed95e0a52a5a94af12669cc5a96",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -3990,14 +3990,14 @@
               "text": "menu"
             }
           ],
-          "audio": "audio/fr/marin/08b7106c2b87c67b82f5007d.mp3",
+          "audio": "audio/fr/marin/18565b85f5669d12ec01c4d4.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Je peux adapter le menu.",
-            "sha256": "c63360174789d68084aebbc8041d1824b3305907bf2f6d7f694545033a540850",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "c61135dc0141fb9ce0c5e0d65acf40389067e49fdf8347d3327cf63c1f20e18b",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -4029,14 +4029,14 @@
             "explanation": "Apple tart is stated or directly supported by the passage."
           }
         ],
-        "audio": "audio/fr/marin/caa4bce645a9f22bf31482e7.mp3",
+        "audio": "audio/fr/marin/ea5c610688b8b9fa987d2158.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Carina propose une soupe en entrée. Le plat principal est servi avec des légumes. Le repas se termine par une tarte aux pommes.",
-          "sha256": "06b9eb9015970875a420fb8e45095d9ba25e2469b07e806998e069344cbb7594",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "4163acfc092a8e17b5373890ace81728b10cd96d2ed51b6f8c97a8e70354e702",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -4049,14 +4049,14 @@
           "I have tried the words from the lesson.",
           "I can explain what my sentences mean in English."
         ],
-        "audio": "audio/fr/marin/4b27f31b33247685aef8769d.mp3",
+        "audio": "audio/fr/marin/d762e8bac8060d058ef2bb73.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "En entrée, je propose une soupe. Le plat principal est accompagné de légumes.",
-          "sha256": "7dcb46fe9525b248e050f117062da392cefc3f367ed23631b589b874e4440955",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "57752bfc7cd43f38f45e1f1eb281f4297accb80cc5d320f6742942e72fd27106",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -4097,14 +4097,14 @@
               "text": "devis"
             }
           ],
-          "audio": "audio/fr/marin/8c672e566b7317d6db3b0376.mp3",
+          "audio": "audio/fr/marin/fe85f5f69fd7fcfc513da574.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Je vous enverrai un devis.",
-            "sha256": "b61a0c4a380b07e3ac260c97c3e2cafc2372d96aa6e1eb4221ee566fb9268ff7",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "c7f386e6540d17c163989de5e812bf840660a748180ef541a1b9d3b96a35c34f",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -4133,14 +4133,14 @@
               "text": "compris"
             }
           ],
-          "audio": "audio/fr/marin/470dd3de7d4120604132d68c.mp3",
+          "audio": "audio/fr/marin/85b19c467302b8f3dc3c3bb7.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Le service est-il compris ?",
-            "sha256": "0e990324b79e79fac32d931a366c6a556d0126adf77d03fe7a6828937770a7ae",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "2d6fc61e7978730855e47607c09c399893c2d94fac347b23aa2b1158493a6669",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -4177,14 +4177,14 @@
               "text": "d’invités"
             }
           ],
-          "audio": "audio/fr/marin/d9449bdde365a0d8446dfc2a.mp3",
+          "audio": "audio/fr/marin/fae4023e2ff06d895d889e0a.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Le prix dépend du nombre d’invités.",
-            "sha256": "ad08be3c18b0686a4a8ed987d73290cd2fc1a6861d0fcd9bb42034f967cd5569",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "a86f574bf4a62b7b2deee29cff963bea60329ed6b198393334fa7ba5ad4d9f38",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -4221,14 +4221,14 @@
               "text": "écrit"
             }
           ],
-          "audio": "audio/fr/marin/a69649ae7d0c4bd3117f9893.mp3",
+          "audio": "audio/fr/marin/83cc4215ae65983bbfac7dc8.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Nous confirmerons les détails par écrit.",
-            "sha256": "c8af7c483254c021d51ef9d1f3909969a8adf85b321a854e6b6f870ec5cf4a13",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "9428cc2ffea6fb9e37a5a376044f179d9016ee98e33bb878dd3bebebfd15c927",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -4260,14 +4260,14 @@
             "explanation": "In writing is stated or directly supported by the passage."
           }
         ],
-        "audio": "audio/fr/marin/c2e6c522be77dbea4240205d.mp3",
+        "audio": "audio/fr/marin/27ab5971d0f312c8966583fe.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Le client attend un devis. Le prix dépend du nombre d’invités. Carina propose de confirmer les détails par écrit.",
-          "sha256": "ec759cedbade8e0e772f583987abf1fe85689dbbbf49adcce193fa784db328f3",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "1b98b619b909f91a552660796ae4eeec8b6b7c19a8d683b6c3577ff5fe9a3273",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -4280,14 +4280,14 @@
           "I have tried the words from the lesson.",
           "I can explain what my sentences mean in English."
         ],
-        "audio": "audio/fr/marin/925e2da9662958bea7a90a69.mp3",
+        "audio": "audio/fr/marin/3c89f9ffbdbeb0c4ea2d72bb.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Je vous enverrai un devis. Le service est-il compris ?",
-          "sha256": "e6ae93767c8a54cfb3f34a4b0bab77ef41cfd9ae08ffe57db5c5555dd9403fc0",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "2ef98b6e3a8fc18658f89d6b6e1a29d024ad3b9fd4c8312c8d34e7dbc2becaef",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -4324,14 +4324,14 @@
               "text": "légumes"
             }
           ],
-          "audio": "audio/fr/marin/2fd98fe9132a127e8b6f3511.mp3",
+          "audio": "audio/fr/marin/0c94bb81ea208307d8fc3efe.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "D’abord, lavez les légumes.",
-            "sha256": "78ddfcaab379e80578f11e4436905df5dde4c2a462dc8588d7bcdd7055eaefa2",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "28805df38f9dc8896ea658edbee79494670ed08ba8a43abb66afd4b37422bb9c",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -4364,14 +4364,14 @@
               "text": "morceaux"
             }
           ],
-          "audio": "audio/fr/marin/c17e1746d35b103b08ddd697.mp3",
+          "audio": "audio/fr/marin/eda6ab7ea8e01371b2e20978.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Puis, coupez-les en petits morceaux.",
-            "sha256": "65d76438407a1e582c8fc6839b98fe9f3098398cb4e0bf6561594e37f6f75c2b",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "f88489221abb47738d1b073e5b9b755e6fc47e5c6aba26fce4a6a8f04409a5ce",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -4404,14 +4404,14 @@
               "text": "mélangez"
             }
           ],
-          "audio": "audio/fr/marin/22c8f3b7451c33288aca05f4.mp3",
+          "audio": "audio/fr/marin/2016c2c30b4180ae0c316808.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Ajoutez les herbes et mélangez.",
-            "sha256": "5d5cdfde1ef43d24bac08da59e84231788bb5bf55c05690aec08b8c4fe34f97d",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "9174fa09da8dec0804f6d666417d5462ae6a89ddbe850a939bafa1d8225777a5",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -4444,14 +4444,14 @@
               "text": "sauce"
             }
           ],
-          "audio": "audio/fr/marin/359a395b2dea251ba13ed411.mp3",
+          "audio": "audio/fr/marin/3558fd5d3875dbef63fa9057.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Enfin, servez avec la sauce.",
-            "sha256": "1be3e638a25c902204adfc18251010bf13e35ed5814be69f6644c1860508c0aa",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "3c69d710e00321153986f298f13aebc92b50579b4168a2d4cb24f4c77a59a194",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -4483,14 +4483,14 @@
             "explanation": "The sauce is stated or directly supported by the passage."
           }
         ],
-        "audio": "audio/fr/marin/70a1fc6b16e6e3bdbbcb4ba4.mp3",
+        "audio": "audio/fr/marin/da73b87b825f564a88617354.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "D’abord, Carina lave les légumes. Puis, elle les coupe et ajoute les herbes. Enfin, elle sert le plat avec la sauce.",
-          "sha256": "70b6b90b6432b691ba8b028c72933986bb7a6ab5c10fa54668266a90d66f2c32",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "320a56288621be2e39fc7feb42c9a2692aae59dc202a3d4f722e0069c45b6a5d",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -4503,14 +4503,14 @@
           "I have tried the words from the lesson.",
           "I can explain what my sentences mean in English."
         ],
-        "audio": "audio/fr/marin/39692530767988575eca938b.mp3",
+        "audio": "audio/fr/marin/a65ee2157c72408d91236daf.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "D’abord, lavez les légumes. Puis, coupez-les en petits morceaux.",
-          "sha256": "704486faa015afc97247a7d4db7bbad8afbb4b245ae72a80964d6f6b51a128ca",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "875485bea3573b08c9ad526c5ab7dd032c8cae8ea5eb02cd81ba9b2306c0b28e",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -4555,14 +4555,14 @@
               "text": "laitiers"
             }
           ],
-          "audio": "audio/fr/marin/97c4556c0dbd3c2be934ad8c.mp3",
+          "audio": "audio/fr/marin/41dcc6716e552c4dc6e94ab3.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Souhaitez-vous un menu sans produits laitiers ?",
-            "sha256": "b5f06600d8ed61d2632ce51990797143fba5a4aaf9bbc9a2704a2f839433aca7",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "106d6f9635db752ad11473adfedd11630be5f8c18b325ae7609dbc0ef147ee78",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -4607,14 +4607,14 @@
               "text": "croisée"
             }
           ],
-          "audio": "audio/fr/marin/7438d00372e609b0535e5201.mp3",
+          "audio": "audio/fr/marin/fc718c9e183fb3173288c2ab.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Je dois vérifier les risques de contamination croisée.",
-            "sha256": "039ebe685ca52e031c44c82e9cdaa81d0f0061c6d23d6af1d636e9aa5dcb7947",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "2d0cb1c14bb63af017c7b6a37e1ff218d92701677472c8522e4270da888827d9",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -4643,14 +4643,14 @@
               "text": "besoins"
             }
           ],
-          "audio": "audio/fr/marin/95464589fb5b26bbb0b7e0ef.mp3",
+          "audio": "audio/fr/marin/b0018dfad43cb2a919ea0053.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Pouvez-vous préciser vos besoins ?",
-            "sha256": "41f8112a42ab14047c988e6c93d8dafa9436703b9cfa18a194c7dda9bd9b5704",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "3c070f5d7a08514d63b927668ada4a2c3e733bc84017fd3a9254cd3a0ac2b5f9",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -4683,14 +4683,14 @@
               "text": "possibilités"
             }
           ],
-          "audio": "audio/fr/marin/2ccb8ab5b20d5b14a365c87a.mp3",
+          "audio": "audio/fr/marin/a451377704b2c7416289b837.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Je vous confirmerai les possibilités.",
-            "sha256": "891dbc9381ab066a76c3ceaf6e231b9b520afc80f0bf738a95ac5d321b0d2811",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "e5ef49e53df45a1a3de8cbe3dcf00577ac1fd25c5420f0eeb937cc2119d250fd",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -4722,14 +4722,14 @@
             "explanation": "After checking the ingredients and risks is stated or directly supported by the passage."
           }
         ],
-        "audio": "audio/fr/marin/85c1df766c134882f577c9af.mp3",
+        "audio": "audio/fr/marin/ba24cc680e942fc75d8c7536.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Une cliente demande un menu sans produits laitiers. Carina veut préciser ses besoins. Elle vérifie les ingrédients et les risques de contamination croisée avant de confirmer les possibilités.",
-          "sha256": "d7c7cf2663adc230afbf2f748deff53d6d4bf7f79251c00a46c72eb07ce99e47",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "447ddb4c6cf8e620b2dce288ccc5ba14fc6d65b9d1866dcdd458d72259a5e202",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -4742,14 +4742,14 @@
           "I have tried the words from the lesson.",
           "I can explain what my sentences mean in English."
         ],
-        "audio": "audio/fr/marin/bee34ab67734da6efe706a19.mp3",
+        "audio": "audio/fr/marin/db393fd353bd7f53f4b93cce.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Souhaitez-vous un menu sans produits laitiers ? Je dois vérifier les risques de contamination croisée.",
-          "sha256": "b35fc83a84b7cc90d49831d72b32986a1e47c6f422f63409f1e2047f7641e6ef",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "43b5ddeb0a0f0718408acff55bdf9e75bcd84cb5082a2bdef27857d9b4c310d6",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -4786,14 +4786,14 @@
               "text": "assiettes"
             }
           ],
-          "audio": "audio/fr/marin/8206fc46264bc4796bc1d902.mp3",
+          "audio": "audio/fr/marin/f44f53564f1ed81c362b8001.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Il manque deux assiettes.",
-            "sha256": "aa103ad1b7b7bcd6db25ca07678c53aeb9dfe6293eaca3a33caf31263d6ca638",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "99b483bed32db3453e99399bfb442b4f9579f4b48e526c99e597e4d17d4336fd",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -4834,14 +4834,14 @@
               "text": "devis"
             }
           ],
-          "audio": "audio/fr/marin/8d5b2a6c8603e9ed4de96311.mp3",
+          "audio": "audio/fr/marin/0a9bd4105d121e371562c53e.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "La commande ne correspond pas au devis.",
-            "sha256": "cc11e5ed162d9bd705257237919bcfb14279e9ee0e8b335530174d3b343c6fc2",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "f9f172630aaf84f4ba82f70b0a3e3d801cf23b5e447dd654bfff3841d2d23126",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -4878,14 +4878,14 @@
               "text": "solution"
             }
           ],
-          "audio": "audio/fr/marin/3e17d44870d6d60f1347134e.mp3",
+          "audio": "audio/fr/marin/93ff7c629c2f4a92cb8e9d31.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Serait-il possible de trouver une solution ?",
-            "sha256": "e6855876a8ed9c719b26272767cce6b567743b68d814688577f53e6aafa28915",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "20cd5fe18504d001b2671e68cfe5d89c61ff370cd57ef789189b405baca5f343",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -4918,14 +4918,14 @@
               "text": "problème"
             }
           ],
-          "audio": "audio/fr/marin/dfea9672fe3d383a80c730a4.mp3",
+          "audio": "audio/fr/marin/ae19fc9952d30c4141dd5b79.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Merci d’avoir réglé le problème.",
-            "sha256": "d9f485fe5bec4abe812a4386c05cd58b77c9c33b2817b84a4c7d2740ec073d10",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "8167e8d94f2651fa518bed16358a9d09e72cce76bce3390c6d4887497342befd",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -4957,14 +4957,14 @@
             "explanation": "The supplier brings the plates is stated or directly supported by the passage."
           }
         ],
-        "audio": "audio/fr/marin/ae8a631a84e2f6964b5feed7.mp3",
+        "audio": "audio/fr/marin/5fdcdf8ac5a387c18bd9afdc.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Il manque deux assiettes pour le buffet. Carina explique le problème au fournisseur. Il apporte les assiettes et elle le remercie.",
-          "sha256": "6865088e9700e209f836206a9fa8de6b86d4cf903af14d053bf906b34c962eb0",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "88ca0e42f4eb66c18aa6af1cfd6036999820c5942fa2c598f37dd6368801f29c",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -4977,14 +4977,14 @@
           "I have tried the words from the lesson.",
           "I can explain what my sentences mean in English."
         ],
-        "audio": "audio/fr/marin/f866cbd959dcf522e43c53f9.mp3",
+        "audio": "audio/fr/marin/bd4dfcba83f0def012bfeb4d.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Il manque deux assiettes. La commande ne correspond pas au devis.",
-          "sha256": "1567383b81ebf81d2f9a5bc02b66f18bafe831be5ffd5a97027974d0e5cf541a",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "0d416d6bb055b18c2c5e717bdc7b553ada318fb69137b455a27df902369aee40",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -5029,14 +5029,14 @@
               "text": "musée"
             }
           ],
-          "audio": "audio/fr/marin/2eb56e1bfebd59017a9a68a3.mp3",
+          "audio": "audio/fr/marin/630c52591308ab8c183af6cc.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "On pourrait commencer par le musée.",
-            "sha256": "d22a5240c34e8121eff4c99f313474edffd69ac2d122a540e4dabba445e99b10",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "4f120b557e1fa58a96e1e47f056ab0dcffa09f1e12d6478c7b54b8721f9adc23",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -5085,14 +5085,14 @@
               "text": "Seine"
             }
           ],
-          "audio": "audio/fr/marin/dbe87b6e4a467ec964b72ef0.mp3",
+          "audio": "audio/fr/marin/01b97d387ce0fcda75b1f8a8.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Ensuite, j’aimerais me promener au bord de la Seine.",
-            "sha256": "327a971fd90add393c2ee86d1e8b555044ca85443345dfd8ccca4ebb163c037b",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "9a308328a12f56f96ce4fbc3eb359faf5aff40d6f9d87b4d00ea6470a68a7e9e",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -5125,14 +5125,14 @@
               "text": "l’avance"
             }
           ],
-          "audio": "audio/fr/marin/16edd08c4d566d42c4a6f56e.mp3",
+          "audio": "audio/fr/marin/933d1c31678abe9673009d28.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Je préfère réserver à l’avance.",
-            "sha256": "0e389a441f13b8a2848911de6215b5823f83417ce8c894d6a2ec65d61908e0b1",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "523f2ffef325b96460c837ea3f0f0ffc80b57440646d5d62a9d627697aeb9a65",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -5169,14 +5169,14 @@
               "text": "programme"
             }
           ],
-          "audio": "audio/fr/marin/b8c1eb2c53801d34e7bd38de.mp3",
+          "audio": "audio/fr/marin/b0301a8a28579132bfbce9d5.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "S’il pleut, on changera le programme.",
-            "sha256": "873c4f7a1c2dd0b9e6ea63fe811220aeaa175ffbcdf92b4fec43745d50394558",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "1ff4a3aac9717a055842efbe8b5774db20ee348e6da5a86603ca8a83ec7055d8",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -5208,14 +5208,14 @@
             "explanation": "Rain is stated or directly supported by the passage."
           }
         ],
-        "audio": "audio/fr/marin/4a27e1583326de2f9ffb3041.mp3",
+        "audio": "audio/fr/marin/7f966970c33bbb1ac399e0ac.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Carina voudrait commencer la journée par un musée. Ensuite, elle aimerait se promener au bord de la Seine. S’il pleut, elle changera le programme.",
-          "sha256": "1d5943e86577eb44946c0eef1ead33e4b8d808cd2841b3d1018971c0d8782aeb",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "e84571e6359ae81a253b8f6b953dcde85227717d761598dcfb49ee9f454e290a",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -5228,14 +5228,14 @@
           "I have tried the words from the lesson.",
           "I can explain what my sentences mean in English."
         ],
-        "audio": "audio/fr/marin/a67d05a103dbe73e868ebf68.mp3",
+        "audio": "audio/fr/marin/95b0014da8a7883fb8aefc68.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "On pourrait commencer par le musée. Ensuite, j’aimerais me promener au bord de la Seine.",
-          "sha256": "ef7346b05fdb578c7c88a81030e476f086dff5411d9e38752feccf1c9aad7dba",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "e5f9d0d13c098fd88bdec96a5cbe6000902ed26e8c903ae8f9d96c795a0be548",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -5300,14 +5300,14 @@
               "text": "1889"
             }
           ],
-          "audio": "audio/fr/marin/64be91d3dbf19552e49ec0f1.mp3",
+          "audio": "audio/fr/marin/096474044aae1cbd1179e557.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "La tour Eiffel a été construite pour l’Exposition universelle de 1889.",
-            "sha256": "2c7b6ad111f2e0b8bfaa31bcaafa90b9bfb6e7b0b9d211296631cb49bf27eeca",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "bd4ae919b21915b1a0d445a79da18299da28597a3ebb87fda1aad377de5b710e",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -5340,14 +5340,14 @@
               "text": "Paris"
             }
           ],
-          "audio": "audio/fr/marin/4d6f60e04005e64adcf7d252.mp3",
+          "audio": "audio/fr/marin/ba21865b0dae0de4c31dd569.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Elle se trouve à Paris.",
-            "sha256": "fab979599812cb0c861f221920378839ef2333186fc89c29a07384e7a4b283e0",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "2a0f4860a2a4fc747e56848cbb53d9b01a2241ce840983a0df51f0d2e3ae34e2",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -5388,14 +5388,14 @@
               "text": "impressionnante"
             }
           ],
-          "audio": "audio/fr/marin/0a7e33ffbfcaa3a20bb7a685.mp3",
+          "audio": "audio/fr/marin/101ae2a2fa64e0b82a39467d.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "La vue sur la ville est impressionnante.",
-            "sha256": "7beacc785a86787c2a4a4034cc43df6e32d2c3e4b3d76fc4dde0ec79f0a48a8a",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "f161c34e0447dec3a5fa8dd9e62a5eb902d55ced98116f46544bb64fc774a6bf",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -5440,14 +5440,14 @@
               "text": "construction"
             }
           ],
-          "audio": "audio/fr/marin/3cdbd81f3ebb85d168d28a89.mp3",
+          "audio": "audio/fr/marin/144a2d549fa3290a063c6a71.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Je voudrais en savoir plus sur sa construction.",
-            "sha256": "55f69821478da206a82950eb71c2e45f1686882a9df4fd60e016eb3f48fb3d58",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "6aceb5f3e6725378bf0f1fb3d3d1118286c9fd9fd32ae061caaff75a47607357",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -5481,14 +5481,14 @@
         ],
         "source": "https://www.toureiffel.paris/fr/le-monument/exposition-universelle",
         "attribution": "Original learning text; historical facts checked against the linked official source.",
-        "audio": "audio/fr/marin/8e78e958ae1aab00a3a058fb.mp3",
+        "audio": "audio/fr/marin/f199ff2078d06929d01c4aaf.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "La tour Eiffel a été construite pour l’Exposition universelle de 1889, à Paris. Les visiteurs y découvraient une vue nouvelle sur la ville. Carina s’intéresse à l’histoire de sa construction.",
-          "sha256": "81db68f9ab54f5adaeda1ca5db51cc49ec963e9935cfe52c3266bb21ef86bcba",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "ace60cc50f461baf2b98b6c3d1af81c8d8590b14ce3ed3ecfa472e09d7adba16",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -5501,14 +5501,14 @@
           "I have tried the words from the lesson.",
           "I can explain what my sentences mean in English."
         ],
-        "audio": "audio/fr/marin/ed2fc5a51f012ea9d8e656a6.mp3",
+        "audio": "audio/fr/marin/01560e474bd36b2503ffe152.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "La tour Eiffel a été construite pour l’Exposition universelle de 1889. Elle se trouve à Paris.",
-          "sha256": "3de128f3adc65ba38ec5fcc98824c35bfd3f16d10ea8c668c0ca344ff51d2be6",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "7b660dbac3ddb33be908af895b77b0b76f66dcab659e0260f589f6323d1dfacc",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -5557,14 +5557,14 @@
               "text": "royal"
             }
           ],
-          "audio": "audio/fr/marin/f2fc75407dfa15dd29f79f64.mp3",
+          "audio": "audio/fr/marin/35a972e8f8125d9bd1d9c295.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Le Louvre était autrefois un palais royal.",
-            "sha256": "4baa0dd1cc791d6ebe40807675d37b2e13d4211561fb3afb218481211fd85dc5",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "9e342770a183cb1e317e6bf8fc260de8c00939a63cf19a9e67d75f9ce80b26fc",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -5609,14 +5609,14 @@
               "text": "1793"
             }
           ],
-          "audio": "audio/fr/marin/cba23fef5490a712a7d2f163.mp3",
+          "audio": "audio/fr/marin/154c7f71c8791f429dd2a5b5.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Le musée a ouvert au public en 1793.",
-            "sha256": "49db08f8d8bded99e565ce64475f759a6735050b13b29a92631da6ef66c1b102",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "c2cc17bad57baa129e08b6eab631dfdc772fa1049a9968392dbbf5a265fc8b94",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -5649,14 +5649,14 @@
               "text": "siècles"
             }
           ],
-          "audio": "audio/fr/marin/aa1eeddacf9fba1dc6b4a588.mp3",
+          "audio": "audio/fr/marin/a83fffdb90b87018ec6979a7.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Son histoire traverse plusieurs siècles.",
-            "sha256": "28b9294d299bb7dcbc22d51c55357b47e7d20055690b50651028bcbcb5c9f26d",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "b31be5704b46e9a380a23f6496f3fa5ea592282d74ae582ace58857068c61a8c",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -5697,14 +5697,14 @@
               "text": "collections"
             }
           ],
-          "audio": "audio/fr/marin/173116327b88dd610140ec63.mp3",
+          "audio": "audio/fr/marin/597bb40294778f80d139a023.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Je m’intéresse autant au palais qu’aux collections.",
-            "sha256": "6d9c968b596bc62b671bd7b170e2565204e5eb14ebc66304e8d76cb570de406c",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "d8cd6f262d86882ba30249b77cb60d9f81100808c83b904d3392835a9974ffba",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -5738,14 +5738,14 @@
         ],
         "source": "https://presse.louvre.fr/wp-content/uploads/2024/07/e9fcdebc696f6c891d8e250e5a452c7e.pdf",
         "attribution": "Original learning text; historical facts checked against the linked official source.",
-        "audio": "audio/fr/marin/096fcd035457e9e2906f52f5.mp3",
+        "audio": "audio/fr/marin/ceff5204de7a4f366a2a0930.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Le Louvre était un palais royal avant de devenir un musée. Le musée ouvre au public en 1793. Carina souhaite découvrir les collections et l’histoire du bâtiment.",
-          "sha256": "8b1b5b9cb61073e4870a9e9ea6a2919bd502deb3e25bde4393441d6e939b0558",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "5d36f1e45664c00983bf1af16699d6b5f6406fa739afb0761c52e965c9b010b4",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -5758,14 +5758,14 @@
           "I have tried the words from the lesson.",
           "I can explain what my sentences mean in English."
         ],
-        "audio": "audio/fr/marin/62b43d2b5ec359eec3a8c60d.mp3",
+        "audio": "audio/fr/marin/dfcc1fadf6541b2feea42304.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Le Louvre était autrefois un palais royal. Le musée a ouvert au public en 1793.",
-          "sha256": "02128d5f59add9e9b1b023f3418fd3d9c7085bec35747c39a792a82793e46aee",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "fb3d1a6817748a6478c3040d38dac3ea0926b4d158ccba4bdd1b1d25fc84125c",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -5810,14 +5810,14 @@
               "text": "Roi-Soleil"
             }
           ],
-          "audio": "audio/fr/marin/63c463612c94220cd39c48fa.mp3",
+          "audio": "audio/fr/marin/39dd987ad2a00ed7d8d114d4.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Louis XIV est surnommé le Roi-Soleil.",
-            "sha256": "48b57f2ca1e0ded23517ab57d480eeb7a1b1f74d9d94afee0bf271254b290131",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "fdbbaa9fedcbc9d07ff4c569415e95efa252c46b8f84dfd68a666fde83620723",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -5866,14 +5866,14 @@
               "text": "1682"
             }
           ],
-          "audio": "audio/fr/marin/499ac6f8c56125894201ff29.mp3",
+          "audio": "audio/fr/marin/3ffd70bf465ac344e34b6380.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Il s’installe à Versailles avec sa cour en 1682.",
-            "sha256": "e5ebab999d266f76a680e4f6e38e54ff069a55d0b4d14d9b5a5b486404c4b1aa",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "9c1f7f93605512e4c0e5c85bc68498882d236336253e564202b4a06ff15fd0d0",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -5914,14 +5914,14 @@
               "text": "pouvoir"
             }
           ],
-          "audio": "audio/fr/marin/1792ca36f8e6c77bf36729a3.mp3",
+          "audio": "audio/fr/marin/da88f4dcc2f6e9860b855050.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Le château devient un lieu de pouvoir.",
-            "sha256": "0d4a9472899072dec8827573feb30449b6bd4c082615648c7cefd8e4cef12572",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "0c4ca5e9b7cf8bc761bd64fa2f20ef1b0ac321f9961bc24cae53a4194ea0b5b0",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -5962,14 +5962,14 @@
               "text": "visite"
             }
           ],
-          "audio": "audio/fr/marin/40a4920680a6e6bffeed5488.mp3",
+          "audio": "audio/fr/marin/b83f70fc0a99e58993420320.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Les jardins font partie de la visite.",
-            "sha256": "131255e52f91ca02a776293d66f0e5cc5b8c82cea8336f16f89a7326532369ae",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "43ee675cfa124e12d9f709719ef26ef699625800081c59ab046a471c7380f4f0",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -6003,14 +6003,14 @@
         ],
         "source": "https://www.chateauversailles.fr/decouvrir/histoire/grands-personnages/louis-xiv",
         "attribution": "Original learning text; historical facts checked against the linked official source.",
-        "audio": "audio/fr/marin/d0f40f6c2768a909dfca6af0.mp3",
+        "audio": "audio/fr/marin/427770a60301554fefa999a6.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Louis XIV, surnommé le Roi-Soleil, s’installe à Versailles avec sa cour en 1682. Le château est un lieu de pouvoir. Carina veut comprendre le rôle du palais dans la vie de la cour.",
-          "sha256": "486fea3a3aebb4bc06506c6ad73e90df6082b5c1f01d0f449b472921a29a0f81",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "908459a8ea0d51ef3195a7e73f11599a5b51d16ec06a89e9b0d86360e49fd143",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -6023,14 +6023,14 @@
           "I have tried the words from the lesson.",
           "I can explain what my sentences mean in English."
         ],
-        "audio": "audio/fr/marin/4e646cfb8de4a8feb542400e.mp3",
+        "audio": "audio/fr/marin/bf0aba836dfdfe7ec16d04a7.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Louis XIV est surnommé le Roi-Soleil. Il s’installe à Versailles avec sa cour en 1682.",
-          "sha256": "0f707ebba5d316cf8bf4d2b73f9aeff96af25757564cbc4e7db1258d5e253b15",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "e3b101159be59aec22f2613e7ea53393c91b8c3b753ea75c584f35dbb722284d",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -6071,14 +6071,14 @@
               "text": "Vienne"
             }
           ],
-          "audio": "audio/fr/marin/406d6eb49765c9a209d66ee4.mp3",
+          "audio": "audio/fr/marin/2f6ba95563b5e2155f79f5da.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Marie-Antoinette est née à Vienne.",
-            "sha256": "5241a67831a8c1369824b7da395dfca1e3a1a0450a6fad49ea1997437ec64428",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "6fd93c170395245959a98855557c595bae4c45d3101b7bcb0dd0168900acfca2",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -6123,14 +6123,14 @@
               "text": "1770"
             }
           ],
-          "audio": "audio/fr/marin/773f72ea57b55c45f90c9ab5.mp3",
+          "audio": "audio/fr/marin/fbfe53479714c78d96ecf3b9.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Elle épouse le futur Louis XVI en 1770.",
-            "sha256": "7db5853fb8f7758cd20731f0f81e4ee1570cc590d5f84fa04cd5124cb9081a20",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "70820d6b391990eb14992019c8fb210e958f28dd8821cdfbd88801b021e0e03a",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -6167,14 +6167,14 @@
               "text": "Versailles"
             }
           ],
-          "audio": "audio/fr/marin/bd017ec7877829240e8e26c9.mp3",
+          "audio": "audio/fr/marin/a2d1e62e6453819a54d75420.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Le mariage est célébré à Versailles.",
-            "sha256": "6a10bf64d5136f9980342bbc90e113f6d23e7c793e39e349e6b106b7cba78abf",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "c755fa16a47fe6f7424fd171e8604ec84e46d27617fb4a6f03e355092b49f1c1",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -6223,14 +6223,14 @@
               "text": "reine"
             }
           ],
-          "audio": "audio/fr/marin/de0686f7b3b0dfe45aa3652b.mp3",
+          "audio": "audio/fr/marin/5371cfaf4bd817fe39175457.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Je voudrais mieux comprendre la vie de cette reine.",
-            "sha256": "a7157ca981a1a4d3cd65e6267e4d97f3b0901774dfbfbe2f7d1f622ba9d56c5d",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "de8ca8718d5ae9d698513f0eb517022e6f74d5eac9076ed97a710bb62a993fb0",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -6264,14 +6264,14 @@
         ],
         "source": "https://www.chateauversailles.fr/decouvrir/histoire/grands-personnages/marie-antoinette",
         "attribution": "Original learning text; historical facts checked against the linked official source.",
-        "audio": "audio/fr/marin/2b1843a5ddba7a8c04ba9026.mp3",
+        "audio": "audio/fr/marin/40d6a3174134e6cf81288d9e.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Marie-Antoinette naît à Vienne. En 1770, elle épouse le futur Louis XVI à Versailles. Carina souhaite mieux comprendre la vie de cette reine.",
-          "sha256": "d04deec5bf0a291b212e6cf7b35a6ce752120c8f17aabd32bfadca0fdc096dd9",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "ed91938620be6fdc1d4e7f79f90d85e7964208ad0a9919c4e199b08d137e5ed3",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -6284,14 +6284,14 @@
           "I have tried the words from the lesson.",
           "I can explain what my sentences mean in English."
         ],
-        "audio": "audio/fr/marin/58a3c421cdb21ea0c49cb618.mp3",
+        "audio": "audio/fr/marin/eb7250bf4c3db3045ef7af7d.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Marie-Antoinette est née à Vienne. Elle épouse le futur Louis XVI en 1770.",
-          "sha256": "e46983035ccf9ce6ea8ba5e3e4ac61794273ffbcb3dae2a3f6f957c8829fcf21",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "210f9f0b947df2c5153355d17e6e0bb2a46ac388f6d1590ce8bb0bf74e533453",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -6340,14 +6340,14 @@
               "text": "pouvoir"
             }
           ],
-          "audio": "audio/fr/marin/799555d173a250ad58127f2c.mp3",
+          "audio": "audio/fr/marin/0c99e7837bbcef7268b14521.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Ce portrait donne une image du pouvoir.",
-            "sha256": "24e6b3ffd38bd8212fef137353e8571e67c2f48cb0470d49082187370a111119",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "7724f9e0a63b77d76b585c9e5d16f809b5ed636c354330f420c78a9757be2b59",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -6400,14 +6400,14 @@
               "text": "important"
             }
           ],
-          "audio": "audio/fr/marin/04955984f43f07232335788d.mp3",
+          "audio": "audio/fr/marin/faa5d1b18fd8461910525182.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Il me semble que les vêtements ont un rôle important.",
-            "sha256": "545bc471bc2ab3fbdccd4a6b801ab18e0c47aaf9bf5fd051fc377f16f4ea8ced",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "1ccc5187f248a13377467f3a01dabdb77fa33e2e08eafa569dbe57eae51d933b",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -6456,14 +6456,14 @@
               "text": "cour"
             }
           ],
-          "audio": "audio/fr/marin/f87cacda46e44623e046c2a2.mp3",
+          "audio": "audio/fr/marin/b715ff4b64ec0ed291f956ea.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Quelle était la place des femmes à la cour ?",
-            "sha256": "8feb56535450b452d3bfda749718a595ba09cb9db89927c824b41a370a29266a",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "d6aac5412b82fd85cab0cb910ab569089a4a7ee3a712d1fd38824f67cdd3106f",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -6496,14 +6496,14 @@
               "text": "sources"
             }
           ],
-          "audio": "audio/fr/marin/de79f59843b23b918c16e436.mp3",
+          "audio": "audio/fr/marin/5d9c44cdf4617a760e581797.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Il faut comparer plusieurs sources.",
-            "sha256": "b37f131b3b4f1d4b15602d572119eb578a0481d98eb441de86878ebabd1138b9",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "6d03ade9a74ede834ece56fca42e88a26e30f3cdbd7e0024daabcc4099f70944",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -6535,14 +6535,14 @@
             "explanation": "To understand court life better is stated or directly supported by the passage."
           }
         ],
-        "audio": "audio/fr/marin/f5c47350fa77c982f4d843d2.mp3",
+        "audio": "audio/fr/marin/26fd276d6ac277dc177ce55e.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Carina observe un portrait royal. Elle remarque les vêtements et les symboles du pouvoir. Pour comprendre la vie à la cour, elle veut aussi comparer d’autres sources.",
-          "sha256": "8abaa91572a2cdf8190e957fb5fded856d6edf43d7aa3128f4617d53a7384156",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "1df333047afaab981d19e9fc9edd7df638a917fd8f598ad2731b1740b0344ff5",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -6555,14 +6555,14 @@
           "I have tried the words from the lesson.",
           "I can explain what my sentences mean in English."
         ],
-        "audio": "audio/fr/marin/1bff9879760a208827bab186.mp3",
+        "audio": "audio/fr/marin/d53b2fc992c399bf48060eef.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Ce portrait donne une image du pouvoir. Il me semble que les vêtements ont un rôle important.",
-          "sha256": "7440c1b903b5cc37f11e9605046e7f7e1db3f86d871ad073a873aaf98b3b5eee",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "2d9ecff893c49199c13a36d439f6363a9b8a936bc060d95555cdac4fac8fda15",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -6619,14 +6619,14 @@
               "text": "saveurs"
             }
           ],
-          "audio": "audio/fr/marin/f023e3318d2198a4f2c88761.mp3",
+          "audio": "audio/fr/marin/6d736547a5ba646ce0b1d401.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Je suis traiteur et j’aime découvrir de nouvelles saveurs.",
-            "sha256": "c42455493982964c30c77173e7b82559eda8045a69e730cb6632eafd35f1333f",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "1021b4969767d14b74ba87c54c3536b7ed19cc90a833ea920ddd0979a8142867",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -6667,14 +6667,14 @@
               "text": "musée"
             }
           ],
-          "audio": "audio/fr/marin/084bf70d0cbe927b68995b2a.mp3",
+          "audio": "audio/fr/marin/5e5fb0a84a2de91636393dc5.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Après le marché, j’aimerais visiter un musée.",
-            "sha256": "fbb7127d35d734d4641aae0f1b6ee60af6ef9c653995169f91be387a429725dd",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "fc583ca2b96c0dbf8b773b6a80d495bd2a822a5ac102796c88a48a5ac9b6d27f",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -6735,14 +6735,14 @@
               "text": "France"
             }
           ],
-          "audio": "audio/fr/marin/4e3957dc68a2b30d6db0dfc8.mp3",
+          "audio": "audio/fr/marin/0f422299caaca75e9ad23b8d.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Je choisirais une visite sur les rois et les reines de France.",
-            "sha256": "abfc2d59e58d40d7e3f3154be3db8cfef7c1b5a552a17fe487e5a1761bb5d16b",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "63c7b181cc9357f1f4a7e5b652488bb0f6e763b1e3ae97dd3123ad194ba5a23f",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -6787,14 +6787,14 @@
               "text": "shopping"
             }
           ],
-          "audio": "audio/fr/marin/78e2eb39ae01d5492aed971b.mp3",
+          "audio": "audio/fr/marin/f549eaf8ff3b13ff57ddbd2d.mp3",
           "audioReview": {
-            "status": "voice-selected",
-            "scope": "voice-selection",
+            "status": "pilot-approved",
+            "scope": "voice-pilot",
             "text": "Puis, nous pourrions faire un peu de shopping.",
-            "sha256": "fac7d469e326dff509a5649aad9e38e370bf5db6ee7bec68db7a82ce76a9bb99",
-            "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-            "voiceApproval": "marin-french-selection-2026-11-05",
+            "sha256": "c5f3832205f2de25a3235c364bf59c1e1d7b77e474daef11f6880e7743a9c9f1",
+            "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+            "voiceApproval": "marin-french-pilot-v2-2026-11-05",
             "synthetic": true,
             "encoding": "MP3 mono 24 kHz, 48 kbps"
           }
@@ -6826,14 +6826,14 @@
             "explanation": "French kings and queens is stated or directly supported by the passage."
           }
         ],
-        "audio": "audio/fr/marin/f111f61ce0154b888dc36dc5.mp3",
+        "audio": "audio/fr/marin/6b1a5d652df5b0babb890a84.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Carina commence par le marché pour découvrir de nouvelles saveurs. Après le déjeuner, elle choisit une visite sur les rois et les reines de France. Elle aimerait terminer par un peu de shopping.",
-          "sha256": "ae56de99e02ea0482871f4d89603fb88bba66549f323ce57ec3db24eaabbe162",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "e348d3a5d33c2764de1494d109686f5d11f04512043e9086d032eae85c188d49",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -6846,14 +6846,14 @@
           "I have tried the words from the lesson.",
           "I can explain what my sentences mean in English."
         ],
-        "audio": "audio/fr/marin/2192dcaa9a4e403b1939cc05.mp3",
+        "audio": "audio/fr/marin/05d5428b70f44cd1cb5ec32b.mp3",
         "audioReview": {
-          "status": "voice-selected",
-          "scope": "voice-selection",
+          "status": "pilot-approved",
+          "scope": "voice-pilot",
           "text": "Je suis traiteur et j’aime découvrir de nouvelles saveurs. Après le marché, j’aimerais visiter un musée.",
-          "sha256": "dd23f57455144a53e19bbd70b694a1367316bd19d97c31a893b27f2002782f73",
-          "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-          "voiceApproval": "marin-french-selection-2026-11-05",
+          "sha256": "dc4535bd81b05ad756eea142181ca88e691ed5d6bd44597642d299e181c37b40",
+          "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+          "voiceApproval": "marin-french-pilot-v2-2026-11-05",
           "synthetic": true,
           "encoding": "MP3 mono 24 kHz, 48 kbps"
         }
@@ -6862,20 +6862,18 @@
   ],
   "audioVoiceApprovals": [
     {
-      "id": "marin-french-selection-2026-11-05",
-      "scope": "voice-selection",
+      "id": "marin-french-pilot-v2-2026-11-05",
+      "scope": "voice-pilot",
+      "language": "fr",
       "reviewer": "smichea",
       "approvedAt": "2026-11-05",
-      "statement": "French course requested for Carina, using the Marin voice previously selected after the Filipino listening pilot. French recordings have not been individually reviewed.",
+      "statement": "Oui, la prononciation française est bonne",
       "provider": "openai",
       "model": "gpt-4o-mini-tts",
       "voice": "marin",
-      "recipeHash": "fbefcef992391807033f0ce4fca9a14a6140df3e8abd94ab75736219c985a963",
-      "pilotManifestSha256": "43444c4fa427a1ce23ae4ba37281ffe2cdb55cd24b8bd0e33c9e10b57bc12311",
-      "sampleCount": 12,
-      "referenceLanguage": "fil",
-      "targetLanguage": "fr",
-      "referenceApproval": "marin-pilot-2026-11-05"
+      "recipeHash": "c0ab5a708b9803172b108e5e1e25b4e48c4f620488c2f2492e89356eec66e93b",
+      "pilotManifestSha256": "5aaa2619c0d79d0cfb3c1dc93526a1683928842dcf074e8c63d9c08ba4712df5",
+      "sampleCount": 3
     }
   ]
 }

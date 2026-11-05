@@ -1,0 +1,27 @@
+{
+  "instructions": "Tu es une locutrice française native, avec un accent naturel de France métropolitaine. Lis uniquement le texte fourni, une seule fois, en français. Prononce les voyelles françaises, le u, les voyelles nasales, le r français, les élisions et les liaisons nécessaires comme une Française. Garde une voix chaleureuse, claire et naturelle, à un rythme pédagogique sans exagération. Lis les dates et les noms des rois en français. Aucun accent anglais ou tagalog. N'ajoute ni introduction, ni traduction, ni commentaire.",
+  "voice": "marin",
+  "model": "gpt-4o-mini-tts",
+  "schemaVersion": 1,
+  "language": "fr",
+  "provider": "openai",
+  "responseFormat": "mp3",
+  "generationVersion": 2,
+  "items": [
+    {
+      "text": "Bonjour ! Je voudrais un café, s’il vous plaît.",
+      "file": "01-cafe.mp3",
+      "sha256": "828d23faa63ec631d05e34fe29c7582b9f4ce0f7657f4bc6389be299b39ab71d"
+    },
+    {
+      "text": "Je m’appelle Carina. Je suis traiteur et j’aime la gastronomie.",
+      "file": "02-carina.mp3",
+      "sha256": "c38fe067652f87faf6de77f6f07fc5fd83b147f6de5030364811db7294938a52"
+    },
+    {
+      "text": "Louis XIV est surnommé le Roi-Soleil. Marie-Antoinette est née à Vienne.",
+      "file": "03-history.mp3",
+      "sha256": "03bbf18df8747e01d85227df8cffc8f7406440af7660705f77e5f2c656453b26"
+    }
+  ]
+}
