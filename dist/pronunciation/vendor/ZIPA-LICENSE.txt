@@ -1,0 +1,9 @@
+ZIPA Small CR-CTC, 500k averaged checkpoint
+Model: anyspeech/zipa-small-crctc-500k
+Revision: dfe87c97662606fa6db90ad06f627d4363314744
+Authors: Jian Zhu, Farhan Samir, Eleanor Chodroff, David R. Mortensen.
+Weights released under Creative Commons Attribution 4.0 International.
+License: https://creativecommons.org/licenses/by/4.0/
+Model: https://huggingface.co/anyspeech/zipa-small-crctc-500k
+Code (MIT): https://github.com/lingjzhu/zipa
+INT8 weights are the published upstream conversion; no training or fine-tuning was performed by Tara.
