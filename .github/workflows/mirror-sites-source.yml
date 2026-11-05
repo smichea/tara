@@ -1,0 +1,32 @@
+name: Mirror source to Sites
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          lfs: true
+          persist-credentials: false
+      - name: Push the exact source commit using an ephemeral Sites credential
+        env:
+          SITE_SOURCE_TOKEN: ${{ secrets.TARA_SITE_SOURCE_TOKEN }}
+          SITE_SOURCE_URL: ${{ secrets.TARA_SITE_SOURCE_URL }}
+        shell: python
+        run: |
+          import os, subprocess, urllib.parse
+          remote = os.environ['SITE_SOURCE_URL']
+          url = urllib.parse.urlparse(remote)
+          if url.scheme != 'https' or url.username or url.password or url.query or url.fragment:
+              raise SystemExit('A credential-free HTTPS source URL is required.')
+          env = {**os.environ, 'GIT_TERMINAL_PROMPT':'0',
+                 'SOURCE_GIT_AUTH':'Authorization: Bearer '+os.environ['SITE_SOURCE_TOKEN']}
+          subprocess.run(['git', '-c', 'credential.helper=', '-c', 'http.extraHeader=',
+                          '-c', 'http.followRedirects=false',
+                          '--config-env=http.'+remote+'.extraHeader=SOURCE_GIT_AUTH',
+                          'push', remote, 'HEAD:refs/heads/main'], env=env, check=True)
