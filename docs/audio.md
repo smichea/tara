@@ -1,119 +1,93 @@
-# Stored audio and pronunciation review
+# Stored audio and pronunciation approval
 
-The learning app never invokes browser speech synthesis or an AI API. It plays
-only local files with a complete, named review bound to the exact text and file
-SHA-256. Editing the text or replacing bytes invalidates approval. Slower
-playback preserves pitch. The 12 generated pilot recordings remain drafts; none has been claimed
-approved for lesson playback.
+The app plays bundled MP3 files. It never invokes browser speech synthesis or
+an AI API. Slow playback preserves pitch. Course code remains AGPL-3.0-or-later;
+course text, annotations and audio retain CC BY-SA 4.0.
 
-## Produce a small pilot before the library
+## Voice chosen through listening
 
-Use a maintainer’s API credentials, never a learner’s. The workflow follows the
-Weekly Review generator: OpenAI `/v1/audio/speech`, `gpt-4o-mini-tts`, voice
-`marin`, stored MP3 files and a request-based cache. **No transcription request,
-transcript generation or word alignment is performed.**
+On 5 November 2026, smichea listened to the 12 Filipino pilot samples and asked:
+“la diction est tres bonne , applique ca sur tout le site”. The course records
+that explicit **voice-pilot approval** and uses the same OpenAI
+`gpt-4o-mini-tts` / `marin` voice and Filipino reading instructions throughout.
+The source pilot manifest digest and synthesis-recipe hash bind that selection.
+This records a voice choice; it does not invent individual reviews of unheard
+recordings or promise flawless pronunciation for every generated text.
 
-The script uses Python’s standard library and needs no Python packages. It reads
-`OPENAI_API_KEY` from the environment or an existing private file; credentials
-stay in memory and are never copied into the project, manifest or audio files.
-A differently named variable can be selected explicitly:
+`scripts/generate-audio-library.py` covers all phrase entries, contextual
+readings and model responses, reuses the pilot files, deduplicates identical
+texts and resumes cached work after interruption. It requires a matching
+explicit voice-pilot approval manifest:
+
+```sh
+python3 scripts/generate-audio-library.py \
+  --approval audio-review/marin-voice-approval.json \
+  --env-file /path/to/existing-private.env \
+  --key-variable YOUR_EXISTING_OPENAI_KEY
+```
+
+Credentials remain in process memory and are never copied into course data,
+audio, logs or public files. Generation makes paid maintainer API requests.
+Learners need no key or account. No transcription, Whisper request, transcript
+comparison, word alignment, microphone or pronunciation scoring is used.
+
+The cache binds the full text, provider, model, voice, instructions and format. Delivery files are encoded with FFmpeg as mono 24 kHz / 48 kbps MP3 to keep downloads small; original synthesis files remain in the ignored maintainer cache. The published SHA-256 binds the delivery bytes. FFmpeg is a maintainer tool, never a browser dependency.
+Library updates reload the course before writing, preserving concurrent word
+annotation changes. `pilot-approved` metadata binds each recording to its text,
+SHA-256, synthesis recipe and course-level `audioVoiceApprovals` record. A text
+edit removes stale audio in the editor; validation rejects a stale reference.
+
+## Individual recording review remains available
+
+The separate `scripts/audio-pipeline.py` workflow supports per-clip review.
+Its original pilot-to-library gate remains deliberately stricter:
 
 ```sh
 python3 scripts/audio-pipeline.py plan
 python3 scripts/audio-pipeline.py generate --env-file /path/to/private.env
-# An existing variable with a different name:
-python3 scripts/audio-pipeline.py generate --env-file /path/to/private.env \
-  --key-variable YOUR_EXISTING_OPENAI_KEY
-```
-
-This deliberately matches the Weekly Review model. As documented on 5 November
-2026, OpenAI schedules the Speech API TTS models for retirement on 6 January 2027.
-The offline generator will need migration then; stored MP3 playback is independent
-of that API. No API or key is needed by learners.
-
-The cache key includes the full text, provider, model, voice, instructions and
-format. Changing any of these generates a new file and resets its review. Matching
-files are reused, including after a partially completed generation.
-
-Google Cloud TTS with existing authorized ADC remains an alternative. The script
-does not enable APIs or change cloud billing settings.
-
-`plan` is offline and free of API calls. `generate` makes paid provider requests
-under the configured account. It synthesizes only the 12 pilot phrases by default,
-retains completed work if a later call fails, and resumes matching clips without
-regenerating them. It does not promote any clip automatically.
-
-Google lists dedicated Filipino voices, but support does not establish perfect
-pronunciation. OpenAI also lists Tagalog and states that its built-in voices are
-optimized for English. Compare pilot voices with a competent native/fluent
-listener; do not infer correctness from the brand or an automatic transcript.
-There is no automatic transcript comparison. Listening review checks the
-pronunciation and whether every word was read correctly.
-
-Sources: [OpenAI speech guide](https://developers.openai.com/api/docs/guides/text-to-speech),
-[Google supported voices](https://docs.cloud.google.com/text-to-speech/docs/list-voices-and-types).
-
-## Human review
-
-```sh
 python3 -m http.server 4174 --directory audio-review --bind 127.0.0.1
 ```
 
-Open `http://127.0.0.1:4174`, select the generated manifest, listen and check
-pronunciation, lexical stress/glottal stops, naturalness and completeness **for
-every clip**. Enter a reviewer name/pseudonym and export the reviewed manifest
-into `audio-review/`. Notes should identify a problematic word or segment and
-its correction. A file without audio, unchecked criteria, or an unnamed reviewer
-cannot be promoted. Pilot passages exercise greetings, politeness, questions,
-affixes and common ng/mga contexts; add contextual minimal-pair and literary
-samples with a qualified reviewer before expanding pronunciation coverage.
+Listen, check pronunciation, stress, naturalness and completeness for each clip,
+enter a public reviewer name and export the review manifest. Use `promote` with
+that manifest for individually `approved` clips. All four criteria, exact text
+and bytes are required for this distinct status. Never label a voice choice as
+an individual review. Corrected human recordings can use the same content
+license with performer permission and attribution.
 
-Only after **all 12 pilot clips** for the same provider/model/voice are approved:
+The generator follows Weekly Review’s stored speech workflow. See the
+[official OpenAI speech guide](https://developers.openai.com/api/docs/guides/text-to-speech).
+Support for a language alone does not establish pronunciation quality.
 
-```sh
-python3 scripts/audio-pipeline.py generate --all \
-  --pilot-approval audio-review/reviewed-openai-marin.json
-```
+## Publication, caching and playback
 
-The complete library remains draft. Review every new clip, then promote the
-reviewed manifest:
+The compressed Marin delivery libraries (48.6 MB combined, each file under
+1 MB) are versioned as ordinary Git bytes under `dist/audio/{fil,fr}/marin/`.
+This keeps static publication portable and avoids LFS pointer files and an extra
+media download quota for this small library. Larger contributed/source
+MP3/OGG/WAV recordings retain the general Git LFS rules. `.lfsconfig` identifies
+the GitHub storage endpoint for those future LFS assets; GitHub Pages enables
+LFS checkout. Validation rejects pointers and checks every phrase, reading and
+model-response file against its SHA-256.
 
-```sh
-python3 scripts/audio-pipeline.py promote --manifest audio-review/reviewed-openai-marin.json
-npm run check
-```
+The offline shell includes the first lesson’s audio. Other recordings are
+cached when listened to, avoiding a large download before the app can open.
+Browsers request media using HTTP byte ranges. The service worker passes through
+HTTP 206 responses, stores complete ranges as HTTP 200 when possible, and never
+discards valid network playback because Cache API rejects a partial response.
+`tests/audio-service-worker.mjs` exercises real HTTP 206 playback after the app
+has taken control; opening the review page in a fresh context alone would miss
+that regression.
 
-Review scope is per recording, not a promise that the entire course or every
-future generation is flawless. If no pilot meets the standard, use licensed
-human recordings instead. Preserve performer permission, attribution and the
-content license. The generation tool currently covers phrase entries; longer
-readings can be added with the same text-and-byte-bound review requirements.
+The [12-sample listening page](https://smichea.github.io/tara/pronunciation-review/)
+remains available for listening and optional per-clip feedback. Exporting a
+review downloads a JSON file; it does not submit anything or change lessons.
+Its small MP3 files are ordinary Git files (about 0.53 MB); the main voice library also contains real, compressed delivery bytes. `scripts/publish-audio-pilot.py` rebuilds the page from the local pilot.
 
-## Storage and publication
+## French course
 
-`audio-review/` clips and manifests remain local until explicitly promoted.
-`dist/audio/` MP3/OGG/WAV files use Git LFS through `.gitattributes`. Install Git LFS
-before committing recordings. GitHub Pages checks out `lfs: true`; validation
-rejects pointer files or a byte hash different from the approved review. Other
-static hosts must also materialize LFS before packaging. The Sites helper packages
-the actual working-tree files. Bundled recordings are cached for offline use.
-No credentials or synthesis requests are sent to learners’ browsers.
-
-## Published listening pilot
-
-[Listen to the 12 samples](https://smichea.github.io/tara/pronunciation-review/).
-The pilot is separate from lesson playback and clearly labelled unapproved.
-A fluent reviewer can listen, check criteria, write corrections and export a
-review manifest; the page never submits a review or activates lesson audio.
-
-To rebuild that small review page after generating a new pilot:
-
-```sh
-python3 scripts/publish-audio-pilot.py audio-review/openai-gpt-4o-mini-tts-marin-pilot.json
-```
-
-These short pilot files total about 0.53 MB and are kept as ordinary MP3 files in
-Git under `dist/pronunciation-review/`, so both static hosts serve actual bytes.
-Approved lesson audio under `dist/audio/` uses Git LFS as described above. The
-public listening pilot contains only course text and synthesis/review metadata,
-never provider credentials. Code is AGPL-3.0-or-later; samples retain CC BY-SA 4.0.
+Carina's French course uses the selected Marin voice with French-specific reading
+instructions. Its `voice-selected` / `voice-selection` metadata explicitly refers
+to the earlier Filipino voice choice; it does not claim a French listening review.
+French clips remain synthetic and individual corrections are welcome. Generate
+with `--course fr-en --approval audio-review/marin-french-selection.json`.

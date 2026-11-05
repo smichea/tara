@@ -1,6 +1,6 @@
-const CACHE = 'tara-shell-v7';
+const CACHE = 'tara-shell-v8';
 const ROOT = new URL('./', self.location.href);
-const FILES = ['./', './index.html', './app.js', './lib.js', './curriculum.js', './museum.js', './speech.js', './style.css', './icon.svg', './manifest.webmanifest', './LICENSE.txt', './NOTICE.txt', './courses/index.json'];
+const FILES = ['./', './index.html', './app.js', './lib.js', './curriculum.js', './museum.js', './speech.js', './glosses.js', './style.css', './icon.svg', './manifest.webmanifest', './LICENSE.txt', './NOTICE.txt', './courses/index.json'];
 self.addEventListener('install', event => {
   event.waitUntil((async()=>{
     const cache = await caches.open(CACHE);
@@ -11,7 +11,8 @@ self.addEventListener('install', event => {
       const url = new URL('./courses/'+item.file,ROOT).href;
       await cache.add(url);
       const course = await (await cache.match(url)).json();
-      for (const lesson of course.lessons) for (const entry of lesson.entries) if (entry.audio && /^audio\/[a-zA-Z0-9/_-]+\.(mp3|ogg|wav)$/.test(entry.audio)) await cache.add(new URL(entry.audio,ROOT).href);
+      // Keep installation small; later recordings are cached as they are played.
+      for (const entry of course.lessons[0].entries) if (entry.audio && /^audio\/[a-zA-Z0-9/_-]+\.(mp3|ogg|wav)$/.test(entry.audio)) await cache.add(new URL(entry.audio,ROOT).href);
     }
     await self.skipWaiting();
   })());
@@ -28,8 +29,18 @@ self.addEventListener('fetch', event=>{
       const response=await fetch(event.request);
       // Cache API rejects partial (206) media responses. Never discard playable
       // network audio because caching failed or browser storage is full.
-      if(response.status===200 && !response.redirected && !event.request.headers.has('Range')) {
-        try { await cache.put(event.request,response.clone()); } catch {}
+      if(response.status===200 && !response.redirected) {
+        try { await cache.put(event.request.url,response.clone()); } catch {}
+      } else if(response.status===206) {
+        const range=/^bytes 0-(\d+)\/(\d+)$/.exec(response.headers.get('Content-Range')||'');
+        if(range&&Number(range[1])+1===Number(range[2])) {
+          // A complete file delivered as a byte range can be stored as HTTP 200.
+          const headers=new Headers(response.headers);headers.delete('Content-Range');
+          try { await cache.put(event.request.url,new Response(response.clone().body,{status:200,headers})); } catch {}
+        } else {
+          // Fetch a complete copy for the next offline listen without delaying playback.
+          event.waitUntil(cache.add(event.request.url).catch(()=>{}));
+        }
       }
       return response;
     } catch {

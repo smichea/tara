@@ -6,6 +6,7 @@ const browser=await chromium.launch({headless:true,executablePath:process.env.TA
 const base=process.env.TARA_BASE_URL||'http://127.0.0.1:4173/';
 try{
  const context=await browser.newContext({serviceWorkers:'block'}),page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
+ await context.route('**/courses/fil-en.json',async route=>{const response=await route.fetch(),course=await response.json();for(const l of course.lessons)for(const e of l.entries){delete e.audio;delete e.audioReview;}await route.fulfill({json:course});});
  await context.addInitScript(()=>{Object.defineProperty(window,'speechSynthesis',{value:{speak(){throw Error('Browser TTS must not be called');}}});});
  await page.goto(base);await page.getByRole('button',{name:'Let’s do this'}).click();assert(await page.getByRole('button',{name:'Listen to Kumusta ka?',exact:true}).isDisabled());
  await page.getByRole('button',{name:'Leave lesson'}).click();await page.getByRole('dialog').getByRole('button',{name:'Continue'}).click();await page.getByRole('link',{name:'Settings',exact:true}).click();

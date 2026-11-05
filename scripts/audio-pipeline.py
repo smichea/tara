@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Offline synthesis -> per-clip human review -> promotion. Never called by the app."""
-import argparse,base64,datetime,hashlib,json,os,re,subprocess,sys,time,urllib.request,urllib.error
+import argparse,base64,http.client,datetime,hashlib,json,os,re,subprocess,sys,time,urllib.request,urllib.error
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 CHECKS=('pronunciation','stress','naturalness','completeness')
@@ -38,7 +38,7 @@ def openai_audio(text,model,voice):
    # Never print error bodies: an authentication response can contain a key fragment.
    if e.code not in (429,500,502,503,504) or attempt==3:raise RuntimeError(f'OpenAI speech generation returned HTTP {e.code}. No recording was approved.') from None
    time.sleep(3*(attempt+1))
-  except (urllib.error.URLError,TimeoutError):
+  except (urllib.error.URLError,TimeoutError,http.client.HTTPException):
    if attempt==3:raise RuntimeError('Speech request failed after bounded retries. Existing cached clips were kept.') from None
    time.sleep(3*(attempt+1))
  raise RuntimeError('Speech request failed.')

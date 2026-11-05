@@ -15,6 +15,6 @@ try{
  assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
  await mkdir('artifacts',{recursive:true});await page.screenshot({path:'artifacts/pronunciation-review-mobile.png',fullPage:true,animations:'disabled'});
  await page.goto(base+'#community');await page.getByRole('link',{name:'Listen to and review the pronunciation pilot'}).waitFor();await page.getByRole('link',{name:'AGPL v3 or later',exact:true}).waitFor();
- const course=await (await page.request.get(new URL('courses/fil-en.json',base).href)).json();assert(!course.lessons.some(l=>l.entries.some(e=>e.audio)));
- assert.deepEqual(errors,[]);console.log('Pilot review QA passed: 12 clips, MP3 decoding, mobile layout, per-clip export, AGPL/source link and no unapproved lesson audio.');
+ const course=await (await page.request.get(new URL('courses/fil-en.json',base).href)).json();assert(course.audioVoiceApprovals.some(a=>a.scope==='voice-pilot'));assert(course.lessons.every(l=>l.entries.every(e=>e.audio&&e.audioReview.scope==='voice-pilot')));
+ assert.deepEqual(errors,[]);console.log('Pilot review QA passed: 12 clips, MP3 decoding, mobile layout, per-clip export, AGPL/source link and explicit voice-pilot approval metadata.');
 }finally{await browser.close();}

@@ -1,4 +1,5 @@
-import {isReviewedAudio} from './speech.js';
+import {validGlosses} from './glosses.js';
+import {isPlayableAudio} from './speech.js';
 import {validateLessonExtension} from './curriculum.js';
 export const SCHEMA_VERSION = 1;
 export function normalize(value) {
@@ -33,6 +34,8 @@ export function validateCourse(course) {
   for (const key of ['title', 'language', 'fromLanguage']) if (!str(course[key], 100)) errors.push(`${key} is required (max 100 characters).`);
   for (const key of ['languageCode', 'fromCode']) if (!langId.test(course[key] || '')) errors.push(`${key} must be a language code such as fil, en or pt-BR.`);
   if (course.languageCode === course.fromCode) errors.push('Learning and instruction languages must differ.');
+  if(course.learnerName!=null&&!str(course.learnerName,100))errors.push('Invalid learner name.');
+  if(course.learnerId!=null&&!safeId.test(course.learnerId))errors.push('Invalid learner profile id.');
   if (course.license !== 'CC-BY-SA-4.0') errors.push('Content license must be CC-BY-SA-4.0.');
   if (!str(course.author, 100)) errors.push('Author attribution is required.');
   if (course.derivedFrom && (!str(course.derivedFrom.author,100) || !safeId.test(course.derivedFrom.courseId || '') || course.derivedFrom.license !== 'CC-BY-SA-4.0')) errors.push('Invalid upstream course attribution.');
@@ -40,12 +43,14 @@ export function validateCourse(course) {
   if (!['draft', 'reviewed'].includes(course.status)) errors.push('Status must be draft or reviewed.');
   if (course.status === 'reviewed' && (!Array.isArray(course.reviewers) || !course.reviewers.length || !course.reviewers.every(x => str(x,100)))) errors.push('Reviewed courses require named reviewers.');
   if (!Array.isArray(course.lessons) || !course.lessons.length || course.lessons.length > 300) return [...errors, 'A course needs 1–300 lessons.'];
+  if(course.audioVoiceApprovals!=null&&(!Array.isArray(course.audioVoiceApprovals)||course.audioVoiceApprovals.length>20||!course.audioVoiceApprovals.every(a=>a&&safeId.test(a.id||'')&&['voice-pilot','voice-selection'].includes(a.scope)&&str(a.reviewer,100)&&str(a.statement,1000))))errors.push('Invalid voice-pilot approval metadata.');
   const ids = new Set();
   const unique = (id, label) => { if (!safeId.test(id || '')) errors.push(`${label}: invalid id.`); else if (ids.has(id)) errors.push(`${label}: duplicate id ${id}.`); ids.add(id); };
   for (const lesson of course.lessons) {
     if (!lesson || typeof lesson !== 'object') { errors.push('Invalid lesson.'); continue; }
     unique(lesson.id, 'Lesson');
     errors.push(...validateLessonExtension(lesson));
+    for(const [key,textKey] of [['reading','text'],['task','model']]){const item=lesson[key];if(item?.audio&&!isPlayableAudio({...item,text:item[textKey]},course.audioVoiceApprovals))errors.push(`${lesson.id}: ${key} audio needs a matching review or voice approval.`);}
     if (!str(lesson.title, 100)) errors.push('Lesson title is required.');
     if (!str(lesson.goal, 300)) errors.push(`${lesson.id}: add a practical goal.`);
     if (lesson.tip != null && !str(lesson.tip, 1000)) errors.push(`${lesson.id}: invalid tip.`);
@@ -57,9 +62,10 @@ export function validateCourse(course) {
       if (!str(entry.translation)) errors.push(`${entry.id}: add a translation (max 300).`);
       if (!['word', 'phrase'].includes(entry.kind)) errors.push(`${entry.id}: kind must be word or phrase.`);
       if (entry.note != null && (typeof entry.note !== 'string' || entry.note.length > 600)) errors.push(`${entry.id}: note is too long.`);
+      if (entry.glosses != null && !validGlosses(entry)) errors.push(`${entry.id}: contextual glosses must match every word in order, with short nonempty meanings.`);
       if (entry.accepted != null && (!Array.isArray(entry.accepted) || entry.accepted.length > 12 || !entry.accepted.every(v => str(v)))) errors.push(`${entry.id}: accepted answers must be short text strings.`);
       if (entry.audio != null && !/^audio\/[a-zA-Z0-9/_-]+\.(mp3|ogg|wav)$/.test(entry.audio)) errors.push(`${entry.id}: audio must be a local audio/ path (mp3, ogg or wav).`);
-      if (entry.audio != null && !isReviewedAudio(entry)) errors.push(`${entry.id}: audio requires an approved, text-matched fluent-speaker review.`);
+      if (entry.audio != null && !isPlayableAudio(entry,course.audioVoiceApprovals)) errors.push(`${entry.id}: audio requires a matching clip review or explicit voice approval.`);
     }
   }
   return errors;

@@ -2,5 +2,9 @@
   {
     "id": "fil-en",
     "file": "fil-en.json"
+  },
+  {
+    "id": "fr-en",
+    "file": "fr-en.json"
   }
 ]

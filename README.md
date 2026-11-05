@@ -2,13 +2,14 @@
 
 **A little practice. A real conversation.**
 
-An open-source, ad-free language-learning app with community-editable courses. The first course teaches everyday Filipino from English. Navigation is currently in English; course text and explanations are data-driven.
+An open-source, ad-free language-learning app with community-editable courses. Courses teach Filipino for Marco and beginner French for Carina, both from English. Navigation is currently in English; course text and explanations are data-driven.
 
 ## Try it
 
 Public app: **https://smichea.github.io/tara/**
 
 ```sh
+git lfs install
 git clone https://github.com/smichea/tara.git
 cd tara
 npm run dev
@@ -18,23 +19,26 @@ Open <http://127.0.0.1:4173>. Python 3 runs the development server; Node 20+ run
 
 ## What works today
 
+- Carina’s 32 beginner French lessons (A1–A2): 128 expressions, 24 short readings, 48 comprehension questions and 24 expression tasks about catering, food, Paris, shopping, monuments and royal history. Historical texts link to official sources. Her local progress and XP are separate from Marco’s.
+
 - 124 Filipino lessons with 576 key expressions, including A1–C2-inspired practice targets; the original 12 lessons and their progress IDs are preserved.
 - 112 contextual readings (including two attributed historical excerpts), 224 comprehension questions with explanations, and 112 open expression tasks with model responses and self-checks.
 - A school pathway from Grade 1 prerequisites through every Grade 2–7 and Grade 8, grouped by quarter with source references and suggested readiness checks.
 - Level navigation and saved writing responses in localStorage; long-form expression is self-assessed, not compared against one required sentence.
 - Meaning choices, sentence building and written recall; equivalent answers and optional Filipino politeness are accepted, while mistakes get another attempt.
 - Spaced repetition, completed lessons, daily goals, streaks and XP saved automatically in localStorage, plus an explicit Save progress button in Settings.
-- Phrasebook with search; stored, human-reviewed audio playback with normal/slower speed. Browser TTS is disabled; 12 generated pilot clips are available for listening review; lesson audio awaits approval.
+- Searchable phrasebook and contextual English word hints on hover, keyboard focus or tap for all 576 expressions; meanings are editable in the community editor and work offline.
+- Stored OpenAI Marin audio for phrases, readings and model responses, with normal/slower playback. The user approved this voice after listening to the 12-sample pilot; metadata distinguishes voice selection from individual clip review. Browser TTS is disabled.
 - 15 downloadable Retro Museum quiz/game packs for shared-screen and phone play; the open host supports ranking and cooperative modes. See [multiplayer setup](docs/multiplayer.md).
 - Responsive interface, reduced-motion-aware animations and an offline service worker; install through the browser when supported.
-- A visual course editor for words, phrases, teaching tips, accepted spellings and new language pairs.
+- A visual course editor for words, phrases, teaching tips, contextual word meanings, accepted spellings and new language pairs.
 - Local course import and export; editor drafts save as you type.
 - GitHub contribution proposals from the editor, pull requests, automatic content validation and a documented review process.
 - Progress backup and restore, including imported courses.
 
 ## Honest limits
 
-This is a guided practice course, not a complete CEFR syllabus, school qualification or substitute for speaking with people. Level labels describe editorial practice targets inspired by CEFR, not externally validated proficiency or a promise that completing a tab achieves that level. Course content is an original draft **awaiting fluent-speaker and teacher review**. See [curriculum notes](docs/curriculum.md) and [school alignment](docs/school-alignment.md). The school pathway bridges selected skills from every preceding grade; it does not claim exhaustive yearly coverage or replace assigned full literary works and live performance. Stored lesson audio must be checked clip by clip by a named fluent speaker before activation. No pronunciation quality has been claimed without listening review. See [audio generation and review](docs/audio.md). No microphone, speech recognition or pronunciation scoring is included.
+This is a guided practice course, not a complete CEFR syllabus, school qualification or substitute for speaking with people. Level labels describe editorial practice targets inspired by CEFR, not externally validated proficiency or a promise that completing a tab achieves that level. Course content is an original draft **awaiting fluent-speaker and teacher review**. See [curriculum notes](docs/curriculum.md) and [school alignment](docs/school-alignment.md). The school pathway bridges selected skills from every preceding grade; it does not claim exhaustive yearly coverage or replace assigned full literary works and live performance. The synthetic voice was selected after a user listening review of the 12-sample pilot. This is a voice approval, not a claim that every generated clip was individually reviewed or that all pronunciation is flawless. Individual clip reviews and corrected human recordings remain welcome. See [audio generation and review](docs/audio.md). No microphone, speech recognition or pronunciation scoring is included.
 
 The shared contribution workflow uses **GitHub review**, not an in-app account system or a live database. Local drafts are not published automatically. A proposal opens on GitHub for the contributor to review and submit; a maintainer must integrate it and a fluent speaker must review language content. Review dates and learning progress are device-local; there is no cloud sync. Imported courses stay labelled as unreviewed drafts, even when their file claims reviewed status.
 
@@ -85,6 +89,8 @@ Recorded-audio and storage regression checks use the same optional Playwright se
 ```sh
 TARA_CHROMIUM=/path/to/chromium node tests/audio-browser.mjs
 TARA_CHROMIUM=/path/to/chromium node tests/audio-review-browser.mjs
+TARA_CHROMIUM=/path/to/chromium node tests/audio-service-worker.mjs
+TARA_CHROMIUM=/path/to/chromium node tests/glosses-browser.mjs
 ```
 
 These checks verify recorded-file playback wiring with an explicit test fixture,
@@ -96,3 +102,5 @@ Extended reading, expression, editor preservation and offline regression checks:
 TARA_CHROMIUM=/path/to/chromium node tests/curriculum-browser.mjs
 TARA_CHROMIUM=/path/to/chromium node tests/school-browser.mjs
 ```
+
+French course and learner-isolation browser check: `node tests/carina-browser.mjs`.

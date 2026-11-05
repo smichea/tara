@@ -1,16 +1,22 @@
-// Playback of stored, human-reviewed recordings only. No browser synthesis.
+// Stored audio: per-clip review or an explicitly approved voice pilot. No browser synthesis.
 export const AUDIO_PATH=/^audio\/[a-zA-Z0-9/_-]+\.(mp3|ogg|wav)$/;
 export function isReviewedAudio(entry){
  const r=entry?.audioReview;
  return AUDIO_PATH.test(entry?.audio||'')&&r?.text===entry.text&&r?.status==='approved'&&typeof r.reviewer==='string'&&r.reviewer.trim().length>0&&/^\d{4}-\d{2}-\d{2}$/.test(r.reviewedAt||'')&&/^[a-f0-9]{64}$/.test(r.sha256||'')&&['pronunciation','stress','naturalness','completeness'].every(k=>r.checks?.[k]===true);
 }
-export function createSpeechPlayer(env=globalThis,{onError=()=>{}}={}){
+export function isPlayableAudio(entry,approvals=[]){
+ if(isReviewedAudio(entry))return true;
+ const r=entry?.audioReview;
+ if(!AUDIO_PATH.test(entry?.audio||'')||r?.text!==entry.text||!((r?.status==='pilot-approved'&&r.scope==='voice-pilot')||(r?.status==='voice-selected'&&r.scope==='voice-selection'))||r.synthetic!==true||!/^[a-f0-9]{64}$/.test(r.sha256||'')||!/^[a-f0-9]{64}$/.test(r.recipeHash||''))return false;
+ return Array.isArray(approvals)&&approvals.some(a=>a?.id===r.voiceApproval&&a.scope===r.scope&&(a.scope==='voice-pilot'||(a.scope==='voice-selection'&&a.referenceLanguage==='fil'&&a.targetLanguage==='fr'&&a.referenceApproval==='marin-pilot-2026-11-05'))&&a.recipeHash===r.recipeHash&&a.provider==='openai'&&a.model==='gpt-4o-mini-tts'&&a.voice==='marin'&&a.sampleCount===12&&typeof a.reviewer==='string'&&a.reviewer.trim()&&/^\d{4}-\d{2}-\d{2}$/.test(a.approvedAt||'')&&/^[a-f0-9]{64}$/.test(a.pilotManifestSha256||''));
+}
+export function createSpeechPlayer(env=globalThis,{onError=()=>{},getVoiceApprovals=()=>[]}={}){
  let active=null;
  function stop(){if(active){const old=active;active=null;old.pause();old.removeAttribute?.('src');old.load?.();}}
  return {
   supported:typeof env.Audio==='function',stop,
   speak(entry,_language,rate=1){
-   if(!isReviewedAudio(entry)){onError('unreviewed');return false;}
+   if(!isPlayableAudio(entry,getVoiceApprovals())){onError('unreviewed');return false;}
    if(typeof env.Audio!=='function'){onError('unsupported');return false;}
    stop();
    const audio=new env.Audio(new URL(entry.audio,env.document?.baseURI||env.location?.href).href);active=audio;

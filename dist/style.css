@@ -14,3 +14,13 @@
 @media(max-width:930px){.school-stages{grid-template-columns:repeat(2,minmax(0,1fr))}.school-overview{padding:20px}.school-invitation{flex-wrap:wrap}.school-invitation>.pill{white-space:normal}}
 @media(max-width:650px){.nav a{font-size:8px}.school-stage{padding:13px}.school-stage.selected{padding:12px}.school-overview{padding:17px}.school-stages{gap:9px}.school-invitation{padding:16px;gap:10px}.school-stage strong{font-size:15px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+/* Word hints keep the sentence's spacing, typography and direction. */
+.gloss-word{display:inline;border:0;border-radius:5px;padding:0;margin:0;background:transparent;color:inherit;font:inherit;line-height:inherit;letter-spacing:inherit;text-align:inherit;text-decoration:underline dotted #9cac97;text-decoration-thickness:1px;text-underline-offset:.17em;cursor:help;transition:background .15s,color .15s}
+.gloss-word:hover,.gloss-word:focus-visible,.gloss-word.gloss-active{background:#e6efda;color:#1c573d;outline:2px solid transparent}
+.gloss-word:focus-visible{outline-color:#43825a;outline-offset:3px}
+.gloss-hint{font-size:12px;color:#687e71;margin:-12px 0 24px}
+.word-gloss-tooltip{position:fixed;z-index:1000;box-sizing:border-box;width:max-content;max-width:min(310px,calc(100vw - 24px));padding:14px 18px;border-radius:14px;background:#183e32;color:#fff;box-shadow:0 8px 28px #183e3230;text-align:left;pointer-events:none;animation:gloss-in .13s ease-out}
+.word-gloss-tooltip[hidden]{display:none}.word-gloss-tooltip small,.word-gloss-tooltip strong,.word-gloss-tooltip span{display:block}.word-gloss-tooltip small{font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:#c9dfa7}.word-gloss-tooltip strong{font-size:17px;margin:5px 0 3px}.word-gloss-tooltip span{font-size:14px;line-height:1.5}
+@keyframes gloss-in{from{opacity:0;transform:translateY(3px)}to{opacity:1;transform:translateY(0)}}
+@media(prefers-reduced-motion:reduce){.word-gloss-tooltip{animation:none}.gloss-word{transition:none}}

@@ -11,12 +11,12 @@ try{
  await page.reload();await page.locator('.school-stage[data-id="8"][aria-pressed=true]').waitFor();
  await mkdir('artifacts',{recursive:true});await page.screenshot({path:'artifacts/school-mobile.png',fullPage:true});
  await page.locator('.school-stage[data-id=foundations]').click();await page.locator('.lesson[data-id=foundation-vowels]').click();
- assert((await page.locator('.study-text').innerText()).includes('A, e, i, o, u.'));assert(await page.getByRole('button',{name:'Listen to A, e, i, o, u.',exact:true}).isDisabled());
+ assert((await page.locator('.study-text').innerText()).includes('A, e, i, o, u.'));assert(await page.getByRole('button',{name:'Listen to A, e, i, o, u.',exact:true}).isEnabled());
  await page.getByRole('button',{name:'Leave lesson'}).click();await page.getByRole('dialog').getByRole('button',{name:'Continue'}).click();
  await page.goto(base+'#play');await page.getByRole('heading',{name:'Make it a shared challenge.'}).waitFor();
  await page.selectOption('#quiz-selection','school-8');const dl=page.waitForEvent('download');await page.getByRole('button',{name:'Download questions'}).click();const bank=JSON.parse(await readFile(await (await dl).path()));assert.equal(bank.questions.length,64);assert(bank.questions.every(q=>q.answers.length===4));
  const game=page.waitForEvent('download');await page.getByRole('link',{name:'Download game pack'}).click();const pack=JSON.parse(await readFile(await (await game).path()));assert(pack.engine.includes('RetroQuizBank'));assert(pack.licenseText.includes('CC BY-SA 4.0'));
  await page.reload();await page.locator('#quiz-selection').waitFor();assert.equal(await page.locator('#quiz-selection').inputValue(),'school-8');
  await page.emulateMedia({reducedMotion:'reduce'});await page.goto(base+'#school');assert.equal(await page.locator('.hero-art>g').first().evaluate(el=>getComputedStyle(el).animationName),'none');
- assert.deepEqual(errors,[]);console.log('School/museum browser QA passed: all preceding stages, quarter grouping, persistence, mobile overflow, unavailable unreviewed sound, grade-specific bank/game downloads and reduced motion.');
+ assert.deepEqual(errors,[]);console.log('School/museum browser QA passed: all preceding stages, quarter grouping, persistence, mobile overflow, enabled voice-selected school audio, grade-specific bank/game downloads and reduced motion.');
 }finally{await browser.close();}

@@ -68,7 +68,7 @@ fields are checked before import. Maximum imported JSON size: 2 MB.
   Remote URLs and path traversal are rejected. `audioReview` is required: approved
   status, exact text, reviewer, ISO review date, audio SHA-256 and all four checks
   (pronunciation, stress, naturalness, completeness). CI verifies bytes and rejects
-  Git LFS pointers. See [audio workflow](audio.md).
+  Git LFS pointers. Alternatively, `pilot-approved` audio references an explicit course-level `audioVoiceApprovals` record, its exact synthesis recipe hash, exact text and file SHA-256; it is labelled synthetic and does not claim per-clip review. Readings and model responses support the same audio metadata. See [audio workflow](audio.md).
 - `status`: `draft` or `reviewed`. Reviewed shared courses require named
   `reviewers` and human sign-off. Local imports are always shown as drafts.
 - Optional `derivedFrom`: prior course ID, author and license; created by the
@@ -86,7 +86,7 @@ In Filipino courses, adding one optional `po` or `ho` is also accepted when the
 answer otherwise matches. Required respectful forms are preserved. Other words,
 including negation and pronouns, are not discarded. Distinct meanings serve as choice distractors.
 
-Sound uses reviewed recordings only; browser text-to-speech is disabled. Files
+Sound uses individually reviewed recordings or an explicitly approved voice pilot; browser text-to-speech is disabled. Files
 are served locally and cached for offline use. A text edit invalidates its old
 pronunciation review, so replace the audio/review or remove the audio reference.
 For writing systems with no spaces, written
@@ -131,3 +131,41 @@ with optional instruction-language support → practise recall and comprehension
 → write and compare a personal response. Comprehension results affect session
 accuracy but are not scheduled as vocabulary flashcards. Saved writing is
 included in progress backups. Older backups without writing remain supported.
+
+## Contextual word meanings
+
+An entry may include `glosses`, one object per word occurrence in exact order:
+
+```json
+"glosses": [
+  {"text": "Pupunta", "meaning": "will go"},
+  {"text": "tayo", "meaning": "we, including the listener"},
+  {"text": "bukas", "meaning": "tomorrow"}
+]
+```
+
+Meanings refer to the complete sentence: `bukas` can mean “tomorrow” or “open”.
+Particles may need a short explanation rather than a misleading English word.
+The shared Unicode tokenizer preserves hyphenated words, apostrophes, punctuation
+and spacing. Every token must match exactly, with a nonempty meaning of at most
+240 characters. Old courses without glosses remain valid. Unsupported word
+segmentation for other languages can be extended in `dist/glosses.js`.
+
+Hints appear on phrase study cards and in the phrasebook, using hover, focus,
+click or touch; they stay hidden during recall exercises. Escape or clicking
+outside dismisses a hint. The editor exposes each meaning and clears stale
+annotations and audio when text changes; use Refresh words to annotate the new
+sentence. Imports, forks and exports preserve annotations.
+
+The bundled glosses were drafted offline and editorially checked for alignment
+and selected contextual ambiguities. They retain the course's draft status.
+Maintainers can resume `scripts/generate-glosses.py` with an existing ignored
+`--env-file` and `--key-variable`; it caches validated batches under ignored
+`artifacts/glosses/`, preserves existing annotations, and never runs in the app.
+Grammar reference for marker distinctions: [KWF usage guide](https://kwfdiksiyonaryo.ph/gabay).
+
+Optional `learnerName` (100 characters) and `learnerId` (the same safe identifier
+format as course IDs) identify a local learner profile. A course with a learner
+ID uses a separate localStorage progress record; courses without one preserve
+the original storage key. Selecting a course restores its learner's saved XP,
+review cards and writing. This is device-local, with no authentication or sync.

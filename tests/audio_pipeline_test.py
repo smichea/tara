@@ -10,6 +10,12 @@ class Response:
  def __exit__(self,*args):pass
  def read(self):return MP3_FIXTURE
 class AudioPipelineTests(unittest.TestCase):
+ def test_disconnected_speech_request_retries_without_transcription(self):
+  with patch.dict(os.environ,{'OPENAI_API_KEY':'unit-test-not-a-real-key'},clear=True),patch.object(audio.urllib.request,'urlopen',side_effect=[audio.http.client.RemoteDisconnected('closed'),Response()]) as send,patch.object(audio.time,'sleep'):
+   self.assertEqual(audio.openai_audio('Bonjour !','gpt-4o-mini-tts','marin'),MP3_FIXTURE)
+   self.assertEqual(send.call_count,2)
+   self.assertTrue(all(c.args[0].full_url.endswith('/audio/speech') for c in send.call_args_list))
+
  def test_generation_calls_speech_only_without_transcription(self):
   calls=[]
   def send(request,**kwargs):calls.append((request.full_url,json.loads(request.data)));return Response()

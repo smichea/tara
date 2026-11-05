@@ -2,3 +2,8 @@
 dist/audio/**/*.mp3 filter=lfs diff=lfs merge=lfs -text
 dist/audio/**/*.ogg filter=lfs diff=lfs merge=lfs -text
 dist/audio/**/*.wav filter=lfs diff=lfs merge=lfs -text
+
+# Small delivery libraries are versioned as real bytes for portable static hosting.
+# Larger contributed/source recordings retain LFS through the rules above.
+dist/audio/fil/marin/*.mp3 -filter -diff -merge -text
+dist/audio/fr/marin/*.mp3 -filter -diff -merge -text
