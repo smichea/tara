@@ -1,59 +1,24 @@
-// Browser text-to-speech. No service keys or audio generation backend.
-export function speechLocale(code) {
-  return /^(fil|tl)(-|$)/i.test(code) ? 'fil-PH' : code;
+// Playback of stored, human-reviewed recordings only. No browser synthesis.
+export const AUDIO_PATH=/^audio\/[a-zA-Z0-9/_-]+\.(mp3|ogg|wav)$/;
+export function isReviewedAudio(entry){
+ const r=entry?.audioReview;
+ return AUDIO_PATH.test(entry?.audio||'')&&r?.text===entry.text&&r?.status==='approved'&&typeof r.reviewer==='string'&&r.reviewer.trim().length>0&&/^\d{4}-\d{2}-\d{2}$/.test(r.reviewedAt||'')&&/^[a-f0-9]{64}$/.test(r.sha256||'')&&['pronunciation','stress','naturalness','completeness'].every(k=>r.checks?.[k]===true);
 }
-export function selectVoice(voices, code) {
-  const wanted = speechLocale(code).toLowerCase();
-  const family = lang => /^(fil|tl)(-|$)/i.test(lang) ? 'fil' : lang.toLowerCase().split('-')[0];
-  return voices.filter(v => family(v.lang) === family(wanted)).sort((a,b) => {
-    const score = v => (v.lang.toLowerCase() === wanted ? 4 : 0) + (v.localService ? 2 : 0) + (v.default ? 1 : 0);
-    return score(b)-score(a);
-  })[0] || null;
-}
-export function createSpeechPlayer(env = globalThis, {onError = () => {}, onVoicesChanged = () => {}} = {}) {
-  const synth = env.speechSynthesis;
-  const supported = !!synth && typeof env.SpeechSynthesisUtterance === 'function';
-  let voices = [], active = null;
-  function refresh() {
-    if (!supported) return [];
-    try { voices = Array.from(synth.getVoices()); } catch { voices = []; }
-    return voices;
-  }
-  function stop() {
-    active = null; // Ignore cancellation events from the previous utterance.
-    if (supported) synth.cancel();
-  }
-  function changed() { refresh(); onVoicesChanged(); }
-  if (supported) { refresh(); synth.addEventListener?.('voiceschanged', changed); }
-  return {
-    supported,
-    voice(code) { return selectVoice(refresh(), code); },
-    stop,
-    speak(text, code, rate = .9) {
-      if (!supported) { onError('unsupported'); return false; }
-      stop();
-      const utterance = new env.SpeechSynthesisUtterance(text);
-      const voice = selectVoice(refresh(), code);
-      // Some browsers expose an empty voice list until the first request.
-      // Let the browser resolve the requested language instead of disabling sound.
-      utterance.lang = voice?.lang || speechLocale(code);
-      if (voice) utterance.voice = voice;
-      utterance.rate = Number.isFinite(rate) ? Math.max(.5, Math.min(1.2, rate)) : .9;
-      utterance.onend = () => { if (active === utterance) active = null; };
-      utterance.onerror = event => {
-        if (active !== utterance) return;
-        active = null;
-        if (!['canceled','interrupted'].includes(event.error)) onError(event.error || 'unavailable');
-      };
-      active = utterance;
-      try {
-        if (synth.paused) synth.resume();
-        synth.speak(utterance);
-        return true;
-      } catch {
-        active = null; onError('unavailable'); return false;
-      }
-    },
-    destroy() { stop(); synth?.removeEventListener?.('voiceschanged', changed); }
-  };
+export function createSpeechPlayer(env=globalThis,{onError=()=>{}}={}){
+ let active=null;
+ function stop(){if(active){const old=active;active=null;old.pause();old.removeAttribute?.('src');old.load?.();}}
+ return {
+  supported:typeof env.Audio==='function',stop,
+  speak(entry,_language,rate=1){
+   if(!isReviewedAudio(entry)){onError('unreviewed');return false;}
+   if(typeof env.Audio!=='function'){onError('unsupported');return false;}
+   stop();
+   const audio=new env.Audio(new URL(entry.audio,env.document?.baseURI||env.location?.href).href);active=audio;
+   audio.playbackRate=Number.isFinite(rate)?Math.max(.65,Math.min(1.2,rate)):1;
+   audio.preservesPitch=true;
+   audio.onended=()=>{if(active===audio)active=null;};
+   audio.onerror=()=>{if(active===audio){active=null;onError('unavailable');}};
+   try{const promise=audio.play();promise?.catch(()=>{if(active===audio){active=null;onError('unavailable');}});return true;}catch{active=null;onError('unavailable');return false;}
+  },destroy:stop
+ };
 }

@@ -1,0 +1,1673 @@
+{
+  "schemaVersion": 1,
+  "id": "tara-fil-en-b2",
+  "title": "Tara! · Filipino · B2 practice",
+  "author": "Tara contributors · CC BY-SA 4.0",
+  "language": "en",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What does this mean in English?\n\nIminumungkahi kong subukan muna ang plano.",
+      "answers": [
+        "I suggest trying the plan first.",
+        "This proposal has an adequate basis.",
+        "However, this method has a limitation.",
+        "One example is not enough to decide."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Iminumungkahi kong subukan muna ang plano. — I suggest trying the plan first.\nA strong argument connects a claim to relevant evidence. Gayunman marks a qualification; samakatuwid introduces a conclusion. A confident tone is not evidence by itself."
+    },
+    {
+      "id": "q2",
+      "prompt": "What does this mean in English?\n\nMay sapat na batayan ang mungkahing ito.",
+      "answers": [
+        "I suggest trying the plan first.",
+        "This proposal has an adequate basis.",
+        "However, this method has a limitation.",
+        "One example is not enough to decide."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "May sapat na batayan ang mungkahing ito. — This proposal has an adequate basis.\nA strong argument connects a claim to relevant evidence. Gayunman marks a qualification; samakatuwid introduces a conclusion. A confident tone is not evidence by itself."
+    },
+    {
+      "id": "q3",
+      "prompt": "What does this mean in English?\n\nGayunman, may limitasyon ang paraang ito.",
+      "answers": [
+        "I suggest trying the plan first.",
+        "This proposal has an adequate basis.",
+        "However, this method has a limitation.",
+        "One example is not enough to decide."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Gayunman, may limitasyon ang paraang ito. — However, this method has a limitation.\nA strong argument connects a claim to relevant evidence. Gayunman marks a qualification; samakatuwid introduces a conclusion. A confident tone is not evidence by itself."
+    },
+    {
+      "id": "q4",
+      "prompt": "What does this mean in English?\n\nHindi sapat ang isang halimbawa upang magpasya.",
+      "answers": [
+        "I suggest trying the plan first.",
+        "This proposal has an adequate basis.",
+        "However, this method has a limitation.",
+        "One example is not enough to decide."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Hindi sapat ang isang halimbawa upang magpasya. — One example is not enough to decide.\nA strong argument connects a claim to relevant evidence. Gayunman marks a qualification; samakatuwid introduces a conclusion. A confident tone is not evidence by itself."
+    },
+    {
+      "id": "q5",
+      "prompt": "What does this mean in English?\n\nMahalagang isaalang-alang ang ibang pananaw.",
+      "answers": [
+        "It is important to consider another perspective.",
+        "I suggest trying the plan first.",
+        "This proposal has an adequate basis.",
+        "However, this method has a limitation."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Mahalagang isaalang-alang ang ibang pananaw. — It is important to consider another perspective.\nA strong argument connects a claim to relevant evidence. Gayunman marks a qualification; samakatuwid introduces a conclusion. A confident tone is not evidence by itself."
+    },
+    {
+      "id": "q6",
+      "prompt": "What does this mean in English?\n\nSamakatuwid, kailangan nating suriin ang resulta.",
+      "answers": [
+        "I suggest trying the plan first.",
+        "Therefore, we need to examine the result.",
+        "This proposal has an adequate basis.",
+        "However, this method has a limitation."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Samakatuwid, kailangan nating suriin ang resulta. — Therefore, we need to examine the result.\nA strong argument connects a claim to relevant evidence. Gayunman marks a qualification; samakatuwid introduces a conclusion. A confident tone is not evidence by itself."
+    },
+    {
+      "id": "q7",
+      "prompt": "What does this mean in English?\n\nNauunawaan ko ang pangamba ninyo.",
+      "answers": [
+        "The other side has a point.",
+        "On the other hand, something else could be done.",
+        "I understand your concern.",
+        "That does not mean there are no other choices."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Nauunawaan ko ang pangamba ninyo. — I understand your concern.\nBagaman concedes a point; sa kabilang banda introduces another side. Refuting a weaker invented position does not answer the actual concern. State the concern fairly before responding."
+    },
+    {
+      "id": "q8",
+      "prompt": "What does this mean in English?\n\nMay punto ang kabilang panig.",
+      "answers": [
+        "I understand your concern.",
+        "We can combine the two proposals.",
+        "The question is how this will be implemented.",
+        "The other side has a point."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "May punto ang kabilang panig. — The other side has a point.\nBagaman concedes a point; sa kabilang banda introduces another side. Refuting a weaker invented position does not answer the actual concern. State the concern fairly before responding."
+    },
+    {
+      "id": "q9",
+      "prompt": "What does this mean in English?\n\nSa kabilang banda, may ibang maaaring gawin.",
+      "answers": [
+        "On the other hand, something else could be done.",
+        "I understand your concern.",
+        "We can combine the two proposals.",
+        "The question is how this will be implemented."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Sa kabilang banda, may ibang maaaring gawin. — On the other hand, something else could be done.\nBagaman concedes a point; sa kabilang banda introduces another side. Refuting a weaker invented position does not answer the actual concern. State the concern fairly before responding."
+    },
+    {
+      "id": "q10",
+      "prompt": "What does this mean in English?\n\nHindi nangangahulugang wala nang ibang pagpipilian.",
+      "answers": [
+        "I understand your concern.",
+        "That does not mean there are no other choices.",
+        "We can combine the two proposals.",
+        "The question is how this will be implemented."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Hindi nangangahulugang wala nang ibang pagpipilian. — That does not mean there are no other choices.\nBagaman concedes a point; sa kabilang banda introduces another side. Refuting a weaker invented position does not answer the actual concern. State the concern fairly before responding."
+    },
+    {
+      "id": "q11",
+      "prompt": "What does this mean in English?\n\nMaaari nating pagsamahin ang dalawang mungkahi.",
+      "answers": [
+        "I understand your concern.",
+        "The other side has a point.",
+        "We can combine the two proposals.",
+        "On the other hand, something else could be done."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Maaari nating pagsamahin ang dalawang mungkahi. — We can combine the two proposals.\nBagaman concedes a point; sa kabilang banda introduces another side. Refuting a weaker invented position does not answer the actual concern. State the concern fairly before responding."
+    },
+    {
+      "id": "q12",
+      "prompt": "What does this mean in English?\n\nAng tanong ay kung paano ito ipatutupad.",
+      "answers": [
+        "I understand your concern.",
+        "The other side has a point.",
+        "On the other hand, something else could be done.",
+        "The question is how this will be implemented."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Ang tanong ay kung paano ito ipatutupad. — The question is how this will be implemented.\nBagaman concedes a point; sa kabilang banda introduces another side. Refuting a weaker invented position does not answer the actual concern. State the concern fairly before responding."
+    },
+    {
+      "id": "q13",
+      "prompt": "What does this mean in English?\n\nSino ang target na mambabasa?",
+      "answers": [
+        "Who is the target reader?",
+        "The word used is persuasive.",
+        "Some information was not mentioned.",
+        "The claim is too broad."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Sino ang target na mambabasa? — Who is the target reader?\nA persuasive text selects language for an audience and a purpose. Words such as lahat and tiyak can imply more certainty than the evidence supports. Ask what information is missing."
+    },
+    {
+      "id": "q14",
+      "prompt": "What does this mean in English?\n\nAno ang nais nitong ipagawa sa mambabasa?",
+      "answers": [
+        "The word used is persuasive.",
+        "What does it want the reader to do?",
+        "Some information was not mentioned.",
+        "The claim is too broad."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Ano ang nais nitong ipagawa sa mambabasa? — What does it want the reader to do?\nA persuasive text selects language for an audience and a purpose. Words such as lahat and tiyak can imply more certainty than the evidence supports. Ask what information is missing."
+    },
+    {
+      "id": "q15",
+      "prompt": "What does this mean in English?\n\nMapanghikayat ang salitang ginamit.",
+      "answers": [
+        "Who is the target reader?",
+        "What does it want the reader to do?",
+        "The word used is persuasive.",
+        "Some information was not mentioned."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Mapanghikayat ang salitang ginamit. — The word used is persuasive.\nA persuasive text selects language for an audience and a purpose. Words such as lahat and tiyak can imply more certainty than the evidence supports. Ask what information is missing."
+    },
+    {
+      "id": "q16",
+      "prompt": "What does this mean in English?\n\nMay impormasyong hindi binanggit.",
+      "answers": [
+        "Who is the target reader?",
+        "What does it want the reader to do?",
+        "The word used is persuasive.",
+        "Some information was not mentioned."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "May impormasyong hindi binanggit. — Some information was not mentioned.\nA persuasive text selects language for an audience and a purpose. Words such as lahat and tiyak can imply more certainty than the evidence supports. Ask what information is missing."
+    },
+    {
+      "id": "q17",
+      "prompt": "What does this mean in English?\n\nMasyadong malawak ang pahayag.",
+      "answers": [
+        "The claim is too broad.",
+        "Who is the target reader?",
+        "What does it want the reader to do?",
+        "The word used is persuasive."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Masyadong malawak ang pahayag. — The claim is too broad.\nA persuasive text selects language for an audience and a purpose. Words such as lahat and tiyak can imply more certainty than the evidence supports. Ask what information is missing."
+    },
+    {
+      "id": "q18",
+      "prompt": "What does this mean in English?\n\nKailangang ihiwalay ang pangako sa katibayan.",
+      "answers": [
+        "Who is the target reader?",
+        "Promises need to be distinguished from evidence.",
+        "What does it want the reader to do?",
+        "The word used is persuasive."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Kailangang ihiwalay ang pangako sa katibayan. — Promises need to be distinguished from evidence.\nA persuasive text selects language for an audience and a purpose. Words such as lahat and tiyak can imply more certainty than the evidence supports. Ask what information is missing."
+    },
+    {
+      "id": "q19",
+      "prompt": "What does this mean in English?\n\nKung nalaman ko, nakapaghanda sana ako.",
+      "answers": [
+        "Their decision may change.",
+        "This will not happen without permission.",
+        "If I had known, I could have prepared.",
+        "Even if it rains, we will continue the activity."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Kung nalaman ko, nakapaghanda sana ako. — If I had known, I could have prepared.\nKung introduces conditions. Sana and conditional forms can express an unreal past: Kung nalaman ko, nakapaghanda sana ako. Distinguish a possibility from a statement of fact."
+    },
+    {
+      "id": "q20",
+      "prompt": "What does this mean in English?\n\nMaaaring magbago ang pasiya nila.",
+      "answers": [
+        "If I had known, I could have prepared.",
+        "This will not happen without permission.",
+        "Even if it rains, we will continue the activity.",
+        "Their decision may change."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Maaaring magbago ang pasiya nila. — Their decision may change.\nKung introduces conditions. Sana and conditional forms can express an unreal past: Kung nalaman ko, nakapaghanda sana ako. Distinguish a possibility from a statement of fact."
+    },
+    {
+      "id": "q21",
+      "prompt": "What does this mean in English?\n\nHindi ito mangyayari kung walang pahintulot.",
+      "answers": [
+        "This will not happen without permission.",
+        "If I had known, I could have prepared.",
+        "Their decision may change.",
+        "Even if it rains, we will continue the activity."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Hindi ito mangyayari kung walang pahintulot. — This will not happen without permission.\nKung introduces conditions. Sana and conditional forms can express an unreal past: Kung nalaman ko, nakapaghanda sana ako. Distinguish a possibility from a statement of fact."
+    },
+    {
+      "id": "q22",
+      "prompt": "What does this mean in English?\n\nKahit umulan, itutuloy namin ang gawain.",
+      "answers": [
+        "If I had known, I could have prepared.",
+        "Even if it rains, we will continue the activity.",
+        "Their decision may change.",
+        "This will not happen without permission."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Kahit umulan, itutuloy namin ang gawain. — Even if it rains, we will continue the activity.\nKung introduces conditions. Sana and conditional forms can express an unreal past: Kung nalaman ko, nakapaghanda sana ako. Distinguish a possibility from a statement of fact."
+    },
+    {
+      "id": "q23",
+      "prompt": "What does this mean in English?\n\nSakaling hindi siya dumating, tayo ang magsisimula.",
+      "answers": [
+        "If I had known, I could have prepared.",
+        "Their decision may change.",
+        "If he or she does not arrive, we will start.",
+        "This will not happen without permission."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Sakaling hindi siya dumating, tayo ang magsisimula. — If he or she does not arrive, we will start.\nKung introduces conditions. Sana and conditional forms can express an unreal past: Kung nalaman ko, nakapaghanda sana ako. Distinguish a possibility from a statement of fact."
+    },
+    {
+      "id": "q24",
+      "prompt": "What does this mean in English?\n\nSana ay napag-usapan natin ito nang mas maaga.",
+      "answers": [
+        "If I had known, I could have prepared.",
+        "Their decision may change.",
+        "This will not happen without permission.",
+        "I wish we had discussed this earlier."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Sana ay napag-usapan natin ito nang mas maaga. — I wish we had discussed this earlier.\nKung introduces conditions. Sana and conditional forms can express an unreal past: Kung nalaman ko, nakapaghanda sana ako. Distinguish a possibility from a statement of fact."
+    },
+    {
+      "id": "q25",
+      "prompt": "What does this mean in English?\n\nMaaaring sumagisag ang pintuan sa bagong pagkakataon.",
+      "answers": [
+        "The door may symbolize a new opportunity.",
+        "The character’s action supports this.",
+        "The narrator did not state it directly.",
+        "Another reading is possible."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Maaaring sumagisag ang pintuan sa bagong pagkakataon. — The door may symbolize a new opportunity.\nA literary response needs a claim, a detail and an explanation of the connection. A symbol is interpreted in context; it does not have one fixed meaning in every story."
+    },
+    {
+      "id": "q26",
+      "prompt": "What does this mean in English?\n\nSinusuportahan ito ng kilos ng tauhan.",
+      "answers": [
+        "The door may symbolize a new opportunity.",
+        "The character’s action supports this.",
+        "The narrator did not state it directly.",
+        "Another reading is possible."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Sinusuportahan ito ng kilos ng tauhan. — The character’s action supports this.\nA literary response needs a claim, a detail and an explanation of the connection. A symbol is interpreted in context; it does not have one fixed meaning in every story."
+    },
+    {
+      "id": "q27",
+      "prompt": "What does this mean in English?\n\nHindi tuwirang sinabi ng tagapagsalaysay.",
+      "answers": [
+        "The door may symbolize a new opportunity.",
+        "The character’s action supports this.",
+        "The narrator did not state it directly.",
+        "Another reading is possible."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Hindi tuwirang sinabi ng tagapagsalaysay. — The narrator did not state it directly.\nA literary response needs a claim, a detail and an explanation of the connection. A symbol is interpreted in context; it does not have one fixed meaning in every story."
+    },
+    {
+      "id": "q28",
+      "prompt": "What does this mean in English?\n\nMay iba pang posibleng pagbasa.",
+      "answers": [
+        "The door may symbolize a new opportunity.",
+        "The character’s action supports this.",
+        "The narrator did not state it directly.",
+        "Another reading is possible."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "May iba pang posibleng pagbasa. — Another reading is possible.\nA literary response needs a claim, a detail and an explanation of the connection. A symbol is interpreted in context; it does not have one fixed meaning in every story."
+    },
+    {
+      "id": "q29",
+      "prompt": "What does this mean in English?\n\nMahalaga ang konteksto ng tagpo.",
+      "answers": [
+        "The scene’s context matters.",
+        "The door may symbolize a new opportunity.",
+        "The character’s action supports this.",
+        "The narrator did not state it directly."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Mahalaga ang konteksto ng tagpo. — The scene’s context matters.\nA literary response needs a claim, a detail and an explanation of the connection. A symbol is interpreted in context; it does not have one fixed meaning in every story."
+    },
+    {
+      "id": "q30",
+      "prompt": "What does this mean in English?\n\nHindi sapat ang buod upang maipaliwanag ang tema.",
+      "answers": [
+        "The door may symbolize a new opportunity.",
+        "A summary alone is not enough to explain the theme.",
+        "The character’s action supports this.",
+        "The narrator did not state it directly."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Hindi sapat ang buod upang maipaliwanag ang tema. — A summary alone is not enough to explain the theme.\nA literary response needs a claim, a detail and an explanation of the connection. A symbol is interpreted in context; it does not have one fixed meaning in every story."
+    },
+    {
+      "id": "q31",
+      "prompt": "What does this mean in English?\n\nNais ko pong humingi ng paglilinaw.",
+      "answers": [
+        "Could the deadline be extended, please?",
+        "Please take a look at this when you have time.",
+        "I would like to ask for clarification, respectfully.",
+        "We are informing you of the schedule change."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Nais ko pong humingi ng paglilinaw. — I would like to ask for clarification, respectfully.\nRegister depends on audience, purpose and relationship. A formal message is clear and respectful, not merely longer. A familiar message can be concise without being careless."
+    },
+    {
+      "id": "q32",
+      "prompt": "What does this mean in English?\n\nMaaari po bang palawigin ang takdang oras?",
+      "answers": [
+        "I would like to ask for clarification, respectfully.",
+        "Please take a look at this when you have time.",
+        "We are informing you of the schedule change.",
+        "Could the deadline be extended, please?"
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Maaari po bang palawigin ang takdang oras? — Could the deadline be extended, please?\nRegister depends on audience, purpose and relationship. A formal message is clear and respectful, not merely longer. A familiar message can be concise without being careless."
+    },
+    {
+      "id": "q33",
+      "prompt": "What does this mean in English?\n\nPakitingnan nga ito kapag may oras ka.",
+      "answers": [
+        "Please take a look at this when you have time.",
+        "I would like to ask for clarification, respectfully.",
+        "Could the deadline be extended, please?",
+        "We are informing you of the schedule change."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Pakitingnan nga ito kapag may oras ka. — Please take a look at this when you have time.\nRegister depends on audience, purpose and relationship. A formal message is clear and respectful, not merely longer. A familiar message can be concise without being careless."
+    },
+    {
+      "id": "q34",
+      "prompt": "What does this mean in English?\n\nIpinababatid namin ang pagbabago sa iskedyul.",
+      "answers": [
+        "I would like to ask for clarification, respectfully.",
+        "We are informing you of the schedule change.",
+        "Could the deadline be extended, please?",
+        "Please take a look at this when you have time."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Ipinababatid namin ang pagbabago sa iskedyul. — We are informing you of the schedule change.\nRegister depends on audience, purpose and relationship. A formal message is clear and respectful, not merely longer. A familiar message can be concise without being careless."
+    },
+    {
+      "id": "q35",
+      "prompt": "What does this mean in English?\n\nPaumanhin sa abalang naidulot nito.",
+      "answers": [
+        "I would like to ask for clarification, respectfully.",
+        "Could the deadline be extended, please?",
+        "We apologize for the inconvenience this caused.",
+        "Please take a look at this when you have time."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Paumanhin sa abalang naidulot nito. — We apologize for the inconvenience this caused.\nRegister depends on audience, purpose and relationship. A formal message is clear and respectful, not merely longer. A familiar message can be concise without being careless."
+    },
+    {
+      "id": "q36",
+      "prompt": "What does this mean in English?\n\nInaasahan namin ang inyong tugon.",
+      "answers": [
+        "I would like to ask for clarification, respectfully.",
+        "Could the deadline be extended, please?",
+        "We are informing you of the schedule change.",
+        "We look forward to your reply."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Inaasahan namin ang inyong tugon. — We look forward to your reply.\nRegister depends on audience, purpose and relationship. A formal message is clear and respectful, not merely longer. A familiar message can be concise without being careless."
+    },
+    {
+      "id": "q37",
+      "prompt": "What does this mean in English?\n\nMagkaiba ang saklaw ng dalawang ulat.",
+      "answers": [
+        "The two reports have different scopes.",
+        "Both acknowledge that there is a problem.",
+        "Their bases are not the same.",
+        "Additional information is needed."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Magkaiba ang saklaw ng dalawang ulat. — The two reports have different scopes.\nCompare the scope, date, definitions and evidence of sources. A difference may reflect different measurements rather than dishonesty. A synthesis preserves both agreement and uncertainty."
+    },
+    {
+      "id": "q38",
+      "prompt": "What does this mean in English?\n\nPareho nilang kinikilalang may suliranin.",
+      "answers": [
+        "The two reports have different scopes.",
+        "Both acknowledge that there is a problem.",
+        "Their bases are not the same.",
+        "They may refer to different periods."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Pareho nilang kinikilalang may suliranin. — Both acknowledge that there is a problem.\nCompare the scope, date, definitions and evidence of sources. A difference may reflect different measurements rather than dishonesty. A synthesis preserves both agreement and uncertainty."
+    },
+    {
+      "id": "q39",
+      "prompt": "What does this mean in English?\n\nHindi magkatulad ang kanilang batayan.",
+      "answers": [
+        "The two reports have different scopes.",
+        "Both acknowledge that there is a problem.",
+        "Their bases are not the same.",
+        "They may refer to different periods."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Hindi magkatulad ang kanilang batayan. — Their bases are not the same.\nCompare the scope, date, definitions and evidence of sources. A difference may reflect different measurements rather than dishonesty. A synthesis preserves both agreement and uncertainty."
+    },
+    {
+      "id": "q40",
+      "prompt": "What does this mean in English?\n\nMaaaring magkaiba ang panahong tinutukoy.",
+      "answers": [
+        "Both acknowledge that there is a problem.",
+        "Their bases are not the same.",
+        "Additional information is needed.",
+        "They may refer to different periods."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Maaaring magkaiba ang panahong tinutukoy. — They may refer to different periods.\nCompare the scope, date, definitions and evidence of sources. A difference may reflect different measurements rather than dishonesty. A synthesis preserves both agreement and uncertainty."
+    },
+    {
+      "id": "q41",
+      "prompt": "What does this mean in English?\n\nKailangan ang karagdagang impormasyon.",
+      "answers": [
+        "Additional information is needed.",
+        "The two reports have different scopes.",
+        "Both acknowledge that there is a problem.",
+        "Their bases are not the same."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Kailangan ang karagdagang impormasyon. — Additional information is needed.\nCompare the scope, date, definitions and evidence of sources. A difference may reflect different measurements rather than dishonesty. A synthesis preserves both agreement and uncertainty."
+    },
+    {
+      "id": "q42",
+      "prompt": "What does this mean in English?\n\nHindi pa sapat ang datos para sa tiyak na konklusyon.",
+      "answers": [
+        "The two reports have different scopes.",
+        "The data are not yet enough for a definite conclusion.",
+        "Both acknowledge that there is a problem.",
+        "Their bases are not the same."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Hindi pa sapat ang datos para sa tiyak na konklusyon. — The data are not yet enough for a definite conclusion.\nCompare the scope, date, definitions and evidence of sources. A difference may reflect different measurements rather than dishonesty. A synthesis preserves both agreement and uncertainty."
+    },
+    {
+      "id": "q43",
+      "prompt": "What does this mean in English?\n\nLayunin ng presentasyong ito na magpaliwanag.",
+      "answers": [
+        "I will first discuss the main problem.",
+        "Let’s return to this example.",
+        "The aim of this presentation is to explain.",
+        "One point needs clarification."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Layunin ng presentasyong ito na magpaliwanag. — The aim of this presentation is to explain.\nA presentation needs an introduction, a clear route through the ideas and a conclusion. Signposting helps listeners, who cannot reread a spoken sentence as easily as a written one."
+    },
+    {
+      "id": "q44",
+      "prompt": "What does this mean in English?\n\nTatalakayin ko muna ang pangunahing suliranin.",
+      "answers": [
+        "The aim of this presentation is to explain.",
+        "Let’s return to this example.",
+        "One point needs clarification.",
+        "I will first discuss the main problem."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Tatalakayin ko muna ang pangunahing suliranin. — I will first discuss the main problem.\nA presentation needs an introduction, a clear route through the ideas and a conclusion. Signposting helps listeners, who cannot reread a spoken sentence as easily as a written one."
+    },
+    {
+      "id": "q45",
+      "prompt": "What does this mean in English?\n\nBalikan natin ang halimbawang ito.",
+      "answers": [
+        "Let’s return to this example.",
+        "The aim of this presentation is to explain.",
+        "I will first discuss the main problem.",
+        "One point needs clarification."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Balikan natin ang halimbawang ito. — Let’s return to this example.\nA presentation needs an introduction, a clear route through the ideas and a conclusion. Signposting helps listeners, who cannot reread a spoken sentence as easily as a written one."
+    },
+    {
+      "id": "q46",
+      "prompt": "What does this mean in English?\n\nMahalagang linawin ang isang punto.",
+      "answers": [
+        "The aim of this presentation is to explain.",
+        "One point needs clarification.",
+        "I will first discuss the main problem.",
+        "Let’s return to this example."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Mahalagang linawin ang isang punto. — One point needs clarification.\nA presentation needs an introduction, a clear route through the ideas and a conclusion. Signposting helps listeners, who cannot reread a spoken sentence as easily as a written one."
+    },
+    {
+      "id": "q47",
+      "prompt": "What does this mean in English?\n\nSalamat sa tanong; ganito ang aming batayan.",
+      "answers": [
+        "The aim of this presentation is to explain.",
+        "I will first discuss the main problem.",
+        "Thank you for the question; this is our basis.",
+        "Let’s return to this example."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Salamat sa tanong; ganito ang aming batayan. — Thank you for the question; this is our basis.\nA presentation needs an introduction, a clear route through the ideas and a conclusion. Signposting helps listeners, who cannot reread a spoken sentence as easily as a written one."
+    },
+    {
+      "id": "q48",
+      "prompt": "What does this mean in English?\n\nBilang pagtatapos, ito ang aming mungkahi.",
+      "answers": [
+        "The aim of this presentation is to explain.",
+        "I will first discuss the main problem.",
+        "Let’s return to this example.",
+        "To conclude, this is our suggestion."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Bilang pagtatapos, ito ang aming mungkahi. — To conclude, this is our suggestion.\nA presentation needs an introduction, a clear route through the ideas and a conclusion. Signposting helps listeners, who cannot reread a spoken sentence as easily as a written one."
+    },
+    {
+      "id": "q49",
+      "prompt": "What does this mean in English?\n\nAng persona ang tinig sa tula.",
+      "answers": [
+        "The persona is the voice in the poem.",
+        "The description creates an image.",
+        "There is meaning beyond the literal.",
+        "What detail supports your reading?"
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Ang persona ang tinig sa tula. — The persona is the voice in the poem.\nPersona is the speaking voice in a poem. Larawang-diwa or imahen is an image evoked by language. Talinghaga develops meaning beyond a purely literal description. The original poem here prepares these skills; it is not a text from the historical period."
+    },
+    {
+      "id": "q50",
+      "prompt": "What does this mean in English?\n\nLumilikha ng imahen ang paglalarawan.",
+      "answers": [
+        "The persona is the voice in the poem.",
+        "The description creates an image.",
+        "There is meaning beyond the literal.",
+        "What detail supports your reading?"
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Lumilikha ng imahen ang paglalarawan. — The description creates an image.\nPersona is the speaking voice in a poem. Larawang-diwa or imahen is an image evoked by language. Talinghaga develops meaning beyond a purely literal description. The original poem here prepares these skills; it is not a text from the historical period."
+    },
+    {
+      "id": "q51",
+      "prompt": "What does this mean in English?\n\nMay kahulugang lampas sa literal.",
+      "answers": [
+        "The persona is the voice in the poem.",
+        "The description creates an image.",
+        "There is meaning beyond the literal.",
+        "What detail supports your reading?"
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "May kahulugang lampas sa literal. — There is meaning beyond the literal.\nPersona is the speaking voice in a poem. Larawang-diwa or imahen is an image evoked by language. Talinghaga develops meaning beyond a purely literal description. The original poem here prepares these skills; it is not a text from the historical period."
+    },
+    {
+      "id": "q52",
+      "prompt": "What does this mean in English?\n\nAnong detalye ang sumusuporta sa pagbasa mo?",
+      "answers": [
+        "The persona is the voice in the poem.",
+        "The description creates an image.",
+        "There is meaning beyond the literal.",
+        "What detail supports your reading?"
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Anong detalye ang sumusuporta sa pagbasa mo? — What detail supports your reading?\nPersona is the speaking voice in a poem. Larawang-diwa or imahen is an image evoked by language. Talinghaga develops meaning beyond a purely literal description. The original poem here prepares these skills; it is not a text from the historical period."
+    },
+    {
+      "id": "q53",
+      "prompt": "What does this mean in English?\n\nIto ang pangunahing punto ng talata.",
+      "answers": [
+        "This is the paragraph’s main point.",
+        "The analysis explains the connection.",
+        "There is still a gap in the basis.",
+        "I suggest trying the plan first."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Ito ang pangunahing punto ng talata. — This is the paragraph’s main point.\nPunto, ebidensiya and analisis work together. Evidence must be relevant to the claim, and analysis explains why it supports that claim. A slogan alone does not establish a conclusion."
+    },
+    {
+      "id": "q54",
+      "prompt": "What does this mean in English?\n\nKaugnay ng punto ang ebidensiya.",
+      "answers": [
+        "The analysis explains the connection.",
+        "The evidence is relevant to the point.",
+        "There is still a gap in the basis.",
+        "I suggest trying the plan first."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Kaugnay ng punto ang ebidensiya. — The evidence is relevant to the point.\nPunto, ebidensiya and analisis work together. Evidence must be relevant to the claim, and analysis explains why it supports that claim. A slogan alone does not establish a conclusion."
+    },
+    {
+      "id": "q55",
+      "prompt": "What does this mean in English?\n\nIpinapaliwanag ng analisis ang ugnayan.",
+      "answers": [
+        "This is the paragraph’s main point.",
+        "The evidence is relevant to the point.",
+        "The analysis explains the connection.",
+        "There is still a gap in the basis."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Ipinapaliwanag ng analisis ang ugnayan. — The analysis explains the connection.\nPunto, ebidensiya and analisis work together. Evidence must be relevant to the claim, and analysis explains why it supports that claim. A slogan alone does not establish a conclusion."
+    },
+    {
+      "id": "q56",
+      "prompt": "What does this mean in English?\n\nMay kakulangan pa sa batayan.",
+      "answers": [
+        "This is the paragraph’s main point.",
+        "The evidence is relevant to the point.",
+        "The analysis explains the connection.",
+        "There is still a gap in the basis."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "May kakulangan pa sa batayan. — There is still a gap in the basis.\nPunto, ebidensiya and analisis work together. Evidence must be relevant to the claim, and analysis explains why it supports that claim. A slogan alone does not establish a conclusion."
+    },
+    {
+      "id": "q57",
+      "prompt": "What does this mean in English?\n\nAno ang makikita sa bawat tagpo?",
+      "answers": [
+        "What will be visible in each scene?",
+        "What will the narrator say?",
+        "The image and argument should connect.",
+        "Avoid stereotypes in representation."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Ano ang makikita sa bawat tagpo? — What will be visible in each scene?\nA multimodal essay combines modes for a purpose. A storyboard states what is seen, heard and argued in each part. Image choice can create stereotypes; representation must be checked."
+    },
+    {
+      "id": "q58",
+      "prompt": "What does this mean in English?\n\nAno ang sasabihin ng tagapagsalaysay?",
+      "answers": [
+        "What will be visible in each scene?",
+        "What will the narrator say?",
+        "The image and argument should connect.",
+        "Avoid stereotypes in representation."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Ano ang sasabihin ng tagapagsalaysay? — What will the narrator say?\nA multimodal essay combines modes for a purpose. A storyboard states what is seen, heard and argued in each part. Image choice can create stereotypes; representation must be checked."
+    },
+    {
+      "id": "q59",
+      "prompt": "What does this mean in English?\n\nDapat magkaugnay ang larawan at argumento.",
+      "answers": [
+        "What will be visible in each scene?",
+        "What will the narrator say?",
+        "The image and argument should connect.",
+        "Avoid stereotypes in representation."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Dapat magkaugnay ang larawan at argumento. — The image and argument should connect.\nA multimodal essay combines modes for a purpose. A storyboard states what is seen, heard and argued in each part. Image choice can create stereotypes; representation must be checked."
+    },
+    {
+      "id": "q60",
+      "prompt": "What does this mean in English?\n\nIwasan ang estereotipo sa paglalarawan.",
+      "answers": [
+        "What will be visible in each scene?",
+        "What will the narrator say?",
+        "The image and argument should connect.",
+        "Avoid stereotypes in representation."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Iwasan ang estereotipo sa paglalarawan. — Avoid stereotypes in representation.\nA multimodal essay combines modes for a purpose. A storyboard states what is seen, heard and argued in each part. Image choice can create stereotypes; representation must be checked."
+    },
+    {
+      "id": "q61",
+      "prompt": "What does this mean in English?\n\nNagsisimula ang salaysay sa gitna ng pangyayari.",
+      "answers": [
+        "The account begins in the middle of events.",
+        "Memory returns to an earlier experience.",
+        "Narrative order differs from chronological order.",
+        "The flashback supplies context."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Nagsisimula ang salaysay sa gitna ng pangyayari. — The account begins in the middle of events.\nA flashback recalls earlier events; in medias res begins in the middle of events. These techniques are related to narrative order but are not the same thing. Reconstruct chronology before explaining an effect."
+    },
+    {
+      "id": "q62",
+      "prompt": "What does this mean in English?\n\nBumabalik ang gunita sa naunang karanasan.",
+      "answers": [
+        "The account begins in the middle of events.",
+        "Memory returns to an earlier experience.",
+        "Narrative order differs from chronological order.",
+        "The flashback supplies context."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Bumabalik ang gunita sa naunang karanasan. — Memory returns to an earlier experience.\nA flashback recalls earlier events; in medias res begins in the middle of events. These techniques are related to narrative order but are not the same thing. Reconstruct chronology before explaining an effect."
+    },
+    {
+      "id": "q63",
+      "prompt": "What does this mean in English?\n\nIba ang ayos ng salaysay sa pagkakasunod sa panahon.",
+      "answers": [
+        "The account begins in the middle of events.",
+        "Memory returns to an earlier experience.",
+        "Narrative order differs from chronological order.",
+        "The flashback supplies context."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Iba ang ayos ng salaysay sa pagkakasunod sa panahon. — Narrative order differs from chronological order.\nA flashback recalls earlier events; in medias res begins in the middle of events. These techniques are related to narrative order but are not the same thing. Reconstruct chronology before explaining an effect."
+    },
+    {
+      "id": "q64",
+      "prompt": "What does this mean in English?\n\nNagbibigay ng konteksto ang pagbabalik-tanaw.",
+      "answers": [
+        "The account begins in the middle of events.",
+        "Memory returns to an earlier experience.",
+        "Narrative order differs from chronological order.",
+        "The flashback supplies context."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Nagbibigay ng konteksto ang pagbabalik-tanaw. — The flashback supplies context.\nA flashback recalls earlier events; in medias res begins in the middle of events. These techniques are related to narrative order but are not the same thing. Reconstruct chronology before explaining an effect."
+    },
+    {
+      "id": "q65",
+      "prompt": "What does this mean in English?\n\nMalinaw ang pamantayan ng pagsusuri.",
+      "answers": [
+        "The evaluation criteria are clear.",
+        "The conflict was presented effectively.",
+        "One part needs clarification.",
+        "I suggest trying the plan first."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Malinaw ang pamantayan ng pagsusuri. — The evaluation criteria are clear.\nA review can include preference, but evaluation needs explicit criteria and examples. Summarize only enough to make the judgment understandable. Avoid revealing every plot point unnecessarily."
+    },
+    {
+      "id": "q66",
+      "prompt": "What does this mean in English?\n\nMabisang ipinakita ang tunggalian.",
+      "answers": [
+        "The evaluation criteria are clear.",
+        "The conflict was presented effectively.",
+        "One part needs clarification.",
+        "The example supports the evaluation."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Mabisang ipinakita ang tunggalian. — The conflict was presented effectively.\nA review can include preference, but evaluation needs explicit criteria and examples. Summarize only enough to make the judgment understandable. Avoid revealing every plot point unnecessarily."
+    },
+    {
+      "id": "q67",
+      "prompt": "What does this mean in English?\n\nMay bahaging kailangang linawin.",
+      "answers": [
+        "The evaluation criteria are clear.",
+        "The conflict was presented effectively.",
+        "One part needs clarification.",
+        "The example supports the evaluation."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "May bahaging kailangang linawin. — One part needs clarification.\nA review can include preference, but evaluation needs explicit criteria and examples. Summarize only enough to make the judgment understandable. Avoid revealing every plot point unnecessarily."
+    },
+    {
+      "id": "q68",
+      "prompt": "What does this mean in English?\n\nSinusuportahan ng halimbawa ang pagtataya.",
+      "answers": [
+        "The conflict was presented effectively.",
+        "One part needs clarification.",
+        "I suggest trying the plan first.",
+        "The example supports the evaluation."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Sinusuportahan ng halimbawa ang pagtataya. — The example supports the evaluation.\nA review can include preference, but evaluation needs explicit criteria and examples. Summarize only enough to make the judgment understandable. Avoid revealing every plot point unnecessarily."
+    },
+    {
+      "id": "q69",
+      "prompt": "What does this mean in English?\n\nIto ang iskrip para sa unang frame.",
+      "answers": [
+        "This is the script for the first frame.",
+        "The caption supplies additional explanation.",
+        "The sound should not contradict the message.",
+        "Record the source of each material."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Ito ang iskrip para sa unang frame. — This is the script for the first frame.\nA script can separate narration, visual description and captions. They should complement each other rather than contradict or merely duplicate one another. Plan timing and source credit."
+    },
+    {
+      "id": "q70",
+      "prompt": "What does this mean in English?\n\nDagdag na paliwanag ang ibinibigay ng caption.",
+      "answers": [
+        "This is the script for the first frame.",
+        "The caption supplies additional explanation.",
+        "The sound should not contradict the message.",
+        "Record the source of each material."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Dagdag na paliwanag ang ibinibigay ng caption. — The caption supplies additional explanation.\nA script can separate narration, visual description and captions. They should complement each other rather than contradict or merely duplicate one another. Plan timing and source credit."
+    },
+    {
+      "id": "q71",
+      "prompt": "What does this mean in English?\n\nHindi dapat salungat ang tunog sa mensahe.",
+      "answers": [
+        "This is the script for the first frame.",
+        "The caption supplies additional explanation.",
+        "The sound should not contradict the message.",
+        "Record the source of each material."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Hindi dapat salungat ang tunog sa mensahe. — The sound should not contradict the message.\nA script can separate narration, visual description and captions. They should complement each other rather than contradict or merely duplicate one another. Plan timing and source credit."
+    },
+    {
+      "id": "q72",
+      "prompt": "What does this mean in English?\n\nItala ang pinagmulan ng bawat materyal.",
+      "answers": [
+        "This is the script for the first frame.",
+        "The caption supplies additional explanation.",
+        "The sound should not contradict the message.",
+        "Record the source of each material."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Itala ang pinagmulan ng bawat materyal. — Record the source of each material.\nA script can separate narration, visual description and captions. They should complement each other rather than contradict or merely duplicate one another. Plan timing and source credit."
+    },
+    {
+      "id": "q73",
+      "prompt": "What does this mean in English?\n\nMagkaiba ang bilang ng taludtod.",
+      "answers": [
+        "The numbers of lines differ.",
+        "Meter relates to how meaning is developed.",
+        "The period studied and the origin are not the same.",
+        "Examine rhyme and tone as well."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Magkaiba ang bilang ng taludtod. — The numbers of lines differ.\nCommon classroom forms are tanaga: four seven-syllable lines; haiku: 5–7–5; tanka: 5–7–5–7–7. Traditional tanaga also attends to rhyme. Tanaga predates the Japanese occupation; being studied in a quarter does not prove a form began in that period."
+    },
+    {
+      "id": "q74",
+      "prompt": "What does this mean in English?\n\nMay ugnayan ang sukat at pagbuo ng diwa.",
+      "answers": [
+        "The numbers of lines differ.",
+        "Meter relates to how meaning is developed.",
+        "The period studied and the origin are not the same.",
+        "Examine rhyme and tone as well."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "May ugnayan ang sukat at pagbuo ng diwa. — Meter relates to how meaning is developed.\nCommon classroom forms are tanaga: four seven-syllable lines; haiku: 5–7–5; tanka: 5–7–5–7–7. Traditional tanaga also attends to rhyme. Tanaga predates the Japanese occupation; being studied in a quarter does not prove a form began in that period."
+    },
+    {
+      "id": "q75",
+      "prompt": "What does this mean in English?\n\nHindi magkapareho ang panahon ng pag-aaral at pinagmulan.",
+      "answers": [
+        "The numbers of lines differ.",
+        "Meter relates to how meaning is developed.",
+        "The period studied and the origin are not the same.",
+        "Examine rhyme and tone as well."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Hindi magkapareho ang panahon ng pag-aaral at pinagmulan. — The period studied and the origin are not the same.\nCommon classroom forms are tanaga: four seven-syllable lines; haiku: 5–7–5; tanka: 5–7–5–7–7. Traditional tanaga also attends to rhyme. Tanaga predates the Japanese occupation; being studied in a quarter does not prove a form began in that period."
+    },
+    {
+      "id": "q76",
+      "prompt": "What does this mean in English?\n\nSuriin din ang tugma at tono.",
+      "answers": [
+        "The numbers of lines differ.",
+        "Meter relates to how meaning is developed.",
+        "The period studied and the origin are not the same.",
+        "Examine rhyme and tone as well."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Suriin din ang tugma at tono. — Examine rhyme and tone as well.\nCommon classroom forms are tanaga: four seven-syllable lines; haiku: 5–7–5; tanka: 5–7–5–7–7. Traditional tanaga also attends to rhyme. Tanaga predates the Japanese occupation; being studied in a quarter does not prove a form began in that period."
+    },
+    {
+      "id": "q77",
+      "prompt": "What does this mean in English?\n\nIpinahahayag ng editoryal ang isang paninindigan.",
+      "answers": [
+        "The editorial expresses a position.",
+        "This is not a direct quotation.",
+        "The idea was expressed in one’s own words.",
+        "The source of the statement should be identified."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Ipinahahayag ng editoryal ang isang paninindigan. — The editorial expresses a position.\nAn editorial argues a position; a report mainly informs. Both need responsible sourcing. Quotation, paraphrase and the writer’s own conclusion must be distinguished."
+    },
+    {
+      "id": "q78",
+      "prompt": "What does this mean in English?\n\nHindi ito tuwirang sipi.",
+      "answers": [
+        "The editorial expresses a position.",
+        "This is not a direct quotation.",
+        "The idea was expressed in one’s own words.",
+        "The source of the statement should be identified."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Hindi ito tuwirang sipi. — This is not a direct quotation.\nAn editorial argues a position; a report mainly informs. Both need responsible sourcing. Quotation, paraphrase and the writer’s own conclusion must be distinguished."
+    },
+    {
+      "id": "q79",
+      "prompt": "What does this mean in English?\n\nIsinaad sa sariling salita ang ideya.",
+      "answers": [
+        "The editorial expresses a position.",
+        "This is not a direct quotation.",
+        "The idea was expressed in one’s own words.",
+        "The source of the statement should be identified."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Isinaad sa sariling salita ang ideya. — The idea was expressed in one’s own words.\nAn editorial argues a position; a report mainly informs. Both need responsible sourcing. Quotation, paraphrase and the writer’s own conclusion must be distinguished."
+    },
+    {
+      "id": "q80",
+      "prompt": "What does this mean in English?\n\nDapat tukuyin kung kanino nagmula ang pahayag.",
+      "answers": [
+        "The editorial expresses a position.",
+        "This is not a direct quotation.",
+        "The idea was expressed in one’s own words.",
+        "The source of the statement should be identified."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Dapat tukuyin kung kanino nagmula ang pahayag. — The source of the statement should be identified.\nAn editorial argues a position; a report mainly informs. Both need responsible sourcing. Quotation, paraphrase and the writer’s own conclusion must be distinguished."
+    },
+    {
+      "id": "q81",
+      "prompt": "What does this mean in English?\n\nKailangan pang linawin ang ugnayan ng mga bahagi.",
+      "answers": [
+        "The connection between the parts still needs clarification.",
+        "Is there enough time to read the caption?",
+        "A source credit is missing.",
+        "Good design does not replace evidence."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Kailangan pang linawin ang ugnayan ng mga bahagi. — The connection between the parts still needs clarification.\nThe Quarter 3 performance work develops a final multimodal essay. Revision should check substance as well as visual polish. Test whether a viewer can follow the argument without guessing."
+    },
+    {
+      "id": "q82",
+      "prompt": "What does this mean in English?\n\nMay sapat bang oras upang mabasa ang caption?",
+      "answers": [
+        "The connection between the parts still needs clarification.",
+        "Is there enough time to read the caption?",
+        "A source credit is missing.",
+        "Good design does not replace evidence."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "May sapat bang oras upang mabasa ang caption? — Is there enough time to read the caption?\nThe Quarter 3 performance work develops a final multimodal essay. Revision should check substance as well as visual polish. Test whether a viewer can follow the argument without guessing."
+    },
+    {
+      "id": "q83",
+      "prompt": "What does this mean in English?\n\nMay nawawalang pagkilala sa sanggunian.",
+      "answers": [
+        "The connection between the parts still needs clarification.",
+        "Is there enough time to read the caption?",
+        "A source credit is missing.",
+        "Good design does not replace evidence."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "May nawawalang pagkilala sa sanggunian. — A source credit is missing.\nThe Quarter 3 performance work develops a final multimodal essay. Revision should check substance as well as visual polish. Test whether a viewer can follow the argument without guessing."
+    },
+    {
+      "id": "q84",
+      "prompt": "What does this mean in English?\n\nHindi kapalit ng ebidensiya ang magandang disenyo.",
+      "answers": [
+        "The connection between the parts still needs clarification.",
+        "Is there enough time to read the caption?",
+        "A source credit is missing.",
+        "Good design does not replace evidence."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Hindi kapalit ng ebidensiya ang magandang disenyo. — Good design does not replace evidence.\nThe Quarter 3 performance work develops a final multimodal essay. Revision should check substance as well as visual polish. Test whether a viewer can follow the argument without guessing."
+    },
+    {
+      "id": "q85",
+      "prompt": "What does this mean in English?\n\nMapanglaw ang tagpuan sa simula.",
+      "answers": [
+        "The opening setting is gloomy.",
+        "The forest image creates a mood.",
+        "Spelling can differ between editions.",
+        "Not every image has one fixed meaning."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Mapanglaw ang tagpuan sa simula. — The opening setting is gloomy.\nFlorante at Laura is an awit by Francisco Balagtas (Francisco Baltazar). The opening forest establishes mood before the central situation is explained. The excerpt below modernizes spelling from a public-domain edition; compare wording with your school edition."
+    },
+    {
+      "id": "q86",
+      "prompt": "What does this mean in English?\n\nLumilikha ng damdamin ang imahen ng gubat.",
+      "answers": [
+        "The opening setting is gloomy.",
+        "The forest image creates a mood.",
+        "Spelling can differ between editions.",
+        "Not every image has one fixed meaning."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Lumilikha ng damdamin ang imahen ng gubat. — The forest image creates a mood.\nFlorante at Laura is an awit by Francisco Balagtas (Francisco Baltazar). The opening forest establishes mood before the central situation is explained. The excerpt below modernizes spelling from a public-domain edition; compare wording with your school edition."
+    },
+    {
+      "id": "q87",
+      "prompt": "What does this mean in English?\n\nMaaaring magkaiba ang baybay sa mga edisyon.",
+      "answers": [
+        "The opening setting is gloomy.",
+        "The forest image creates a mood.",
+        "Spelling can differ between editions.",
+        "Not every image has one fixed meaning."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Maaaring magkaiba ang baybay sa mga edisyon. — Spelling can differ between editions.\nFlorante at Laura is an awit by Francisco Balagtas (Francisco Baltazar). The opening forest establishes mood before the central situation is explained. The excerpt below modernizes spelling from a public-domain edition; compare wording with your school edition."
+    },
+    {
+      "id": "q88",
+      "prompt": "What does this mean in English?\n\nHindi lahat ng larawan ay may iisang tiyak na kahulugan.",
+      "answers": [
+        "The opening setting is gloomy.",
+        "The forest image creates a mood.",
+        "Spelling can differ between editions.",
+        "Not every image has one fixed meaning."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Hindi lahat ng larawan ay may iisang tiyak na kahulugan. — Not every image has one fixed meaning.\nFlorante at Laura is an awit by Francisco Balagtas (Francisco Baltazar). The opening forest establishes mood before the central situation is explained. The excerpt below modernizes spelling from a public-domain edition; compare wording with your school edition."
+    },
+    {
+      "id": "q89",
+      "prompt": "What does this mean in English?\n\nSi Aladin ang tumulong kay Florante.",
+      "answers": [
+        "Aladin helped Florante.",
+        "The action shows concern.",
+        "Their backgrounds differ.",
+        "The character should not be turned into a stereotype."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Si Aladin ang tumulong kay Florante. — Aladin helped Florante.\nIn the work, Aladin helps Florante despite their different backgrounds and faiths. Analyze what a character does and says. Do not turn a character into a stereotype about every member of a group."
+    },
+    {
+      "id": "q90",
+      "prompt": "What does this mean in English?\n\nIpinakikita ng kilos ang malasakit.",
+      "answers": [
+        "Aladin helped Florante.",
+        "The action shows concern.",
+        "Their backgrounds differ.",
+        "The character should not be turned into a stereotype."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Ipinakikita ng kilos ang malasakit. — The action shows concern.\nIn the work, Aladin helps Florante despite their different backgrounds and faiths. Analyze what a character does and says. Do not turn a character into a stereotype about every member of a group."
+    },
+    {
+      "id": "q91",
+      "prompt": "What does this mean in English?\n\nMagkaiba ang kanilang pinagmulan.",
+      "answers": [
+        "Aladin helped Florante.",
+        "The action shows concern.",
+        "Their backgrounds differ.",
+        "The character should not be turned into a stereotype."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Magkaiba ang kanilang pinagmulan. — Their backgrounds differ.\nIn the work, Aladin helps Florante despite their different backgrounds and faiths. Analyze what a character does and says. Do not turn a character into a stereotype about every member of a group."
+    },
+    {
+      "id": "q92",
+      "prompt": "What does this mean in English?\n\nHindi dapat gawing estereotipo ang tauhan.",
+      "answers": [
+        "Aladin helped Florante.",
+        "The action shows concern.",
+        "Their backgrounds differ.",
+        "The character should not be turned into a stereotype."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Hindi dapat gawing estereotipo ang tauhan. — The character should not be turned into a stereotype.\nIn the work, Aladin helps Florante despite their different backgrounds and faiths. Analyze what a character does and says. Do not turn a character into a stereotype about every member of a group."
+    },
+    {
+      "id": "q93",
+      "prompt": "What does this mean in English?\n\nPinupuna ng saknong ang maling paglingap.",
+      "answers": [
+        "The stanza criticizes misguided care.",
+        "Understanding, reflection and judgment matter.",
+        "Repeating a quotation does not replace explanation.",
+        "Relate the lesson to context and evidence."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Pinupuna ng saknong ang maling paglingap. — The stanza criticizes misguided care.\nThe quoted stanza is a public-domain passage on indulgent upbringing. Bait, muni and hatol concern understanding, reflection and judgment in context. An interpretation should explain the criticism rather than simply repeat an old moral as a universal rule."
+    },
+    {
+      "id": "q94",
+      "prompt": "What does this mean in English?\n\nMahalaga ang bait, muni at hatol.",
+      "answers": [
+        "The stanza criticizes misguided care.",
+        "Understanding, reflection and judgment matter.",
+        "Repeating a quotation does not replace explanation.",
+        "Relate the lesson to context and evidence."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Mahalaga ang bait, muni at hatol. — Understanding, reflection and judgment matter.\nThe quoted stanza is a public-domain passage on indulgent upbringing. Bait, muni and hatol concern understanding, reflection and judgment in context. An interpretation should explain the criticism rather than simply repeat an old moral as a universal rule."
+    },
+    {
+      "id": "q95",
+      "prompt": "What does this mean in English?\n\nHindi kapalit ng paliwanag ang pag-uulit sa sipi.",
+      "answers": [
+        "The stanza criticizes misguided care.",
+        "Understanding, reflection and judgment matter.",
+        "Repeating a quotation does not replace explanation.",
+        "Relate the lesson to context and evidence."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Hindi kapalit ng paliwanag ang pag-uulit sa sipi. — Repeating a quotation does not replace explanation.\nThe quoted stanza is a public-domain passage on indulgent upbringing. Bait, muni and hatol concern understanding, reflection and judgment in context. An interpretation should explain the criticism rather than simply repeat an old moral as a universal rule."
+    },
+    {
+      "id": "q96",
+      "prompt": "What does this mean in English?\n\nIugnay ang aral sa konteksto at ebidensiya.",
+      "answers": [
+        "The stanza criticizes misguided care.",
+        "Understanding, reflection and judgment matter.",
+        "Repeating a quotation does not replace explanation.",
+        "Relate the lesson to context and evidence."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Iugnay ang aral sa konteksto at ebidensiya. — Relate the lesson to context and evidence.\nThe quoted stanza is a public-domain passage on indulgent upbringing. Bait, muni and hatol concern understanding, reflection and judgment in context. An interpretation should explain the criticism rather than simply repeat an old moral as a universal rule."
+    },
+    {
+      "id": "q97",
+      "prompt": "What does this mean in English?\n\nMay konteksto ang pagbigkas ng tula.",
+      "answers": [
+        "Poetic recitation has a context.",
+        "The source needs acknowledgment.",
+        "The image provides a clue.",
+        "This exercise is newly authored."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "May konteksto ang pagbigkas ng tula. — Poetic recitation has a context.\nGrade 7 Quarter 1 studies poetry of the precolonial period alongside exposition. Oral traditions have communities, languages, purposes and performance contexts. This original riddle-style exercise prepares reading skills; it is not labelled an inherited cultural text."
+    },
+    {
+      "id": "q98",
+      "prompt": "What does this mean in English?\n\nKailangang kilalanin ang pinagmulan.",
+      "answers": [
+        "Poetic recitation has a context.",
+        "The source needs acknowledgment.",
+        "The image provides a clue.",
+        "This exercise is newly authored."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Kailangang kilalanin ang pinagmulan. — The source needs acknowledgment.\nGrade 7 Quarter 1 studies poetry of the precolonial period alongside exposition. Oral traditions have communities, languages, purposes and performance contexts. This original riddle-style exercise prepares reading skills; it is not labelled an inherited cultural text."
+    },
+    {
+      "id": "q99",
+      "prompt": "What does this mean in English?\n\nNagbibigay ng pahiwatig ang imahen.",
+      "answers": [
+        "Poetic recitation has a context.",
+        "The source needs acknowledgment.",
+        "The image provides a clue.",
+        "This exercise is newly authored."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Nagbibigay ng pahiwatig ang imahen. — The image provides a clue.\nGrade 7 Quarter 1 studies poetry of the precolonial period alongside exposition. Oral traditions have communities, languages, purposes and performance contexts. This original riddle-style exercise prepares reading skills; it is not labelled an inherited cultural text."
+    },
+    {
+      "id": "q100",
+      "prompt": "What does this mean in English?\n\nBagong likha ang pagsasanay na ito.",
+      "answers": [
+        "Poetic recitation has a context.",
+        "The source needs acknowledgment.",
+        "The image provides a clue.",
+        "This exercise is newly authored."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Bagong likha ang pagsasanay na ito. — This exercise is newly authored.\nGrade 7 Quarter 1 studies poetry of the precolonial period alongside exposition. Oral traditions have communities, languages, purposes and performance contexts. This original riddle-style exercise prepares reading skills; it is not labelled an inherited cultural text."
+    },
+    {
+      "id": "q101",
+      "prompt": "What does this mean in English?\n\nPaghahambing ang pangunahing estruktura.",
+      "answers": [
+        "Comparison is the main structure.",
+        "These are the similarities and differences.",
+        "The paragraphs have a logical relationship.",
+        "A label without an example is insufficient."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Paghahambing ang pangunahing estruktura. — Comparison is the main structure.\nAn exposition explains with organized information. Description, comparison, sequence and cause/result are different structures; a passage can combine them. Name a structure only after showing which details create it."
+    },
+    {
+      "id": "q102",
+      "prompt": "What does this mean in English?\n\nIto ang pagkakatulad at pagkakaiba.",
+      "answers": [
+        "Comparison is the main structure.",
+        "These are the similarities and differences.",
+        "The paragraphs have a logical relationship.",
+        "A label without an example is insufficient."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Ito ang pagkakatulad at pagkakaiba. — These are the similarities and differences.\nAn exposition explains with organized information. Description, comparison, sequence and cause/result are different structures; a passage can combine them. Name a structure only after showing which details create it."
+    },
+    {
+      "id": "q103",
+      "prompt": "What does this mean in English?\n\nMay lohikal na ugnayan ang mga talata.",
+      "answers": [
+        "Comparison is the main structure.",
+        "These are the similarities and differences.",
+        "The paragraphs have a logical relationship.",
+        "A label without an example is insufficient."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "May lohikal na ugnayan ang mga talata. — The paragraphs have a logical relationship.\nAn exposition explains with organized information. Description, comparison, sequence and cause/result are different structures; a passage can combine them. Name a structure only after showing which details create it."
+    },
+    {
+      "id": "q104",
+      "prompt": "What does this mean in English?\n\nHindi sapat ang label na walang halimbawa.",
+      "answers": [
+        "Comparison is the main structure.",
+        "These are the similarities and differences.",
+        "The paragraphs have a logical relationship.",
+        "A label without an example is insufficient."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Hindi sapat ang label na walang halimbawa. — A label without an example is insufficient.\nAn exposition explains with organized information. Description, comparison, sequence and cause/result are different structures; a passage can combine them. Name a structure only after showing which details create it."
+    },
+    {
+      "id": "q105",
+      "prompt": "What does this mean in English?\n\nMay tunggalian sa pangangailangan at pasiya.",
+      "answers": [
+        "There is conflict between need and decision.",
+        "Action reveals a value.",
+        "A generalization about culture is insufficient.",
+        "Return to the specific scene."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "May tunggalian sa pangangailangan at pasiya. — There is conflict between need and decision.\nQuarter 2 includes precolonial prose. An origin tale, legend and epic should not be collapsed into one form or one community. Use your assigned work’s actual details; the new miniature below is only an exercise in conflict and response."
+    },
+    {
+      "id": "q106",
+      "prompt": "What does this mean in English?\n\nIpinakikita ng kilos ang pagpapahalaga.",
+      "answers": [
+        "There is conflict between need and decision.",
+        "Action reveals a value.",
+        "A generalization about culture is insufficient.",
+        "Return to the specific scene."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Ipinakikita ng kilos ang pagpapahalaga. — Action reveals a value.\nQuarter 2 includes precolonial prose. An origin tale, legend and epic should not be collapsed into one form or one community. Use your assigned work’s actual details; the new miniature below is only an exercise in conflict and response."
+    },
+    {
+      "id": "q107",
+      "prompt": "What does this mean in English?\n\nHindi sapat ang paglalahat tungkol sa kultura.",
+      "answers": [
+        "There is conflict between need and decision.",
+        "Action reveals a value.",
+        "A generalization about culture is insufficient.",
+        "Return to the specific scene."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Hindi sapat ang paglalahat tungkol sa kultura. — A generalization about culture is insufficient.\nQuarter 2 includes precolonial prose. An origin tale, legend and epic should not be collapsed into one form or one community. Use your assigned work’s actual details; the new miniature below is only an exercise in conflict and response."
+    },
+    {
+      "id": "q108",
+      "prompt": "What does this mean in English?\n\nBalikan ang tiyak na tagpo.",
+      "answers": [
+        "There is conflict between need and decision.",
+        "Action reveals a value.",
+        "A generalization about culture is insufficient.",
+        "Return to the specific scene."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Balikan ang tiyak na tagpo. — Return to the specific scene.\nQuarter 2 includes precolonial prose. An origin tale, legend and epic should not be collapsed into one form or one community. Use your assigned work’s actual details; the new miniature below is only an exercise in conflict and response."
+    },
+    {
+      "id": "q109",
+      "prompt": "What does this mean in English?\n\nPipiliin ko ang mahahalagang tagpo.",
+      "answers": [
+        "I will select the important scenes.",
+        "Each frame contributes to the story.",
+        "The reason for the decision should not be changed.",
+        "The source work is acknowledged."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Pipiliin ko ang mahahalagang tagpo. — I will select the important scenes.\nA comic-book brochure combines concise text, frames, dialogue and visuals. Adaptation selects material for a new mode. It should preserve a scene’s important causal links and credit the original work, rather than silently replace it."
+    },
+    {
+      "id": "q110",
+      "prompt": "What does this mean in English?\n\nMay ambag sa kuwento ang bawat frame.",
+      "answers": [
+        "I will select the important scenes.",
+        "Each frame contributes to the story.",
+        "The reason for the decision should not be changed.",
+        "The source work is acknowledged."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "May ambag sa kuwento ang bawat frame. — Each frame contributes to the story.\nA comic-book brochure combines concise text, frames, dialogue and visuals. Adaptation selects material for a new mode. It should preserve a scene’s important causal links and credit the original work, rather than silently replace it."
+    },
+    {
+      "id": "q111",
+      "prompt": "What does this mean in English?\n\nHindi dapat mabago ang sanhi ng pasiya.",
+      "answers": [
+        "I will select the important scenes.",
+        "Each frame contributes to the story.",
+        "The reason for the decision should not be changed.",
+        "The source work is acknowledged."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Hindi dapat mabago ang sanhi ng pasiya. — The reason for the decision should not be changed.\nA comic-book brochure combines concise text, frames, dialogue and visuals. Adaptation selects material for a new mode. It should preserve a scene’s important causal links and credit the original work, rather than silently replace it."
+    },
+    {
+      "id": "q112",
+      "prompt": "What does this mean in English?\n\nKinikilala ang akdang pinagmulan.",
+      "answers": [
+        "I will select the important scenes.",
+        "Each frame contributes to the story.",
+        "The reason for the decision should not be changed.",
+        "The source work is acknowledged."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Kinikilala ang akdang pinagmulan. — The source work is acknowledged.\nA comic-book brochure combines concise text, frames, dialogue and visuals. Adaptation selects material for a new mode. It should preserve a scene’s important causal links and credit the original work, rather than silently replace it."
+    },
+    {
+      "id": "q113",
+      "prompt": "What does this mean in English?\n\nMay kaugnayan ang akda sa panahon nito.",
+      "answers": [
+        "The work relates to its period.",
+        "Not every character is a portrait of the author.",
+        "The analysis is grounded in wording.",
+        "Separate factual information from interpretation."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "May kaugnayan ang akda sa panahon nito. — The work relates to its period.\nQuarter 3 studies literature from the Spanish colonial period alongside exposition and news. Context is a tool for reading, not a substitute for textual evidence. An invented preparation passage is not a period document."
+    },
+    {
+      "id": "q114",
+      "prompt": "What does this mean in English?\n\nHindi lahat ng tauhan ay larawan ng may-akda.",
+      "answers": [
+        "The work relates to its period.",
+        "Not every character is a portrait of the author.",
+        "The analysis is grounded in wording.",
+        "Separate factual information from interpretation."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Hindi lahat ng tauhan ay larawan ng may-akda. — Not every character is a portrait of the author.\nQuarter 3 studies literature from the Spanish colonial period alongside exposition and news. Context is a tool for reading, not a substitute for textual evidence. An invented preparation passage is not a period document."
+    },
+    {
+      "id": "q115",
+      "prompt": "What does this mean in English?\n\nMay batayan sa salita ang pagsusuri.",
+      "answers": [
+        "The work relates to its period.",
+        "Not every character is a portrait of the author.",
+        "The analysis is grounded in wording.",
+        "Separate factual information from interpretation."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "May batayan sa salita ang pagsusuri. — The analysis is grounded in wording.\nQuarter 3 studies literature from the Spanish colonial period alongside exposition and news. Context is a tool for reading, not a substitute for textual evidence. An invented preparation passage is not a period document."
+    },
+    {
+      "id": "q116",
+      "prompt": "What does this mean in English?\n\nIhiwalay ang datos sa interpretasyon.",
+      "answers": [
+        "The work relates to its period.",
+        "Not every character is a portrait of the author.",
+        "The analysis is grounded in wording.",
+        "Separate factual information from interpretation."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Ihiwalay ang datos sa interpretasyon. — Separate factual information from interpretation.\nQuarter 3 studies literature from the Spanish colonial period alongside exposition and news. Context is a tool for reading, not a substitute for textual evidence. An invented preparation passage is not a period document."
+    },
+    {
+      "id": "q117",
+      "prompt": "What does this mean in English?\n\nAyon sa dalawang kinapanayam…",
+      "answers": [
+        "According to two interviewees…",
+        "This is not everyone’s view.",
+        "The claim still needs verification.",
+        "The data’s scope is limited."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Ayon sa dalawang kinapanayam… — According to two interviewees…\nA report should identify who says what and how it is known. A small number of comments cannot represent everyone without further support. Quoting accurately still requires context and does not automatically verify the claim being quoted."
+    },
+    {
+      "id": "q118",
+      "prompt": "What does this mean in English?\n\nHindi ito pananaw ng lahat.",
+      "answers": [
+        "According to two interviewees…",
+        "This is not everyone’s view.",
+        "The claim still needs verification.",
+        "The data’s scope is limited."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Hindi ito pananaw ng lahat. — This is not everyone’s view.\nA report should identify who says what and how it is known. A small number of comments cannot represent everyone without further support. Quoting accurately still requires context and does not automatically verify the claim being quoted."
+    },
+    {
+      "id": "q119",
+      "prompt": "What does this mean in English?\n\nKailangan pang tiyakin ang pahayag.",
+      "answers": [
+        "According to two interviewees…",
+        "This is not everyone’s view.",
+        "The claim still needs verification.",
+        "The data’s scope is limited."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Kailangan pang tiyakin ang pahayag. — The claim still needs verification.\nA report should identify who says what and how it is known. A small number of comments cannot represent everyone without further support. Quoting accurately still requires context and does not automatically verify the claim being quoted."
+    },
+    {
+      "id": "q120",
+      "prompt": "What does this mean in English?\n\nMay hangganan ang saklaw ng datos.",
+      "answers": [
+        "According to two interviewees…",
+        "This is not everyone’s view.",
+        "The claim still needs verification.",
+        "The data’s scope is limited."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "May hangganan ang saklaw ng datos. — The data’s scope is limited.\nA report should identify who says what and how it is known. A small number of comments cannot represent everyone without further support. Quoting accurately still requires context and does not automatically verify the claim being quoted."
+    },
+    {
+      "id": "q121",
+      "prompt": "What does this mean in English?\n\nKorido ang Ibong Adarna.",
+      "answers": [
+        "Ibong Adarna is a korido.",
+        "Examine the actions of Don Pedro, Don Diego and Don Juan.",
+        "What is the conflict in this scene?",
+        "There is a specific supporting stanza."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Korido ang Ibong Adarna. — Ibong Adarna is a korido.\nIbong Adarna is the Grade 7 major work in the guide. It is a korido with an unknown author. The work concerns the princes of Berbanya and the Adarna bird; use the school edition for stanza numbering and the actual sequence. This guide is not a replacement for reading the poem."
+    },
+    {
+      "id": "q122",
+      "prompt": "What does this mean in English?\n\nSuriin ang kilos nina Don Pedro, Don Diego at Don Juan.",
+      "answers": [
+        "Ibong Adarna is a korido.",
+        "Examine the actions of Don Pedro, Don Diego and Don Juan.",
+        "What is the conflict in this scene?",
+        "There is a specific supporting stanza."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Suriin ang kilos nina Don Pedro, Don Diego at Don Juan. — Examine the actions of Don Pedro, Don Diego and Don Juan.\nIbong Adarna is the Grade 7 major work in the guide. It is a korido with an unknown author. The work concerns the princes of Berbanya and the Adarna bird; use the school edition for stanza numbering and the actual sequence. This guide is not a replacement for reading the poem."
+    },
+    {
+      "id": "q123",
+      "prompt": "What does this mean in English?\n\nAno ang tunggalian sa tagpong ito?",
+      "answers": [
+        "Ibong Adarna is a korido.",
+        "Examine the actions of Don Pedro, Don Diego and Don Juan.",
+        "What is the conflict in this scene?",
+        "There is a specific supporting stanza."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Ano ang tunggalian sa tagpong ito? — What is the conflict in this scene?\nIbong Adarna is the Grade 7 major work in the guide. It is a korido with an unknown author. The work concerns the princes of Berbanya and the Adarna bird; use the school edition for stanza numbering and the actual sequence. This guide is not a replacement for reading the poem."
+    },
+    {
+      "id": "q124",
+      "prompt": "What does this mean in English?\n\nMay tiyak na saknong na batayan.",
+      "answers": [
+        "Ibong Adarna is a korido.",
+        "Examine the actions of Don Pedro, Don Diego and Don Juan.",
+        "What is the conflict in this scene?",
+        "There is a specific supporting stanza."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "May tiyak na saknong na batayan. — There is a specific supporting stanza.\nIbong Adarna is the Grade 7 major work in the guide. It is a korido with an unknown author. The work concerns the princes of Berbanya and the Adarna bird; use the school edition for stanza numbering and the actual sequence. This guide is not a replacement for reading the poem."
+    },
+    {
+      "id": "q125",
+      "prompt": "What does this mean in English?\n\nIto ang tagpong iaangkop namin.",
+      "answers": [
+        "This is the scene we will adapt.",
+        "Each character’s silhouette is clear.",
+        "There is a plan for light, movement and dialogue.",
+        "We revised after rehearsal."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Ito ang tagpong iaangkop namin. — This is the scene we will adapt.\nThe Grade 7 Quarter 4 performance task includes a puppet shadow play. A saved script is preparation; performance requires rehearsal, timing, visual clarity and an audience. Select an actual assigned scene and acknowledge the source."
+    },
+    {
+      "id": "q126",
+      "prompt": "What does this mean in English?\n\nMalinaw ang silweta ng bawat tauhan.",
+      "answers": [
+        "This is the scene we will adapt.",
+        "Each character’s silhouette is clear.",
+        "There is a plan for light, movement and dialogue.",
+        "We revised after rehearsal."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Malinaw ang silweta ng bawat tauhan. — Each character’s silhouette is clear.\nThe Grade 7 Quarter 4 performance task includes a puppet shadow play. A saved script is preparation; performance requires rehearsal, timing, visual clarity and an audience. Select an actual assigned scene and acknowledge the source."
+    },
+    {
+      "id": "q127",
+      "prompt": "What does this mean in English?\n\nMay plano sa ilaw, kilos at diyalogo.",
+      "answers": [
+        "This is the scene we will adapt.",
+        "Each character’s silhouette is clear.",
+        "There is a plan for light, movement and dialogue.",
+        "We revised after rehearsal."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "May plano sa ilaw, kilos at diyalogo. — There is a plan for light, movement and dialogue.\nThe Grade 7 Quarter 4 performance task includes a puppet shadow play. A saved script is preparation; performance requires rehearsal, timing, visual clarity and an audience. Select an actual assigned scene and acknowledge the source."
+    },
+    {
+      "id": "q128",
+      "prompt": "What does this mean in English?\n\nNirebisa namin matapos ang ensayo.",
+      "answers": [
+        "This is the scene we will adapt.",
+        "Each character’s silhouette is clear.",
+        "There is a plan for light, movement and dialogue.",
+        "We revised after rehearsal."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Nirebisa namin matapos ang ensayo. — We revised after rehearsal.\nThe Grade 7 Quarter 4 performance task includes a puppet shadow play. A saved script is preparation; performance requires rehearsal, timing, visual clarity and an audience. Select an actual assigned scene and acknowledge the source."
+    }
+  ]
+}

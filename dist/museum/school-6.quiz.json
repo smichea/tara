@@ -1,0 +1,425 @@
+{
+  "schemaVersion": 1,
+  "id": "tara-fil-en-school-6",
+  "title": "Tara! · Filipino · Grade 6",
+  "author": "Tara contributors · CC BY-SA 4.0",
+  "language": "en",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What does this mean in English?\n\nPareho ang kanilang layunin.",
+      "answers": [
+        "They have the same aim.",
+        "The tracking methods differ.",
+        "There is not yet enough basis to choose.",
+        "They paused before answering."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Pareho ang kanilang layunin. — They have the same aim.\nComparison needs consistent criteria. If one paragraph discusses cost and another only color, the comparison may not answer the question. Identify similarities, differences and what evidence would support a judgment."
+    },
+    {
+      "id": "q2",
+      "prompt": "What does this mean in English?\n\nMagkaiba ang paraan ng pagsubaybay.",
+      "answers": [
+        "They have the same aim.",
+        "The tracking methods differ.",
+        "Use the same criteria.",
+        "There is not yet enough basis to choose."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Magkaiba ang paraan ng pagsubaybay. — The tracking methods differ.\nComparison needs consistent criteria. If one paragraph discusses cost and another only color, the comparison may not answer the question. Identify similarities, differences and what evidence would support a judgment."
+    },
+    {
+      "id": "q3",
+      "prompt": "What does this mean in English?\n\nGamitin ang parehong pamantayan.",
+      "answers": [
+        "The tracking methods differ.",
+        "There is not yet enough basis to choose.",
+        "Use the same criteria.",
+        "They paused before answering."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Gamitin ang parehong pamantayan. — Use the same criteria.\nComparison needs consistent criteria. If one paragraph discusses cost and another only color, the comparison may not answer the question. Identify similarities, differences and what evidence would support a judgment."
+    },
+    {
+      "id": "q4",
+      "prompt": "What does this mean in English?\n\nHindi pa sapat ang batayan upang pumili.",
+      "answers": [
+        "They have the same aim.",
+        "The tracking methods differ.",
+        "Use the same criteria.",
+        "There is not yet enough basis to choose."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Hindi pa sapat ang batayan upang pumili. — There is not yet enough basis to choose.\nComparison needs consistent criteria. If one paragraph discusses cost and another only color, the comparison may not answer the question. Identify similarities, differences and what evidence would support a judgment."
+    },
+    {
+      "id": "q5",
+      "prompt": "What does this mean in English?\n\nHuminto siya bago sumagot.",
+      "answers": [
+        "They paused before answering.",
+        "The gesture’s meaning is uncertain.",
+        "They may still be thinking.",
+        "Could you clarify?"
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Huminto siya bago sumagot. — They paused before answering.\nNonverbal clues include pauses, posture and expression, but no gesture proves a person’s motive in every culture or situation. Relate the clue to the words and context, and use a question to check an uncertain interpretation."
+    },
+    {
+      "id": "q6",
+      "prompt": "What does this mean in English?\n\nHindi tiyak ang ibig sabihin ng kilos.",
+      "answers": [
+        "They paused before answering.",
+        "The gesture’s meaning is uncertain.",
+        "They may still be thinking.",
+        "Could you clarify?"
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Hindi tiyak ang ibig sabihin ng kilos. — The gesture’s meaning is uncertain.\nNonverbal clues include pauses, posture and expression, but no gesture proves a person’s motive in every culture or situation. Relate the clue to the words and context, and use a question to check an uncertain interpretation."
+    },
+    {
+      "id": "q7",
+      "prompt": "What does this mean in English?\n\nMaaaring nag-iisip pa siya.",
+      "answers": [
+        "They paused before answering.",
+        "The gesture’s meaning is uncertain.",
+        "They may still be thinking.",
+        "Could you clarify?"
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Maaaring nag-iisip pa siya. — They may still be thinking.\nNonverbal clues include pauses, posture and expression, but no gesture proves a person’s motive in every culture or situation. Relate the clue to the words and context, and use a question to check an uncertain interpretation."
+    },
+    {
+      "id": "q8",
+      "prompt": "What does this mean in English?\n\nMaaari mo bang linawin?",
+      "answers": [
+        "They paused before answering.",
+        "The gesture’s meaning is uncertain.",
+        "They may still be thinking.",
+        "Could you clarify?"
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Maaari mo bang linawin? — Could you clarify?\nNonverbal clues include pauses, posture and expression, but no gesture proves a person’s motive in every culture or situation. Relate the clue to the words and context, and use a question to check an uncertain interpretation."
+    },
+    {
+      "id": "q9",
+      "prompt": "What does this mean in English?\n\nKathang-isip ang makinang ito.",
+      "answers": [
+        "This machine is fictional.",
+        "The story explores a possible effect.",
+        "This does not prove the technology already exists.",
+        "The device’s capability has limits."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Kathang-isip ang makinang ito. — This machine is fictional.\nScience fiction imagines possibilities and consequences. A device in a story is not evidence that the technology already works. Analyze the narrative’s question and label speculation when writing about it."
+    },
+    {
+      "id": "q10",
+      "prompt": "What does this mean in English?\n\nSinusuri ng kuwento ang maaaring epekto.",
+      "answers": [
+        "This machine is fictional.",
+        "The story explores a possible effect.",
+        "This does not prove the technology already exists.",
+        "The device’s capability has limits."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Sinusuri ng kuwento ang maaaring epekto. — The story explores a possible effect.\nScience fiction imagines possibilities and consequences. A device in a story is not evidence that the technology already works. Analyze the narrative’s question and label speculation when writing about it."
+    },
+    {
+      "id": "q11",
+      "prompt": "What does this mean in English?\n\nHindi ito patunay na umiiral na ang teknolohiya.",
+      "answers": [
+        "This machine is fictional.",
+        "The story explores a possible effect.",
+        "This does not prove the technology already exists.",
+        "The device’s capability has limits."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Hindi ito patunay na umiiral na ang teknolohiya. — This does not prove the technology already exists.\nScience fiction imagines possibilities and consequences. A device in a story is not evidence that the technology already works. Analyze the narrative’s question and label speculation when writing about it."
+    },
+    {
+      "id": "q12",
+      "prompt": "What does this mean in English?\n\nMay limitasyon ang kakayahan ng aparato.",
+      "answers": [
+        "This machine is fictional.",
+        "The story explores a possible effect.",
+        "This does not prove the technology already exists.",
+        "The device’s capability has limits."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "May limitasyon ang kakayahan ng aparato. — The device’s capability has limits.\nScience fiction imagines possibilities and consequences. A device in a story is not evidence that the technology already works. Analyze the narrative’s question and label speculation when writing about it."
+    },
+    {
+      "id": "q13",
+      "prompt": "What does this mean in English?\n\nSa sariling salita ko ito ipinaliliwanag.",
+      "answers": [
+        "I am explaining this in my own words.",
+        "The source is acknowledged.",
+        "This is not a direct quotation.",
+        "I retained the statement’s limitation."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Sa sariling salita ko ito ipinaliliwanag. — I am explaining this in my own words.\nNotes should distinguish copied wording, paraphrase and your own response. Changing a few words is not a complete paraphrase. A short source title or link helps you return to the original and check qualifications."
+    },
+    {
+      "id": "q14",
+      "prompt": "What does this mean in English?\n\nMay pagkilala sa pinagmulan.",
+      "answers": [
+        "I am explaining this in my own words.",
+        "The source is acknowledged.",
+        "This is not a direct quotation.",
+        "I retained the statement’s limitation."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "May pagkilala sa pinagmulan. — The source is acknowledged.\nNotes should distinguish copied wording, paraphrase and your own response. Changing a few words is not a complete paraphrase. A short source title or link helps you return to the original and check qualifications."
+    },
+    {
+      "id": "q15",
+      "prompt": "What does this mean in English?\n\nHindi ito tuwirang sipi.",
+      "answers": [
+        "I am explaining this in my own words.",
+        "The source is acknowledged.",
+        "This is not a direct quotation.",
+        "I retained the statement’s limitation."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Hindi ito tuwirang sipi. — This is not a direct quotation.\nNotes should distinguish copied wording, paraphrase and your own response. Changing a few words is not a complete paraphrase. A short source title or link helps you return to the original and check qualifications."
+    },
+    {
+      "id": "q16",
+      "prompt": "What does this mean in English?\n\nPinanatili ko ang limitasyon ng pahayag.",
+      "answers": [
+        "I am explaining this in my own words.",
+        "The source is acknowledged.",
+        "This is not a direct quotation.",
+        "I retained the statement’s limitation."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Pinanatili ko ang limitasyon ng pahayag. — I retained the statement’s limitation.\nNotes should distinguish copied wording, paraphrase and your own response. Changing a few words is not a complete paraphrase. A short source title or link helps you return to the original and check qualifications."
+    },
+    {
+      "id": "q17",
+      "prompt": "What does this mean in English?\n\nIminumungkahi kong subukan ang bagong sistema.",
+      "answers": [
+        "I propose trying the new system.",
+        "Others have a reasonable concern.",
+        "A trial may address this.",
+        "I am not yet claiming the effect is proven."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Iminumungkahi kong subukan ang bagong sistema. — I propose trying the new system.\nPersuasion proposes a position and gives reasons. Address a counterpoint fairly: it is not useful to replace another view with a weaker one. Evidence should be identified as real, hypothetical or still to be collected."
+    },
+    {
+      "id": "q18",
+      "prompt": "What does this mean in English?\n\nMay makatuwirang pag-aalala ang iba.",
+      "answers": [
+        "I propose trying the new system.",
+        "Others have a reasonable concern.",
+        "A trial may address this.",
+        "I am not yet claiming the effect is proven."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "May makatuwirang pag-aalala ang iba. — Others have a reasonable concern.\nPersuasion proposes a position and gives reasons. Address a counterpoint fairly: it is not useful to replace another view with a weaker one. Evidence should be identified as real, hypothetical or still to be collected."
+    },
+    {
+      "id": "q19",
+      "prompt": "What does this mean in English?\n\nMaaaring tugunan ito sa isang pagsubok.",
+      "answers": [
+        "I propose trying the new system.",
+        "Others have a reasonable concern.",
+        "A trial may address this.",
+        "I am not yet claiming the effect is proven."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Maaaring tugunan ito sa isang pagsubok. — A trial may address this.\nPersuasion proposes a position and gives reasons. Address a counterpoint fairly: it is not useful to replace another view with a weaker one. Evidence should be identified as real, hypothetical or still to be collected."
+    },
+    {
+      "id": "q20",
+      "prompt": "What does this mean in English?\n\nHindi ko pa inaangking napatunayan ang epekto.",
+      "answers": [
+        "I propose trying the new system.",
+        "Others have a reasonable concern.",
+        "A trial may address this.",
+        "I am not yet claiming the effect is proven."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Hindi ko pa inaangking napatunayan ang epekto. — I am not yet claiming the effect is proven.\nPersuasion proposes a position and gives reasons. Address a counterpoint fairly: it is not useful to replace another view with a weaker one. Evidence should be identified as real, hypothetical or still to be collected."
+    },
+    {
+      "id": "q21",
+      "prompt": "What does this mean in English?\n\nSino ang target na mambabasa?",
+      "answers": [
+        "Who is the intended reader?",
+        "What action is encouraged?",
+        "This is a slogan, not yet evidence.",
+        "Some information is not shown."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Sino ang target na mambabasa? — Who is the intended reader?\nA message can persuade through a slogan, testimonial or selective detail. Popularity does not prove a claim. Ask who is being addressed, what action is requested and what support is missing."
+    },
+    {
+      "id": "q22",
+      "prompt": "What does this mean in English?\n\nAno ang hinihikayat na kilos?",
+      "answers": [
+        "Who is the intended reader?",
+        "What action is encouraged?",
+        "This is a slogan, not yet evidence.",
+        "Some information is not shown."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Ano ang hinihikayat na kilos? — What action is encouraged?\nA message can persuade through a slogan, testimonial or selective detail. Popularity does not prove a claim. Ask who is being addressed, what action is requested and what support is missing."
+    },
+    {
+      "id": "q23",
+      "prompt": "What does this mean in English?\n\nSlogan lamang ito, hindi pa ebidensiya.",
+      "answers": [
+        "Who is the intended reader?",
+        "What action is encouraged?",
+        "This is a slogan, not yet evidence.",
+        "Some information is not shown."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Slogan lamang ito, hindi pa ebidensiya. — This is a slogan, not yet evidence.\nA message can persuade through a slogan, testimonial or selective detail. Popularity does not prove a claim. Ask who is being addressed, what action is requested and what support is missing."
+    },
+    {
+      "id": "q24",
+      "prompt": "What does this mean in English?\n\nMay impormasyong hindi ipinakikita.",
+      "answers": [
+        "Who is the intended reader?",
+        "What action is encouraged?",
+        "This is a slogan, not yet evidence.",
+        "Some information is not shown."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "May impormasyong hindi ipinakikita. — Some information is not shown.\nA message can persuade through a slogan, testimonial or selective detail. Popularity does not prove a claim. Ask who is being addressed, what action is requested and what support is missing."
+    },
+    {
+      "id": "q25",
+      "prompt": "What does this mean in English?\n\nMay tungkulin ang bawat larawan.",
+      "answers": [
+        "Every image has a purpose.",
+        "Narration and caption agree.",
+        "There is time to read the text.",
+        "The material’s source is stated."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "May tungkulin ang bawat larawan. — Every image has a purpose.\nMultimedia combines modes, but each part should serve a clear purpose. Captions, timing and a readable structure help access. Record source credits and permissions; added music cannot supply missing reasoning."
+    },
+    {
+      "id": "q26",
+      "prompt": "What does this mean in English?\n\nTumutugma ang salaysay at caption.",
+      "answers": [
+        "Every image has a purpose.",
+        "Narration and caption agree.",
+        "There is time to read the text.",
+        "The material’s source is stated."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Tumutugma ang salaysay at caption. — Narration and caption agree.\nMultimedia combines modes, but each part should serve a clear purpose. Captions, timing and a readable structure help access. Record source credits and permissions; added music cannot supply missing reasoning."
+    },
+    {
+      "id": "q27",
+      "prompt": "What does this mean in English?\n\nMay oras upang mabasa ang teksto.",
+      "answers": [
+        "Every image has a purpose.",
+        "Narration and caption agree.",
+        "There is time to read the text.",
+        "The material’s source is stated."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "May oras upang mabasa ang teksto. — There is time to read the text.\nMultimedia combines modes, but each part should serve a clear purpose. Captions, timing and a readable structure help access. Record source credits and permissions; added music cannot supply missing reasoning."
+    },
+    {
+      "id": "q28",
+      "prompt": "What does this mean in English?\n\nNakasaad ang pinagmulan ng materyal.",
+      "answers": [
+        "Every image has a purpose.",
+        "Narration and caption agree.",
+        "There is time to read the text.",
+        "The material’s source is stated."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Nakasaad ang pinagmulan ng materyal. — The material’s source is stated.\nMultimedia combines modes, but each part should serve a clear purpose. Captions, timing and a readable structure help access. Record source credits and permissions; added music cannot supply missing reasoning."
+    },
+    {
+      "id": "q29",
+      "prompt": "What does this mean in English?\n\nIto ang unang borador ko.",
+      "answers": [
+        "This is my first draft.",
+        "There is feedback about an unclear point.",
+        "I added a relevant detail.",
+        "I explain my revision."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Ito ang unang borador ko. — This is my first draft.\nA portfolio can show draft, feedback, revision and reflection. Completion alone does not prove independent writing ability. Use a new text and explain which changes improve the argument rather than copying a model response."
+    },
+    {
+      "id": "q30",
+      "prompt": "What does this mean in English?\n\nMay puna tungkol sa malabong punto.",
+      "answers": [
+        "This is my first draft.",
+        "There is feedback about an unclear point.",
+        "I added a relevant detail.",
+        "I explain my revision."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "May puna tungkol sa malabong punto. — There is feedback about an unclear point.\nA portfolio can show draft, feedback, revision and reflection. Completion alone does not prove independent writing ability. Use a new text and explain which changes improve the argument rather than copying a model response."
+    },
+    {
+      "id": "q31",
+      "prompt": "What does this mean in English?\n\nNagdagdag ako ng kaugnay na detalye.",
+      "answers": [
+        "This is my first draft.",
+        "There is feedback about an unclear point.",
+        "I added a relevant detail.",
+        "I explain my revision."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Nagdagdag ako ng kaugnay na detalye. — I added a relevant detail.\nA portfolio can show draft, feedback, revision and reflection. Completion alone does not prove independent writing ability. Use a new text and explain which changes improve the argument rather than copying a model response."
+    },
+    {
+      "id": "q32",
+      "prompt": "What does this mean in English?\n\nIpinaliliwanag ko ang ginawa kong rebisyon.",
+      "answers": [
+        "This is my first draft.",
+        "There is feedback about an unclear point.",
+        "I added a relevant detail.",
+        "I explain my revision."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Ipinaliliwanag ko ang ginawa kong rebisyon. — I explain my revision.\nA portfolio can show draft, feedback, revision and reflection. Completion alone does not prove independent writing ability. Use a new text and explain which changes improve the argument rather than copying a model response."
+    }
+  ]
+}

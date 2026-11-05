@@ -4,7 +4,7 @@ import {readFile} from 'node:fs/promises';
 import {normalize,accepts,validateCourse,freshProgress,safeProgress,scheduleCard,finishSession,streak,localDay,shuffle,forkCourse} from '../dist/lib.js';
 const course=JSON.parse(await readFile(new URL('../dist/courses/fil-en.json',import.meta.url)));
 const entry=course.lessons[0].entries[0];
-test('starter course has 12 complete lessons and unique entries',()=>{assert.deepEqual(validateCourse(course),[]);assert.equal(course.lessons.length,12);assert.equal(course.lessons.flatMap(l=>l.entries).length,48);});
+test('original starter lessons remain available before the extended course',()=>{assert.deepEqual(validateCourse(course),[]);assert.equal(course.lessons[0].id,'say-hello');assert.equal(course.lessons[11].id,'learning');assert.equal(course.lessons.slice(0,12).flatMap(l=>l.entries).length,48);});
 test('typing accepts punctuation, case, spacing and declared variants; preserves meaningful accents',()=>{assert(accepts('  KUMUSTA ka! ',entry));assert(accepts('Kamusta ka?',entry));assert(!accepts('Kumusta ako',entry));assert.equal(normalize('你好！'),'你好');assert.notEqual(normalize('si'),normalize('sí'));});
 test('new languages and non-Latin scripts need no engine changes',()=>{const c=structuredClone(course);c.id='ja-en';c.language='Japanese';c.languageCode='ja';c.lessons[0].entries[0].text='こんにちは';assert.deepEqual(validateCourse(c),[]);});
 test('invalid and duplicate IDs are rejected',()=>{const c=structuredClone(course);c.lessons[1].entries[0].id=entry.id;assert(validateCourse(c).some(x=>x.includes('duplicate')));c.id='../escape';assert(validateCourse(c).some(x=>x.includes('Course id')));});

@@ -1,0 +1,425 @@
+{
+  "schemaVersion": 1,
+  "id": "tara-fil-en-school-7",
+  "title": "Tara! · Filipino · Grade 7",
+  "author": "Tara contributors · CC BY-SA 4.0",
+  "language": "en",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What does this mean in English?\n\nMay konteksto ang pagbigkas ng tula.",
+      "answers": [
+        "Poetic recitation has a context.",
+        "The source needs acknowledgment.",
+        "The image provides a clue.",
+        "This exercise is newly authored."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "May konteksto ang pagbigkas ng tula. — Poetic recitation has a context.\nGrade 7 Quarter 1 studies poetry of the precolonial period alongside exposition. Oral traditions have communities, languages, purposes and performance contexts. This original riddle-style exercise prepares reading skills; it is not labelled an inherited cultural text."
+    },
+    {
+      "id": "q2",
+      "prompt": "What does this mean in English?\n\nKailangang kilalanin ang pinagmulan.",
+      "answers": [
+        "Poetic recitation has a context.",
+        "The source needs acknowledgment.",
+        "The image provides a clue.",
+        "This exercise is newly authored."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Kailangang kilalanin ang pinagmulan. — The source needs acknowledgment.\nGrade 7 Quarter 1 studies poetry of the precolonial period alongside exposition. Oral traditions have communities, languages, purposes and performance contexts. This original riddle-style exercise prepares reading skills; it is not labelled an inherited cultural text."
+    },
+    {
+      "id": "q3",
+      "prompt": "What does this mean in English?\n\nNagbibigay ng pahiwatig ang imahen.",
+      "answers": [
+        "Poetic recitation has a context.",
+        "The source needs acknowledgment.",
+        "The image provides a clue.",
+        "This exercise is newly authored."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Nagbibigay ng pahiwatig ang imahen. — The image provides a clue.\nGrade 7 Quarter 1 studies poetry of the precolonial period alongside exposition. Oral traditions have communities, languages, purposes and performance contexts. This original riddle-style exercise prepares reading skills; it is not labelled an inherited cultural text."
+    },
+    {
+      "id": "q4",
+      "prompt": "What does this mean in English?\n\nBagong likha ang pagsasanay na ito.",
+      "answers": [
+        "Poetic recitation has a context.",
+        "The source needs acknowledgment.",
+        "The image provides a clue.",
+        "This exercise is newly authored."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Bagong likha ang pagsasanay na ito. — This exercise is newly authored.\nGrade 7 Quarter 1 studies poetry of the precolonial period alongside exposition. Oral traditions have communities, languages, purposes and performance contexts. This original riddle-style exercise prepares reading skills; it is not labelled an inherited cultural text."
+    },
+    {
+      "id": "q5",
+      "prompt": "What does this mean in English?\n\nPaghahambing ang pangunahing estruktura.",
+      "answers": [
+        "Comparison is the main structure.",
+        "These are the similarities and differences.",
+        "The paragraphs have a logical relationship.",
+        "A label without an example is insufficient."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Paghahambing ang pangunahing estruktura. — Comparison is the main structure.\nAn exposition explains with organized information. Description, comparison, sequence and cause/result are different structures; a passage can combine them. Name a structure only after showing which details create it."
+    },
+    {
+      "id": "q6",
+      "prompt": "What does this mean in English?\n\nIto ang pagkakatulad at pagkakaiba.",
+      "answers": [
+        "Comparison is the main structure.",
+        "These are the similarities and differences.",
+        "The paragraphs have a logical relationship.",
+        "A label without an example is insufficient."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Ito ang pagkakatulad at pagkakaiba. — These are the similarities and differences.\nAn exposition explains with organized information. Description, comparison, sequence and cause/result are different structures; a passage can combine them. Name a structure only after showing which details create it."
+    },
+    {
+      "id": "q7",
+      "prompt": "What does this mean in English?\n\nMay lohikal na ugnayan ang mga talata.",
+      "answers": [
+        "Comparison is the main structure.",
+        "These are the similarities and differences.",
+        "The paragraphs have a logical relationship.",
+        "A label without an example is insufficient."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "May lohikal na ugnayan ang mga talata. — The paragraphs have a logical relationship.\nAn exposition explains with organized information. Description, comparison, sequence and cause/result are different structures; a passage can combine them. Name a structure only after showing which details create it."
+    },
+    {
+      "id": "q8",
+      "prompt": "What does this mean in English?\n\nHindi sapat ang label na walang halimbawa.",
+      "answers": [
+        "Comparison is the main structure.",
+        "These are the similarities and differences.",
+        "The paragraphs have a logical relationship.",
+        "A label without an example is insufficient."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Hindi sapat ang label na walang halimbawa. — A label without an example is insufficient.\nAn exposition explains with organized information. Description, comparison, sequence and cause/result are different structures; a passage can combine them. Name a structure only after showing which details create it."
+    },
+    {
+      "id": "q9",
+      "prompt": "What does this mean in English?\n\nMay tunggalian sa pangangailangan at pasiya.",
+      "answers": [
+        "There is conflict between need and decision.",
+        "Action reveals a value.",
+        "A generalization about culture is insufficient.",
+        "Return to the specific scene."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "May tunggalian sa pangangailangan at pasiya. — There is conflict between need and decision.\nQuarter 2 includes precolonial prose. An origin tale, legend and epic should not be collapsed into one form or one community. Use your assigned work’s actual details; the new miniature below is only an exercise in conflict and response."
+    },
+    {
+      "id": "q10",
+      "prompt": "What does this mean in English?\n\nIpinakikita ng kilos ang pagpapahalaga.",
+      "answers": [
+        "There is conflict between need and decision.",
+        "Action reveals a value.",
+        "A generalization about culture is insufficient.",
+        "Return to the specific scene."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Ipinakikita ng kilos ang pagpapahalaga. — Action reveals a value.\nQuarter 2 includes precolonial prose. An origin tale, legend and epic should not be collapsed into one form or one community. Use your assigned work’s actual details; the new miniature below is only an exercise in conflict and response."
+    },
+    {
+      "id": "q11",
+      "prompt": "What does this mean in English?\n\nHindi sapat ang paglalahat tungkol sa kultura.",
+      "answers": [
+        "There is conflict between need and decision.",
+        "Action reveals a value.",
+        "A generalization about culture is insufficient.",
+        "Return to the specific scene."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Hindi sapat ang paglalahat tungkol sa kultura. — A generalization about culture is insufficient.\nQuarter 2 includes precolonial prose. An origin tale, legend and epic should not be collapsed into one form or one community. Use your assigned work’s actual details; the new miniature below is only an exercise in conflict and response."
+    },
+    {
+      "id": "q12",
+      "prompt": "What does this mean in English?\n\nBalikan ang tiyak na tagpo.",
+      "answers": [
+        "There is conflict between need and decision.",
+        "Action reveals a value.",
+        "A generalization about culture is insufficient.",
+        "Return to the specific scene."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Balikan ang tiyak na tagpo. — Return to the specific scene.\nQuarter 2 includes precolonial prose. An origin tale, legend and epic should not be collapsed into one form or one community. Use your assigned work’s actual details; the new miniature below is only an exercise in conflict and response."
+    },
+    {
+      "id": "q13",
+      "prompt": "What does this mean in English?\n\nPipiliin ko ang mahahalagang tagpo.",
+      "answers": [
+        "I will select the important scenes.",
+        "Each frame contributes to the story.",
+        "The reason for the decision should not be changed.",
+        "The source work is acknowledged."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Pipiliin ko ang mahahalagang tagpo. — I will select the important scenes.\nA comic-book brochure combines concise text, frames, dialogue and visuals. Adaptation selects material for a new mode. It should preserve a scene’s important causal links and credit the original work, rather than silently replace it."
+    },
+    {
+      "id": "q14",
+      "prompt": "What does this mean in English?\n\nMay ambag sa kuwento ang bawat frame.",
+      "answers": [
+        "I will select the important scenes.",
+        "Each frame contributes to the story.",
+        "The reason for the decision should not be changed.",
+        "The source work is acknowledged."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "May ambag sa kuwento ang bawat frame. — Each frame contributes to the story.\nA comic-book brochure combines concise text, frames, dialogue and visuals. Adaptation selects material for a new mode. It should preserve a scene’s important causal links and credit the original work, rather than silently replace it."
+    },
+    {
+      "id": "q15",
+      "prompt": "What does this mean in English?\n\nHindi dapat mabago ang sanhi ng pasiya.",
+      "answers": [
+        "I will select the important scenes.",
+        "Each frame contributes to the story.",
+        "The reason for the decision should not be changed.",
+        "The source work is acknowledged."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Hindi dapat mabago ang sanhi ng pasiya. — The reason for the decision should not be changed.\nA comic-book brochure combines concise text, frames, dialogue and visuals. Adaptation selects material for a new mode. It should preserve a scene’s important causal links and credit the original work, rather than silently replace it."
+    },
+    {
+      "id": "q16",
+      "prompt": "What does this mean in English?\n\nKinikilala ang akdang pinagmulan.",
+      "answers": [
+        "I will select the important scenes.",
+        "Each frame contributes to the story.",
+        "The reason for the decision should not be changed.",
+        "The source work is acknowledged."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Kinikilala ang akdang pinagmulan. — The source work is acknowledged.\nA comic-book brochure combines concise text, frames, dialogue and visuals. Adaptation selects material for a new mode. It should preserve a scene’s important causal links and credit the original work, rather than silently replace it."
+    },
+    {
+      "id": "q17",
+      "prompt": "What does this mean in English?\n\nMay kaugnayan ang akda sa panahon nito.",
+      "answers": [
+        "The work relates to its period.",
+        "Not every character is a portrait of the author.",
+        "The analysis is grounded in wording.",
+        "Separate factual information from interpretation."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "May kaugnayan ang akda sa panahon nito. — The work relates to its period.\nQuarter 3 studies literature from the Spanish colonial period alongside exposition and news. Context is a tool for reading, not a substitute for textual evidence. An invented preparation passage is not a period document."
+    },
+    {
+      "id": "q18",
+      "prompt": "What does this mean in English?\n\nHindi lahat ng tauhan ay larawan ng may-akda.",
+      "answers": [
+        "The work relates to its period.",
+        "Not every character is a portrait of the author.",
+        "The analysis is grounded in wording.",
+        "Separate factual information from interpretation."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Hindi lahat ng tauhan ay larawan ng may-akda. — Not every character is a portrait of the author.\nQuarter 3 studies literature from the Spanish colonial period alongside exposition and news. Context is a tool for reading, not a substitute for textual evidence. An invented preparation passage is not a period document."
+    },
+    {
+      "id": "q19",
+      "prompt": "What does this mean in English?\n\nMay batayan sa salita ang pagsusuri.",
+      "answers": [
+        "The work relates to its period.",
+        "Not every character is a portrait of the author.",
+        "The analysis is grounded in wording.",
+        "Separate factual information from interpretation."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "May batayan sa salita ang pagsusuri. — The analysis is grounded in wording.\nQuarter 3 studies literature from the Spanish colonial period alongside exposition and news. Context is a tool for reading, not a substitute for textual evidence. An invented preparation passage is not a period document."
+    },
+    {
+      "id": "q20",
+      "prompt": "What does this mean in English?\n\nIhiwalay ang datos sa interpretasyon.",
+      "answers": [
+        "The work relates to its period.",
+        "Not every character is a portrait of the author.",
+        "The analysis is grounded in wording.",
+        "Separate factual information from interpretation."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Ihiwalay ang datos sa interpretasyon. — Separate factual information from interpretation.\nQuarter 3 studies literature from the Spanish colonial period alongside exposition and news. Context is a tool for reading, not a substitute for textual evidence. An invented preparation passage is not a period document."
+    },
+    {
+      "id": "q21",
+      "prompt": "What does this mean in English?\n\nAyon sa dalawang kinapanayam…",
+      "answers": [
+        "According to two interviewees…",
+        "This is not everyone’s view.",
+        "The claim still needs verification.",
+        "The data’s scope is limited."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Ayon sa dalawang kinapanayam… — According to two interviewees…\nA report should identify who says what and how it is known. A small number of comments cannot represent everyone without further support. Quoting accurately still requires context and does not automatically verify the claim being quoted."
+    },
+    {
+      "id": "q22",
+      "prompt": "What does this mean in English?\n\nHindi ito pananaw ng lahat.",
+      "answers": [
+        "According to two interviewees…",
+        "This is not everyone’s view.",
+        "The claim still needs verification.",
+        "The data’s scope is limited."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Hindi ito pananaw ng lahat. — This is not everyone’s view.\nA report should identify who says what and how it is known. A small number of comments cannot represent everyone without further support. Quoting accurately still requires context and does not automatically verify the claim being quoted."
+    },
+    {
+      "id": "q23",
+      "prompt": "What does this mean in English?\n\nKailangan pang tiyakin ang pahayag.",
+      "answers": [
+        "According to two interviewees…",
+        "This is not everyone’s view.",
+        "The claim still needs verification.",
+        "The data’s scope is limited."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Kailangan pang tiyakin ang pahayag. — The claim still needs verification.\nA report should identify who says what and how it is known. A small number of comments cannot represent everyone without further support. Quoting accurately still requires context and does not automatically verify the claim being quoted."
+    },
+    {
+      "id": "q24",
+      "prompt": "What does this mean in English?\n\nMay hangganan ang saklaw ng datos.",
+      "answers": [
+        "According to two interviewees…",
+        "This is not everyone’s view.",
+        "The claim still needs verification.",
+        "The data’s scope is limited."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "May hangganan ang saklaw ng datos. — The data’s scope is limited.\nA report should identify who says what and how it is known. A small number of comments cannot represent everyone without further support. Quoting accurately still requires context and does not automatically verify the claim being quoted."
+    },
+    {
+      "id": "q25",
+      "prompt": "What does this mean in English?\n\nKorido ang Ibong Adarna.",
+      "answers": [
+        "Ibong Adarna is a korido.",
+        "Examine the actions of Don Pedro, Don Diego and Don Juan.",
+        "What is the conflict in this scene?",
+        "There is a specific supporting stanza."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Korido ang Ibong Adarna. — Ibong Adarna is a korido.\nIbong Adarna is the Grade 7 major work in the guide. It is a korido with an unknown author. The work concerns the princes of Berbanya and the Adarna bird; use the school edition for stanza numbering and the actual sequence. This guide is not a replacement for reading the poem."
+    },
+    {
+      "id": "q26",
+      "prompt": "What does this mean in English?\n\nSuriin ang kilos nina Don Pedro, Don Diego at Don Juan.",
+      "answers": [
+        "Ibong Adarna is a korido.",
+        "Examine the actions of Don Pedro, Don Diego and Don Juan.",
+        "What is the conflict in this scene?",
+        "There is a specific supporting stanza."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Suriin ang kilos nina Don Pedro, Don Diego at Don Juan. — Examine the actions of Don Pedro, Don Diego and Don Juan.\nIbong Adarna is the Grade 7 major work in the guide. It is a korido with an unknown author. The work concerns the princes of Berbanya and the Adarna bird; use the school edition for stanza numbering and the actual sequence. This guide is not a replacement for reading the poem."
+    },
+    {
+      "id": "q27",
+      "prompt": "What does this mean in English?\n\nAno ang tunggalian sa tagpong ito?",
+      "answers": [
+        "Ibong Adarna is a korido.",
+        "Examine the actions of Don Pedro, Don Diego and Don Juan.",
+        "What is the conflict in this scene?",
+        "There is a specific supporting stanza."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Ano ang tunggalian sa tagpong ito? — What is the conflict in this scene?\nIbong Adarna is the Grade 7 major work in the guide. It is a korido with an unknown author. The work concerns the princes of Berbanya and the Adarna bird; use the school edition for stanza numbering and the actual sequence. This guide is not a replacement for reading the poem."
+    },
+    {
+      "id": "q28",
+      "prompt": "What does this mean in English?\n\nMay tiyak na saknong na batayan.",
+      "answers": [
+        "Ibong Adarna is a korido.",
+        "Examine the actions of Don Pedro, Don Diego and Don Juan.",
+        "What is the conflict in this scene?",
+        "There is a specific supporting stanza."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "May tiyak na saknong na batayan. — There is a specific supporting stanza.\nIbong Adarna is the Grade 7 major work in the guide. It is a korido with an unknown author. The work concerns the princes of Berbanya and the Adarna bird; use the school edition for stanza numbering and the actual sequence. This guide is not a replacement for reading the poem."
+    },
+    {
+      "id": "q29",
+      "prompt": "What does this mean in English?\n\nIto ang tagpong iaangkop namin.",
+      "answers": [
+        "This is the scene we will adapt.",
+        "Each character’s silhouette is clear.",
+        "There is a plan for light, movement and dialogue.",
+        "We revised after rehearsal."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Ito ang tagpong iaangkop namin. — This is the scene we will adapt.\nThe Grade 7 Quarter 4 performance task includes a puppet shadow play. A saved script is preparation; performance requires rehearsal, timing, visual clarity and an audience. Select an actual assigned scene and acknowledge the source."
+    },
+    {
+      "id": "q30",
+      "prompt": "What does this mean in English?\n\nMalinaw ang silweta ng bawat tauhan.",
+      "answers": [
+        "This is the scene we will adapt.",
+        "Each character’s silhouette is clear.",
+        "There is a plan for light, movement and dialogue.",
+        "We revised after rehearsal."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Malinaw ang silweta ng bawat tauhan. — Each character’s silhouette is clear.\nThe Grade 7 Quarter 4 performance task includes a puppet shadow play. A saved script is preparation; performance requires rehearsal, timing, visual clarity and an audience. Select an actual assigned scene and acknowledge the source."
+    },
+    {
+      "id": "q31",
+      "prompt": "What does this mean in English?\n\nMay plano sa ilaw, kilos at diyalogo.",
+      "answers": [
+        "This is the scene we will adapt.",
+        "Each character’s silhouette is clear.",
+        "There is a plan for light, movement and dialogue.",
+        "We revised after rehearsal."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "May plano sa ilaw, kilos at diyalogo. — There is a plan for light, movement and dialogue.\nThe Grade 7 Quarter 4 performance task includes a puppet shadow play. A saved script is preparation; performance requires rehearsal, timing, visual clarity and an audience. Select an actual assigned scene and acknowledge the source."
+    },
+    {
+      "id": "q32",
+      "prompt": "What does this mean in English?\n\nNirebisa namin matapos ang ensayo.",
+      "answers": [
+        "This is the scene we will adapt.",
+        "Each character’s silhouette is clear.",
+        "There is a plan for light, movement and dialogue.",
+        "We revised after rehearsal."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Nirebisa namin matapos ang ensayo. — We revised after rehearsal.\nThe Grade 7 Quarter 4 performance task includes a puppet shadow play. A saved script is preparation; performance requires rehearsal, timing, visual clarity and an audience. Select an actual assigned scene and acknowledge the source."
+    }
+  ]
+}

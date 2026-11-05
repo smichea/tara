@@ -1,0 +1,685 @@
+{
+  "schemaVersion": 1,
+  "id": "tara-fil-en-c1",
+  "title": "Tara! · Filipino · C1 practice",
+  "author": "Tara contributors · CC BY-SA 4.0",
+  "language": "en",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What does this mean in English?\n\nTila may pag-aalinlangan ang tagapagsalita.",
+      "answers": [
+        "The speaker seems to have reservations.",
+        "The objection was not stated openly.",
+        "This may suggest caution.",
+        "This does not necessarily prove bad intent."
+      ],
+      "correct": 0,
+      "difficulty": 4,
+      "explanation": "Tila may pag-aalinlangan ang tagapagsalita. — The speaker seems to have reservations.\nAn implication depends on context. Marahil, tila and waring can qualify an interpretation. Support an inference with several details and name what the text does not establish."
+    },
+    {
+      "id": "q2",
+      "prompt": "What does this mean in English?\n\nHindi hayagang sinabi ang pagtutol.",
+      "answers": [
+        "The speaker seems to have reservations.",
+        "The objection was not stated openly.",
+        "This may suggest caution.",
+        "This does not necessarily prove bad intent."
+      ],
+      "correct": 1,
+      "difficulty": 4,
+      "explanation": "Hindi hayagang sinabi ang pagtutol. — The objection was not stated openly.\nAn implication depends on context. Marahil, tila and waring can qualify an interpretation. Support an inference with several details and name what the text does not establish."
+    },
+    {
+      "id": "q3",
+      "prompt": "What does this mean in English?\n\nMaaaring ipahiwatig nito ang pag-iingat.",
+      "answers": [
+        "The speaker seems to have reservations.",
+        "The objection was not stated openly.",
+        "This may suggest caution.",
+        "This does not necessarily prove bad intent."
+      ],
+      "correct": 2,
+      "difficulty": 4,
+      "explanation": "Maaaring ipahiwatig nito ang pag-iingat. — This may suggest caution.\nAn implication depends on context. Marahil, tila and waring can qualify an interpretation. Support an inference with several details and name what the text does not establish."
+    },
+    {
+      "id": "q4",
+      "prompt": "What does this mean in English?\n\nHindi nito kinakailangang patunayan ang masamang layon.",
+      "answers": [
+        "The speaker seems to have reservations.",
+        "The objection was not stated openly.",
+        "This may suggest caution.",
+        "This does not necessarily prove bad intent."
+      ],
+      "correct": 3,
+      "difficulty": 4,
+      "explanation": "Hindi nito kinakailangang patunayan ang masamang layon. — This does not necessarily prove bad intent.\nAn implication depends on context. Marahil, tila and waring can qualify an interpretation. Support an inference with several details and name what the text does not establish."
+    },
+    {
+      "id": "q5",
+      "prompt": "What does this mean in English?\n\nMay pagitan ang sinabi at ipinahiwatig.",
+      "answers": [
+        "There is a gap between what was said and implied.",
+        "The speaker seems to have reservations.",
+        "The objection was not stated openly.",
+        "This may suggest caution."
+      ],
+      "correct": 0,
+      "difficulty": 4,
+      "explanation": "May pagitan ang sinabi at ipinahiwatig. — There is a gap between what was said and implied.\nAn implication depends on context. Marahil, tila and waring can qualify an interpretation. Support an inference with several details and name what the text does not establish."
+    },
+    {
+      "id": "q6",
+      "prompt": "What does this mean in English?\n\nKailangang isaalang-alang ang kabuuang konteksto.",
+      "answers": [
+        "The speaker seems to have reservations.",
+        "The full context needs to be considered.",
+        "The objection was not stated openly.",
+        "This may suggest caution."
+      ],
+      "correct": 1,
+      "difficulty": 4,
+      "explanation": "Kailangang isaalang-alang ang kabuuang konteksto. — The full context needs to be considered.\nAn implication depends on context. Marahil, tila and waring can qualify an interpretation. Support an inference with several details and name what the text does not establish."
+    },
+    {
+      "id": "q7",
+      "prompt": "What does this mean in English?\n\nHindi lahat ng kalahok ay may parehong karanasan.",
+      "answers": [
+        "In some circumstances, this method may help.",
+        "The data partly support the proposal.",
+        "Not all participants have the same experience.",
+        "The effects of the two factors cannot yet be separated."
+      ],
+      "correct": 2,
+      "difficulty": 4,
+      "explanation": "Hindi lahat ng kalahok ay may parehong karanasan. — Not all participants have the same experience.\nQualifiers prevent overstatement. Hindi lahat denies universality; wala denies existence. These meanings are different. Sa ilang pagkakataon limits a claim to some situations rather than all situations."
+    },
+    {
+      "id": "q8",
+      "prompt": "What does this mean in English?\n\nSa ilang pagkakataon, maaaring makatulong ang paraang ito.",
+      "answers": [
+        "Not all participants have the same experience.",
+        "The data partly support the proposal.",
+        "The effects of the two factors cannot yet be separated.",
+        "In some circumstances, this method may help."
+      ],
+      "correct": 3,
+      "difficulty": 4,
+      "explanation": "Sa ilang pagkakataon, maaaring makatulong ang paraang ito. — In some circumstances, this method may help.\nQualifiers prevent overstatement. Hindi lahat denies universality; wala denies existence. These meanings are different. Sa ilang pagkakataon limits a claim to some situations rather than all situations."
+    },
+    {
+      "id": "q9",
+      "prompt": "What does this mean in English?\n\nBahagyang sinusuportahan ng datos ang mungkahi.",
+      "answers": [
+        "The data partly support the proposal.",
+        "Not all participants have the same experience.",
+        "In some circumstances, this method may help.",
+        "The effects of the two factors cannot yet be separated."
+      ],
+      "correct": 0,
+      "difficulty": 4,
+      "explanation": "Bahagyang sinusuportahan ng datos ang mungkahi. — The data partly support the proposal.\nQualifiers prevent overstatement. Hindi lahat denies universality; wala denies existence. These meanings are different. Sa ilang pagkakataon limits a claim to some situations rather than all situations."
+    },
+    {
+      "id": "q10",
+      "prompt": "What does this mean in English?\n\nHindi pa maihihiwalay ang epekto ng dalawang salik.",
+      "answers": [
+        "Not all participants have the same experience.",
+        "The effects of the two factors cannot yet be separated.",
+        "In some circumstances, this method may help.",
+        "The data partly support the proposal."
+      ],
+      "correct": 1,
+      "difficulty": 4,
+      "explanation": "Hindi pa maihihiwalay ang epekto ng dalawang salik. — The effects of the two factors cannot yet be separated.\nQualifiers prevent overstatement. Hindi lahat denies universality; wala denies existence. These meanings are different. Sa ilang pagkakataon limits a claim to some situations rather than all situations."
+    },
+    {
+      "id": "q11",
+      "prompt": "What does this mean in English?\n\nMay pagkakaiba ang posibilidad at katiyakan.",
+      "answers": [
+        "Not all participants have the same experience.",
+        "In some circumstances, this method may help.",
+        "Possibility and certainty are different.",
+        "The data partly support the proposal."
+      ],
+      "correct": 2,
+      "difficulty": 4,
+      "explanation": "May pagkakaiba ang posibilidad at katiyakan. — Possibility and certainty are different.\nQualifiers prevent overstatement. Hindi lahat denies universality; wala denies existence. These meanings are different. Sa ilang pagkakataon limits a claim to some situations rather than all situations."
+    },
+    {
+      "id": "q12",
+      "prompt": "What does this mean in English?\n\nMas makitid ang saklaw ng konklusyong ito.",
+      "answers": [
+        "Not all participants have the same experience.",
+        "In some circumstances, this method may help.",
+        "The data partly support the proposal.",
+        "This conclusion has a narrower scope."
+      ],
+      "correct": 3,
+      "difficulty": 4,
+      "explanation": "Mas makitid ang saklaw ng konklusyong ito. — This conclusion has a narrower scope.\nQualifiers prevent overstatement. Hindi lahat denies universality; wala denies existence. These meanings are different. Sa ilang pagkakataon limits a claim to some situations rather than all situations."
+    },
+    {
+      "id": "q13",
+      "prompt": "What does this mean in English?\n\nNagkakatugma ang mga ulat sa isang mahalagang punto.",
+      "answers": [
+        "The reports agree on one important point.",
+        "Whereas the first emphasizes time, the second emphasizes access.",
+        "The second text fills a gap in the first.",
+        "Their conclusions are not wholly contradictory."
+      ],
+      "correct": 0,
+      "difficulty": 4,
+      "explanation": "Nagkakatugma ang mga ulat sa isang mahalagang punto. — The reports agree on one important point.\nA synthesis is organized by ideas rather than simply retelling source A and then source B. Attribute claims and show whether sources complement, limit or contradict one another."
+    },
+    {
+      "id": "q14",
+      "prompt": "What does this mean in English?\n\nSamantalang oras ang diin ng una, pag-access ang diin ng ikalawa.",
+      "answers": [
+        "The reports agree on one important point.",
+        "Whereas the first emphasizes time, the second emphasizes access.",
+        "Their conclusions are not wholly contradictory.",
+        "A condition emerges from the two perspectives."
+      ],
+      "correct": 1,
+      "difficulty": 4,
+      "explanation": "Samantalang oras ang diin ng una, pag-access ang diin ng ikalawa. — Whereas the first emphasizes time, the second emphasizes access.\nA synthesis is organized by ideas rather than simply retelling source A and then source B. Attribute claims and show whether sources complement, limit or contradict one another."
+    },
+    {
+      "id": "q15",
+      "prompt": "What does this mean in English?\n\nPinupunan ng ikalawang teksto ang puwang sa una.",
+      "answers": [
+        "The reports agree on one important point.",
+        "Their conclusions are not wholly contradictory.",
+        "The second text fills a gap in the first.",
+        "A condition emerges from the two perspectives."
+      ],
+      "correct": 2,
+      "difficulty": 4,
+      "explanation": "Pinupunan ng ikalawang teksto ang puwang sa una. — The second text fills a gap in the first.\nA synthesis is organized by ideas rather than simply retelling source A and then source B. Attribute claims and show whether sources complement, limit or contradict one another."
+    },
+    {
+      "id": "q16",
+      "prompt": "What does this mean in English?\n\nHindi ganap na magkasalungat ang kanilang mga konklusyon.",
+      "answers": [
+        "The reports agree on one important point.",
+        "Whereas the first emphasizes time, the second emphasizes access.",
+        "The second text fills a gap in the first.",
+        "Their conclusions are not wholly contradictory."
+      ],
+      "correct": 3,
+      "difficulty": 4,
+      "explanation": "Hindi ganap na magkasalungat ang kanilang mga konklusyon. — Their conclusions are not wholly contradictory.\nA synthesis is organized by ideas rather than simply retelling source A and then source B. Attribute claims and show whether sources complement, limit or contradict one another."
+    },
+    {
+      "id": "q17",
+      "prompt": "What does this mean in English?\n\nMula sa dalawang pananaw, lumilitaw ang isang kondisyon.",
+      "answers": [
+        "A condition emerges from the two perspectives.",
+        "The reports agree on one important point.",
+        "Whereas the first emphasizes time, the second emphasizes access.",
+        "The second text fills a gap in the first."
+      ],
+      "correct": 0,
+      "difficulty": 4,
+      "explanation": "Mula sa dalawang pananaw, lumilitaw ang isang kondisyon. — A condition emerges from the two perspectives.\nA synthesis is organized by ideas rather than simply retelling source A and then source B. Attribute claims and show whether sources complement, limit or contradict one another."
+    },
+    {
+      "id": "q18",
+      "prompt": "What does this mean in English?\n\nNananatiling bukas ang tanong tungkol sa pagpapatupad.",
+      "answers": [
+        "The reports agree on one important point.",
+        "The question of implementation remains open.",
+        "Whereas the first emphasizes time, the second emphasizes access.",
+        "The second text fills a gap in the first."
+      ],
+      "correct": 1,
+      "difficulty": 4,
+      "explanation": "Nananatiling bukas ang tanong tungkol sa pagpapatupad. — The question of implementation remains open.\nA synthesis is organized by ideas rather than simply retelling source A and then source B. Attribute claims and show whether sources complement, limit or contradict one another."
+    },
+    {
+      "id": "q19",
+      "prompt": "What does this mean in English?\n\nKabaligtaran ng literal na pahayag ang ipinahihiwatig.",
+      "answers": [
+        "The response has a trace of mockery.",
+        "The tone changes because of the context.",
+        "The implication is the opposite of the literal statement.",
+        "The words alone do not establish the tone."
+      ],
+      "correct": 2,
+      "difficulty": 4,
+      "explanation": "Kabaligtaran ng literal na pahayag ang ipinahihiwatig. — The implication is the opposite of the literal statement.\nIrony can create a difference between literal words and intended meaning. Do not label every negative remark sarcastic; use contrast, situation and consequences as evidence."
+    },
+    {
+      "id": "q20",
+      "prompt": "What does this mean in English?\n\nMay bahid ng panunuya ang tugon.",
+      "answers": [
+        "The implication is the opposite of the literal statement.",
+        "The tone changes because of the context.",
+        "The statement could be literal in another situation.",
+        "The response has a trace of mockery."
+      ],
+      "correct": 3,
+      "difficulty": 4,
+      "explanation": "May bahid ng panunuya ang tugon. — The response has a trace of mockery.\nIrony can create a difference between literal words and intended meaning. Do not label every negative remark sarcastic; use contrast, situation and consequences as evidence."
+    },
+    {
+      "id": "q21",
+      "prompt": "What does this mean in English?\n\nNagbabago ang tono dahil sa konteksto.",
+      "answers": [
+        "The tone changes because of the context.",
+        "The implication is the opposite of the literal statement.",
+        "The response has a trace of mockery.",
+        "The statement could be literal in another situation."
+      ],
+      "correct": 0,
+      "difficulty": 4,
+      "explanation": "Nagbabago ang tono dahil sa konteksto. — The tone changes because of the context.\nIrony can create a difference between literal words and intended meaning. Do not label every negative remark sarcastic; use contrast, situation and consequences as evidence."
+    },
+    {
+      "id": "q22",
+      "prompt": "What does this mean in English?\n\nMaaaring tuwiran ang pahayag sa ibang sitwasyon.",
+      "answers": [
+        "The response has a trace of mockery.",
+        "The statement could be literal in another situation.",
+        "The tone changes because of the context.",
+        "The words alone do not establish the tone."
+      ],
+      "correct": 1,
+      "difficulty": 4,
+      "explanation": "Maaaring tuwiran ang pahayag sa ibang sitwasyon. — The statement could be literal in another situation.\nIrony can create a difference between literal words and intended meaning. Do not label every negative remark sarcastic; use contrast, situation and consequences as evidence."
+    },
+    {
+      "id": "q23",
+      "prompt": "What does this mean in English?\n\nHindi sapat ang salita lamang upang matiyak ang tono.",
+      "answers": [
+        "The implication is the opposite of the literal statement.",
+        "The response has a trace of mockery.",
+        "The words alone do not establish the tone.",
+        "The tone changes because of the context."
+      ],
+      "correct": 2,
+      "difficulty": 4,
+      "explanation": "Hindi sapat ang salita lamang upang matiyak ang tono. — The words alone do not establish the tone.\nIrony can create a difference between literal words and intended meaning. Do not label every negative remark sarcastic; use contrast, situation and consequences as evidence."
+    },
+    {
+      "id": "q24",
+      "prompt": "What does this mean in English?\n\nMas maingat na paglalarawan ang kailangan.",
+      "answers": [
+        "The implication is the opposite of the literal statement.",
+        "The response has a trace of mockery.",
+        "The tone changes because of the context.",
+        "A more cautious description is needed."
+      ],
+      "correct": 3,
+      "difficulty": 4,
+      "explanation": "Mas maingat na paglalarawan ang kailangan. — A more cautious description is needed.\nIrony can create a difference between literal words and intended meaning. Do not label every negative remark sarcastic; use contrast, situation and consequences as evidence."
+    },
+    {
+      "id": "q25",
+      "prompt": "What does this mean in English?\n\nLimitado ang nalalaman ng tagapagsalaysay.",
+      "answers": [
+        "The narrator’s knowledge is limited.",
+        "The character’s view is being expressed, not a certain fact.",
+        "The final detail changes the initial reading.",
+        "There is an inconsistency in his or her account."
+      ],
+      "correct": 0,
+      "difficulty": 4,
+      "explanation": "Limitado ang nalalaman ng tagapagsalaysay. — The narrator’s knowledge is limited.\nA narrator’s perspective filters what readers learn. A character’s belief is not always a fact of the story. Look for mismatches between an interpretation and later evidence."
+    },
+    {
+      "id": "q26",
+      "prompt": "What does this mean in English?\n\nPananaw ng tauhan ang ipinahahayag, hindi tiyak na katotohanan.",
+      "answers": [
+        "The narrator’s knowledge is limited.",
+        "The character’s view is being expressed, not a certain fact.",
+        "The final detail changes the initial reading.",
+        "There is an inconsistency in his or her account."
+      ],
+      "correct": 1,
+      "difficulty": 4,
+      "explanation": "Pananaw ng tauhan ang ipinahahayag, hindi tiyak na katotohanan. — The character’s view is being expressed, not a certain fact.\nA narrator’s perspective filters what readers learn. A character’s belief is not always a fact of the story. Look for mismatches between an interpretation and later evidence."
+    },
+    {
+      "id": "q27",
+      "prompt": "What does this mean in English?\n\nBinabago ng huling detalye ang unang pagbasa.",
+      "answers": [
+        "The narrator’s knowledge is limited.",
+        "The character’s view is being expressed, not a certain fact.",
+        "The final detail changes the initial reading.",
+        "There is an inconsistency in his or her account."
+      ],
+      "correct": 2,
+      "difficulty": 4,
+      "explanation": "Binabago ng huling detalye ang unang pagbasa. — The final detail changes the initial reading.\nA narrator’s perspective filters what readers learn. A character’s belief is not always a fact of the story. Look for mismatches between an interpretation and later evidence."
+    },
+    {
+      "id": "q28",
+      "prompt": "What does this mean in English?\n\nMay hindi pagkakatugma sa kaniyang salaysay.",
+      "answers": [
+        "The narrator’s knowledge is limited.",
+        "The character’s view is being expressed, not a certain fact.",
+        "The final detail changes the initial reading.",
+        "There is an inconsistency in his or her account."
+      ],
+      "correct": 3,
+      "difficulty": 4,
+      "explanation": "May hindi pagkakatugma sa kaniyang salaysay. — There is an inconsistency in his or her account.\nA narrator’s perspective filters what readers learn. A character’s belief is not always a fact of the story. Look for mismatches between an interpretation and later evidence."
+    },
+    {
+      "id": "q29",
+      "prompt": "What does this mean in English?\n\nHindi natin naririnig ang panig ng ibang tauhan.",
+      "answers": [
+        "We do not hear the other character’s side.",
+        "The narrator’s knowledge is limited.",
+        "The character’s view is being expressed, not a certain fact.",
+        "The final detail changes the initial reading."
+      ],
+      "correct": 0,
+      "difficulty": 4,
+      "explanation": "Hindi natin naririnig ang panig ng ibang tauhan. — We do not hear the other character’s side.\nA narrator’s perspective filters what readers learn. A character’s belief is not always a fact of the story. Look for mismatches between an interpretation and later evidence."
+    },
+    {
+      "id": "q30",
+      "prompt": "What does this mean in English?\n\nMaaaring pag-isipang muli ang naunang palagay.",
+      "answers": [
+        "The narrator’s knowledge is limited.",
+        "The earlier assumption can be reconsidered.",
+        "The character’s view is being expressed, not a certain fact.",
+        "The final detail changes the initial reading."
+      ],
+      "correct": 1,
+      "difficulty": 4,
+      "explanation": "Maaaring pag-isipang muli ang naunang palagay. — The earlier assumption can be reconsidered.\nA narrator’s perspective filters what readers learn. A character’s belief is not always a fact of the story. Look for mismatches between an interpretation and later evidence."
+    },
+    {
+      "id": "q31",
+      "prompt": "What does this mean in English?\n\nIpinahihiwatig ng paghahambing ang hindi pagkakapantay ng pagkakataon.",
+      "answers": [
+        "Not only the result but also the process is described.",
+        "On this reading, the final scene matters.",
+        "The comparison suggests unequal opportunity.",
+        "Nevertheless, this interpretation has a limit."
+      ],
+      "correct": 2,
+      "difficulty": 4,
+      "explanation": "Ipinahihiwatig ng paghahambing ang hindi pagkakapantay ng pagkakataon. — The comparison suggests unequal opportunity.\nAn analytical thesis explains a relationship or interpretation. Follow a claim with a precise detail and reasoning. A paragraph can be grammatically correct yet lack a logical connection to its thesis."
+    },
+    {
+      "id": "q32",
+      "prompt": "What does this mean in English?\n\nHindi lamang bunga ang inilalarawan kundi pati ang proseso.",
+      "answers": [
+        "The comparison suggests unequal opportunity.",
+        "On this reading, the final scene matters.",
+        "Nevertheless, this interpretation has a limit.",
+        "Not only the result but also the process is described."
+      ],
+      "correct": 3,
+      "difficulty": 4,
+      "explanation": "Hindi lamang bunga ang inilalarawan kundi pati ang proseso. — Not only the result but also the process is described.\nAn analytical thesis explains a relationship or interpretation. Follow a claim with a precise detail and reasoning. A paragraph can be grammatically correct yet lack a logical connection to its thesis."
+    },
+    {
+      "id": "q33",
+      "prompt": "What does this mean in English?\n\nSa ganitong pagbasa, mahalaga ang huling tagpo.",
+      "answers": [
+        "On this reading, the final scene matters.",
+        "The comparison suggests unequal opportunity.",
+        "Not only the result but also the process is described.",
+        "Nevertheless, this interpretation has a limit."
+      ],
+      "correct": 0,
+      "difficulty": 4,
+      "explanation": "Sa ganitong pagbasa, mahalaga ang huling tagpo. — On this reading, the final scene matters.\nAn analytical thesis explains a relationship or interpretation. Follow a claim with a precise detail and reasoning. A paragraph can be grammatically correct yet lack a logical connection to its thesis."
+    },
+    {
+      "id": "q34",
+      "prompt": "What does this mean in English?\n\nGayunpaman, may hangganan ang interpretasyong ito.",
+      "answers": [
+        "The comparison suggests unequal opportunity.",
+        "Nevertheless, this interpretation has a limit.",
+        "Not only the result but also the process is described.",
+        "On this reading, the final scene matters."
+      ],
+      "correct": 1,
+      "difficulty": 4,
+      "explanation": "Gayunpaman, may hangganan ang interpretasyong ito. — Nevertheless, this interpretation has a limit.\nAn analytical thesis explains a relationship or interpretation. Follow a claim with a precise detail and reasoning. A paragraph can be grammatically correct yet lack a logical connection to its thesis."
+    },
+    {
+      "id": "q35",
+      "prompt": "What does this mean in English?\n\nMula rito, maaaring igiit ang isang mas tiyak na tesis.",
+      "answers": [
+        "The comparison suggests unequal opportunity.",
+        "Not only the result but also the process is described.",
+        "A more specific thesis can be argued from this.",
+        "On this reading, the final scene matters."
+      ],
+      "correct": 2,
+      "difficulty": 4,
+      "explanation": "Mula rito, maaaring igiit ang isang mas tiyak na tesis. — A more specific thesis can be argued from this.\nAn analytical thesis explains a relationship or interpretation. Follow a claim with a precise detail and reasoning. A paragraph can be grammatically correct yet lack a logical connection to its thesis."
+    },
+    {
+      "id": "q36",
+      "prompt": "What does this mean in English?\n\nNag-uugnay ang detalyeng ito sa pangunahing argumento.",
+      "answers": [
+        "The comparison suggests unequal opportunity.",
+        "Not only the result but also the process is described.",
+        "On this reading, the final scene matters.",
+        "This detail connects to the main argument."
+      ],
+      "correct": 3,
+      "difficulty": 4,
+      "explanation": "Nag-uugnay ang detalyeng ito sa pangunahing argumento. — This detail connects to the main argument.\nAn analytical thesis explains a relationship or interpretation. Follow a claim with a precise detail and reasoning. A paragraph can be grammatically correct yet lack a logical connection to its thesis."
+    },
+    {
+      "id": "q37",
+      "prompt": "What does this mean in English?\n\nSa mas payak na paliwanag, magkaiba ang dalawang bilang.",
+      "answers": [
+        "Put more simply, the two numbers are different.",
+        "This does not mean the project should now stop.",
+        "Let’s consider a concrete example.",
+        "This condition needs to be retained."
+      ],
+      "correct": 0,
+      "difficulty": 4,
+      "explanation": "Sa mas payak na paliwanag, magkaiba ang dalawang bilang. — Put more simply, the two numbers are different.\nMediation adapts form and detail to the audience. Simplification should not erase conditions, uncertainty or a meaningful disagreement. Examples can clarify an abstract distinction."
+    },
+    {
+      "id": "q38",
+      "prompt": "What does this mean in English?\n\nHindi ibig sabihin nito na dapat nang ihinto ang proyekto.",
+      "answers": [
+        "Put more simply, the two numbers are different.",
+        "This does not mean the project should now stop.",
+        "Let’s consider a concrete example.",
+        "This condition needs to be retained."
+      ],
+      "correct": 1,
+      "difficulty": 4,
+      "explanation": "Hindi ibig sabihin nito na dapat nang ihinto ang proyekto. — This does not mean the project should now stop.\nMediation adapts form and detail to the audience. Simplification should not erase conditions, uncertainty or a meaningful disagreement. Examples can clarify an abstract distinction."
+    },
+    {
+      "id": "q39",
+      "prompt": "What does this mean in English?\n\nIsipin natin ang isang konkretong halimbawa.",
+      "answers": [
+        "Put more simply, the two numbers are different.",
+        "This does not mean the project should now stop.",
+        "Let’s consider a concrete example.",
+        "This condition needs to be retained."
+      ],
+      "correct": 2,
+      "difficulty": 4,
+      "explanation": "Isipin natin ang isang konkretong halimbawa. — Let’s consider a concrete example.\nMediation adapts form and detail to the audience. Simplification should not erase conditions, uncertainty or a meaningful disagreement. Examples can clarify an abstract distinction."
+    },
+    {
+      "id": "q40",
+      "prompt": "What does this mean in English?\n\nMahalagang panatilihin ang kondisyong ito.",
+      "answers": [
+        "Put more simply, the two numbers are different.",
+        "This does not mean the project should now stop.",
+        "Let’s consider a concrete example.",
+        "This condition needs to be retained."
+      ],
+      "correct": 3,
+      "difficulty": 4,
+      "explanation": "Mahalagang panatilihin ang kondisyong ito. — This condition needs to be retained.\nMediation adapts form and detail to the audience. Simplification should not erase conditions, uncertainty or a meaningful disagreement. Examples can clarify an abstract distinction."
+    },
+    {
+      "id": "q41",
+      "prompt": "What does this mean in English?\n\nMaaaring paikliin ang paliwanag nang hindi binabago ang diwa.",
+      "answers": [
+        "The explanation can be shortened without changing its meaning.",
+        "Put more simply, the two numbers are different.",
+        "This does not mean the project should now stop.",
+        "Let’s consider a concrete example."
+      ],
+      "correct": 0,
+      "difficulty": 4,
+      "explanation": "Maaaring paikliin ang paliwanag nang hindi binabago ang diwa. — The explanation can be shortened without changing its meaning.\nMediation adapts form and detail to the audience. Simplification should not erase conditions, uncertainty or a meaningful disagreement. Examples can clarify an abstract distinction."
+    },
+    {
+      "id": "q42",
+      "prompt": "What does this mean in English?\n\nAng kailangang malaman ng mambabasa ay ang susunod na hakbang.",
+      "answers": [
+        "Put more simply, the two numbers are different.",
+        "What the reader needs to know is the next step.",
+        "This does not mean the project should now stop.",
+        "Let’s consider a concrete example."
+      ],
+      "correct": 1,
+      "difficulty": 4,
+      "explanation": "Ang kailangang malaman ng mambabasa ay ang susunod na hakbang. — What the reader needs to know is the next step.\nMediation adapts form and detail to the audience. Simplification should not erase conditions, uncertainty or a meaningful disagreement. Examples can clarify an abstract distinction."
+    },
+    {
+      "id": "q43",
+      "prompt": "What does this mean in English?\n\nHindi malinaw kung sino ang tinutukoy ng siya.",
+      "answers": [
+        "The connector needs to be changed.",
+        "The ideas are related but the explanation is insufficient.",
+        "It is unclear whom siya refers to.",
+        "It is more appropriate to give this context first."
+      ],
+      "correct": 2,
+      "difficulty": 4,
+      "explanation": "Hindi malinaw kung sino ang tinutukoy ng siya. — It is unclear whom siya refers to.\nCohesion concerns links between sentences: pronoun reference, repetition, connectors and shared information. Coherence concerns how ideas form a meaningful whole. Check both while revising."
+    },
+    {
+      "id": "q44",
+      "prompt": "What does this mean in English?\n\nKailangang palitan ang pang-ugnay.",
+      "answers": [
+        "It is unclear whom siya refers to.",
+        "The ideas are related but the explanation is insufficient.",
+        "It is more appropriate to give this context first.",
+        "The connector needs to be changed."
+      ],
+      "correct": 3,
+      "difficulty": 4,
+      "explanation": "Kailangang palitan ang pang-ugnay. — The connector needs to be changed.\nCohesion concerns links between sentences: pronoun reference, repetition, connectors and shared information. Coherence concerns how ideas form a meaningful whole. Check both while revising."
+    },
+    {
+      "id": "q45",
+      "prompt": "What does this mean in English?\n\nMagkaugnay ang mga ideya ngunit kulang ang paliwanag.",
+      "answers": [
+        "The ideas are related but the explanation is insufficient.",
+        "It is unclear whom siya refers to.",
+        "The connector needs to be changed.",
+        "It is more appropriate to give this context first."
+      ],
+      "correct": 0,
+      "difficulty": 4,
+      "explanation": "Magkaugnay ang mga ideya ngunit kulang ang paliwanag. — The ideas are related but the explanation is insufficient.\nCohesion concerns links between sentences: pronoun reference, repetition, connectors and shared information. Coherence concerns how ideas form a meaningful whole. Check both while revising."
+    },
+    {
+      "id": "q46",
+      "prompt": "What does this mean in English?\n\nMas angkop na unahin ang kontekstong ito.",
+      "answers": [
+        "It is unclear whom siya refers to.",
+        "It is more appropriate to give this context first.",
+        "The connector needs to be changed.",
+        "The ideas are related but the explanation is insufficient."
+      ],
+      "correct": 1,
+      "difficulty": 4,
+      "explanation": "Mas angkop na unahin ang kontekstong ito. — It is more appropriate to give this context first.\nCohesion concerns links between sentences: pronoun reference, repetition, connectors and shared information. Coherence concerns how ideas form a meaningful whole. Check both while revising."
+    },
+    {
+      "id": "q47",
+      "prompt": "What does this mean in English?\n\nNagbabago ang diin kapag inilipat ang pangungusap.",
+      "answers": [
+        "It is unclear whom siya refers to.",
+        "The connector needs to be changed.",
+        "Moving the sentence changes the emphasis.",
+        "The ideas are related but the explanation is insufficient."
+      ],
+      "correct": 2,
+      "difficulty": 4,
+      "explanation": "Nagbabago ang diin kapag inilipat ang pangungusap. — Moving the sentence changes the emphasis.\nCohesion concerns links between sentences: pronoun reference, repetition, connectors and shared information. Coherence concerns how ideas form a meaningful whole. Check both while revising."
+    },
+    {
+      "id": "q48",
+      "prompt": "What does this mean in English?\n\nNapanatili ang diwa habang naging mas malinaw ang pahayag.",
+      "answers": [
+        "It is unclear whom siya refers to.",
+        "The connector needs to be changed.",
+        "The ideas are related but the explanation is insufficient.",
+        "The meaning was preserved while the statement became clearer."
+      ],
+      "correct": 3,
+      "difficulty": 4,
+      "explanation": "Napanatili ang diwa habang naging mas malinaw ang pahayag. — The meaning was preserved while the statement became clearer.\nCohesion concerns links between sentences: pronoun reference, repetition, connectors and shared information. Coherence concerns how ideas form a meaningful whole. Check both while revising."
+    },
+    {
+      "id": "q49",
+      "prompt": "What does this mean in English?\n\nAnong usaping panlipunan ang tinutugunan ng akda?",
+      "answers": [
+        "What social issue does the work address?",
+        "The analysis has a specific supporting quotation.",
+        "Pauses, emphasis and tone matter in performance.",
+        "I revised the piece after receiving feedback."
+      ],
+      "correct": 0,
+      "difficulty": 4,
+      "explanation": "Anong usaping panlipunan ang tinutugunan ng akda? — What social issue does the work address?\nQuarter 4 includes the Apat na Himagsik ni Balagtas and spoken poetry. Teaching headings can vary in wording; use your teacher’s list. Explain a concern through textual evidence, not by attaching a label alone. The app stores your script; a real performance still needs an audience and feedback."
+    },
+    {
+      "id": "q50",
+      "prompt": "What does this mean in English?\n\nMay tiyak na siping batayan ang pagsusuri.",
+      "answers": [
+        "What social issue does the work address?",
+        "The analysis has a specific supporting quotation.",
+        "Pauses, emphasis and tone matter in performance.",
+        "I revised the piece after receiving feedback."
+      ],
+      "correct": 1,
+      "difficulty": 4,
+      "explanation": "May tiyak na siping batayan ang pagsusuri. — The analysis has a specific supporting quotation.\nQuarter 4 includes the Apat na Himagsik ni Balagtas and spoken poetry. Teaching headings can vary in wording; use your teacher’s list. Explain a concern through textual evidence, not by attaching a label alone. The app stores your script; a real performance still needs an audience and feedback."
+    },
+    {
+      "id": "q51",
+      "prompt": "What does this mean in English?\n\nMahalaga ang paghinto, diin at tono sa pagtatanghal.",
+      "answers": [
+        "What social issue does the work address?",
+        "The analysis has a specific supporting quotation.",
+        "Pauses, emphasis and tone matter in performance.",
+        "I revised the piece after receiving feedback."
+      ],
+      "correct": 2,
+      "difficulty": 4,
+      "explanation": "Mahalaga ang paghinto, diin at tono sa pagtatanghal. — Pauses, emphasis and tone matter in performance.\nQuarter 4 includes the Apat na Himagsik ni Balagtas and spoken poetry. Teaching headings can vary in wording; use your teacher’s list. Explain a concern through textual evidence, not by attaching a label alone. The app stores your script; a real performance still needs an audience and feedback."
+    },
+    {
+      "id": "q52",
+      "prompt": "What does this mean in English?\n\nNirebisa ko ang piyesa matapos tumanggap ng puna.",
+      "answers": [
+        "What social issue does the work address?",
+        "The analysis has a specific supporting quotation.",
+        "Pauses, emphasis and tone matter in performance.",
+        "I revised the piece after receiving feedback."
+      ],
+      "correct": 3,
+      "difficulty": 4,
+      "explanation": "Nirebisa ko ang piyesa matapos tumanggap ng puna. — I revised the piece after receiving feedback.\nQuarter 4 includes the Apat na Himagsik ni Balagtas and spoken poetry. Teaching headings can vary in wording; use your teacher’s list. Explain a concern through textual evidence, not by attaching a label alone. The app stores your script; a real performance still needs an audience and feedback."
+    }
+  ]
+}

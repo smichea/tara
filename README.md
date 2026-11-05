@@ -18,11 +18,15 @@ Open <http://127.0.0.1:4173>. Python 3 runs the development server; Node 20+ run
 
 ## What works today
 
-- 12 short Filipino lessons with 48 words and phrases, taught before they are tested.
+- 124 Filipino lessons with 576 key expressions, including A1–C2-inspired practice targets; the original 12 lessons and their progress IDs are preserved.
+- 112 contextual readings (including two attributed historical excerpts), 224 comprehension questions with explanations, and 112 open expression tasks with model responses and self-checks.
+- A school pathway from Grade 1 prerequisites through every Grade 2–7 and Grade 8, grouped by quarter with source references and suggested readiness checks.
+- Level navigation and saved writing responses in localStorage; long-form expression is self-assessed, not compared against one required sentence.
 - Meaning choices, sentence building and written recall; equivalent answers and optional Filipino politeness are accepted, while mistakes get another attempt.
 - Spaced repetition, completed lessons, daily goals, streaks and XP saved automatically in localStorage, plus an explicit Save progress button in Settings.
-- Phrasebook with search; browser text-to-speech for lessons, phrases and corrections, with normal and slower playback.
-- Responsive interface and an offline service worker; install through the browser when supported.
+- Phrasebook with search; stored, human-reviewed audio playback with normal/slower speed. Browser TTS is disabled; production recordings await pilot generation and review.
+- 15 downloadable Retro Museum quiz/game packs for shared-screen and phone play; the open host supports ranking and cooperative modes. See [multiplayer setup](docs/multiplayer.md).
+- Responsive interface, reduced-motion-aware animations and an offline service worker; install through the browser when supported.
 - A visual course editor for words, phrases, teaching tips, accepted spellings and new language pairs.
 - Local course import and export; editor drafts save as you type.
 - GitHub contribution proposals from the editor, pull requests, automatic content validation and a documented review process.
@@ -30,7 +34,7 @@ Open <http://127.0.0.1:4173>. Python 3 runs the development server; Node 20+ run
 
 ## Honest limits
 
-This is **v0.1**, not a complete course or a substitute for speaking with people. The Filipino starter content is an original draft **awaiting fluent-speaker review**. Sound uses browser text-to-speech by default; no human recordings or external TTS API are required. A matching Filipino/Tagalog voice is selected when the browser lists one. If voices have not loaded yet, the app still requests `fil-PH` so the browser can resolve the language. Voice availability, pronunciation and online/offline behavior depend on the browser and device. The app never explicitly selects an English voice for Filipino. No voice recognition or pronunciation scoring is claimed.
+This is a guided practice course, not a complete CEFR syllabus, school qualification or substitute for speaking with people. Level labels describe editorial practice targets inspired by CEFR, not externally validated proficiency or a promise that completing a tab achieves that level. Course content is an original draft **awaiting fluent-speaker and teacher review**. See [curriculum notes](docs/curriculum.md) and [school alignment](docs/school-alignment.md). The school pathway bridges selected skills from every preceding grade; it does not claim exhaustive yearly coverage or replace assigned full literary works and live performance. Stored audio must be checked clip by clip by a named fluent speaker before publication. No pronunciation quality has been claimed without listening review. See [audio generation and review](docs/audio.md). No microphone, speech recognition or pronunciation scoring is included.
 
 The shared contribution workflow uses **GitHub review**, not an in-app account system or a live database. Local drafts are not published automatically. A proposal opens on GitHub for the contributor to review and submit; a maintainer must integrate it and a fluent speaker must review language content. Review dates and learning progress are device-local; there is no cloud sync. Imported courses stay labelled as unreviewed drafts, even when their file claims reviewed status.
 
@@ -76,11 +80,18 @@ TARA_CHROMIUM=/path/to/chromium node tests/browser.mjs
 The optional test needs the `playwright` package installed locally, or its module
 path supplied in `TARA_PLAYWRIGHT_MODULE`; it adds no runtime dependency.
 
-Browser TTS and storage regression checks use the same optional Playwright setup:
+Recorded-audio and storage regression checks use the same optional Playwright setup:
 
 ```sh
 TARA_CHROMIUM=/path/to/chromium node tests/audio-browser.mjs
 ```
 
-These checks verify browser API requests using a speech stub. They do not claim
-to validate audible speech quality or voice availability on a learner's device.
+These checks verify recorded-file playback wiring with an explicit test fixture,
+review gates and localStorage behavior. They do not validate audible pronunciation.
+
+Extended reading, expression, editor preservation and offline regression checks:
+
+```sh
+TARA_CHROMIUM=/path/to/chromium node tests/curriculum-browser.mjs
+TARA_CHROMIUM=/path/to/chromium node tests/school-browser.mjs
+```

@@ -1,0 +1,4 @@
+# Synthesized and contributed audio must be materialized before static publication.
+dist/audio/**/*.mp3 filter=lfs diff=lfs merge=lfs -text
+dist/audio/**/*.ogg filter=lfs diff=lfs merge=lfs -text
+dist/audio/**/*.wav filter=lfs diff=lfs merge=lfs -text

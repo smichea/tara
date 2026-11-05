@@ -1,0 +1,425 @@
+{
+  "schemaVersion": 1,
+  "id": "tara-fil-en-school-3",
+  "title": "Tara! · Filipino · Grade 3",
+  "author": "Tara contributors · CC BY-SA 4.0",
+  "language": "en",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What does this mean in English?\n\nNagbasa si Sam at sumulat si Ari.",
+      "answers": [
+        "Sam read and Ari wrote.",
+        "I have a book, but I have no pencil.",
+        "It rained, so we stayed inside.",
+        "The two ideas are related."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Nagbasa si Sam at sumulat si Ari. — Sam read and Ari wrote.\nAt adds related information; ngunit marks contrast; kaya marks a result. A compound sentence joins independent ideas. Choose the connector for meaning, rather than using every connector as if it meant and."
+    },
+    {
+      "id": "q2",
+      "prompt": "What does this mean in English?\n\nMay aklat ako, ngunit wala akong lapis.",
+      "answers": [
+        "Sam read and Ari wrote.",
+        "I have a book, but I have no pencil.",
+        "It rained, so we stayed inside.",
+        "The two ideas are related."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "May aklat ako, ngunit wala akong lapis. — I have a book, but I have no pencil.\nAt adds related information; ngunit marks contrast; kaya marks a result. A compound sentence joins independent ideas. Choose the connector for meaning, rather than using every connector as if it meant and."
+    },
+    {
+      "id": "q3",
+      "prompt": "What does this mean in English?\n\nUmulan kaya nanatili kami sa loob.",
+      "answers": [
+        "Sam read and Ari wrote.",
+        "I have a book, but I have no pencil.",
+        "It rained, so we stayed inside.",
+        "The two ideas are related."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Umulan kaya nanatili kami sa loob. — It rained, so we stayed inside.\nAt adds related information; ngunit marks contrast; kaya marks a result. A compound sentence joins independent ideas. Choose the connector for meaning, rather than using every connector as if it meant and."
+    },
+    {
+      "id": "q4",
+      "prompt": "What does this mean in English?\n\nMagkaugnay ang dalawang ideya.",
+      "answers": [
+        "Sam read and Ari wrote.",
+        "I have a book, but I have no pencil.",
+        "It rained, so we stayed inside.",
+        "The two ideas are related."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Magkaugnay ang dalawang ideya. — The two ideas are related.\nAt adds related information; ngunit marks contrast; kaya marks a result. A compound sentence joins independent ideas. Choose the connector for meaning, rather than using every connector as if it meant and."
+    },
+    {
+      "id": "q5",
+      "prompt": "What does this mean in English?\n\nSino ang nagtanong?",
+      "answers": [
+        "Who asked?",
+        "Where did they meet?",
+        "When did the activity begin?",
+        "Why did they help each other?"
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Sino ang nagtanong? — Who asked?\nSino, ano, saan, kailan and bakit request different details. Bakit needs a reason, not simply a name. If a text does not state an answer and gives insufficient clues, say that instead of inventing it."
+    },
+    {
+      "id": "q6",
+      "prompt": "What does this mean in English?\n\nSaan sila nagkita?",
+      "answers": [
+        "Who asked?",
+        "Where did they meet?",
+        "When did the activity begin?",
+        "Why did they help each other?"
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Saan sila nagkita? — Where did they meet?\nSino, ano, saan, kailan and bakit request different details. Bakit needs a reason, not simply a name. If a text does not state an answer and gives insufficient clues, say that instead of inventing it."
+    },
+    {
+      "id": "q7",
+      "prompt": "What does this mean in English?\n\nKailan nagsimula ang gawain?",
+      "answers": [
+        "Who asked?",
+        "Where did they meet?",
+        "When did the activity begin?",
+        "Why did they help each other?"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Kailan nagsimula ang gawain? — When did the activity begin?\nSino, ano, saan, kailan and bakit request different details. Bakit needs a reason, not simply a name. If a text does not state an answer and gives insufficient clues, say that instead of inventing it."
+    },
+    {
+      "id": "q8",
+      "prompt": "What does this mean in English?\n\nBakit sila nagtulungan?",
+      "answers": [
+        "Who asked?",
+        "Where did they meet?",
+        "When did the activity begin?",
+        "Why did they help each other?"
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Bakit sila nagtulungan? — Why did they help each other?\nSino, ano, saan, kailan and bakit request different details. Bakit needs a reason, not simply a name. If a text does not state an answer and gives insufficient clues, say that instead of inventing it."
+    },
+    {
+      "id": "q9",
+      "prompt": "What does this mean in English?\n\nSi Ari ay may aklat.",
+      "answers": [
+        "Ari has a book.",
+        "They read the story.",
+        "Ari and Sam are together.",
+        "They made notes."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Si Ari ay may aklat. — Ari has a book.\nA pronoun can refer back to a named person or group. Siya refers to one other person; sila to more than one. Check the surrounding sentences, especially when several people are mentioned, and rewrite unclear references."
+    },
+    {
+      "id": "q10",
+      "prompt": "What does this mean in English?\n\nBinasa niya ang kuwento.",
+      "answers": [
+        "Ari has a book.",
+        "They read the story.",
+        "Ari and Sam are together.",
+        "They made notes."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Binasa niya ang kuwento. — They read the story.\nA pronoun can refer back to a named person or group. Siya refers to one other person; sila to more than one. Check the surrounding sentences, especially when several people are mentioned, and rewrite unclear references."
+    },
+    {
+      "id": "q11",
+      "prompt": "What does this mean in English?\n\nSina Ari at Sam ay magkasama.",
+      "answers": [
+        "Ari has a book.",
+        "They read the story.",
+        "Ari and Sam are together.",
+        "They made notes."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Sina Ari at Sam ay magkasama. — Ari and Sam are together.\nA pronoun can refer back to a named person or group. Siya refers to one other person; sila to more than one. Check the surrounding sentences, especially when several people are mentioned, and rewrite unclear references."
+    },
+    {
+      "id": "q12",
+      "prompt": "What does this mean in English?\n\nGumawa sila ng tala.",
+      "answers": [
+        "Ari has a book.",
+        "They read the story.",
+        "Ari and Sam are together.",
+        "They made notes."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Gumawa sila ng tala. — They made notes.\nA pronoun can refer back to a named person or group. Siya refers to one other person; sila to more than one. Check the surrounding sentences, especially when several people are mentioned, and rewrite unclear references."
+    },
+    {
+      "id": "q13",
+      "prompt": "What does this mean in English?\n\nMatiyaga siyang nagbasa.",
+      "answers": [
+        "They read patiently.",
+        "They did not give up immediately.",
+        "There is a clue in the following sentence.",
+        "I checked the meaning."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Matiyaga siyang nagbasa. — They read patiently.\nContext clues can be an explanation, contrast or example. A guess should fit the whole sentence. If the clues are insufficient, consult a reliable dictionary or ask a fluent speaker rather than treating the first guess as certain."
+    },
+    {
+      "id": "q14",
+      "prompt": "What does this mean in English?\n\nHindi siya agad sumuko.",
+      "answers": [
+        "They read patiently.",
+        "They did not give up immediately.",
+        "There is a clue in the following sentence.",
+        "I checked the meaning."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Hindi siya agad sumuko. — They did not give up immediately.\nContext clues can be an explanation, contrast or example. A guess should fit the whole sentence. If the clues are insufficient, consult a reliable dictionary or ask a fluent speaker rather than treating the first guess as certain."
+    },
+    {
+      "id": "q15",
+      "prompt": "What does this mean in English?\n\nMay pahiwatig sa kasunod na pangungusap.",
+      "answers": [
+        "They read patiently.",
+        "They did not give up immediately.",
+        "There is a clue in the following sentence.",
+        "I checked the meaning."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "May pahiwatig sa kasunod na pangungusap. — There is a clue in the following sentence.\nContext clues can be an explanation, contrast or example. A guess should fit the whole sentence. If the clues are insufficient, consult a reliable dictionary or ask a fluent speaker rather than treating the first guess as certain."
+    },
+    {
+      "id": "q16",
+      "prompt": "What does this mean in English?\n\nSinuri ko ang kahulugan.",
+      "answers": [
+        "They read patiently.",
+        "They did not give up immediately.",
+        "There is a clue in the following sentence.",
+        "I checked the meaning."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Sinuri ko ang kahulugan. — I checked the meaning.\nContext clues can be an explanation, contrast or example. A guess should fit the whole sentence. If the clues are insufficient, consult a reliable dictionary or ask a fluent speaker rather than treating the first guess as certain."
+    },
+    {
+      "id": "q17",
+      "prompt": "What does this mean in English?\n\nNagbasa ako kahapon.",
+      "answers": [
+        "I read yesterday.",
+        "I am reading now.",
+        "I am not finished yet.",
+        "I have a book, but I have no pencil."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Nagbasa ako kahapon. — I read yesterday.\nTagalog verbs express aspect: whether an action is viewed as begun/completed or ongoing, among other distinctions. These are not a simple copy of English tenses. Compare the related forms nagbasa, nagbabasa and magbabasa with time and context."
+    },
+    {
+      "id": "q18",
+      "prompt": "What does this mean in English?\n\nNagbabasa ako ngayon.",
+      "answers": [
+        "I read yesterday.",
+        "I am reading now.",
+        "I will read later.",
+        "I am not finished yet."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Nagbabasa ako ngayon. — I am reading now.\nTagalog verbs express aspect: whether an action is viewed as begun/completed or ongoing, among other distinctions. These are not a simple copy of English tenses. Compare the related forms nagbasa, nagbabasa and magbabasa with time and context."
+    },
+    {
+      "id": "q19",
+      "prompt": "What does this mean in English?\n\nMagbabasa ako mamaya.",
+      "answers": [
+        "I am reading now.",
+        "I am not finished yet.",
+        "I will read later.",
+        "I have a book, but I have no pencil."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Magbabasa ako mamaya. — I will read later.\nTagalog verbs express aspect: whether an action is viewed as begun/completed or ongoing, among other distinctions. These are not a simple copy of English tenses. Compare the related forms nagbasa, nagbabasa and magbabasa with time and context."
+    },
+    {
+      "id": "q20",
+      "prompt": "What does this mean in English?\n\nHindi pa ako tapos.",
+      "answers": [
+        "I read yesterday.",
+        "I am reading now.",
+        "I will read later.",
+        "I am not finished yet."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Hindi pa ako tapos. — I am not finished yet.\nTagalog verbs express aspect: whether an action is viewed as begun/completed or ongoing, among other distinctions. These are not a simple copy of English tenses. Compare the related forms nagbasa, nagbabasa and magbabasa with time and context."
+    },
+    {
+      "id": "q21",
+      "prompt": "What does this mean in English?\n\nIto ang pangunahing ideya.",
+      "answers": [
+        "This is the main idea.",
+        "This is an important detail.",
+        "I shortened the text.",
+        "I did not change the meaning."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Ito ang pangunahing ideya. — This is the main idea.\nA summary keeps the main idea and essential details. It need not repeat every example or quote every sentence. A title can help, but the paragraph itself determines its main idea."
+    },
+    {
+      "id": "q22",
+      "prompt": "What does this mean in English?\n\nMahalagang detalye ito.",
+      "answers": [
+        "This is the main idea.",
+        "This is an important detail.",
+        "I shortened the text.",
+        "I did not change the meaning."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Mahalagang detalye ito. — This is an important detail.\nA summary keeps the main idea and essential details. It need not repeat every example or quote every sentence. A title can help, but the paragraph itself determines its main idea."
+    },
+    {
+      "id": "q23",
+      "prompt": "What does this mean in English?\n\nPinaikli ko ang teksto.",
+      "answers": [
+        "This is the main idea.",
+        "This is an important detail.",
+        "I shortened the text.",
+        "I did not change the meaning."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Pinaikli ko ang teksto. — I shortened the text.\nA summary keeps the main idea and essential details. It need not repeat every example or quote every sentence. A title can help, but the paragraph itself determines its main idea."
+    },
+    {
+      "id": "q24",
+      "prompt": "What does this mean in English?\n\nHindi ko binago ang diwa.",
+      "answers": [
+        "This is the main idea.",
+        "This is an important detail.",
+        "I shortened the text.",
+        "I did not change the meaning."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Hindi ko binago ang diwa. — I did not change the meaning.\nA summary keeps the main idea and essential details. It need not repeat every example or quote every sentence. A title can help, but the paragraph itself determines its main idea."
+    },
+    {
+      "id": "q25",
+      "prompt": "What does this mean in English?\n\nMay tatlong aklat sa mesa.",
+      "answers": [
+        "There are three books on the table.",
+        "For me, the story is good.",
+        "The last statement is my view.",
+        "Sam read and Ari wrote."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "May tatlong aklat sa mesa. — There are three books on the table.\nA factual claim can be checked even if it later turns out false. An opinion expresses a judgment or preference. Saying para sa akin can signal an opinion, but evidence and context matter more than a signal phrase alone."
+    },
+    {
+      "id": "q26",
+      "prompt": "What does this mean in English?\n\nPara sa akin, maganda ang kuwento.",
+      "answers": [
+        "There are three books on the table.",
+        "For me, the story is good.",
+        "The books can be counted.",
+        "The last statement is my view."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Para sa akin, maganda ang kuwento. — For me, the story is good.\nA factual claim can be checked even if it later turns out false. An opinion expresses a judgment or preference. Saying para sa akin can signal an opinion, but evidence and context matter more than a signal phrase alone."
+    },
+    {
+      "id": "q27",
+      "prompt": "What does this mean in English?\n\nMaaaring bilangin ang mga aklat.",
+      "answers": [
+        "For me, the story is good.",
+        "The last statement is my view.",
+        "The books can be counted.",
+        "Sam read and Ari wrote."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Maaaring bilangin ang mga aklat. — The books can be counted.\nA factual claim can be checked even if it later turns out false. An opinion expresses a judgment or preference. Saying para sa akin can signal an opinion, but evidence and context matter more than a signal phrase alone."
+    },
+    {
+      "id": "q28",
+      "prompt": "What does this mean in English?\n\nPananaw ko ang huling pahayag.",
+      "answers": [
+        "There are three books on the table.",
+        "For me, the story is good.",
+        "The books can be counted.",
+        "The last statement is my view."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Pananaw ko ang huling pahayag. — The last statement is my view.\nA factual claim can be checked even if it later turns out false. An opinion expresses a judgment or preference. Saying para sa akin can signal an opinion, but evidence and context matter more than a signal phrase alone."
+    },
+    {
+      "id": "q29",
+      "prompt": "What does this mean in English?\n\nMay malabong tinutukoy ang siya.",
+      "answers": [
+        "Siya has an unclear referent.",
+        "I clarified the sequence.",
+        "I fixed the punctuation.",
+        "I reread the paragraph."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "May malabong tinutukoy ang siya. — Siya has an unclear referent.\nRevision changes meaning and clarity; proofreading checks forms such as capitals and punctuation. Read for the main idea first, then check connectors and pronoun references before fixing surface errors."
+    },
+    {
+      "id": "q30",
+      "prompt": "What does this mean in English?\n\nPinalinaw ko ang pagkakasunod-sunod.",
+      "answers": [
+        "Siya has an unclear referent.",
+        "I clarified the sequence.",
+        "I fixed the punctuation.",
+        "I reread the paragraph."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Pinalinaw ko ang pagkakasunod-sunod. — I clarified the sequence.\nRevision changes meaning and clarity; proofreading checks forms such as capitals and punctuation. Read for the main idea first, then check connectors and pronoun references before fixing surface errors."
+    },
+    {
+      "id": "q31",
+      "prompt": "What does this mean in English?\n\nInayos ko ang bantas.",
+      "answers": [
+        "Siya has an unclear referent.",
+        "I clarified the sequence.",
+        "I fixed the punctuation.",
+        "I reread the paragraph."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Inayos ko ang bantas. — I fixed the punctuation.\nRevision changes meaning and clarity; proofreading checks forms such as capitals and punctuation. Read for the main idea first, then check connectors and pronoun references before fixing surface errors."
+    },
+    {
+      "id": "q32",
+      "prompt": "What does this mean in English?\n\nBinasa ko muli ang talata.",
+      "answers": [
+        "Siya has an unclear referent.",
+        "I clarified the sequence.",
+        "I fixed the punctuation.",
+        "I reread the paragraph."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Binasa ko muli ang talata. — I reread the paragraph.\nRevision changes meaning and clarity; proofreading checks forms such as capitals and punctuation. Read for the main idea first, then check connectors and pronoun references before fixing surface errors."
+    }
+  ]
+}

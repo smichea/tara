@@ -32,7 +32,9 @@ imports are always drafts. Maintainers review every change before merging.
 - Automated checks require unique IDs, valid fields, bounded content, existing
   local audio files and an explicit content license. CI failure blocks release.
 - A fluent speaker checks meaning, natural phrasing, politeness, regional
-  variation, accepted spellings and whether examples suit young learners.
+  variation, accepted spellings and whether examples suit young learners. A teacher
+  also reviews level targets, comprehension explanations, open-task rubrics and
+  any claimed mapping to school competencies. See docs/curriculum.md.
 - A maintainer checks attribution and third-party permission. Do not copy
   proprietary courses, commercial recordings or unattributed learning decks.
 - Set `status` to `reviewed` only after an independent fluent reviewer signs
@@ -48,7 +50,9 @@ configured by a repository administrator as the maintainer group grows.
 
 Native recordings are preferred to synthetic speech. Use a quiet room, speak
 naturally and get the speaker's permission. Put files under `dist/audio/` and
-set an entry's `audio` path to `audio/fil/example.mp3`. Add attribution in
+set an entry's `audio` path to `audio/fil/example.mp3`, with a text- and byte-bound
+`audioReview` after an independent pronunciation check. See [the audio pipeline](docs/audio.md)
+for pilot generation, review, promotion and Git LFS. Add attribution in
 `docs/audio-attribution.md`. Audio must be contributed under CC BY-SA 4.0; do
 not record or upload another person's voice without permission. The visual
 editor preserves existing audio references; adding recordings is a pull-request

@@ -10,7 +10,7 @@ const base=process.env.TARA_BASE_URL||'http://127.0.0.1:4173/';
 await mkdir('artifacts',{recursive:true});
 try{
  await page.goto(base);await page.getByRole('heading',{name:'Your next conversation starts here.'}).waitFor();
- assert.equal(await page.locator('.lesson').count(),12);
+ assert.equal(await page.locator('.lesson').count(),course.lessons.filter(l=>l.level==='A1').length);
  await page.screenshot({path:'artifacts/desktop.png',fullPage:true});
  await page.getByRole('button',{name:'Let’s do this'}).click();
  for(let i=0;i<4;i++)await page.getByRole('button',{name:i===3?'Let’s practise':'Got it',exact:i!==3}).click();
@@ -53,10 +53,10 @@ try{
  await page.getByRole('button',{name:'Let’s do this'}).click();await page.getByRole('button',{name:'Let’s practise'}).click();
  await page.getByRole('button',{name:'Leave lesson'}).click();await page.getByRole('dialog').getByRole('button',{name:'Continue'}).click();
  await page.selectOption('#course-select','fil-en');
- await page.getByRole('link',{name:'Phrasebook',exact:true}).click();await page.getByRole('searchbox').fill('rice');assert.equal(await page.locator('.word-row').count(),1);
+ await page.getByRole('link',{name:'Phrasebook',exact:true}).click();await page.getByRole('searchbox').fill('Cooked rice');assert.equal(await page.locator('.word-row').count(),1);
  await page.getByRole('link',{name:'Community',exact:true}).click();await page.getByRole('button',{name:'Improve this course'}).click();await page.getByRole('dialog').getByRole('button',{name:'Continue'}).click();
  await page.getByLabel('Your attribution / contributor name').fill('QA editor');
- const dlPromise=page.waitForEvent('download');await page.getByRole('button',{name:'Export JSON'}).click();const dl=await dlPromise;const exported=JSON.parse(await readFile(await dl.path(),'utf8'));assert.equal(exported.derivedFrom.author,'Tara contributors');assert.equal(exported.lessons.length,12);
+ const dlPromise=page.waitForEvent('download');await page.getByRole('button',{name:'Export JSON'}).click();const dl=await dlPromise;const exported=JSON.parse(await readFile(await dl.path(),'utf8'));assert.equal(exported.derivedFrom.author,'Tara contributors');assert.equal(exported.lessons.length,course.lessons.length);
  await page.getByRole('link',{name:'Learn',exact:true}).click();
  await page.setViewportSize({width:390,height:844});await page.screenshot({path:'artifacts/mobile.png',fullPage:true});
  assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'mobile horizontal overflow');

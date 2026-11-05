@@ -1,0 +1,425 @@
+{
+  "schemaVersion": 1,
+  "id": "tara-fil-en-school-2",
+  "title": "Tara! · Filipino · Grade 2",
+  "author": "Tara contributors · CC BY-SA 4.0",
+  "language": "en",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What does this mean in English?\n\nSi Ari ang guro.",
+      "answers": [
+        "Ari is the teacher.",
+        "There is a book in the room.",
+        "Ari is a person’s name.",
+        "Aklat is a noun."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Si Ari ang guro. — Ari is the teacher.\nA pangngalan names a person, place, object or idea. A proper name starts with a capital letter. Guro is a common noun; Ari is a name. Learn labels through their role in a sentence, not only as an English word list."
+    },
+    {
+      "id": "q2",
+      "prompt": "What does this mean in English?\n\nMay aklat sa silid.",
+      "answers": [
+        "Ari is the teacher.",
+        "There is a book in the room.",
+        "Ari is a person’s name.",
+        "Aklat is a noun."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "May aklat sa silid. — There is a book in the room.\nA pangngalan names a person, place, object or idea. A proper name starts with a capital letter. Guro is a common noun; Ari is a name. Learn labels through their role in a sentence, not only as an English word list."
+    },
+    {
+      "id": "q3",
+      "prompt": "What does this mean in English?\n\nPangalan ng tao ang Ari.",
+      "answers": [
+        "Ari is the teacher.",
+        "There is a book in the room.",
+        "Ari is a person’s name.",
+        "Aklat is a noun."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Pangalan ng tao ang Ari. — Ari is a person’s name.\nA pangngalan names a person, place, object or idea. A proper name starts with a capital letter. Guro is a common noun; Ari is a name. Learn labels through their role in a sentence, not only as an English word list."
+    },
+    {
+      "id": "q4",
+      "prompt": "What does this mean in English?\n\nPangngalan ang aklat.",
+      "answers": [
+        "Ari is the teacher.",
+        "There is a book in the room.",
+        "Ari is a person’s name.",
+        "Aklat is a noun."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Pangngalan ang aklat. — Aklat is a noun.\nA pangngalan names a person, place, object or idea. A proper name starts with a capital letter. Guro is a common noun; Ari is a name. Learn labels through their role in a sentence, not only as an English word list."
+    },
+    {
+      "id": "q5",
+      "prompt": "What does this mean in English?\n\nSi Sam ang tauhan.",
+      "answers": [
+        "Sam is the character.",
+        "The setting is the library.",
+        "It was morning when they arrived.",
+        "They borrowed a book."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Si Sam ang tauhan. — Sam is the character.\nTauhan is a character; tagpuan is the place and time of a story. Answer with a detail actually stated. A guess about a person’s home is not a setting detail unless the story supports it."
+    },
+    {
+      "id": "q6",
+      "prompt": "What does this mean in English?\n\nSa silid-aklatan ang tagpuan.",
+      "answers": [
+        "Sam is the character.",
+        "The setting is the library.",
+        "It was morning when they arrived.",
+        "They borrowed a book."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Sa silid-aklatan ang tagpuan. — The setting is the library.\nTauhan is a character; tagpuan is the place and time of a story. Answer with a detail actually stated. A guess about a person’s home is not a setting detail unless the story supports it."
+    },
+    {
+      "id": "q7",
+      "prompt": "What does this mean in English?\n\nUmaga nang dumating siya.",
+      "answers": [
+        "Sam is the character.",
+        "The setting is the library.",
+        "It was morning when they arrived.",
+        "They borrowed a book."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Umaga nang dumating siya. — It was morning when they arrived.\nTauhan is a character; tagpuan is the place and time of a story. Answer with a detail actually stated. A guess about a person’s home is not a setting detail unless the story supports it."
+    },
+    {
+      "id": "q8",
+      "prompt": "What does this mean in English?\n\nMay hiniram siyang aklat.",
+      "answers": [
+        "Sam is the character.",
+        "The setting is the library.",
+        "It was morning when they arrived.",
+        "They borrowed a book."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "May hiniram siyang aklat. — They borrowed a book.\nTauhan is a character; tagpuan is the place and time of a story. Answer with a detail actually stated. A guess about a person’s home is not a setting detail unless the story supports it."
+    },
+    {
+      "id": "q9",
+      "prompt": "What does this mean in English?\n\nMalaking bag ito.",
+      "answers": [
+        "This is a large bag.",
+        "That is a small box.",
+        "I chose the green book.",
+        "The table is clean."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Malaking bag ito. — This is a large bag.\nAn adjective describes a noun. Compare malaking bag and maliit na bag: the linker changes form with the preceding word. These examples teach particular patterns; a noun or adjective can appear elsewhere in a sentence too."
+    },
+    {
+      "id": "q10",
+      "prompt": "What does this mean in English?\n\nMaliit na kahon iyon.",
+      "answers": [
+        "This is a large bag.",
+        "That is a small box.",
+        "I chose the green book.",
+        "The table is clean."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Maliit na kahon iyon. — That is a small box.\nAn adjective describes a noun. Compare malaking bag and maliit na bag: the linker changes form with the preceding word. These examples teach particular patterns; a noun or adjective can appear elsewhere in a sentence too."
+    },
+    {
+      "id": "q11",
+      "prompt": "What does this mean in English?\n\nBerdeng aklat ang pinili ko.",
+      "answers": [
+        "This is a large bag.",
+        "That is a small box.",
+        "I chose the green book.",
+        "The table is clean."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Berdeng aklat ang pinili ko. — I chose the green book.\nAn adjective describes a noun. Compare malaking bag and maliit na bag: the linker changes form with the preceding word. These examples teach particular patterns; a noun or adjective can appear elsewhere in a sentence too."
+    },
+    {
+      "id": "q12",
+      "prompt": "What does this mean in English?\n\nMalinis ang mesa.",
+      "answers": [
+        "This is a large bag.",
+        "That is a small box.",
+        "I chose the green book.",
+        "The table is clean."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Malinis ang mesa. — The table is clean.\nAn adjective describes a noun. Compare malaking bag and maliit na bag: the linker changes form with the preceding word. These examples teach particular patterns; a noun or adjective can appear elsewhere in a sentence too."
+    },
+    {
+      "id": "q13",
+      "prompt": "What does this mean in English?\n\nUna, binasa niya ang panuto.",
+      "answers": [
+        "First, they read the instructions.",
+        "Next, they took the paper.",
+        "Last, they wrote the answer.",
+        "The sequence is correct."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Una, binasa niya ang panuto. — First, they read the instructions.\nUna, sumunod and sa huli make the order of events visible. A retelling should keep the original order unless the task asks you to change it. A useful first step is to number the actions before writing."
+    },
+    {
+      "id": "q14",
+      "prompt": "What does this mean in English?\n\nSumunod, kinuha niya ang papel.",
+      "answers": [
+        "First, they read the instructions.",
+        "Next, they took the paper.",
+        "Last, they wrote the answer.",
+        "The sequence is correct."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Sumunod, kinuha niya ang papel. — Next, they took the paper.\nUna, sumunod and sa huli make the order of events visible. A retelling should keep the original order unless the task asks you to change it. A useful first step is to number the actions before writing."
+    },
+    {
+      "id": "q15",
+      "prompt": "What does this mean in English?\n\nSa huli, isinulat niya ang sagot.",
+      "answers": [
+        "First, they read the instructions.",
+        "Next, they took the paper.",
+        "Last, they wrote the answer.",
+        "The sequence is correct."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Sa huli, isinulat niya ang sagot. — Last, they wrote the answer.\nUna, sumunod and sa huli make the order of events visible. A retelling should keep the original order unless the task asks you to change it. A useful first step is to number the actions before writing."
+    },
+    {
+      "id": "q16",
+      "prompt": "What does this mean in English?\n\nTama ang pagkakasunod-sunod.",
+      "answers": [
+        "First, they read the instructions.",
+        "Next, they took the paper.",
+        "Last, they wrote the answer.",
+        "The sequence is correct."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Tama ang pagkakasunod-sunod. — The sequence is correct.\nUna, sumunod and sa huli make the order of events visible. A retelling should keep the original order unless the task asks you to change it. A useful first step is to number the actions before writing."
+    },
+    {
+      "id": "q17",
+      "prompt": "What does this mean in English?\n\nNasa kaliwa ang aklatan.",
+      "answers": [
+        "The library is on the left.",
+        "Turn right.",
+        "The shop is beside the park.",
+        "It is opposite the school."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Nasa kaliwa ang aklatan. — The library is on the left.\nKaliwa means left and kanan means right. Tapat means opposite or in front of in a location phrase; tabi means beside. Use the landmarks the text provides. A direction is not reliable if left and right are exchanged."
+    },
+    {
+      "id": "q18",
+      "prompt": "What does this mean in English?\n\nLumiko sa kanan.",
+      "answers": [
+        "The library is on the left.",
+        "Turn right.",
+        "The shop is beside the park.",
+        "It is opposite the school."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Lumiko sa kanan. — Turn right.\nKaliwa means left and kanan means right. Tapat means opposite or in front of in a location phrase; tabi means beside. Use the landmarks the text provides. A direction is not reliable if left and right are exchanged."
+    },
+    {
+      "id": "q19",
+      "prompt": "What does this mean in English?\n\nKatabi ng parke ang tindahan.",
+      "answers": [
+        "The library is on the left.",
+        "Turn right.",
+        "The shop is beside the park.",
+        "It is opposite the school."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Katabi ng parke ang tindahan. — The shop is beside the park.\nKaliwa means left and kanan means right. Tapat means opposite or in front of in a location phrase; tabi means beside. Use the landmarks the text provides. A direction is not reliable if left and right are exchanged."
+    },
+    {
+      "id": "q20",
+      "prompt": "What does this mean in English?\n\nNasa tapat ng paaralan.",
+      "answers": [
+        "The library is on the left.",
+        "Turn right.",
+        "The shop is beside the park.",
+        "It is opposite the school."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Nasa tapat ng paaralan. — It is opposite the school.\nKaliwa means left and kanan means right. Tapat means opposite or in front of in a location phrase; tabi means beside. Use the landmarks the text provides. A direction is not reliable if left and right are exchanged."
+    },
+    {
+      "id": "q21",
+      "prompt": "What does this mean in English?\n\nUmulan kaya nabasa ang daan.",
+      "answers": [
+        "It rained, so the road became wet.",
+        "This is the cause.",
+        "This is the result.",
+        "Ari is the teacher."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Umulan kaya nabasa ang daan. — It rained, so the road became wet.\nDahil introduces a cause. Kaya introduces a result. A cause explains why something happens; a result tells what follows. Do not invent an intention when the text gives only an action."
+    },
+    {
+      "id": "q22",
+      "prompt": "What does this mean in English?\n\nDahil umulan, nagdala ako ng payong.",
+      "answers": [
+        "This is the cause.",
+        "Because it rained, I brought an umbrella.",
+        "This is the result.",
+        "Ari is the teacher."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Dahil umulan, nagdala ako ng payong. — Because it rained, I brought an umbrella.\nDahil introduces a cause. Kaya introduces a result. A cause explains why something happens; a result tells what follows. Do not invent an intention when the text gives only an action."
+    },
+    {
+      "id": "q23",
+      "prompt": "What does this mean in English?\n\nIto ang sanhi.",
+      "answers": [
+        "It rained, so the road became wet.",
+        "Because it rained, I brought an umbrella.",
+        "This is the cause.",
+        "This is the result."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Ito ang sanhi. — This is the cause.\nDahil introduces a cause. Kaya introduces a result. A cause explains why something happens; a result tells what follows. Do not invent an intention when the text gives only an action."
+    },
+    {
+      "id": "q24",
+      "prompt": "What does this mean in English?\n\nIto ang bunga.",
+      "answers": [
+        "It rained, so the road became wet.",
+        "Because it rained, I brought an umbrella.",
+        "This is the cause.",
+        "This is the result."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Ito ang bunga. — This is the result.\nDahil introduces a cause. Kaya introduces a result. A cause explains why something happens; a result tells what follows. Do not invent an intention when the text gives only an action."
+    },
+    {
+      "id": "q25",
+      "prompt": "What does this mean in English?\n\nTungkol sa halaman ang teksto.",
+      "answers": [
+        "The text is about plants.",
+        "A plant needs water.",
+        "Light also matters.",
+        "I found two details."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Tungkol sa halaman ang teksto. — The text is about plants.\nAn informational text explains something. Paksa is its topic; detalye gives specific information about it. Choose a topic broad enough for the whole paragraph, rather than one object mentioned in a single sentence."
+    },
+    {
+      "id": "q26",
+      "prompt": "What does this mean in English?\n\nKailangan ng tubig ang halaman.",
+      "answers": [
+        "The text is about plants.",
+        "A plant needs water.",
+        "Light also matters.",
+        "I found two details."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Kailangan ng tubig ang halaman. — A plant needs water.\nAn informational text explains something. Paksa is its topic; detalye gives specific information about it. Choose a topic broad enough for the whole paragraph, rather than one object mentioned in a single sentence."
+    },
+    {
+      "id": "q27",
+      "prompt": "What does this mean in English?\n\nMahalaga rin ang liwanag.",
+      "answers": [
+        "The text is about plants.",
+        "A plant needs water.",
+        "Light also matters.",
+        "I found two details."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Mahalaga rin ang liwanag. — Light also matters.\nAn informational text explains something. Paksa is its topic; detalye gives specific information about it. Choose a topic broad enough for the whole paragraph, rather than one object mentioned in a single sentence."
+    },
+    {
+      "id": "q28",
+      "prompt": "What does this mean in English?\n\nDalawang detalye ang nakita ko.",
+      "answers": [
+        "The text is about plants.",
+        "A plant needs water.",
+        "Light also matters.",
+        "I found two details."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Dalawang detalye ang nakita ko. — I found two details.\nAn informational text explains something. Paksa is its topic; detalye gives specific information about it. Choose a topic broad enough for the whole paragraph, rather than one object mentioned in a single sentence."
+    },
+    {
+      "id": "q29",
+      "prompt": "What does this mean in English?\n\nMagandang araw po.",
+      "answers": [
+        "Good day.",
+        "May I borrow a book?",
+        "I will return it tomorrow.",
+        "Thank you very much."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Magandang araw po. — Good day.\nA message needs a purpose and an intended reader. A greeting, clear request and closing can help. A polite particle does not replace the information the reader needs to act, such as which object you mean."
+    },
+    {
+      "id": "q30",
+      "prompt": "What does this mean in English?\n\nMaaari po bang humiram ng aklat?",
+      "answers": [
+        "Good day.",
+        "May I borrow a book?",
+        "I will return it tomorrow.",
+        "Thank you very much."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Maaari po bang humiram ng aklat? — May I borrow a book?\nA message needs a purpose and an intended reader. A greeting, clear request and closing can help. A polite particle does not replace the information the reader needs to act, such as which object you mean."
+    },
+    {
+      "id": "q31",
+      "prompt": "What does this mean in English?\n\nIbabalik ko ito bukas.",
+      "answers": [
+        "Good day.",
+        "May I borrow a book?",
+        "I will return it tomorrow.",
+        "Thank you very much."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Ibabalik ko ito bukas. — I will return it tomorrow.\nA message needs a purpose and an intended reader. A greeting, clear request and closing can help. A polite particle does not replace the information the reader needs to act, such as which object you mean."
+    },
+    {
+      "id": "q32",
+      "prompt": "What does this mean in English?\n\nMaraming salamat po.",
+      "answers": [
+        "Good day.",
+        "May I borrow a book?",
+        "I will return it tomorrow.",
+        "Thank you very much."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Maraming salamat po. — Thank you very much.\nA message needs a purpose and an intended reader. A greeting, clear request and closing can help. A polite particle does not replace the information the reader needs to act, such as which object you mean."
+    }
+  ]
+}

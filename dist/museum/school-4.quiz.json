@@ -1,0 +1,425 @@
+{
+  "schemaVersion": 1,
+  "id": "tara-fil-en-school-4",
+  "title": "Tara! · Filipino · Grade 4",
+  "author": "Tara contributors · CC BY-SA 4.0",
+  "language": "en",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What does this mean in English?\n\nMay suliranin ang tauhan.",
+      "answers": [
+        "The character has a problem.",
+        "Their decision changed.",
+        "The bird learned to listen.",
+        "The lesson is grounded in the action."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "May suliranin ang tauhan. — The character has a problem.\nGrade 4 includes fables and other narrative forms. A pabula often uses animal characters to explore conduct. This newly written fable is practice, not a traditional tale. Support a possible lesson with actions rather than inventing a fixed moral."
+    },
+    {
+      "id": "q2",
+      "prompt": "What does this mean in English?\n\nNagbago ang kaniyang pasiya.",
+      "answers": [
+        "The character has a problem.",
+        "Their decision changed.",
+        "The bird learned to listen.",
+        "The lesson is grounded in the action."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Nagbago ang kaniyang pasiya. — Their decision changed.\nGrade 4 includes fables and other narrative forms. A pabula often uses animal characters to explore conduct. This newly written fable is practice, not a traditional tale. Support a possible lesson with actions rather than inventing a fixed moral."
+    },
+    {
+      "id": "q3",
+      "prompt": "What does this mean in English?\n\nNatutong makinig ang ibon.",
+      "answers": [
+        "The character has a problem.",
+        "Their decision changed.",
+        "The bird learned to listen.",
+        "The lesson is grounded in the action."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Natutong makinig ang ibon. — The bird learned to listen.\nGrade 4 includes fables and other narrative forms. A pabula often uses animal characters to explore conduct. This newly written fable is practice, not a traditional tale. Support a possible lesson with actions rather than inventing a fixed moral."
+    },
+    {
+      "id": "q4",
+      "prompt": "What does this mean in English?\n\nMay batayan ang aral sa kilos.",
+      "answers": [
+        "The character has a problem.",
+        "Their decision changed.",
+        "The bird learned to listen.",
+        "The lesson is grounded in the action."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "May batayan ang aral sa kilos. — The lesson is grounded in the action.\nGrade 4 includes fables and other narrative forms. A pabula often uses animal characters to explore conduct. This newly written fable is practice, not a traditional tale. Support a possible lesson with actions rather than inventing a fixed moral."
+    },
+    {
+      "id": "q5",
+      "prompt": "What does this mean in English?\n\nMay tatlong paraan ng pag-aalaga.",
+      "answers": [
+        "There are three ways to care for it.",
+        "First, keep the book dry.",
+        "Second, use a bookmark.",
+        "Third, return it to the correct shelf."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "May tatlong paraan ng pag-aalaga. — There are three ways to care for it.\nAn enumerative text lists related details under a clear topic. Numbering can help but does not make unrelated information coherent. Group details by purpose and explain unfamiliar terms when the reader needs them."
+    },
+    {
+      "id": "q6",
+      "prompt": "What does this mean in English?\n\nUna, panatilihing tuyo ang aklat.",
+      "answers": [
+        "There are three ways to care for it.",
+        "First, keep the book dry.",
+        "Second, use a bookmark.",
+        "Third, return it to the correct shelf."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Una, panatilihing tuyo ang aklat. — First, keep the book dry.\nAn enumerative text lists related details under a clear topic. Numbering can help but does not make unrelated information coherent. Group details by purpose and explain unfamiliar terms when the reader needs them."
+    },
+    {
+      "id": "q7",
+      "prompt": "What does this mean in English?\n\nIkalawa, gumamit ng pananda.",
+      "answers": [
+        "There are three ways to care for it.",
+        "First, keep the book dry.",
+        "Second, use a bookmark.",
+        "Third, return it to the correct shelf."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Ikalawa, gumamit ng pananda. — Second, use a bookmark.\nAn enumerative text lists related details under a clear topic. Numbering can help but does not make unrelated information coherent. Group details by purpose and explain unfamiliar terms when the reader needs them."
+    },
+    {
+      "id": "q8",
+      "prompt": "What does this mean in English?\n\nIkatlo, ibalik sa tamang istante.",
+      "answers": [
+        "There are three ways to care for it.",
+        "First, keep the book dry.",
+        "Second, use a bookmark.",
+        "Third, return it to the correct shelf."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Ikatlo, ibalik sa tamang istante. — Third, return it to the correct shelf.\nAn enumerative text lists related details under a clear topic. Numbering can help but does not make unrelated information coherent. Group details by purpose and explain unfamiliar terms when the reader needs them."
+    },
+    {
+      "id": "q9",
+      "prompt": "What does this mean in English?\n\nNoong Lunes, bumisita kami sa aklatan.",
+      "answers": [
+        "On Monday, we visited the library.",
+        "Afterward, we made notes.",
+        "I was pleased with the cooperation.",
+        "This is what I learned."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Noong Lunes, bumisita kami sa aklatan. — On Monday, we visited the library.\nA recount tells what happened; a diary may also include the writer’s response. Distinguish an event from a feeling about it. You may use a fictional experience rather than publish private family information."
+    },
+    {
+      "id": "q10",
+      "prompt": "What does this mean in English?\n\nPagkatapos, gumawa kami ng tala.",
+      "answers": [
+        "On Monday, we visited the library.",
+        "Afterward, we made notes.",
+        "I was pleased with the cooperation.",
+        "This is what I learned."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Pagkatapos, gumawa kami ng tala. — Afterward, we made notes.\nA recount tells what happened; a diary may also include the writer’s response. Distinguish an event from a feeling about it. You may use a fictional experience rather than publish private family information."
+    },
+    {
+      "id": "q11",
+      "prompt": "What does this mean in English?\n\nNatuwa ako sa pagtutulungan.",
+      "answers": [
+        "On Monday, we visited the library.",
+        "Afterward, we made notes.",
+        "I was pleased with the cooperation.",
+        "This is what I learned."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Natuwa ako sa pagtutulungan. — I was pleased with the cooperation.\nA recount tells what happened; a diary may also include the writer’s response. Distinguish an event from a feeling about it. You may use a fictional experience rather than publish private family information."
+    },
+    {
+      "id": "q12",
+      "prompt": "What does this mean in English?\n\nIto ang natutuhan ko.",
+      "answers": [
+        "On Monday, we visited the library.",
+        "Afterward, we made notes.",
+        "I was pleased with the cooperation.",
+        "This is what I learned."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Ito ang natutuhan ko. — This is what I learned.\nA recount tells what happened; a diary may also include the writer’s response. Distinguish an event from a feeling about it. You may use a fictional experience rather than publish private family information."
+    },
+    {
+      "id": "q13",
+      "prompt": "What does this mean in English?\n\nLiteral ang unang paglalarawan.",
+      "answers": [
+        "The first description is literal.",
+        "The word has an added emotional association.",
+        "The use differs with context.",
+        "Explain the basis of the interpretation."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Literal ang unang paglalarawan. — The first description is literal.\nDenotation is a word’s direct reference; connotation includes associations shaped by context. Associations are not identical for all readers. Explain the detail that produces your reading, especially when language is figurative."
+    },
+    {
+      "id": "q14",
+      "prompt": "What does this mean in English?\n\nMay dagdag na damdamin ang salita.",
+      "answers": [
+        "The first description is literal.",
+        "The word has an added emotional association.",
+        "The use differs with context.",
+        "Explain the basis of the interpretation."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "May dagdag na damdamin ang salita. — The word has an added emotional association.\nDenotation is a word’s direct reference; connotation includes associations shaped by context. Associations are not identical for all readers. Explain the detail that produces your reading, especially when language is figurative."
+    },
+    {
+      "id": "q15",
+      "prompt": "What does this mean in English?\n\nIba ang gamit ayon sa konteksto.",
+      "answers": [
+        "The first description is literal.",
+        "The word has an added emotional association.",
+        "The use differs with context.",
+        "Explain the basis of the interpretation."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Iba ang gamit ayon sa konteksto. — The use differs with context.\nDenotation is a word’s direct reference; connotation includes associations shaped by context. Associations are not identical for all readers. Explain the detail that produces your reading, especially when language is figurative."
+    },
+    {
+      "id": "q16",
+      "prompt": "What does this mean in English?\n\nIpaliwanag ang batayan ng pagbasa.",
+      "answers": [
+        "The first description is literal.",
+        "The word has an added emotional association.",
+        "The use differs with context.",
+        "Explain the basis of the interpretation."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Ipaliwanag ang batayan ng pagbasa. — Explain the basis of the interpretation.\nDenotation is a word’s direct reference; connotation includes associations shaped by context. Associations are not identical for all readers. Explain the detail that produces your reading, especially when language is figurative."
+    },
+    {
+      "id": "q17",
+      "prompt": "What does this mean in English?\n\nKathang-isip ang talambuhay na ito.",
+      "answers": [
+        "This biography is fictional.",
+        "They organized books.",
+        "This is their contribution.",
+        "The character has a problem."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Kathang-isip ang talambuhay na ito. — This biography is fictional.\nA biography describes another person’s life using verifiable information. This practice profile is explicitly fictional. In a real profile record sources and distinguish a contribution from an unsupported claim that a person was the greatest."
+    },
+    {
+      "id": "q18",
+      "prompt": "What does this mean in English?\n\nNag-ayos siya ng mga aklat.",
+      "answers": [
+        "This biography is fictional.",
+        "They organized books.",
+        "This is their contribution.",
+        "A real biography needs sources."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Nag-ayos siya ng mga aklat. — They organized books.\nA biography describes another person’s life using verifiable information. This practice profile is explicitly fictional. In a real profile record sources and distinguish a contribution from an unsupported claim that a person was the greatest."
+    },
+    {
+      "id": "q19",
+      "prompt": "What does this mean in English?\n\nIto ang kaniyang ambag.",
+      "answers": [
+        "This biography is fictional.",
+        "They organized books.",
+        "This is their contribution.",
+        "A real biography needs sources."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Ito ang kaniyang ambag. — This is their contribution.\nA biography describes another person’s life using verifiable information. This practice profile is explicitly fictional. In a real profile record sources and distinguish a contribution from an unsupported claim that a person was the greatest."
+    },
+    {
+      "id": "q20",
+      "prompt": "What does this mean in English?\n\nKailangan ng sanggunian sa tunay na talambuhay.",
+      "answers": [
+        "They organized books.",
+        "This is their contribution.",
+        "The character has a problem.",
+        "A real biography needs sources."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Kailangan ng sanggunian sa tunay na talambuhay. — A real biography needs sources.\nA biography describes another person’s life using verifiable information. This practice profile is explicitly fictional. In a real profile record sources and distinguish a contribution from an unsupported claim that a person was the greatest."
+    },
+    {
+      "id": "q21",
+      "prompt": "What does this mean in English?\n\nKuwentong kathang-isip ito.",
+      "answers": [
+        "This is an invented story.",
+        "There is an extraordinary event.",
+        "This is not a scientific report.",
+        "Respect the source of a real narrative."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Kuwentong kathang-isip ito. — This is an invented story.\nGrade 4 encounters myth and epic as narrative forms. A myth can explain origins through a community’s meaningful stories; it is not read as a modern laboratory report. This invented miniature is not presented as any community’s traditional belief."
+    },
+    {
+      "id": "q22",
+      "prompt": "What does this mean in English?\n\nMay pambihirang pangyayari.",
+      "answers": [
+        "This is an invented story.",
+        "There is an extraordinary event.",
+        "This is not a scientific report.",
+        "Respect the source of a real narrative."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "May pambihirang pangyayari. — There is an extraordinary event.\nGrade 4 encounters myth and epic as narrative forms. A myth can explain origins through a community’s meaningful stories; it is not read as a modern laboratory report. This invented miniature is not presented as any community’s traditional belief."
+    },
+    {
+      "id": "q23",
+      "prompt": "What does this mean in English?\n\nHindi ito ulat pang-agham.",
+      "answers": [
+        "This is an invented story.",
+        "There is an extraordinary event.",
+        "This is not a scientific report.",
+        "Respect the source of a real narrative."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Hindi ito ulat pang-agham. — This is not a scientific report.\nGrade 4 encounters myth and epic as narrative forms. A myth can explain origins through a community’s meaningful stories; it is not read as a modern laboratory report. This invented miniature is not presented as any community’s traditional belief."
+    },
+    {
+      "id": "q24",
+      "prompt": "What does this mean in English?\n\nIgalang ang pinagmulan ng tunay na salaysay.",
+      "answers": [
+        "This is an invented story.",
+        "There is an extraordinary event.",
+        "This is not a scientific report.",
+        "Respect the source of a real narrative."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Igalang ang pinagmulan ng tunay na salaysay. — Respect the source of a real narrative.\nGrade 4 encounters myth and epic as narrative forms. A myth can explain origins through a community’s meaningful stories; it is not read as a modern laboratory report. This invented miniature is not presented as any community’s traditional belief."
+    },
+    {
+      "id": "q25",
+      "prompt": "What does this mean in English?\n\nIhanda ang papel at lapis.",
+      "answers": [
+        "Prepare paper and a pencil.",
+        "Read all the instructions first.",
+        "Write the title at the top.",
+        "Check the notes before submitting."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Ihanda ang papel at lapis. — Prepare paper and a pencil.\nA procedure has a goal, needed materials and ordered actions. Use clear command forms already learned and test missing steps. A numbered list is only useful if a reader knows what each action applies to."
+    },
+    {
+      "id": "q26",
+      "prompt": "What does this mean in English?\n\nBasahin muna ang buong panuto.",
+      "answers": [
+        "Prepare paper and a pencil.",
+        "Read all the instructions first.",
+        "Write the title at the top.",
+        "Check the notes before submitting."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Basahin muna ang buong panuto. — Read all the instructions first.\nA procedure has a goal, needed materials and ordered actions. Use clear command forms already learned and test missing steps. A numbered list is only useful if a reader knows what each action applies to."
+    },
+    {
+      "id": "q27",
+      "prompt": "What does this mean in English?\n\nIsulat ang pamagat sa itaas.",
+      "answers": [
+        "Prepare paper and a pencil.",
+        "Read all the instructions first.",
+        "Write the title at the top.",
+        "Check the notes before submitting."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Isulat ang pamagat sa itaas. — Write the title at the top.\nA procedure has a goal, needed materials and ordered actions. Use clear command forms already learned and test missing steps. A numbered list is only useful if a reader knows what each action applies to."
+    },
+    {
+      "id": "q28",
+      "prompt": "What does this mean in English?\n\nSuriin ang tala bago ipasa.",
+      "answers": [
+        "Prepare paper and a pencil.",
+        "Read all the instructions first.",
+        "Write the title at the top.",
+        "Check the notes before submitting."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Suriin ang tala bago ipasa. — Check the notes before submitting.\nA procedure has a goal, needed materials and ordered actions. Use clear command forms already learned and test missing steps. A numbered list is only useful if a reader knows what each action applies to."
+    },
+    {
+      "id": "q29",
+      "prompt": "What does this mean in English?\n\nMay malinaw na pamagat ang poster.",
+      "answers": [
+        "The poster has a clear title.",
+        "The image supports the message.",
+        "What is the reader expected to do?",
+        "The label needs to be easy to read."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "May malinaw na pamagat ang poster. — The poster has a clear title.\nA visual message can combine a title, label, symbol and image. A familiar symbol may help some readers but should not be assumed universally understood. Explain the intended action and check that text and image agree."
+    },
+    {
+      "id": "q30",
+      "prompt": "What does this mean in English?\n\nTumutulong ang larawan sa mensahe.",
+      "answers": [
+        "The poster has a clear title.",
+        "The image supports the message.",
+        "What is the reader expected to do?",
+        "The label needs to be easy to read."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Tumutulong ang larawan sa mensahe. — The image supports the message.\nA visual message can combine a title, label, symbol and image. A familiar symbol may help some readers but should not be assumed universally understood. Explain the intended action and check that text and image agree."
+    },
+    {
+      "id": "q31",
+      "prompt": "What does this mean in English?\n\nAno ang inaasahang gawin ng mambabasa?",
+      "answers": [
+        "The poster has a clear title.",
+        "The image supports the message.",
+        "What is the reader expected to do?",
+        "The label needs to be easy to read."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Ano ang inaasahang gawin ng mambabasa? — What is the reader expected to do?\nA visual message can combine a title, label, symbol and image. A familiar symbol may help some readers but should not be assumed universally understood. Explain the intended action and check that text and image agree."
+    },
+    {
+      "id": "q32",
+      "prompt": "What does this mean in English?\n\nKailangang madaling mabasa ang etiketa.",
+      "answers": [
+        "The poster has a clear title.",
+        "The image supports the message.",
+        "What is the reader expected to do?",
+        "The label needs to be easy to read."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Kailangang madaling mabasa ang etiketa. — The label needs to be easy to read.\nA visual message can combine a title, label, symbol and image. A familiar symbol may help some readers but should not be assumed universally understood. Explain the intended action and check that text and image agree."
+    }
+  ]
+}

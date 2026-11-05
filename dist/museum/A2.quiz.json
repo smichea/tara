@@ -1,0 +1,1452 @@
+{
+  "schemaVersion": 1,
+  "id": "tara-fil-en-a2",
+  "title": "Tara! · Filipino · A2 practice",
+  "author": "Tara contributors · CC BY-SA 4.0",
+  "language": "en",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What does this mean in English?\n\nMaaga akong gumigising.",
+      "answers": [
+        "I wake up early.",
+        "I attend school every day.",
+        "I eat breakfast before leaving.",
+        "I study after class."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Maaga akong gumigising. — I wake up early.\nTagalog verb forms express aspect. Gumigising and pumapasok can describe repeated actions. A time expression such as araw-araw tells you that the action is habitual."
+    },
+    {
+      "id": "q2",
+      "prompt": "What does this mean in English?\n\nAraw-araw akong pumapasok.",
+      "answers": [
+        "I wake up early.",
+        "I attend school every day.",
+        "I eat breakfast before leaving.",
+        "I study after class."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Araw-araw akong pumapasok. — I attend school every day.\nTagalog verb forms express aspect. Gumigising and pumapasok can describe repeated actions. A time expression such as araw-araw tells you that the action is habitual."
+    },
+    {
+      "id": "q3",
+      "prompt": "What does this mean in English?\n\nNag-aalmusal ako bago umalis.",
+      "answers": [
+        "I wake up early.",
+        "I attend school every day.",
+        "I eat breakfast before leaving.",
+        "I study after class."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Nag-aalmusal ako bago umalis. — I eat breakfast before leaving.\nTagalog verb forms express aspect. Gumigising and pumapasok can describe repeated actions. A time expression such as araw-araw tells you that the action is habitual."
+    },
+    {
+      "id": "q4",
+      "prompt": "What does this mean in English?\n\nNag-aaral ako pagkatapos ng klase.",
+      "answers": [
+        "I wake up early.",
+        "I attend school every day.",
+        "I eat breakfast before leaving.",
+        "I study after class."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Nag-aaral ako pagkatapos ng klase. — I study after class.\nTagalog verb forms express aspect. Gumigising and pumapasok can describe repeated actions. A time expression such as araw-araw tells you that the action is habitual."
+    },
+    {
+      "id": "q5",
+      "prompt": "What does this mean in English?\n\nMinsan ay naglalakad ako pauwi.",
+      "answers": [
+        "Sometimes I walk home.",
+        "I wake up early.",
+        "I attend school every day.",
+        "I eat breakfast before leaving."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Minsan ay naglalakad ako pauwi. — Sometimes I walk home.\nTagalog verb forms express aspect. Gumigising and pumapasok can describe repeated actions. A time expression such as araw-araw tells you that the action is habitual."
+    },
+    {
+      "id": "q6",
+      "prompt": "What does this mean in English?\n\nKaraniwan akong natutulog nang maaga.",
+      "answers": [
+        "I attend school every day.",
+        "I usually go to sleep early.",
+        "I eat breakfast before leaving.",
+        "I study after class."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Karaniwan akong natutulog nang maaga. — I usually go to sleep early.\nTagalog verb forms express aspect. Gumigising and pumapasok can describe repeated actions. A time expression such as araw-araw tells you that the action is habitual."
+    },
+    {
+      "id": "q7",
+      "prompt": "What does this mean in English?\n\nKahapon ay pumunta ako sa tindahan.",
+      "answers": [
+        "We ate at home.",
+        "I saw my friend.",
+        "Yesterday I went to the shop.",
+        "I bought bread."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Kahapon ay pumunta ako sa tindahan. — Yesterday I went to the shop.\nCompare kumain, kumakain and kakain: completed, ongoing/habitual and unstarted forms of kain. Kahapon supplies past-time context; the verb form itself marks the action’s aspect."
+    },
+    {
+      "id": "q8",
+      "prompt": "What does this mean in English?\n\nKumain kami sa bahay.",
+      "answers": [
+        "Yesterday I went to the shop.",
+        "I saw my friend.",
+        "I bought bread.",
+        "We ate at home."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Kumain kami sa bahay. — We ate at home.\nCompare kumain, kumakain and kakain: completed, ongoing/habitual and unstarted forms of kain. Kahapon supplies past-time context; the verb form itself marks the action’s aspect."
+    },
+    {
+      "id": "q9",
+      "prompt": "What does this mean in English?\n\nNakita ko ang kaibigan ko.",
+      "answers": [
+        "I saw my friend.",
+        "Yesterday I went to the shop.",
+        "We ate at home.",
+        "I bought bread."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Nakita ko ang kaibigan ko. — I saw my friend.\nCompare kumain, kumakain and kakain: completed, ongoing/habitual and unstarted forms of kain. Kahapon supplies past-time context; the verb form itself marks the action’s aspect."
+    },
+    {
+      "id": "q10",
+      "prompt": "What does this mean in English?\n\nBumili ako ng tinapay.",
+      "answers": [
+        "Yesterday I went to the shop.",
+        "I bought bread.",
+        "We ate at home.",
+        "I saw my friend."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Bumili ako ng tinapay. — I bought bread.\nCompare kumain, kumakain and kakain: completed, ongoing/habitual and unstarted forms of kain. Kahapon supplies past-time context; the verb form itself marks the action’s aspect."
+    },
+    {
+      "id": "q11",
+      "prompt": "What does this mean in English?\n\nUmuwi kami bago dumilim.",
+      "answers": [
+        "I saw my friend.",
+        "I bought bread.",
+        "We went home before it got dark.",
+        "We had a happy day."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Umuwi kami bago dumilim. — We went home before it got dark.\nCompare kumain, kumakain and kakain: completed, ongoing/habitual and unstarted forms of kain. Kahapon supplies past-time context; the verb form itself marks the action’s aspect."
+    },
+    {
+      "id": "q12",
+      "prompt": "What does this mean in English?\n\nMasaya ang naging araw namin.",
+      "answers": [
+        "Yesterday I went to the shop.",
+        "We ate at home.",
+        "I saw my friend.",
+        "We had a happy day."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Masaya ang naging araw namin. — We had a happy day.\nCompare kumain, kumakain and kakain: completed, ongoing/habitual and unstarted forms of kain. Kahapon supplies past-time context; the verb form itself marks the action’s aspect."
+    },
+    {
+      "id": "q13",
+      "prompt": "What does this mean in English?\n\nPupunta tayo bukas.",
+      "answers": [
+        "We will go tomorrow.",
+        "What will you do later?",
+        "I will bring food.",
+        "Let’s meet on Saturday."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Pupunta tayo bukas. — We will go tomorrow.\nBukas and sa susunod na linggo give future context. Pupunta, gagawin and magdadala describe actions not yet started. Tayo includes the listener; kami does not."
+    },
+    {
+      "id": "q14",
+      "prompt": "What does this mean in English?\n\nAno ang gagawin mo mamaya?",
+      "answers": [
+        "We will go tomorrow.",
+        "What will you do later?",
+        "I will bring food.",
+        "Let’s meet on Saturday."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Ano ang gagawin mo mamaya? — What will you do later?\nBukas and sa susunod na linggo give future context. Pupunta, gagawin and magdadala describe actions not yet started. Tayo includes the listener; kami does not."
+    },
+    {
+      "id": "q15",
+      "prompt": "What does this mean in English?\n\nMagdadala ako ng pagkain.",
+      "answers": [
+        "We will go tomorrow.",
+        "What will you do later?",
+        "I will bring food.",
+        "Let’s meet on Saturday."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Magdadala ako ng pagkain. — I will bring food.\nBukas and sa susunod na linggo give future context. Pupunta, gagawin and magdadala describe actions not yet started. Tayo includes the listener; kami does not."
+    },
+    {
+      "id": "q16",
+      "prompt": "What does this mean in English?\n\nSa Sabado tayo magkita.",
+      "answers": [
+        "We will go tomorrow.",
+        "What will you do later?",
+        "I will bring food.",
+        "Let’s meet on Saturday."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Sa Sabado tayo magkita. — Let’s meet on Saturday.\nBukas and sa susunod na linggo give future context. Pupunta, gagawin and magdadala describe actions not yet started. Tayo includes the listener; kami does not."
+    },
+    {
+      "id": "q17",
+      "prompt": "What does this mean in English?\n\nKami ang maghahanda.",
+      "answers": [
+        "We will do the preparations, excluding you.",
+        "We will go tomorrow.",
+        "What will you do later?",
+        "I will bring food."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Kami ang maghahanda. — We will do the preparations, excluding you.\nBukas and sa susunod na linggo give future context. Pupunta, gagawin and magdadala describe actions not yet started. Tayo includes the listener; kami does not."
+    },
+    {
+      "id": "q18",
+      "prompt": "What does this mean in English?\n\nSana ay makasama ka.",
+      "answers": [
+        "We will go tomorrow.",
+        "I hope you can join us.",
+        "What will you do later?",
+        "I will bring food."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Sana ay makasama ka. — I hope you can join us.\nBukas and sa susunod na linggo give future context. Pupunta, gagawin and magdadala describe actions not yet started. Tayo includes the listener; kami does not."
+    },
+    {
+      "id": "q19",
+      "prompt": "What does this mean in English?\n\nBakit ka umalis nang maaga?",
+      "answers": [
+        "How will this be done?",
+        "Where will I put this?",
+        "Why did you leave early?",
+        "When is the submission deadline?"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Bakit ka umalis nang maaga? — Why did you leave early?\nSaan asks where; bakit asks why; paano asks how. Ba marks a yes/no question and is not a replacement for these question words."
+    },
+    {
+      "id": "q20",
+      "prompt": "What does this mean in English?\n\nPaano ito gagawin?",
+      "answers": [
+        "Why did you leave early?",
+        "Where will I put this?",
+        "When is the submission deadline?",
+        "How will this be done?"
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Paano ito gagawin? — How will this be done?\nSaan asks where; bakit asks why; paano asks how. Ba marks a yes/no question and is not a replacement for these question words."
+    },
+    {
+      "id": "q21",
+      "prompt": "What does this mean in English?\n\nSaan ko ilalagay ito?",
+      "answers": [
+        "Where will I put this?",
+        "Why did you leave early?",
+        "How will this be done?",
+        "When is the submission deadline?"
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Saan ko ilalagay ito? — Where will I put this?\nSaan asks where; bakit asks why; paano asks how. Ba marks a yes/no question and is not a replacement for these question words."
+    },
+    {
+      "id": "q22",
+      "prompt": "What does this mean in English?\n\nKailan ang pasahan?",
+      "answers": [
+        "Why did you leave early?",
+        "When is the submission deadline?",
+        "How will this be done?",
+        "Where will I put this?"
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Kailan ang pasahan? — When is the submission deadline?\nSaan asks where; bakit asks why; paano asks how. Ba marks a yes/no question and is not a replacement for these question words."
+    },
+    {
+      "id": "q23",
+      "prompt": "What does this mean in English?\n\nSino ang makakasama natin?",
+      "answers": [
+        "Why did you leave early?",
+        "How will this be done?",
+        "Who will be joining us?",
+        "Where will I put this?"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Sino ang makakasama natin? — Who will be joining us?\nSaan asks where; bakit asks why; paano asks how. Ba marks a yes/no question and is not a replacement for these question words."
+    },
+    {
+      "id": "q24",
+      "prompt": "What does this mean in English?\n\nAlin ang pipiliin mo?",
+      "answers": [
+        "Why did you leave early?",
+        "How will this be done?",
+        "Where will I put this?",
+        "Which one will you choose?"
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Alin ang pipiliin mo? — Which one will you choose?\nSaan asks where; bakit asks why; paano asks how. Ba marks a yes/no question and is not a replacement for these question words."
+    },
+    {
+      "id": "q25",
+      "prompt": "What does this mean in English?\n\nMas gusto kong magbasa.",
+      "answers": [
+        "I prefer reading.",
+        "It is quieter here than there.",
+        "I like this because it is easy to use.",
+        "They are both good."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Mas gusto kong magbasa. — I prefer reading.\nMas marks a comparison: mas tahimik, quieter. Kaysa introduces what you compare it with. Dahil gives a reason. Gusto can mean like or want; context matters."
+    },
+    {
+      "id": "q26",
+      "prompt": "What does this mean in English?\n\nMas tahimik dito kaysa roon.",
+      "answers": [
+        "I prefer reading.",
+        "It is quieter here than there.",
+        "I like this because it is easy to use.",
+        "They are both good."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Mas tahimik dito kaysa roon. — It is quieter here than there.\nMas marks a comparison: mas tahimik, quieter. Kaysa introduces what you compare it with. Dahil gives a reason. Gusto can mean like or want; context matters."
+    },
+    {
+      "id": "q27",
+      "prompt": "What does this mean in English?\n\nGusto ko ito dahil madali itong gamitin.",
+      "answers": [
+        "I prefer reading.",
+        "It is quieter here than there.",
+        "I like this because it is easy to use.",
+        "They are both good."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Gusto ko ito dahil madali itong gamitin. — I like this because it is easy to use.\nMas marks a comparison: mas tahimik, quieter. Kaysa introduces what you compare it with. Dahil gives a reason. Gusto can mean like or want; context matters."
+    },
+    {
+      "id": "q28",
+      "prompt": "What does this mean in English?\n\nPareho silang maganda.",
+      "answers": [
+        "I prefer reading.",
+        "It is quieter here than there.",
+        "I like this because it is easy to use.",
+        "They are both good."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Pareho silang maganda. — They are both good.\nMas marks a comparison: mas tahimik, quieter. Kaysa introduces what you compare it with. Dahil gives a reason. Gusto can mean like or want; context matters."
+    },
+    {
+      "id": "q29",
+      "prompt": "What does this mean in English?\n\nIba ang gusto ng kapatid ko.",
+      "answers": [
+        "My sibling prefers something different.",
+        "I prefer reading.",
+        "It is quieter here than there.",
+        "I like this because it is easy to use."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Iba ang gusto ng kapatid ko. — My sibling prefers something different.\nMas marks a comparison: mas tahimik, quieter. Kaysa introduces what you compare it with. Dahil gives a reason. Gusto can mean like or want; context matters."
+    },
+    {
+      "id": "q30",
+      "prompt": "What does this mean in English?\n\nIto ang pipiliin ko.",
+      "answers": [
+        "I prefer reading.",
+        "This is what I will choose.",
+        "It is quieter here than there.",
+        "I like this because it is easy to use."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Ito ang pipiliin ko. — This is what I will choose.\nMas marks a comparison: mas tahimik, quieter. Kaysa introduces what you compare it with. Dahil gives a reason. Gusto can mean like or want; context matters."
+    },
+    {
+      "id": "q31",
+      "prompt": "What does this mean in English?\n\nPuwede po bang ipaliwanag ninyo ulit?",
+      "answers": [
+        "The instruction is not clear to me.",
+        "Which part should I do first?",
+        "Could you explain it again, please?",
+        "Please tell me if something is wrong."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Puwede po bang ipaliwanag ninyo ulit? — Could you explain it again, please?\nPuwede po bang…? makes a respectful request. A specific request is easier to answer than a general statement that you do not understand. Huwag introduces a negative command."
+    },
+    {
+      "id": "q32",
+      "prompt": "What does this mean in English?\n\nHindi malinaw sa akin ang panuto.",
+      "answers": [
+        "Could you explain it again, please?",
+        "Which part should I do first?",
+        "Could I borrow a pencil?",
+        "The instruction is not clear to me."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Hindi malinaw sa akin ang panuto. — The instruction is not clear to me.\nPuwede po bang…? makes a respectful request. A specific request is easier to answer than a general statement that you do not understand. Huwag introduces a negative command."
+    },
+    {
+      "id": "q33",
+      "prompt": "What does this mean in English?\n\nAling bahagi ang dapat kong unahin?",
+      "answers": [
+        "Which part should I do first?",
+        "Could you explain it again, please?",
+        "The instruction is not clear to me.",
+        "Could I borrow a pencil?"
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Aling bahagi ang dapat kong unahin? — Which part should I do first?\nPuwede po bang…? makes a respectful request. A specific request is easier to answer than a general statement that you do not understand. Huwag introduces a negative command."
+    },
+    {
+      "id": "q34",
+      "prompt": "What does this mean in English?\n\nPahiram naman ng lapis.",
+      "answers": [
+        "The instruction is not clear to me.",
+        "Could I borrow a pencil?",
+        "Which part should I do first?",
+        "Please tell me if something is wrong."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Pahiram naman ng lapis. — Could I borrow a pencil?\nPuwede po bang…? makes a respectful request. A specific request is easier to answer than a general statement that you do not understand. Huwag introduces a negative command."
+    },
+    {
+      "id": "q35",
+      "prompt": "What does this mean in English?\n\nPakisabi kung may mali.",
+      "answers": [
+        "Could you explain it again, please?",
+        "The instruction is not clear to me.",
+        "Please tell me if something is wrong.",
+        "Which part should I do first?"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Pakisabi kung may mali. — Please tell me if something is wrong.\nPuwede po bang…? makes a respectful request. A specific request is easier to answer than a general statement that you do not understand. Huwag introduces a negative command."
+    },
+    {
+      "id": "q36",
+      "prompt": "What does this mean in English?\n\nHuwag muna nating burahin.",
+      "answers": [
+        "Could you explain it again, please?",
+        "The instruction is not clear to me.",
+        "Which part should I do first?",
+        "Let’s not erase it yet."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Huwag muna nating burahin. — Let’s not erase it yet.\nPuwede po bang…? makes a respectful request. A specific request is easier to answer than a general statement that you do not understand. Huwag introduces a negative command."
+    },
+    {
+      "id": "q37",
+      "prompt": "What does this mean in English?\n\nDumiretso ka muna.",
+      "answers": [
+        "Go straight first.",
+        "Turn right.",
+        "It is beside the library.",
+        "The shop is opposite the school."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Dumiretso ka muna. — Go straight first.\nDumiretso, lumiko and tumawid are useful route instructions. Bago and pagkatapos can order steps. Sa tapat ng means opposite; sa tabi ng means beside."
+    },
+    {
+      "id": "q38",
+      "prompt": "What does this mean in English?\n\nLumiko ka sa kanan.",
+      "answers": [
+        "Go straight first.",
+        "Turn right.",
+        "It is beside the library.",
+        "The shop is opposite the school."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Lumiko ka sa kanan. — Turn right.\nDumiretso, lumiko and tumawid are useful route instructions. Bago and pagkatapos can order steps. Sa tapat ng means opposite; sa tabi ng means beside."
+    },
+    {
+      "id": "q39",
+      "prompt": "What does this mean in English?\n\nNasa tabi ito ng aklatan.",
+      "answers": [
+        "Go straight first.",
+        "Turn right.",
+        "It is beside the library.",
+        "The shop is opposite the school."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Nasa tabi ito ng aklatan. — It is beside the library.\nDumiretso, lumiko and tumawid are useful route instructions. Bago and pagkatapos can order steps. Sa tapat ng means opposite; sa tabi ng means beside."
+    },
+    {
+      "id": "q40",
+      "prompt": "What does this mean in English?\n\nSa tapat ng paaralan ang tindahan.",
+      "answers": [
+        "Go straight first.",
+        "Turn right.",
+        "It is beside the library.",
+        "The shop is opposite the school."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Sa tapat ng paaralan ang tindahan. — The shop is opposite the school.\nDumiretso, lumiko and tumawid are useful route instructions. Bago and pagkatapos can order steps. Sa tapat ng means opposite; sa tabi ng means beside."
+    },
+    {
+      "id": "q41",
+      "prompt": "What does this mean in English?\n\nMalapit na tayo.",
+      "answers": [
+        "We are nearly there.",
+        "Go straight first.",
+        "Turn right.",
+        "It is beside the library."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Malapit na tayo. — We are nearly there.\nDumiretso, lumiko and tumawid are useful route instructions. Bago and pagkatapos can order steps. Sa tapat ng means opposite; sa tabi ng means beside."
+    },
+    {
+      "id": "q42",
+      "prompt": "What does this mean in English?\n\nSundan mo ang daang ito.",
+      "answers": [
+        "Go straight first.",
+        "Follow this road.",
+        "Turn right.",
+        "It is beside the library."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Sundan mo ang daang ito. — Follow this road.\nDumiretso, lumiko and tumawid are useful route instructions. Bago and pagkatapos can order steps. Sa tapat ng means opposite; sa tabi ng means beside."
+    },
+    {
+      "id": "q43",
+      "prompt": "What does this mean in English?\n\nNabago ang oras ng pagpupulong.",
+      "answers": [
+        "I am not finished yet.",
+        "I am outside now.",
+        "The meeting time has changed.",
+        "Please tell the others."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Nabago ang oras ng pagpupulong. — The meeting time has changed.\nA short message should make who, what and when easy to find. Na signals a change in state in many contexts; pa can show that something is still true or still needed."
+    },
+    {
+      "id": "q44",
+      "prompt": "What does this mean in English?\n\nHindi pa ako tapos.",
+      "answers": [
+        "The meeting time has changed.",
+        "I am outside now.",
+        "Please tell the others.",
+        "I am not finished yet."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Hindi pa ako tapos. — I am not finished yet.\nA short message should make who, what and when easy to find. Na signals a change in state in many contexts; pa can show that something is still true or still needed."
+    },
+    {
+      "id": "q45",
+      "prompt": "What does this mean in English?\n\nNasa labas na ako.",
+      "answers": [
+        "I am outside now.",
+        "The meeting time has changed.",
+        "I am not finished yet.",
+        "Please tell the others."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Nasa labas na ako. — I am outside now.\nA short message should make who, what and when easy to find. Na signals a change in state in many contexts; pa can show that something is still true or still needed."
+    },
+    {
+      "id": "q46",
+      "prompt": "What does this mean in English?\n\nPakisabi sa iba.",
+      "answers": [
+        "The meeting time has changed.",
+        "Please tell the others.",
+        "I am not finished yet.",
+        "I am outside now."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Pakisabi sa iba. — Please tell the others.\nA short message should make who, what and when easy to find. Na signals a change in state in many contexts; pa can show that something is still true or still needed."
+    },
+    {
+      "id": "q47",
+      "prompt": "What does this mean in English?\n\nNabasa ko na ang mensahe mo.",
+      "answers": [
+        "The meeting time has changed.",
+        "I am not finished yet.",
+        "I have already read your message.",
+        "I am outside now."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Nabasa ko na ang mensahe mo. — I have already read your message.\nA short message should make who, what and when easy to find. Na signals a change in state in many contexts; pa can show that something is still true or still needed."
+    },
+    {
+      "id": "q48",
+      "prompt": "What does this mean in English?\n\nDarating ako bago mag-alas-dos.",
+      "answers": [
+        "The meeting time has changed.",
+        "I am not finished yet.",
+        "I am outside now.",
+        "I will arrive before two o’clock."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Darating ako bago mag-alas-dos. — I will arrive before two o’clock.\nA short message should make who, what and when easy to find. Na signals a change in state in many contexts; pa can show that something is still true or still needed."
+    },
+    {
+      "id": "q49",
+      "prompt": "What does this mean in English?\n\nNagbasa si Sam at sumulat si Ari.",
+      "answers": [
+        "Sam read and Ari wrote.",
+        "I have a book, but I have no pencil.",
+        "It rained, so we stayed inside.",
+        "The two ideas are related."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Nagbasa si Sam at sumulat si Ari. — Sam read and Ari wrote.\nAt adds related information; ngunit marks contrast; kaya marks a result. A compound sentence joins independent ideas. Choose the connector for meaning, rather than using every connector as if it meant and."
+    },
+    {
+      "id": "q50",
+      "prompt": "What does this mean in English?\n\nMay aklat ako, ngunit wala akong lapis.",
+      "answers": [
+        "Sam read and Ari wrote.",
+        "I have a book, but I have no pencil.",
+        "It rained, so we stayed inside.",
+        "The two ideas are related."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "May aklat ako, ngunit wala akong lapis. — I have a book, but I have no pencil.\nAt adds related information; ngunit marks contrast; kaya marks a result. A compound sentence joins independent ideas. Choose the connector for meaning, rather than using every connector as if it meant and."
+    },
+    {
+      "id": "q51",
+      "prompt": "What does this mean in English?\n\nUmulan kaya nanatili kami sa loob.",
+      "answers": [
+        "Sam read and Ari wrote.",
+        "I have a book, but I have no pencil.",
+        "It rained, so we stayed inside.",
+        "The two ideas are related."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Umulan kaya nanatili kami sa loob. — It rained, so we stayed inside.\nAt adds related information; ngunit marks contrast; kaya marks a result. A compound sentence joins independent ideas. Choose the connector for meaning, rather than using every connector as if it meant and."
+    },
+    {
+      "id": "q52",
+      "prompt": "What does this mean in English?\n\nMagkaugnay ang dalawang ideya.",
+      "answers": [
+        "Sam read and Ari wrote.",
+        "I have a book, but I have no pencil.",
+        "It rained, so we stayed inside.",
+        "The two ideas are related."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Magkaugnay ang dalawang ideya. — The two ideas are related.\nAt adds related information; ngunit marks contrast; kaya marks a result. A compound sentence joins independent ideas. Choose the connector for meaning, rather than using every connector as if it meant and."
+    },
+    {
+      "id": "q53",
+      "prompt": "What does this mean in English?\n\nSino ang nagtanong?",
+      "answers": [
+        "Who asked?",
+        "Where did they meet?",
+        "When did the activity begin?",
+        "Why did they help each other?"
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Sino ang nagtanong? — Who asked?\nSino, ano, saan, kailan and bakit request different details. Bakit needs a reason, not simply a name. If a text does not state an answer and gives insufficient clues, say that instead of inventing it."
+    },
+    {
+      "id": "q54",
+      "prompt": "What does this mean in English?\n\nSaan sila nagkita?",
+      "answers": [
+        "Who asked?",
+        "Where did they meet?",
+        "When did the activity begin?",
+        "Why did they help each other?"
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Saan sila nagkita? — Where did they meet?\nSino, ano, saan, kailan and bakit request different details. Bakit needs a reason, not simply a name. If a text does not state an answer and gives insufficient clues, say that instead of inventing it."
+    },
+    {
+      "id": "q55",
+      "prompt": "What does this mean in English?\n\nKailan nagsimula ang gawain?",
+      "answers": [
+        "Who asked?",
+        "Where did they meet?",
+        "When did the activity begin?",
+        "Why did they help each other?"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Kailan nagsimula ang gawain? — When did the activity begin?\nSino, ano, saan, kailan and bakit request different details. Bakit needs a reason, not simply a name. If a text does not state an answer and gives insufficient clues, say that instead of inventing it."
+    },
+    {
+      "id": "q56",
+      "prompt": "What does this mean in English?\n\nBakit sila nagtulungan?",
+      "answers": [
+        "Who asked?",
+        "Where did they meet?",
+        "When did the activity begin?",
+        "Why did they help each other?"
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Bakit sila nagtulungan? — Why did they help each other?\nSino, ano, saan, kailan and bakit request different details. Bakit needs a reason, not simply a name. If a text does not state an answer and gives insufficient clues, say that instead of inventing it."
+    },
+    {
+      "id": "q57",
+      "prompt": "What does this mean in English?\n\nSi Ari ay may aklat.",
+      "answers": [
+        "Ari has a book.",
+        "They read the story.",
+        "Ari and Sam are together.",
+        "They made notes."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Si Ari ay may aklat. — Ari has a book.\nA pronoun can refer back to a named person or group. Siya refers to one other person; sila to more than one. Check the surrounding sentences, especially when several people are mentioned, and rewrite unclear references."
+    },
+    {
+      "id": "q58",
+      "prompt": "What does this mean in English?\n\nBinasa niya ang kuwento.",
+      "answers": [
+        "Ari has a book.",
+        "They read the story.",
+        "Ari and Sam are together.",
+        "They made notes."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Binasa niya ang kuwento. — They read the story.\nA pronoun can refer back to a named person or group. Siya refers to one other person; sila to more than one. Check the surrounding sentences, especially when several people are mentioned, and rewrite unclear references."
+    },
+    {
+      "id": "q59",
+      "prompt": "What does this mean in English?\n\nSina Ari at Sam ay magkasama.",
+      "answers": [
+        "Ari has a book.",
+        "They read the story.",
+        "Ari and Sam are together.",
+        "They made notes."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Sina Ari at Sam ay magkasama. — Ari and Sam are together.\nA pronoun can refer back to a named person or group. Siya refers to one other person; sila to more than one. Check the surrounding sentences, especially when several people are mentioned, and rewrite unclear references."
+    },
+    {
+      "id": "q60",
+      "prompt": "What does this mean in English?\n\nGumawa sila ng tala.",
+      "answers": [
+        "Ari has a book.",
+        "They read the story.",
+        "Ari and Sam are together.",
+        "They made notes."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Gumawa sila ng tala. — They made notes.\nA pronoun can refer back to a named person or group. Siya refers to one other person; sila to more than one. Check the surrounding sentences, especially when several people are mentioned, and rewrite unclear references."
+    },
+    {
+      "id": "q61",
+      "prompt": "What does this mean in English?\n\nMatiyaga siyang nagbasa.",
+      "answers": [
+        "They read patiently.",
+        "They did not give up immediately.",
+        "There is a clue in the following sentence.",
+        "I checked the meaning."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Matiyaga siyang nagbasa. — They read patiently.\nContext clues can be an explanation, contrast or example. A guess should fit the whole sentence. If the clues are insufficient, consult a reliable dictionary or ask a fluent speaker rather than treating the first guess as certain."
+    },
+    {
+      "id": "q62",
+      "prompt": "What does this mean in English?\n\nHindi siya agad sumuko.",
+      "answers": [
+        "They read patiently.",
+        "They did not give up immediately.",
+        "There is a clue in the following sentence.",
+        "I checked the meaning."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Hindi siya agad sumuko. — They did not give up immediately.\nContext clues can be an explanation, contrast or example. A guess should fit the whole sentence. If the clues are insufficient, consult a reliable dictionary or ask a fluent speaker rather than treating the first guess as certain."
+    },
+    {
+      "id": "q63",
+      "prompt": "What does this mean in English?\n\nMay pahiwatig sa kasunod na pangungusap.",
+      "answers": [
+        "They read patiently.",
+        "They did not give up immediately.",
+        "There is a clue in the following sentence.",
+        "I checked the meaning."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "May pahiwatig sa kasunod na pangungusap. — There is a clue in the following sentence.\nContext clues can be an explanation, contrast or example. A guess should fit the whole sentence. If the clues are insufficient, consult a reliable dictionary or ask a fluent speaker rather than treating the first guess as certain."
+    },
+    {
+      "id": "q64",
+      "prompt": "What does this mean in English?\n\nSinuri ko ang kahulugan.",
+      "answers": [
+        "They read patiently.",
+        "They did not give up immediately.",
+        "There is a clue in the following sentence.",
+        "I checked the meaning."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Sinuri ko ang kahulugan. — I checked the meaning.\nContext clues can be an explanation, contrast or example. A guess should fit the whole sentence. If the clues are insufficient, consult a reliable dictionary or ask a fluent speaker rather than treating the first guess as certain."
+    },
+    {
+      "id": "q65",
+      "prompt": "What does this mean in English?\n\nNagbasa ako kahapon.",
+      "answers": [
+        "I read yesterday.",
+        "I am reading now.",
+        "I am not finished yet.",
+        "I wake up early."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Nagbasa ako kahapon. — I read yesterday.\nTagalog verbs express aspect: whether an action is viewed as begun/completed or ongoing, among other distinctions. These are not a simple copy of English tenses. Compare the related forms nagbasa, nagbabasa and magbabasa with time and context."
+    },
+    {
+      "id": "q66",
+      "prompt": "What does this mean in English?\n\nNagbabasa ako ngayon.",
+      "answers": [
+        "I read yesterday.",
+        "I am reading now.",
+        "I will read later.",
+        "I am not finished yet."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Nagbabasa ako ngayon. — I am reading now.\nTagalog verbs express aspect: whether an action is viewed as begun/completed or ongoing, among other distinctions. These are not a simple copy of English tenses. Compare the related forms nagbasa, nagbabasa and magbabasa with time and context."
+    },
+    {
+      "id": "q67",
+      "prompt": "What does this mean in English?\n\nMagbabasa ako mamaya.",
+      "answers": [
+        "I am reading now.",
+        "I am not finished yet.",
+        "I will read later.",
+        "I wake up early."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Magbabasa ako mamaya. — I will read later.\nTagalog verbs express aspect: whether an action is viewed as begun/completed or ongoing, among other distinctions. These are not a simple copy of English tenses. Compare the related forms nagbasa, nagbabasa and magbabasa with time and context."
+    },
+    {
+      "id": "q68",
+      "prompt": "What does this mean in English?\n\nIto ang pangunahing ideya.",
+      "answers": [
+        "This is an important detail.",
+        "I shortened the text.",
+        "I did not change the meaning.",
+        "This is the main idea."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Ito ang pangunahing ideya. — This is the main idea.\nA summary keeps the main idea and essential details. It need not repeat every example or quote every sentence. A title can help, but the paragraph itself determines its main idea."
+    },
+    {
+      "id": "q69",
+      "prompt": "What does this mean in English?\n\nMahalagang detalye ito.",
+      "answers": [
+        "This is an important detail.",
+        "This is the main idea.",
+        "I shortened the text.",
+        "I did not change the meaning."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Mahalagang detalye ito. — This is an important detail.\nA summary keeps the main idea and essential details. It need not repeat every example or quote every sentence. A title can help, but the paragraph itself determines its main idea."
+    },
+    {
+      "id": "q70",
+      "prompt": "What does this mean in English?\n\nPinaikli ko ang teksto.",
+      "answers": [
+        "This is the main idea.",
+        "I shortened the text.",
+        "This is an important detail.",
+        "I did not change the meaning."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Pinaikli ko ang teksto. — I shortened the text.\nA summary keeps the main idea and essential details. It need not repeat every example or quote every sentence. A title can help, but the paragraph itself determines its main idea."
+    },
+    {
+      "id": "q71",
+      "prompt": "What does this mean in English?\n\nHindi ko binago ang diwa.",
+      "answers": [
+        "This is the main idea.",
+        "This is an important detail.",
+        "I did not change the meaning.",
+        "I shortened the text."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Hindi ko binago ang diwa. — I did not change the meaning.\nA summary keeps the main idea and essential details. It need not repeat every example or quote every sentence. A title can help, but the paragraph itself determines its main idea."
+    },
+    {
+      "id": "q72",
+      "prompt": "What does this mean in English?\n\nMay tatlong aklat sa mesa.",
+      "answers": [
+        "For me, the story is good.",
+        "The last statement is my view.",
+        "I wake up early.",
+        "There are three books on the table."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "May tatlong aklat sa mesa. — There are three books on the table.\nA factual claim can be checked even if it later turns out false. An opinion expresses a judgment or preference. Saying para sa akin can signal an opinion, but evidence and context matter more than a signal phrase alone."
+    },
+    {
+      "id": "q73",
+      "prompt": "What does this mean in English?\n\nPara sa akin, maganda ang kuwento.",
+      "answers": [
+        "For me, the story is good.",
+        "There are three books on the table.",
+        "The books can be counted.",
+        "The last statement is my view."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Para sa akin, maganda ang kuwento. — For me, the story is good.\nA factual claim can be checked even if it later turns out false. An opinion expresses a judgment or preference. Saying para sa akin can signal an opinion, but evidence and context matter more than a signal phrase alone."
+    },
+    {
+      "id": "q74",
+      "prompt": "What does this mean in English?\n\nMaaaring bilangin ang mga aklat.",
+      "answers": [
+        "For me, the story is good.",
+        "The books can be counted.",
+        "The last statement is my view.",
+        "I wake up early."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Maaaring bilangin ang mga aklat. — The books can be counted.\nA factual claim can be checked even if it later turns out false. An opinion expresses a judgment or preference. Saying para sa akin can signal an opinion, but evidence and context matter more than a signal phrase alone."
+    },
+    {
+      "id": "q75",
+      "prompt": "What does this mean in English?\n\nPananaw ko ang huling pahayag.",
+      "answers": [
+        "There are three books on the table.",
+        "For me, the story is good.",
+        "The last statement is my view.",
+        "The books can be counted."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Pananaw ko ang huling pahayag. — The last statement is my view.\nA factual claim can be checked even if it later turns out false. An opinion expresses a judgment or preference. Saying para sa akin can signal an opinion, but evidence and context matter more than a signal phrase alone."
+    },
+    {
+      "id": "q76",
+      "prompt": "What does this mean in English?\n\nMay malabong tinutukoy ang siya.",
+      "answers": [
+        "I clarified the sequence.",
+        "I fixed the punctuation.",
+        "I reread the paragraph.",
+        "Siya has an unclear referent."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "May malabong tinutukoy ang siya. — Siya has an unclear referent.\nRevision changes meaning and clarity; proofreading checks forms such as capitals and punctuation. Read for the main idea first, then check connectors and pronoun references before fixing surface errors."
+    },
+    {
+      "id": "q77",
+      "prompt": "What does this mean in English?\n\nPinalinaw ko ang pagkakasunod-sunod.",
+      "answers": [
+        "I clarified the sequence.",
+        "Siya has an unclear referent.",
+        "I fixed the punctuation.",
+        "I reread the paragraph."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Pinalinaw ko ang pagkakasunod-sunod. — I clarified the sequence.\nRevision changes meaning and clarity; proofreading checks forms such as capitals and punctuation. Read for the main idea first, then check connectors and pronoun references before fixing surface errors."
+    },
+    {
+      "id": "q78",
+      "prompt": "What does this mean in English?\n\nInayos ko ang bantas.",
+      "answers": [
+        "Siya has an unclear referent.",
+        "I fixed the punctuation.",
+        "I clarified the sequence.",
+        "I reread the paragraph."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Inayos ko ang bantas. — I fixed the punctuation.\nRevision changes meaning and clarity; proofreading checks forms such as capitals and punctuation. Read for the main idea first, then check connectors and pronoun references before fixing surface errors."
+    },
+    {
+      "id": "q79",
+      "prompt": "What does this mean in English?\n\nBinasa ko muli ang talata.",
+      "answers": [
+        "Siya has an unclear referent.",
+        "I clarified the sequence.",
+        "I reread the paragraph.",
+        "I fixed the punctuation."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Binasa ko muli ang talata. — I reread the paragraph.\nRevision changes meaning and clarity; proofreading checks forms such as capitals and punctuation. Read for the main idea first, then check connectors and pronoun references before fixing surface errors."
+    },
+    {
+      "id": "q80",
+      "prompt": "What does this mean in English?\n\nMay suliranin ang tauhan.",
+      "answers": [
+        "Their decision changed.",
+        "The bird learned to listen.",
+        "The lesson is grounded in the action.",
+        "The character has a problem."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "May suliranin ang tauhan. — The character has a problem.\nGrade 4 includes fables and other narrative forms. A pabula often uses animal characters to explore conduct. This newly written fable is practice, not a traditional tale. Support a possible lesson with actions rather than inventing a fixed moral."
+    },
+    {
+      "id": "q81",
+      "prompt": "What does this mean in English?\n\nNagbago ang kaniyang pasiya.",
+      "answers": [
+        "Their decision changed.",
+        "The character has a problem.",
+        "The bird learned to listen.",
+        "The lesson is grounded in the action."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Nagbago ang kaniyang pasiya. — Their decision changed.\nGrade 4 includes fables and other narrative forms. A pabula often uses animal characters to explore conduct. This newly written fable is practice, not a traditional tale. Support a possible lesson with actions rather than inventing a fixed moral."
+    },
+    {
+      "id": "q82",
+      "prompt": "What does this mean in English?\n\nNatutong makinig ang ibon.",
+      "answers": [
+        "The character has a problem.",
+        "The bird learned to listen.",
+        "Their decision changed.",
+        "The lesson is grounded in the action."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Natutong makinig ang ibon. — The bird learned to listen.\nGrade 4 includes fables and other narrative forms. A pabula often uses animal characters to explore conduct. This newly written fable is practice, not a traditional tale. Support a possible lesson with actions rather than inventing a fixed moral."
+    },
+    {
+      "id": "q83",
+      "prompt": "What does this mean in English?\n\nMay batayan ang aral sa kilos.",
+      "answers": [
+        "The character has a problem.",
+        "Their decision changed.",
+        "The lesson is grounded in the action.",
+        "The bird learned to listen."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "May batayan ang aral sa kilos. — The lesson is grounded in the action.\nGrade 4 includes fables and other narrative forms. A pabula often uses animal characters to explore conduct. This newly written fable is practice, not a traditional tale. Support a possible lesson with actions rather than inventing a fixed moral."
+    },
+    {
+      "id": "q84",
+      "prompt": "What does this mean in English?\n\nMay tatlong paraan ng pag-aalaga.",
+      "answers": [
+        "First, keep the book dry.",
+        "Second, use a bookmark.",
+        "Third, return it to the correct shelf.",
+        "There are three ways to care for it."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "May tatlong paraan ng pag-aalaga. — There are three ways to care for it.\nAn enumerative text lists related details under a clear topic. Numbering can help but does not make unrelated information coherent. Group details by purpose and explain unfamiliar terms when the reader needs them."
+    },
+    {
+      "id": "q85",
+      "prompt": "What does this mean in English?\n\nUna, panatilihing tuyo ang aklat.",
+      "answers": [
+        "First, keep the book dry.",
+        "There are three ways to care for it.",
+        "Second, use a bookmark.",
+        "Third, return it to the correct shelf."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Una, panatilihing tuyo ang aklat. — First, keep the book dry.\nAn enumerative text lists related details under a clear topic. Numbering can help but does not make unrelated information coherent. Group details by purpose and explain unfamiliar terms when the reader needs them."
+    },
+    {
+      "id": "q86",
+      "prompt": "What does this mean in English?\n\nIkalawa, gumamit ng pananda.",
+      "answers": [
+        "There are three ways to care for it.",
+        "Second, use a bookmark.",
+        "First, keep the book dry.",
+        "Third, return it to the correct shelf."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Ikalawa, gumamit ng pananda. — Second, use a bookmark.\nAn enumerative text lists related details under a clear topic. Numbering can help but does not make unrelated information coherent. Group details by purpose and explain unfamiliar terms when the reader needs them."
+    },
+    {
+      "id": "q87",
+      "prompt": "What does this mean in English?\n\nIkatlo, ibalik sa tamang istante.",
+      "answers": [
+        "There are three ways to care for it.",
+        "First, keep the book dry.",
+        "Third, return it to the correct shelf.",
+        "Second, use a bookmark."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Ikatlo, ibalik sa tamang istante. — Third, return it to the correct shelf.\nAn enumerative text lists related details under a clear topic. Numbering can help but does not make unrelated information coherent. Group details by purpose and explain unfamiliar terms when the reader needs them."
+    },
+    {
+      "id": "q88",
+      "prompt": "What does this mean in English?\n\nNoong Lunes, bumisita kami sa aklatan.",
+      "answers": [
+        "Afterward, we made notes.",
+        "I was pleased with the cooperation.",
+        "This is what I learned.",
+        "On Monday, we visited the library."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Noong Lunes, bumisita kami sa aklatan. — On Monday, we visited the library.\nA recount tells what happened; a diary may also include the writer’s response. Distinguish an event from a feeling about it. You may use a fictional experience rather than publish private family information."
+    },
+    {
+      "id": "q89",
+      "prompt": "What does this mean in English?\n\nPagkatapos, gumawa kami ng tala.",
+      "answers": [
+        "Afterward, we made notes.",
+        "On Monday, we visited the library.",
+        "I was pleased with the cooperation.",
+        "This is what I learned."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Pagkatapos, gumawa kami ng tala. — Afterward, we made notes.\nA recount tells what happened; a diary may also include the writer’s response. Distinguish an event from a feeling about it. You may use a fictional experience rather than publish private family information."
+    },
+    {
+      "id": "q90",
+      "prompt": "What does this mean in English?\n\nNatuwa ako sa pagtutulungan.",
+      "answers": [
+        "On Monday, we visited the library.",
+        "I was pleased with the cooperation.",
+        "Afterward, we made notes.",
+        "This is what I learned."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Natuwa ako sa pagtutulungan. — I was pleased with the cooperation.\nA recount tells what happened; a diary may also include the writer’s response. Distinguish an event from a feeling about it. You may use a fictional experience rather than publish private family information."
+    },
+    {
+      "id": "q91",
+      "prompt": "What does this mean in English?\n\nIto ang natutuhan ko.",
+      "answers": [
+        "On Monday, we visited the library.",
+        "Afterward, we made notes.",
+        "This is what I learned.",
+        "I was pleased with the cooperation."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Ito ang natutuhan ko. — This is what I learned.\nA recount tells what happened; a diary may also include the writer’s response. Distinguish an event from a feeling about it. You may use a fictional experience rather than publish private family information."
+    },
+    {
+      "id": "q92",
+      "prompt": "What does this mean in English?\n\nLiteral ang unang paglalarawan.",
+      "answers": [
+        "The word has an added emotional association.",
+        "The use differs with context.",
+        "Explain the basis of the interpretation.",
+        "The first description is literal."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Literal ang unang paglalarawan. — The first description is literal.\nDenotation is a word’s direct reference; connotation includes associations shaped by context. Associations are not identical for all readers. Explain the detail that produces your reading, especially when language is figurative."
+    },
+    {
+      "id": "q93",
+      "prompt": "What does this mean in English?\n\nMay dagdag na damdamin ang salita.",
+      "answers": [
+        "The word has an added emotional association.",
+        "The first description is literal.",
+        "The use differs with context.",
+        "Explain the basis of the interpretation."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "May dagdag na damdamin ang salita. — The word has an added emotional association.\nDenotation is a word’s direct reference; connotation includes associations shaped by context. Associations are not identical for all readers. Explain the detail that produces your reading, especially when language is figurative."
+    },
+    {
+      "id": "q94",
+      "prompt": "What does this mean in English?\n\nIba ang gamit ayon sa konteksto.",
+      "answers": [
+        "The first description is literal.",
+        "The use differs with context.",
+        "The word has an added emotional association.",
+        "Explain the basis of the interpretation."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Iba ang gamit ayon sa konteksto. — The use differs with context.\nDenotation is a word’s direct reference; connotation includes associations shaped by context. Associations are not identical for all readers. Explain the detail that produces your reading, especially when language is figurative."
+    },
+    {
+      "id": "q95",
+      "prompt": "What does this mean in English?\n\nIpaliwanag ang batayan ng pagbasa.",
+      "answers": [
+        "The first description is literal.",
+        "The word has an added emotional association.",
+        "Explain the basis of the interpretation.",
+        "The use differs with context."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Ipaliwanag ang batayan ng pagbasa. — Explain the basis of the interpretation.\nDenotation is a word’s direct reference; connotation includes associations shaped by context. Associations are not identical for all readers. Explain the detail that produces your reading, especially when language is figurative."
+    },
+    {
+      "id": "q96",
+      "prompt": "What does this mean in English?\n\nKathang-isip ang talambuhay na ito.",
+      "answers": [
+        "They organized books.",
+        "This is their contribution.",
+        "I wake up early.",
+        "This biography is fictional."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Kathang-isip ang talambuhay na ito. — This biography is fictional.\nA biography describes another person’s life using verifiable information. This practice profile is explicitly fictional. In a real profile record sources and distinguish a contribution from an unsupported claim that a person was the greatest."
+    },
+    {
+      "id": "q97",
+      "prompt": "What does this mean in English?\n\nNag-ayos siya ng mga aklat.",
+      "answers": [
+        "They organized books.",
+        "This biography is fictional.",
+        "This is their contribution.",
+        "A real biography needs sources."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Nag-ayos siya ng mga aklat. — They organized books.\nA biography describes another person’s life using verifiable information. This practice profile is explicitly fictional. In a real profile record sources and distinguish a contribution from an unsupported claim that a person was the greatest."
+    },
+    {
+      "id": "q98",
+      "prompt": "What does this mean in English?\n\nIto ang kaniyang ambag.",
+      "answers": [
+        "This biography is fictional.",
+        "This is their contribution.",
+        "They organized books.",
+        "A real biography needs sources."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Ito ang kaniyang ambag. — This is their contribution.\nA biography describes another person’s life using verifiable information. This practice profile is explicitly fictional. In a real profile record sources and distinguish a contribution from an unsupported claim that a person was the greatest."
+    },
+    {
+      "id": "q99",
+      "prompt": "What does this mean in English?\n\nKailangan ng sanggunian sa tunay na talambuhay.",
+      "answers": [
+        "They organized books.",
+        "This is their contribution.",
+        "A real biography needs sources.",
+        "I wake up early."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Kailangan ng sanggunian sa tunay na talambuhay. — A real biography needs sources.\nA biography describes another person’s life using verifiable information. This practice profile is explicitly fictional. In a real profile record sources and distinguish a contribution from an unsupported claim that a person was the greatest."
+    },
+    {
+      "id": "q100",
+      "prompt": "What does this mean in English?\n\nKuwentong kathang-isip ito.",
+      "answers": [
+        "There is an extraordinary event.",
+        "This is not a scientific report.",
+        "Respect the source of a real narrative.",
+        "This is an invented story."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Kuwentong kathang-isip ito. — This is an invented story.\nGrade 4 encounters myth and epic as narrative forms. A myth can explain origins through a community’s meaningful stories; it is not read as a modern laboratory report. This invented miniature is not presented as any community’s traditional belief."
+    },
+    {
+      "id": "q101",
+      "prompt": "What does this mean in English?\n\nMay pambihirang pangyayari.",
+      "answers": [
+        "There is an extraordinary event.",
+        "This is an invented story.",
+        "This is not a scientific report.",
+        "Respect the source of a real narrative."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "May pambihirang pangyayari. — There is an extraordinary event.\nGrade 4 encounters myth and epic as narrative forms. A myth can explain origins through a community’s meaningful stories; it is not read as a modern laboratory report. This invented miniature is not presented as any community’s traditional belief."
+    },
+    {
+      "id": "q102",
+      "prompt": "What does this mean in English?\n\nHindi ito ulat pang-agham.",
+      "answers": [
+        "This is an invented story.",
+        "This is not a scientific report.",
+        "There is an extraordinary event.",
+        "Respect the source of a real narrative."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Hindi ito ulat pang-agham. — This is not a scientific report.\nGrade 4 encounters myth and epic as narrative forms. A myth can explain origins through a community’s meaningful stories; it is not read as a modern laboratory report. This invented miniature is not presented as any community’s traditional belief."
+    },
+    {
+      "id": "q103",
+      "prompt": "What does this mean in English?\n\nIgalang ang pinagmulan ng tunay na salaysay.",
+      "answers": [
+        "This is an invented story.",
+        "There is an extraordinary event.",
+        "Respect the source of a real narrative.",
+        "This is not a scientific report."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Igalang ang pinagmulan ng tunay na salaysay. — Respect the source of a real narrative.\nGrade 4 encounters myth and epic as narrative forms. A myth can explain origins through a community’s meaningful stories; it is not read as a modern laboratory report. This invented miniature is not presented as any community’s traditional belief."
+    },
+    {
+      "id": "q104",
+      "prompt": "What does this mean in English?\n\nIhanda ang papel at lapis.",
+      "answers": [
+        "Read all the instructions first.",
+        "Write the title at the top.",
+        "Check the notes before submitting.",
+        "Prepare paper and a pencil."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Ihanda ang papel at lapis. — Prepare paper and a pencil.\nA procedure has a goal, needed materials and ordered actions. Use clear command forms already learned and test missing steps. A numbered list is only useful if a reader knows what each action applies to."
+    },
+    {
+      "id": "q105",
+      "prompt": "What does this mean in English?\n\nBasahin muna ang buong panuto.",
+      "answers": [
+        "Read all the instructions first.",
+        "Prepare paper and a pencil.",
+        "Write the title at the top.",
+        "Check the notes before submitting."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Basahin muna ang buong panuto. — Read all the instructions first.\nA procedure has a goal, needed materials and ordered actions. Use clear command forms already learned and test missing steps. A numbered list is only useful if a reader knows what each action applies to."
+    },
+    {
+      "id": "q106",
+      "prompt": "What does this mean in English?\n\nIsulat ang pamagat sa itaas.",
+      "answers": [
+        "Prepare paper and a pencil.",
+        "Write the title at the top.",
+        "Read all the instructions first.",
+        "Check the notes before submitting."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Isulat ang pamagat sa itaas. — Write the title at the top.\nA procedure has a goal, needed materials and ordered actions. Use clear command forms already learned and test missing steps. A numbered list is only useful if a reader knows what each action applies to."
+    },
+    {
+      "id": "q107",
+      "prompt": "What does this mean in English?\n\nSuriin ang tala bago ipasa.",
+      "answers": [
+        "Prepare paper and a pencil.",
+        "Read all the instructions first.",
+        "Check the notes before submitting.",
+        "Write the title at the top."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Suriin ang tala bago ipasa. — Check the notes before submitting.\nA procedure has a goal, needed materials and ordered actions. Use clear command forms already learned and test missing steps. A numbered list is only useful if a reader knows what each action applies to."
+    },
+    {
+      "id": "q108",
+      "prompt": "What does this mean in English?\n\nMay malinaw na pamagat ang poster.",
+      "answers": [
+        "The image supports the message.",
+        "What is the reader expected to do?",
+        "The label needs to be easy to read.",
+        "The poster has a clear title."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "May malinaw na pamagat ang poster. — The poster has a clear title.\nA visual message can combine a title, label, symbol and image. A familiar symbol may help some readers but should not be assumed universally understood. Explain the intended action and check that text and image agree."
+    },
+    {
+      "id": "q109",
+      "prompt": "What does this mean in English?\n\nTumutulong ang larawan sa mensahe.",
+      "answers": [
+        "The image supports the message.",
+        "The poster has a clear title.",
+        "What is the reader expected to do?",
+        "The label needs to be easy to read."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Tumutulong ang larawan sa mensahe. — The image supports the message.\nA visual message can combine a title, label, symbol and image. A familiar symbol may help some readers but should not be assumed universally understood. Explain the intended action and check that text and image agree."
+    },
+    {
+      "id": "q110",
+      "prompt": "What does this mean in English?\n\nAno ang inaasahang gawin ng mambabasa?",
+      "answers": [
+        "The poster has a clear title.",
+        "What is the reader expected to do?",
+        "The image supports the message.",
+        "The label needs to be easy to read."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Ano ang inaasahang gawin ng mambabasa? — What is the reader expected to do?\nA visual message can combine a title, label, symbol and image. A familiar symbol may help some readers but should not be assumed universally understood. Explain the intended action and check that text and image agree."
+    },
+    {
+      "id": "q111",
+      "prompt": "What does this mean in English?\n\nKailangang madaling mabasa ang etiketa.",
+      "answers": [
+        "The poster has a clear title.",
+        "The image supports the message.",
+        "The label needs to be easy to read.",
+        "What is the reader expected to do?"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Kailangang madaling mabasa ang etiketa. — The label needs to be easy to read.\nA visual message can combine a title, label, symbol and image. A familiar symbol may help some readers but should not be assumed universally understood. Explain the intended action and check that text and image agree."
+    }
+  ]
+}

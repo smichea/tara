@@ -1,0 +1,1751 @@
+{
+  "schemaVersion": 1,
+  "id": "tara-fil-en-a1",
+  "title": "Tara! · Filipino · A1 practice",
+  "author": "Tara contributors · CC BY-SA 4.0",
+  "language": "en",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What does this mean in English?\n\nKumusta ka?",
+      "answers": [
+        "How are you?",
+        "I’m doing well.",
+        "And you?",
+        "Thank you!"
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Kumusta ka? — How are you?\nA friendly greeting."
+    },
+    {
+      "id": "q2",
+      "prompt": "What does this mean in English?\n\nMabuti naman.",
+      "answers": [
+        "How are you?",
+        "I’m doing well.",
+        "And you?",
+        "Thank you!"
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Mabuti naman. — I’m doing well.\nA natural answer to “Kumusta ka?”"
+    },
+    {
+      "id": "q3",
+      "prompt": "What does this mean in English?\n\nIkaw?",
+      "answers": [
+        "How are you?",
+        "I’m doing well.",
+        "And you?",
+        "Thank you!"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Ikaw? — And you?\nUse this to return the question."
+    },
+    {
+      "id": "q4",
+      "prompt": "What does this mean in English?\n\nSalamat!",
+      "answers": [
+        "How are you?",
+        "I’m doing well.",
+        "And you?",
+        "Thank you!"
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Salamat! — Thank you!\nMaraming salamat means “thank you very much”."
+    },
+    {
+      "id": "q5",
+      "prompt": "What does this mean in English?\n\nAko si Marco.",
+      "answers": [
+        "I’m Marco.",
+        "What’s your name?",
+        "He / she is my friend.",
+        "Nice to meet you."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Ako si Marco. — I’m Marco.\nSi introduces a person’s name."
+    },
+    {
+      "id": "q6",
+      "prompt": "What does this mean in English?\n\nAno ang pangalan mo?",
+      "answers": [
+        "I’m Marco.",
+        "What’s your name?",
+        "He / she is my friend.",
+        "Nice to meet you."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Ano ang pangalan mo? — What’s your name?\nMo means “your” here."
+    },
+    {
+      "id": "q7",
+      "prompt": "What does this mean in English?\n\nIkinagagalak kitang makilala.",
+      "answers": [
+        "I’m Marco.",
+        "What’s your name?",
+        "Nice to meet you.",
+        "He / she is my friend."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Ikinagagalak kitang makilala. — Nice to meet you.\nA polite introduction; more formal than a simple hello."
+    },
+    {
+      "id": "q8",
+      "prompt": "What does this mean in English?\n\nHindi ko maintindihan.",
+      "answers": [
+        "Please repeat.",
+        "Slowly, please.",
+        "What does this mean?",
+        "I don’t understand."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Hindi ko maintindihan. — I don’t understand.\nUse it when the meaning is not clear."
+    },
+    {
+      "id": "q9",
+      "prompt": "What does this mean in English?\n\nPakiulit.",
+      "answers": [
+        "Please repeat.",
+        "I don’t understand.",
+        "What does this mean?",
+        "How are you?"
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Pakiulit. — Please repeat.\nPaki- makes a request polite."
+    },
+    {
+      "id": "q10",
+      "prompt": "What does this mean in English?\n\nDahan-dahan lang.",
+      "answers": [
+        "I don’t understand.",
+        "Slowly, please.",
+        "What does this mean?",
+        "How are you?"
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Dahan-dahan lang. — Slowly, please.\nUseful when someone is speaking quickly."
+    },
+    {
+      "id": "q11",
+      "prompt": "What does this mean in English?\n\nAno ang ibig sabihin nito?",
+      "answers": [
+        "I don’t understand.",
+        "Please repeat.",
+        "What does this mean?",
+        "Slowly, please."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Ano ang ibig sabihin nito? — What does this mean?\nPoint to a word or object as you ask."
+    },
+    {
+      "id": "q12",
+      "prompt": "What does this mean in English?\n\nTara!",
+      "answers": [
+        "Where are we going?",
+        "Can I join?",
+        "Just a moment.",
+        "Let’s go!"
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Tara! — Let’s go!\nAn everyday invitation."
+    },
+    {
+      "id": "q13",
+      "prompt": "What does this mean in English?\n\nSaan tayo pupunta?",
+      "answers": [
+        "Where are we going?",
+        "Let’s go!",
+        "Can I join?",
+        "Just a moment."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Saan tayo pupunta? — Where are we going?\nSaan asks about a place."
+    },
+    {
+      "id": "q14",
+      "prompt": "What does this mean in English?\n\nPuwede ba akong sumali?",
+      "answers": [
+        "Let’s go!",
+        "Can I join?",
+        "Where are we going?",
+        "Just a moment."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Puwede ba akong sumali? — Can I join?\nFor joining a game or activity."
+    },
+    {
+      "id": "q15",
+      "prompt": "What does this mean in English?\n\nSandali lang.",
+      "answers": [
+        "Let’s go!",
+        "Where are we going?",
+        "Just a moment.",
+        "Can I join?"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Sandali lang. — Just a moment.\nAsk your friends to wait a little."
+    },
+    {
+      "id": "q16",
+      "prompt": "What does this mean in English?\n\nGutom na ako.",
+      "answers": [
+        "I want some water.",
+        "Delicious!",
+        "Cooked rice",
+        "I’m hungry now."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Gutom na ako. — I’m hungry now.\nNa adds the sense of “now” or “already”."
+    },
+    {
+      "id": "q17",
+      "prompt": "What does this mean in English?\n\nGusto ko ng tubig.",
+      "answers": [
+        "I want some water.",
+        "I’m hungry now.",
+        "Delicious!",
+        "Cooked rice"
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Gusto ko ng tubig. — I want some water.\nNg introduces what you want here."
+    },
+    {
+      "id": "q18",
+      "prompt": "What does this mean in English?\n\nMasarap!",
+      "answers": [
+        "I’m hungry now.",
+        "Delicious!",
+        "I want some water.",
+        "Cooked rice"
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Masarap! — Delicious!\nSay this when you enjoy the food."
+    },
+    {
+      "id": "q19",
+      "prompt": "What does this mean in English?\n\nKanin",
+      "answers": [
+        "I’m hungry now.",
+        "I want some water.",
+        "Cooked rice",
+        "Delicious!"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Kanin — Cooked rice\nOne of the most useful everyday food words."
+    },
+    {
+      "id": "q20",
+      "prompt": "What does this mean in English?\n\nPabili po.",
+      "answers": [
+        "Thank you, respectfully.",
+        "How are you?",
+        "I’m doing well.",
+        "I’d like to buy something, please."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Pabili po. — I’d like to buy something, please.\nA common way to get a shopkeeper’s attention."
+    },
+    {
+      "id": "q21",
+      "prompt": "What does this mean in English?\n\nMagkano po ito?",
+      "answers": [
+        "How much is this, please?",
+        "Thank you, respectfully.",
+        "How are you?",
+        "I’m doing well."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Magkano po ito? — How much is this, please?\nIto means “this”."
+    },
+    {
+      "id": "q22",
+      "prompt": "What does this mean in English?\n\nIsa pa po.",
+      "answers": [
+        "Thank you, respectfully.",
+        "One more, please.",
+        "How are you?",
+        "I’m doing well."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Isa pa po. — One more, please.\nIsa means “one”."
+    },
+    {
+      "id": "q23",
+      "prompt": "What does this mean in English?\n\nSalamat po.",
+      "answers": [
+        "I’d like to buy something, please.",
+        "How much is this, please?",
+        "Thank you, respectfully.",
+        "One more, please."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Salamat po. — Thank you, respectfully.\nUse po when you want to be respectful."
+    },
+    {
+      "id": "q24",
+      "prompt": "What does this mean in English?\n\nNasaan ang libro ko?",
+      "answers": [
+        "I have a question.",
+        "May I ask a question, please?",
+        "I’m finished.",
+        "Where is my book?"
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Nasaan ang libro ko? — Where is my book?\nKo means “my” here."
+    },
+    {
+      "id": "q25",
+      "prompt": "What does this mean in English?\n\nMay tanong ako.",
+      "answers": [
+        "I have a question.",
+        "Where is my book?",
+        "I’m finished.",
+        "How are you?"
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "May tanong ako. — I have a question.\nMay introduces something you have."
+    },
+    {
+      "id": "q26",
+      "prompt": "What does this mean in English?\n\nPuwede po bang magtanong?",
+      "answers": [
+        "Where is my book?",
+        "May I ask a question, please?",
+        "I’m finished.",
+        "How are you?"
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Puwede po bang magtanong? — May I ask a question, please?\nA respectful way to speak to a teacher."
+    },
+    {
+      "id": "q27",
+      "prompt": "What does this mean in English?\n\nTapos na ako.",
+      "answers": [
+        "Where is my book?",
+        "I have a question.",
+        "I’m finished.",
+        "May I ask a question, please?"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Tapos na ako. — I’m finished.\nFor finishing a task or activity."
+    },
+    {
+      "id": "q28",
+      "prompt": "What does this mean in English?\n\nNasa bahay ako.",
+      "answers": [
+        "Where is Mum?",
+        "Older sister",
+        "Older brother",
+        "I’m at home."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Nasa bahay ako. — I’m at home.\nNasa introduces a location."
+    },
+    {
+      "id": "q29",
+      "prompt": "What does this mean in English?\n\nNasaan si Mama?",
+      "answers": [
+        "Where is Mum?",
+        "I’m at home.",
+        "Older sister",
+        "Older brother"
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Nasaan si Mama? — Where is Mum?\nUse si before a person’s name or name-like family title."
+    },
+    {
+      "id": "q30",
+      "prompt": "What does this mean in English?\n\nAte",
+      "answers": [
+        "I’m at home.",
+        "Older sister",
+        "Where is Mum?",
+        "How are you?"
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Ate — Older sister\nAlso a familiar way to address an older girl or woman."
+    },
+    {
+      "id": "q31",
+      "prompt": "What does this mean in English?\n\nKuya",
+      "answers": [
+        "I’m at home.",
+        "Where is Mum?",
+        "Older brother",
+        "How are you?"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Kuya — Older brother\nAlso a familiar way to address an older boy or man."
+    },
+    {
+      "id": "q32",
+      "prompt": "What does this mean in English?\n\nPagod ako.",
+      "answers": [
+        "I’m happy.",
+        "I’m okay.",
+        "I’m sleepy.",
+        "I’m tired."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Pagod ako. — I’m tired.\nAfter school or a game, for example."
+    },
+    {
+      "id": "q33",
+      "prompt": "What does this mean in English?\n\nMasaya ako.",
+      "answers": [
+        "I’m happy.",
+        "I’m tired.",
+        "I’m okay.",
+        "I’m sleepy."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Masaya ako. — I’m happy.\nMasaya describes being happy."
+    },
+    {
+      "id": "q34",
+      "prompt": "What does this mean in English?\n\nAyos lang ako.",
+      "answers": [
+        "I’m tired.",
+        "I’m okay.",
+        "I’m happy.",
+        "I’m sleepy."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Ayos lang ako. — I’m okay.\nA natural response when someone checks on you."
+    },
+    {
+      "id": "q35",
+      "prompt": "What does this mean in English?\n\nInaantok ako.",
+      "answers": [
+        "I’m tired.",
+        "I’m happy.",
+        "I’m sleepy.",
+        "I’m okay."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Inaantok ako. — I’m sleepy.\nUse when you feel like sleeping."
+    },
+    {
+      "id": "q36",
+      "prompt": "What does this mean in English?\n\nNasaan ang banyo?",
+      "answers": [
+        "Just here.",
+        "I’m going home now.",
+        "Is it far?",
+        "Where is the bathroom?"
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Nasaan ang banyo? — Where is the bathroom?\nBanyo is a common word for bathroom."
+    },
+    {
+      "id": "q37",
+      "prompt": "What does this mean in English?\n\nDito lang.",
+      "answers": [
+        "Just here.",
+        "Where is the bathroom?",
+        "I’m going home now.",
+        "Is it far?"
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Dito lang. — Just here.\nFor pointing out a nearby place or where to stop."
+    },
+    {
+      "id": "q38",
+      "prompt": "What does this mean in English?\n\nUuwi na ako.",
+      "answers": [
+        "Where is the bathroom?",
+        "I’m going home now.",
+        "Just here.",
+        "Is it far?"
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Uuwi na ako. — I’m going home now.\nUuwi refers to going home."
+    },
+    {
+      "id": "q39",
+      "prompt": "What does this mean in English?\n\nMalayo ba?",
+      "answers": [
+        "Where is the bathroom?",
+        "Just here.",
+        "Is it far?",
+        "I’m going home now."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Malayo ba? — Is it far?\nBa marks a yes/no question."
+    },
+    {
+      "id": "q40",
+      "prompt": "What does this mean in English?\n\nAnong ginagawa mo?",
+      "answers": [
+        "Do you want to play?",
+        "Yes.",
+        "No.",
+        "What are you doing?"
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Anong ginagawa mo? — What are you doing?\nAnong is a common contracted form of ano ang."
+    },
+    {
+      "id": "q41",
+      "prompt": "What does this mean in English?\n\nGusto mo bang maglaro?",
+      "answers": [
+        "Do you want to play?",
+        "What are you doing?",
+        "Yes.",
+        "No."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Gusto mo bang maglaro? — Do you want to play?\nAn invitation to play."
+    },
+    {
+      "id": "q42",
+      "prompt": "What does this mean in English?\n\nOo.",
+      "answers": [
+        "What are you doing?",
+        "Yes.",
+        "Do you want to play?",
+        "No."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Oo. — Yes.\nOpo is the respectful form."
+    },
+    {
+      "id": "q43",
+      "prompt": "What does this mean in English?\n\nHindi.",
+      "answers": [
+        "What are you doing?",
+        "Do you want to play?",
+        "No.",
+        "Yes."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Hindi. — No.\nHindi po is a respectful form."
+    },
+    {
+      "id": "q44",
+      "prompt": "What does this mean in English?\n\nNag-aaral ako ng Filipino.",
+      "answers": [
+        "I only know a little.",
+        "Help me.",
+        "Thank you for your help.",
+        "I’m learning Filipino."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Nag-aaral ako ng Filipino. — I’m learning Filipino.\nNag-aaral describes studying or learning."
+    },
+    {
+      "id": "q45",
+      "prompt": "What does this mean in English?\n\nKaunti lang ang alam ko.",
+      "answers": [
+        "I only know a little.",
+        "I’m learning Filipino.",
+        "Help me.",
+        "Thank you for your help."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Kaunti lang ang alam ko. — I only know a little.\nA useful way to explain your current level."
+    },
+    {
+      "id": "q46",
+      "prompt": "What does this mean in English?\n\nTulungan mo ako.",
+      "answers": [
+        "I’m learning Filipino.",
+        "Help me.",
+        "I only know a little.",
+        "How are you?"
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Tulungan mo ako. — Help me.\nWith an adult, you can say “Tulungan ninyo po ako.”"
+    },
+    {
+      "id": "q47",
+      "prompt": "What does this mean in English?\n\nSalamat sa tulong mo.",
+      "answers": [
+        "I’m learning Filipino.",
+        "I only know a little.",
+        "Thank you for your help.",
+        "How are you?"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Salamat sa tulong mo. — Thank you for your help.\nSa introduces what you are thanking someone for."
+    },
+    {
+      "id": "q48",
+      "prompt": "What does this mean in English?\n\nAnong oras na?",
+      "answers": [
+        "It is two o’clock.",
+        "Class is tomorrow.",
+        "Today is Monday.",
+        "What time is it?"
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Anong oras na? — What time is it?\nAno ang oras? asks for the time. Ala-una is one o’clock; alas-dos is two. Bukas means tomorrow; kahapon means yesterday. Sa can introduce a day or time."
+    },
+    {
+      "id": "q49",
+      "prompt": "What does this mean in English?\n\nAlas-dos na.",
+      "answers": [
+        "It is two o’clock.",
+        "What time is it?",
+        "Class is tomorrow.",
+        "Today is Monday."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Alas-dos na. — It is two o’clock.\nAno ang oras? asks for the time. Ala-una is one o’clock; alas-dos is two. Bukas means tomorrow; kahapon means yesterday. Sa can introduce a day or time."
+    },
+    {
+      "id": "q50",
+      "prompt": "What does this mean in English?\n\nBukas ang klase.",
+      "answers": [
+        "What time is it?",
+        "Class is tomorrow.",
+        "It is two o’clock.",
+        "Today is Monday."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Bukas ang klase. — Class is tomorrow.\nAno ang oras? asks for the time. Ala-una is one o’clock; alas-dos is two. Bukas means tomorrow; kahapon means yesterday. Sa can introduce a day or time."
+    },
+    {
+      "id": "q51",
+      "prompt": "What does this mean in English?\n\nLunes ngayon.",
+      "answers": [
+        "What time is it?",
+        "It is two o’clock.",
+        "Today is Monday.",
+        "Class is tomorrow."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Lunes ngayon. — Today is Monday.\nAno ang oras? asks for the time. Ala-una is one o’clock; alas-dos is two. Bukas means tomorrow; kahapon means yesterday. Sa can introduce a day or time."
+    },
+    {
+      "id": "q52",
+      "prompt": "What does this mean in English?\n\nSa umaga tayo magkita.",
+      "answers": [
+        "What time is it?",
+        "It is two o’clock.",
+        "Class is tomorrow.",
+        "Let’s meet in the morning."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Sa umaga tayo magkita. — Let’s meet in the morning.\nAno ang oras? asks for the time. Ala-una is one o’clock; alas-dos is two. Bukas means tomorrow; kahapon means yesterday. Sa can introduce a day or time."
+    },
+    {
+      "id": "q53",
+      "prompt": "What does this mean in English?\n\nMaaga pa.",
+      "answers": [
+        "It is still early.",
+        "What time is it?",
+        "It is two o’clock.",
+        "Class is tomorrow."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Maaga pa. — It is still early.\nAno ang oras? asks for the time. Ala-una is one o’clock; alas-dos is two. Bukas means tomorrow; kahapon means yesterday. Sa can introduce a day or time."
+    },
+    {
+      "id": "q54",
+      "prompt": "What does this mean in English?\n\nIsa lang.",
+      "answers": [
+        "Two pencils, please.",
+        "Just one.",
+        "I have brought three books.",
+        "How many do you need?"
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Isa lang. — Just one.\nIsa, dalawa and tatlo mean one, two and three. A linker joins a number to a noun: isang libro, dalawang libro. Mga marks a plural group; many number phrases do not need it."
+    },
+    {
+      "id": "q55",
+      "prompt": "What does this mean in English?\n\nDalawang lapis, pakiusap.",
+      "answers": [
+        "Just one.",
+        "I have brought three books.",
+        "Two pencils, please.",
+        "How many do you need?"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Dalawang lapis, pakiusap. — Two pencils, please.\nIsa, dalawa and tatlo mean one, two and three. A linker joins a number to a noun: isang libro, dalawang libro. Mga marks a plural group; many number phrases do not need it."
+    },
+    {
+      "id": "q56",
+      "prompt": "What does this mean in English?\n\nTatlong libro ang dala ko.",
+      "answers": [
+        "Just one.",
+        "Two pencils, please.",
+        "How many do you need?",
+        "I have brought three books."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Tatlong libro ang dala ko. — I have brought three books.\nIsa, dalawa and tatlo mean one, two and three. A linker joins a number to a noun: isang libro, dalawang libro. Mga marks a plural group; many number phrases do not need it."
+    },
+    {
+      "id": "q57",
+      "prompt": "What does this mean in English?\n\nIlan ang kailangan mo?",
+      "answers": [
+        "How many do you need?",
+        "Just one.",
+        "Two pencils, please.",
+        "I have brought three books."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Ilan ang kailangan mo? — How many do you need?\nIsa, dalawa and tatlo mean one, two and three. A linker joins a number to a noun: isang libro, dalawang libro. Mga marks a plural group; many number phrases do not need it."
+    },
+    {
+      "id": "q58",
+      "prompt": "What does this mean in English?\n\nLima lahat.",
+      "answers": [
+        "Just one.",
+        "Five in total.",
+        "Two pencils, please.",
+        "I have brought three books."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Lima lahat. — Five in total.\nIsa, dalawa and tatlo mean one, two and three. A linker joins a number to a noun: isang libro, dalawang libro. Mga marks a plural group; many number phrases do not need it."
+    },
+    {
+      "id": "q59",
+      "prompt": "What does this mean in English?\n\nSampung piso ito.",
+      "answers": [
+        "Just one.",
+        "Two pencils, please.",
+        "This is ten pesos.",
+        "I have brought three books."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Sampung piso ito. — This is ten pesos.\nIsa, dalawa and tatlo mean one, two and three. A linker joins a number to a noun: isang libro, dalawang libro. Mga marks a plural group; many number phrases do not need it."
+    },
+    {
+      "id": "q60",
+      "prompt": "What does this mean in English?\n\nMaliit ang bag ko.",
+      "answers": [
+        "The notebook is blue.",
+        "My book is new.",
+        "This is what I am looking for.",
+        "My bag is small."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Maliit ang bag ko. — My bag is small.\nAdjectives can describe a noun directly: maliit na bag, a small bag; bagong libro, a new book. Na or -ng links the words. Ito is this; iyan is that near the listener."
+    },
+    {
+      "id": "q61",
+      "prompt": "What does this mean in English?\n\nAsul ang kuwaderno.",
+      "answers": [
+        "The notebook is blue.",
+        "My bag is small.",
+        "My book is new.",
+        "This is what I am looking for."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Asul ang kuwaderno. — The notebook is blue.\nAdjectives can describe a noun directly: maliit na bag, a small bag; bagong libro, a new book. Na or -ng links the words. Ito is this; iyan is that near the listener."
+    },
+    {
+      "id": "q62",
+      "prompt": "What does this mean in English?\n\nBago ang libro ko.",
+      "answers": [
+        "My bag is small.",
+        "My book is new.",
+        "The notebook is blue.",
+        "This is what I am looking for."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Bago ang libro ko. — My book is new.\nAdjectives can describe a noun directly: maliit na bag, a small bag; bagong libro, a new book. Na or -ng links the words. Ito is this; iyan is that near the listener."
+    },
+    {
+      "id": "q63",
+      "prompt": "What does this mean in English?\n\nIto ang hinahanap ko.",
+      "answers": [
+        "My bag is small.",
+        "The notebook is blue.",
+        "This is what I am looking for.",
+        "My book is new."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Ito ang hinahanap ko. — This is what I am looking for.\nAdjectives can describe a noun directly: maliit na bag, a small bag; bagong libro, a new book. Na or -ng links the words. Ito is this; iyan is that near the listener."
+    },
+    {
+      "id": "q64",
+      "prompt": "What does this mean in English?\n\nMabigat ang kahon.",
+      "answers": [
+        "My bag is small.",
+        "The notebook is blue.",
+        "My book is new.",
+        "The box is heavy."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Mabigat ang kahon. — The box is heavy.\nAdjectives can describe a noun directly: maliit na bag, a small bag; bagong libro, a new book. Na or -ng links the words. Ito is this; iyan is that near the listener."
+    },
+    {
+      "id": "q65",
+      "prompt": "What does this mean in English?\n\nMagaan ang dala ko.",
+      "answers": [
+        "What I am carrying is light.",
+        "My bag is small.",
+        "The notebook is blue.",
+        "My book is new."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Magaan ang dala ko. — What I am carrying is light.\nAdjectives can describe a noun directly: maliit na bag, a small bag; bagong libro, a new book. Na or -ng links the words. Ito is this; iyan is that near the listener."
+    },
+    {
+      "id": "q66",
+      "prompt": "What does this mean in English?\n\nBasahin ang tanong.",
+      "answers": [
+        "Write the answer.",
+        "Read the question.",
+        "Choose the correct word.",
+        "Listen first."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Basahin ang tanong. — Read the question.\nClassroom instructions often begin with an action: basahin (read it), isulat (write it), piliin (choose it). Understanding the action word helps you know what an exercise requires."
+    },
+    {
+      "id": "q67",
+      "prompt": "What does this mean in English?\n\nIsulat ang sagot.",
+      "answers": [
+        "Read the question.",
+        "Choose the correct word.",
+        "Write the answer.",
+        "Listen first."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Isulat ang sagot. — Write the answer.\nClassroom instructions often begin with an action: basahin (read it), isulat (write it), piliin (choose it). Understanding the action word helps you know what an exercise requires."
+    },
+    {
+      "id": "q68",
+      "prompt": "What does this mean in English?\n\nPiliin ang tamang salita.",
+      "answers": [
+        "Read the question.",
+        "Write the answer.",
+        "Listen first.",
+        "Choose the correct word."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Piliin ang tamang salita. — Choose the correct word.\nClassroom instructions often begin with an action: basahin (read it), isulat (write it), piliin (choose it). Understanding the action word helps you know what an exercise requires."
+    },
+    {
+      "id": "q69",
+      "prompt": "What does this mean in English?\n\nMakinig muna.",
+      "answers": [
+        "Listen first.",
+        "Read the question.",
+        "Write the answer.",
+        "Choose the correct word."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Makinig muna. — Listen first.\nClassroom instructions often begin with an action: basahin (read it), isulat (write it), piliin (choose it). Understanding the action word helps you know what an exercise requires."
+    },
+    {
+      "id": "q70",
+      "prompt": "What does this mean in English?\n\nIpaliwanag ang sagot mo.",
+      "answers": [
+        "Read the question.",
+        "Explain your answer.",
+        "Choose the correct word.",
+        "Listen first."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Ipaliwanag ang sagot mo. — Explain your answer.\nClassroom instructions often begin with an action: basahin (read it), isulat (write it), piliin (choose it). Understanding the action word helps you know what an exercise requires."
+    },
+    {
+      "id": "q71",
+      "prompt": "What does this mean in English?\n\nIhambing ang dalawang larawan.",
+      "answers": [
+        "Read the question.",
+        "Write the answer.",
+        "Compare the two pictures.",
+        "Choose the correct word."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Ihambing ang dalawang larawan. — Compare the two pictures.\nClassroom instructions often begin with an action: basahin (read it), isulat (write it), piliin (choose it). Understanding the action word helps you know what an exercise requires."
+    },
+    {
+      "id": "q72",
+      "prompt": "What does this mean in English?\n\nA, e, i, o, u.",
+      "answers": [
+        "The syllable division is ba-ta.",
+        "Bata has two syllables.",
+        "Let us read slowly.",
+        "The five vowel letters."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "A, e, i, o, u. — The five vowel letters.\nFilipino uses the vowel letters a, e, i, o and u. A syllable has a vowel sound; syllables are not the same as letters. English spelling habits can mislead. Use a reviewed recording or a fluent listener for sound and stress, rather than guessing from English."
+    },
+    {
+      "id": "q73",
+      "prompt": "What does this mean in English?\n\nBa-ta ang hati sa pantig.",
+      "answers": [
+        "The syllable division is ba-ta.",
+        "The five vowel letters.",
+        "Bata has two syllables.",
+        "Let us read slowly."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Ba-ta ang hati sa pantig. — The syllable division is ba-ta.\nFilipino uses the vowel letters a, e, i, o and u. A syllable has a vowel sound; syllables are not the same as letters. English spelling habits can mislead. Use a reviewed recording or a fluent listener for sound and stress, rather than guessing from English."
+    },
+    {
+      "id": "q74",
+      "prompt": "What does this mean in English?\n\nDalawang pantig ang bata.",
+      "answers": [
+        "The five vowel letters.",
+        "Bata has two syllables.",
+        "The syllable division is ba-ta.",
+        "Let us read slowly."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Dalawang pantig ang bata. — Bata has two syllables.\nFilipino uses the vowel letters a, e, i, o and u. A syllable has a vowel sound; syllables are not the same as letters. English spelling habits can mislead. Use a reviewed recording or a fluent listener for sound and stress, rather than guessing from English."
+    },
+    {
+      "id": "q75",
+      "prompt": "What does this mean in English?\n\nBasahin natin nang dahan-dahan.",
+      "answers": [
+        "The five vowel letters.",
+        "The syllable division is ba-ta.",
+        "Let us read slowly.",
+        "Bata has two syllables."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Basahin natin nang dahan-dahan. — Let us read slowly.\nFilipino uses the vowel letters a, e, i, o and u. A syllable has a vowel sound; syllables are not the same as letters. English spelling habits can mislead. Use a reviewed recording or a fluent listener for sound and stress, rather than guessing from English."
+    },
+    {
+      "id": "q76",
+      "prompt": "What does this mean in English?\n\nMay ngiti siya.",
+      "answers": [
+        "These are books.",
+        "The teacher’s book.",
+        "There are three pencils.",
+        "They have a smile."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "May ngiti siya. — They have a smile.\nNg can appear within a word such as ngiti, and ng is also a separate grammatical word. Mga marks plurality before a noun. Their pronunciation cannot safely be inferred from English letter names. Learn each in a short phrase and check a reviewed recording."
+    },
+    {
+      "id": "q77",
+      "prompt": "What does this mean in English?\n\nMga aklat ito.",
+      "answers": [
+        "These are books.",
+        "They have a smile.",
+        "The teacher’s book.",
+        "There are three pencils."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Mga aklat ito. — These are books.\nNg can appear within a word such as ngiti, and ng is also a separate grammatical word. Mga marks plurality before a noun. Their pronunciation cannot safely be inferred from English letter names. Learn each in a short phrase and check a reviewed recording."
+    },
+    {
+      "id": "q78",
+      "prompt": "What does this mean in English?\n\nAklat ng guro.",
+      "answers": [
+        "They have a smile.",
+        "The teacher’s book.",
+        "These are books.",
+        "There are three pencils."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Aklat ng guro. — The teacher’s book.\nNg can appear within a word such as ngiti, and ng is also a separate grammatical word. Mga marks plurality before a noun. Their pronunciation cannot safely be inferred from English letter names. Learn each in a short phrase and check a reviewed recording."
+    },
+    {
+      "id": "q79",
+      "prompt": "What does this mean in English?\n\nMay tatlong lapis.",
+      "answers": [
+        "They have a smile.",
+        "These are books.",
+        "There are three pencils.",
+        "The teacher’s book."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "May tatlong lapis. — There are three pencils.\nNg can appear within a word such as ngiti, and ng is also a separate grammatical word. Mga marks plurality before a noun. Their pronunciation cannot safely be inferred from English letter names. Learn each in a short phrase and check a reviewed recording."
+    },
+    {
+      "id": "q80",
+      "prompt": "What does this mean in English?\n\nEstudyante ako.",
+      "answers": [
+        "Are you ready?",
+        "They are my friend.",
+        "I am Niko.",
+        "I am a student."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Estudyante ako. — I am a student.\nAko refers to the speaker, ka to the person addressed in this pattern, and siya to another person. Siya does not specify gender. The order in Ako si… differs from Estudyante ako; learn complete patterns rather than inserting English word order."
+    },
+    {
+      "id": "q81",
+      "prompt": "What does this mean in English?\n\nHanda ka na ba?",
+      "answers": [
+        "Are you ready?",
+        "I am a student.",
+        "They are my friend.",
+        "I am Niko."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Handa ka na ba? — Are you ready?\nAko refers to the speaker, ka to the person addressed in this pattern, and siya to another person. Siya does not specify gender. The order in Ako si… differs from Estudyante ako; learn complete patterns rather than inserting English word order."
+    },
+    {
+      "id": "q82",
+      "prompt": "What does this mean in English?\n\nAko si Niko.",
+      "answers": [
+        "I am a student.",
+        "I am Niko.",
+        "Are you ready?",
+        "They are my friend."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Ako si Niko. — I am Niko.\nAko refers to the speaker, ka to the person addressed in this pattern, and siya to another person. Siya does not specify gender. The order in Ako si… differs from Estudyante ako; learn complete patterns rather than inserting English word order."
+    },
+    {
+      "id": "q83",
+      "prompt": "What does this mean in English?\n\nAno ito?",
+      "answers": [
+        "Who are they?",
+        "Where is the room?",
+        "What is this?",
+        "Please repeat."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Ano ito? — What is this?\nAno asks what; sino asks who; saan asks where. Ba marks a yes/no question in patterns such as Handa ka na ba? A learner can ask for repetition politely without pretending to understand."
+    },
+    {
+      "id": "q84",
+      "prompt": "What does this mean in English?\n\nSino siya?",
+      "answers": [
+        "What is this?",
+        "Where is the room?",
+        "Please repeat.",
+        "Who are they?"
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Sino siya? — Who are they?\nAno asks what; sino asks who; saan asks where. Ba marks a yes/no question in patterns such as Handa ka na ba? A learner can ask for repetition politely without pretending to understand."
+    },
+    {
+      "id": "q85",
+      "prompt": "What does this mean in English?\n\nSaan ang silid?",
+      "answers": [
+        "Where is the room?",
+        "What is this?",
+        "Who are they?",
+        "Please repeat."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Saan ang silid? — Where is the room?\nAno asks what; sino asks who; saan asks where. Ba marks a yes/no question in patterns such as Handa ka na ba? A learner can ask for repetition politely without pretending to understand."
+    },
+    {
+      "id": "q86",
+      "prompt": "What does this mean in English?\n\nPakiulit po.",
+      "answers": [
+        "What is this?",
+        "Please repeat.",
+        "Who are they?",
+        "Where is the room?"
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Pakiulit po. — Please repeat.\nAno asks what; sino asks who; saan asks where. Ba marks a yes/no question in patterns such as Handa ka na ba? A learner can ask for repetition politely without pretending to understand."
+    },
+    {
+      "id": "q87",
+      "prompt": "What does this mean in English?\n\nBuksan ang aklat.",
+      "answers": [
+        "Write the name.",
+        "Put it in the bag.",
+        "Open the book.",
+        "Then sit down."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Buksan ang aklat. — Open the book.\nSa can introduce a location, such as sa mesa (on/at the table) or sa bag (in the bag), depending on context. Then is pagkatapos. Read all parts of a direction before acting; a small location word can change the task."
+    },
+    {
+      "id": "q88",
+      "prompt": "What does this mean in English?\n\nIsulat ang pangalan.",
+      "answers": [
+        "Open the book.",
+        "Put it in the bag.",
+        "Then sit down.",
+        "Write the name."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Isulat ang pangalan. — Write the name.\nSa can introduce a location, such as sa mesa (on/at the table) or sa bag (in the bag), depending on context. Then is pagkatapos. Read all parts of a direction before acting; a small location word can change the task."
+    },
+    {
+      "id": "q89",
+      "prompt": "What does this mean in English?\n\nIlagay sa bag.",
+      "answers": [
+        "Put it in the bag.",
+        "Open the book.",
+        "Write the name.",
+        "Then sit down."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Ilagay sa bag. — Put it in the bag.\nSa can introduce a location, such as sa mesa (on/at the table) or sa bag (in the bag), depending on context. Then is pagkatapos. Read all parts of a direction before acting; a small location word can change the task."
+    },
+    {
+      "id": "q90",
+      "prompt": "What does this mean in English?\n\nPagkatapos, umupo.",
+      "answers": [
+        "Open the book.",
+        "Then sit down.",
+        "Write the name.",
+        "Put it in the bag."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Pagkatapos, umupo. — Then sit down.\nSa can introduce a location, such as sa mesa (on/at the table) or sa bag (in the bag), depending on context. Then is pagkatapos. Read all parts of a direction before acting; a small location word can change the task."
+    },
+    {
+      "id": "q91",
+      "prompt": "What does this mean in English?\n\nMay lapis ako.",
+      "answers": [
+        "I do not have paper.",
+        "I am not a teacher.",
+        "I have a pencil.",
+        "It is not finished yet."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "May lapis ako. — I have a pencil.\nMay expresses existence or having something; wala expresses absence or not having it. Hindi negates many descriptions and actions. Wala akong lapis and Hindi ako guro use different patterns; one English word not cannot replace all Filipino negatives."
+    },
+    {
+      "id": "q92",
+      "prompt": "What does this mean in English?\n\nWala akong papel.",
+      "answers": [
+        "I have a pencil.",
+        "I am not a teacher.",
+        "It is not finished yet.",
+        "I do not have paper."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Wala akong papel. — I do not have paper.\nMay expresses existence or having something; wala expresses absence or not having it. Hindi negates many descriptions and actions. Wala akong lapis and Hindi ako guro use different patterns; one English word not cannot replace all Filipino negatives."
+    },
+    {
+      "id": "q93",
+      "prompt": "What does this mean in English?\n\nHindi ako guro.",
+      "answers": [
+        "I am not a teacher.",
+        "I have a pencil.",
+        "I do not have paper.",
+        "It is not finished yet."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Hindi ako guro. — I am not a teacher.\nMay expresses existence or having something; wala expresses absence or not having it. Hindi negates many descriptions and actions. Wala akong lapis and Hindi ako guro use different patterns; one English word not cannot replace all Filipino negatives."
+    },
+    {
+      "id": "q94",
+      "prompt": "What does this mean in English?\n\nHindi pa tapos.",
+      "answers": [
+        "I have a pencil.",
+        "It is not finished yet.",
+        "I do not have paper.",
+        "I am not a teacher."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Hindi pa tapos. — It is not finished yet.\nMay expresses existence or having something; wala expresses absence or not having it. Hindi negates many descriptions and actions. Wala akong lapis and Hindi ako guro use different patterns; one English word not cannot replace all Filipino negatives."
+    },
+    {
+      "id": "q95",
+      "prompt": "What does this mean in English?\n\nTahimik ang silid.",
+      "answers": [
+        "The book is on the table.",
+        "Where is the book?",
+        "The room is quiet.",
+        "The sentence is clear."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Tahimik ang silid. — The room is quiet.\nA short Filipino statement can be complete without an English-style verb be: Tahimik ang silid. Capital letters and end punctuation make meaning easier to follow. A question mark belongs to a question; punctuation does not replace a missing idea."
+    },
+    {
+      "id": "q96",
+      "prompt": "What does this mean in English?\n\nNasa mesa ang aklat.",
+      "answers": [
+        "The room is quiet.",
+        "The sentence is clear.",
+        "How are you?",
+        "The book is on the table."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Nasa mesa ang aklat. — The book is on the table.\nA short Filipino statement can be complete without an English-style verb be: Tahimik ang silid. Capital letters and end punctuation make meaning easier to follow. A question mark belongs to a question; punctuation does not replace a missing idea."
+    },
+    {
+      "id": "q97",
+      "prompt": "What does this mean in English?\n\nNasaan ang aklat?",
+      "answers": [
+        "Where is the book?",
+        "The room is quiet.",
+        "The sentence is clear.",
+        "How are you?"
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Nasaan ang aklat? — Where is the book?\nA short Filipino statement can be complete without an English-style verb be: Tahimik ang silid. Capital letters and end punctuation make meaning easier to follow. A question mark belongs to a question; punctuation does not replace a missing idea."
+    },
+    {
+      "id": "q98",
+      "prompt": "What does this mean in English?\n\nMalinaw ang pangungusap.",
+      "answers": [
+        "The room is quiet.",
+        "The sentence is clear.",
+        "The book is on the table.",
+        "Where is the book?"
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Malinaw ang pangungusap. — The sentence is clear.\nA short Filipino statement can be complete without an English-style verb be: Tahimik ang silid. Capital letters and end punctuation make meaning easier to follow. A question mark belongs to a question; punctuation does not replace a missing idea."
+    },
+    {
+      "id": "q99",
+      "prompt": "What does this mean in English?\n\nNagbasa si Ari.",
+      "answers": [
+        "Sam wrote.",
+        "They learned together.",
+        "Ari read.",
+        "I still have a question."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Nagbasa si Ari. — Ari read.\nWhen reading a short text, first find the people, objects and actions. Do not translate every word separately before checking what happens. At joins ideas and means and in these examples; pero signals a contrast."
+    },
+    {
+      "id": "q100",
+      "prompt": "What does this mean in English?\n\nSumulat si Sam.",
+      "answers": [
+        "Ari read.",
+        "They learned together.",
+        "I still have a question.",
+        "Sam wrote."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Sumulat si Sam. — Sam wrote.\nWhen reading a short text, first find the people, objects and actions. Do not translate every word separately before checking what happens. At joins ideas and means and in these examples; pero signals a contrast."
+    },
+    {
+      "id": "q101",
+      "prompt": "What does this mean in English?\n\nSabay silang natuto.",
+      "answers": [
+        "They learned together.",
+        "Ari read.",
+        "Sam wrote.",
+        "I still have a question."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Sabay silang natuto. — They learned together.\nWhen reading a short text, first find the people, objects and actions. Do not translate every word separately before checking what happens. At joins ideas and means and in these examples; pero signals a contrast."
+    },
+    {
+      "id": "q102",
+      "prompt": "What does this mean in English?\n\nMay tanong pa ako.",
+      "answers": [
+        "Ari read.",
+        "I still have a question.",
+        "Sam wrote.",
+        "They learned together."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "May tanong pa ako. — I still have a question.\nWhen reading a short text, first find the people, objects and actions. Do not translate every word separately before checking what happens. At joins ideas and means and in these examples; pero signals a contrast."
+    },
+    {
+      "id": "q103",
+      "prompt": "What does this mean in English?\n\nSi Ari ang guro.",
+      "answers": [
+        "There is a book in the room.",
+        "Ari is a person’s name.",
+        "Ari is the teacher.",
+        "Aklat is a noun."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Si Ari ang guro. — Ari is the teacher.\nA pangngalan names a person, place, object or idea. A proper name starts with a capital letter. Guro is a common noun; Ari is a name. Learn labels through their role in a sentence, not only as an English word list."
+    },
+    {
+      "id": "q104",
+      "prompt": "What does this mean in English?\n\nMay aklat sa silid.",
+      "answers": [
+        "Ari is the teacher.",
+        "Ari is a person’s name.",
+        "Aklat is a noun.",
+        "There is a book in the room."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "May aklat sa silid. — There is a book in the room.\nA pangngalan names a person, place, object or idea. A proper name starts with a capital letter. Guro is a common noun; Ari is a name. Learn labels through their role in a sentence, not only as an English word list."
+    },
+    {
+      "id": "q105",
+      "prompt": "What does this mean in English?\n\nPangalan ng tao ang Ari.",
+      "answers": [
+        "Ari is a person’s name.",
+        "Ari is the teacher.",
+        "There is a book in the room.",
+        "Aklat is a noun."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Pangalan ng tao ang Ari. — Ari is a person’s name.\nA pangngalan names a person, place, object or idea. A proper name starts with a capital letter. Guro is a common noun; Ari is a name. Learn labels through their role in a sentence, not only as an English word list."
+    },
+    {
+      "id": "q106",
+      "prompt": "What does this mean in English?\n\nPangngalan ang aklat.",
+      "answers": [
+        "Ari is the teacher.",
+        "Aklat is a noun.",
+        "There is a book in the room.",
+        "Ari is a person’s name."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Pangngalan ang aklat. — Aklat is a noun.\nA pangngalan names a person, place, object or idea. A proper name starts with a capital letter. Guro is a common noun; Ari is a name. Learn labels through their role in a sentence, not only as an English word list."
+    },
+    {
+      "id": "q107",
+      "prompt": "What does this mean in English?\n\nSi Sam ang tauhan.",
+      "answers": [
+        "The setting is the library.",
+        "It was morning when they arrived.",
+        "Sam is the character.",
+        "They borrowed a book."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Si Sam ang tauhan. — Sam is the character.\nTauhan is a character; tagpuan is the place and time of a story. Answer with a detail actually stated. A guess about a person’s home is not a setting detail unless the story supports it."
+    },
+    {
+      "id": "q108",
+      "prompt": "What does this mean in English?\n\nSa silid-aklatan ang tagpuan.",
+      "answers": [
+        "Sam is the character.",
+        "It was morning when they arrived.",
+        "They borrowed a book.",
+        "The setting is the library."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Sa silid-aklatan ang tagpuan. — The setting is the library.\nTauhan is a character; tagpuan is the place and time of a story. Answer with a detail actually stated. A guess about a person’s home is not a setting detail unless the story supports it."
+    },
+    {
+      "id": "q109",
+      "prompt": "What does this mean in English?\n\nUmaga nang dumating siya.",
+      "answers": [
+        "It was morning when they arrived.",
+        "Sam is the character.",
+        "The setting is the library.",
+        "They borrowed a book."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Umaga nang dumating siya. — It was morning when they arrived.\nTauhan is a character; tagpuan is the place and time of a story. Answer with a detail actually stated. A guess about a person’s home is not a setting detail unless the story supports it."
+    },
+    {
+      "id": "q110",
+      "prompt": "What does this mean in English?\n\nMay hiniram siyang aklat.",
+      "answers": [
+        "Sam is the character.",
+        "They borrowed a book.",
+        "The setting is the library.",
+        "It was morning when they arrived."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "May hiniram siyang aklat. — They borrowed a book.\nTauhan is a character; tagpuan is the place and time of a story. Answer with a detail actually stated. A guess about a person’s home is not a setting detail unless the story supports it."
+    },
+    {
+      "id": "q111",
+      "prompt": "What does this mean in English?\n\nMalaking bag ito.",
+      "answers": [
+        "That is a small box.",
+        "I chose the green book.",
+        "This is a large bag.",
+        "The table is clean."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Malaking bag ito. — This is a large bag.\nAn adjective describes a noun. Compare malaking bag and maliit na bag: the linker changes form with the preceding word. These examples teach particular patterns; a noun or adjective can appear elsewhere in a sentence too."
+    },
+    {
+      "id": "q112",
+      "prompt": "What does this mean in English?\n\nMaliit na kahon iyon.",
+      "answers": [
+        "This is a large bag.",
+        "I chose the green book.",
+        "The table is clean.",
+        "That is a small box."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Maliit na kahon iyon. — That is a small box.\nAn adjective describes a noun. Compare malaking bag and maliit na bag: the linker changes form with the preceding word. These examples teach particular patterns; a noun or adjective can appear elsewhere in a sentence too."
+    },
+    {
+      "id": "q113",
+      "prompt": "What does this mean in English?\n\nBerdeng aklat ang pinili ko.",
+      "answers": [
+        "I chose the green book.",
+        "This is a large bag.",
+        "That is a small box.",
+        "The table is clean."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Berdeng aklat ang pinili ko. — I chose the green book.\nAn adjective describes a noun. Compare malaking bag and maliit na bag: the linker changes form with the preceding word. These examples teach particular patterns; a noun or adjective can appear elsewhere in a sentence too."
+    },
+    {
+      "id": "q114",
+      "prompt": "What does this mean in English?\n\nMalinis ang mesa.",
+      "answers": [
+        "This is a large bag.",
+        "The table is clean.",
+        "That is a small box.",
+        "I chose the green book."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Malinis ang mesa. — The table is clean.\nAn adjective describes a noun. Compare malaking bag and maliit na bag: the linker changes form with the preceding word. These examples teach particular patterns; a noun or adjective can appear elsewhere in a sentence too."
+    },
+    {
+      "id": "q115",
+      "prompt": "What does this mean in English?\n\nUna, binasa niya ang panuto.",
+      "answers": [
+        "Next, they took the paper.",
+        "Last, they wrote the answer.",
+        "First, they read the instructions.",
+        "The sequence is correct."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Una, binasa niya ang panuto. — First, they read the instructions.\nUna, sumunod and sa huli make the order of events visible. A retelling should keep the original order unless the task asks you to change it. A useful first step is to number the actions before writing."
+    },
+    {
+      "id": "q116",
+      "prompt": "What does this mean in English?\n\nSumunod, kinuha niya ang papel.",
+      "answers": [
+        "First, they read the instructions.",
+        "Last, they wrote the answer.",
+        "The sequence is correct.",
+        "Next, they took the paper."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Sumunod, kinuha niya ang papel. — Next, they took the paper.\nUna, sumunod and sa huli make the order of events visible. A retelling should keep the original order unless the task asks you to change it. A useful first step is to number the actions before writing."
+    },
+    {
+      "id": "q117",
+      "prompt": "What does this mean in English?\n\nSa huli, isinulat niya ang sagot.",
+      "answers": [
+        "Last, they wrote the answer.",
+        "First, they read the instructions.",
+        "Next, they took the paper.",
+        "The sequence is correct."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Sa huli, isinulat niya ang sagot. — Last, they wrote the answer.\nUna, sumunod and sa huli make the order of events visible. A retelling should keep the original order unless the task asks you to change it. A useful first step is to number the actions before writing."
+    },
+    {
+      "id": "q118",
+      "prompt": "What does this mean in English?\n\nTama ang pagkakasunod-sunod.",
+      "answers": [
+        "First, they read the instructions.",
+        "The sequence is correct.",
+        "Next, they took the paper.",
+        "Last, they wrote the answer."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Tama ang pagkakasunod-sunod. — The sequence is correct.\nUna, sumunod and sa huli make the order of events visible. A retelling should keep the original order unless the task asks you to change it. A useful first step is to number the actions before writing."
+    },
+    {
+      "id": "q119",
+      "prompt": "What does this mean in English?\n\nNasa kaliwa ang aklatan.",
+      "answers": [
+        "Turn right.",
+        "The shop is beside the park.",
+        "The library is on the left.",
+        "It is opposite the school."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Nasa kaliwa ang aklatan. — The library is on the left.\nKaliwa means left and kanan means right. Tapat means opposite or in front of in a location phrase; tabi means beside. Use the landmarks the text provides. A direction is not reliable if left and right are exchanged."
+    },
+    {
+      "id": "q120",
+      "prompt": "What does this mean in English?\n\nLumiko sa kanan.",
+      "answers": [
+        "The library is on the left.",
+        "The shop is beside the park.",
+        "It is opposite the school.",
+        "Turn right."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Lumiko sa kanan. — Turn right.\nKaliwa means left and kanan means right. Tapat means opposite or in front of in a location phrase; tabi means beside. Use the landmarks the text provides. A direction is not reliable if left and right are exchanged."
+    },
+    {
+      "id": "q121",
+      "prompt": "What does this mean in English?\n\nKatabi ng parke ang tindahan.",
+      "answers": [
+        "The shop is beside the park.",
+        "The library is on the left.",
+        "Turn right.",
+        "It is opposite the school."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Katabi ng parke ang tindahan. — The shop is beside the park.\nKaliwa means left and kanan means right. Tapat means opposite or in front of in a location phrase; tabi means beside. Use the landmarks the text provides. A direction is not reliable if left and right are exchanged."
+    },
+    {
+      "id": "q122",
+      "prompt": "What does this mean in English?\n\nNasa tapat ng paaralan.",
+      "answers": [
+        "The library is on the left.",
+        "It is opposite the school.",
+        "Turn right.",
+        "The shop is beside the park."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Nasa tapat ng paaralan. — It is opposite the school.\nKaliwa means left and kanan means right. Tapat means opposite or in front of in a location phrase; tabi means beside. Use the landmarks the text provides. A direction is not reliable if left and right are exchanged."
+    },
+    {
+      "id": "q123",
+      "prompt": "What does this mean in English?\n\nUmulan kaya nabasa ang daan.",
+      "answers": [
+        "This is the cause.",
+        "This is the result.",
+        "It rained, so the road became wet.",
+        "How are you?"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Umulan kaya nabasa ang daan. — It rained, so the road became wet.\nDahil introduces a cause. Kaya introduces a result. A cause explains why something happens; a result tells what follows. Do not invent an intention when the text gives only an action."
+    },
+    {
+      "id": "q124",
+      "prompt": "What does this mean in English?\n\nDahil umulan, nagdala ako ng payong.",
+      "answers": [
+        "This is the cause.",
+        "This is the result.",
+        "How are you?",
+        "Because it rained, I brought an umbrella."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Dahil umulan, nagdala ako ng payong. — Because it rained, I brought an umbrella.\nDahil introduces a cause. Kaya introduces a result. A cause explains why something happens; a result tells what follows. Do not invent an intention when the text gives only an action."
+    },
+    {
+      "id": "q125",
+      "prompt": "What does this mean in English?\n\nIto ang sanhi.",
+      "answers": [
+        "This is the cause.",
+        "It rained, so the road became wet.",
+        "Because it rained, I brought an umbrella.",
+        "This is the result."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Ito ang sanhi. — This is the cause.\nDahil introduces a cause. Kaya introduces a result. A cause explains why something happens; a result tells what follows. Do not invent an intention when the text gives only an action."
+    },
+    {
+      "id": "q126",
+      "prompt": "What does this mean in English?\n\nIto ang bunga.",
+      "answers": [
+        "It rained, so the road became wet.",
+        "This is the result.",
+        "Because it rained, I brought an umbrella.",
+        "This is the cause."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Ito ang bunga. — This is the result.\nDahil introduces a cause. Kaya introduces a result. A cause explains why something happens; a result tells what follows. Do not invent an intention when the text gives only an action."
+    },
+    {
+      "id": "q127",
+      "prompt": "What does this mean in English?\n\nTungkol sa halaman ang teksto.",
+      "answers": [
+        "A plant needs water.",
+        "Light also matters.",
+        "The text is about plants.",
+        "I found two details."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Tungkol sa halaman ang teksto. — The text is about plants.\nAn informational text explains something. Paksa is its topic; detalye gives specific information about it. Choose a topic broad enough for the whole paragraph, rather than one object mentioned in a single sentence."
+    },
+    {
+      "id": "q128",
+      "prompt": "What does this mean in English?\n\nKailangan ng tubig ang halaman.",
+      "answers": [
+        "The text is about plants.",
+        "Light also matters.",
+        "I found two details.",
+        "A plant needs water."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Kailangan ng tubig ang halaman. — A plant needs water.\nAn informational text explains something. Paksa is its topic; detalye gives specific information about it. Choose a topic broad enough for the whole paragraph, rather than one object mentioned in a single sentence."
+    },
+    {
+      "id": "q129",
+      "prompt": "What does this mean in English?\n\nMahalaga rin ang liwanag.",
+      "answers": [
+        "Light also matters.",
+        "The text is about plants.",
+        "A plant needs water.",
+        "I found two details."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Mahalaga rin ang liwanag. — Light also matters.\nAn informational text explains something. Paksa is its topic; detalye gives specific information about it. Choose a topic broad enough for the whole paragraph, rather than one object mentioned in a single sentence."
+    },
+    {
+      "id": "q130",
+      "prompt": "What does this mean in English?\n\nDalawang detalye ang nakita ko.",
+      "answers": [
+        "The text is about plants.",
+        "I found two details.",
+        "A plant needs water.",
+        "Light also matters."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Dalawang detalye ang nakita ko. — I found two details.\nAn informational text explains something. Paksa is its topic; detalye gives specific information about it. Choose a topic broad enough for the whole paragraph, rather than one object mentioned in a single sentence."
+    },
+    {
+      "id": "q131",
+      "prompt": "What does this mean in English?\n\nMagandang araw po.",
+      "answers": [
+        "May I borrow a book?",
+        "I will return it tomorrow.",
+        "Good day.",
+        "Thank you very much."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Magandang araw po. — Good day.\nA message needs a purpose and an intended reader. A greeting, clear request and closing can help. A polite particle does not replace the information the reader needs to act, such as which object you mean."
+    },
+    {
+      "id": "q132",
+      "prompt": "What does this mean in English?\n\nMaaari po bang humiram ng aklat?",
+      "answers": [
+        "Good day.",
+        "I will return it tomorrow.",
+        "Thank you very much.",
+        "May I borrow a book?"
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Maaari po bang humiram ng aklat? — May I borrow a book?\nA message needs a purpose and an intended reader. A greeting, clear request and closing can help. A polite particle does not replace the information the reader needs to act, such as which object you mean."
+    },
+    {
+      "id": "q133",
+      "prompt": "What does this mean in English?\n\nIbabalik ko ito bukas.",
+      "answers": [
+        "I will return it tomorrow.",
+        "Good day.",
+        "May I borrow a book?",
+        "Thank you very much."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Ibabalik ko ito bukas. — I will return it tomorrow.\nA message needs a purpose and an intended reader. A greeting, clear request and closing can help. A polite particle does not replace the information the reader needs to act, such as which object you mean."
+    },
+    {
+      "id": "q134",
+      "prompt": "What does this mean in English?\n\nMaraming salamat po.",
+      "answers": [
+        "Good day.",
+        "Thank you very much.",
+        "May I borrow a book?",
+        "I will return it tomorrow."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Maraming salamat po. — Thank you very much.\nA message needs a purpose and an intended reader. A greeting, clear request and closing can help. A polite particle does not replace the information the reader needs to act, such as which object you mean."
+    }
+  ]
+}

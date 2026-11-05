@@ -1,3 +1,5 @@
+import {isReviewedAudio} from './speech.js';
+import {validateLessonExtension} from './curriculum.js';
 export const SCHEMA_VERSION = 1;
 export function normalize(value) {
   return String(value).normalize('NFKC').toLocaleLowerCase().replace(/[’‘]/g, "'").replace(/[.,!?;:¡¿。！？]/g, '').replace(/\s+/g, ' ').trim();
@@ -37,12 +39,13 @@ export function validateCourse(course) {
   if (course.attributions != null && (!Array.isArray(course.attributions) || course.attributions.length > 100 || !course.attributions.every(a => a && str(a.author,100) && safeId.test(a.courseId || '') && a.license === 'CC-BY-SA-4.0'))) errors.push('Invalid contributor attribution list.');
   if (!['draft', 'reviewed'].includes(course.status)) errors.push('Status must be draft or reviewed.');
   if (course.status === 'reviewed' && (!Array.isArray(course.reviewers) || !course.reviewers.length || !course.reviewers.every(x => str(x,100)))) errors.push('Reviewed courses require named reviewers.');
-  if (!Array.isArray(course.lessons) || !course.lessons.length || course.lessons.length > 100) return [...errors, 'A course needs 1–100 lessons.'];
+  if (!Array.isArray(course.lessons) || !course.lessons.length || course.lessons.length > 300) return [...errors, 'A course needs 1–300 lessons.'];
   const ids = new Set();
   const unique = (id, label) => { if (!safeId.test(id || '')) errors.push(`${label}: invalid id.`); else if (ids.has(id)) errors.push(`${label}: duplicate id ${id}.`); ids.add(id); };
   for (const lesson of course.lessons) {
     if (!lesson || typeof lesson !== 'object') { errors.push('Invalid lesson.'); continue; }
     unique(lesson.id, 'Lesson');
+    errors.push(...validateLessonExtension(lesson));
     if (!str(lesson.title, 100)) errors.push('Lesson title is required.');
     if (!str(lesson.goal, 300)) errors.push(`${lesson.id}: add a practical goal.`);
     if (lesson.tip != null && !str(lesson.tip, 1000)) errors.push(`${lesson.id}: invalid tip.`);
@@ -56,11 +59,12 @@ export function validateCourse(course) {
       if (entry.note != null && (typeof entry.note !== 'string' || entry.note.length > 600)) errors.push(`${entry.id}: note is too long.`);
       if (entry.accepted != null && (!Array.isArray(entry.accepted) || entry.accepted.length > 12 || !entry.accepted.every(v => str(v)))) errors.push(`${entry.id}: accepted answers must be short text strings.`);
       if (entry.audio != null && !/^audio\/[a-zA-Z0-9/_-]+\.(mp3|ogg|wav)$/.test(entry.audio)) errors.push(`${entry.id}: audio must be a local audio/ path (mp3, ogg or wav).`);
+      if (entry.audio != null && !isReviewedAudio(entry)) errors.push(`${entry.id}: audio requires an approved, text-matched fluent-speaker review.`);
     }
   }
   return errors;
 }
-export function freshProgress() { return { version: 1, xp: 0, lessons: {}, cards: {}, activity: {}, awards: {} }; }
+export function freshProgress() { return { version: 1, xp: 0, lessons: {}, cards: {}, activity: {}, awards: {}, writing: {} }; }
 export function localDay(date = new Date()) { return `${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,'0')}-${String(date.getDate()).padStart(2,'0')}`; }
 export function streak(activity, now = new Date()) {
   const date = new Date(now); date.setHours(12,0,0,0);
@@ -89,7 +93,7 @@ export function finishSession(progress, course, lessonId, answers, now = new Dat
   updated.activity[today] = (updated.activity[today] || 0) + 1;
   // A corrected retry never erases a mistake made earlier in this session.
   const grouped = new Map();
-  for (const answer of answers) { const k = cardKey(course,answer.entry); grouped.set(k, (grouped.get(k) ?? true) && answer.correct); }
+  for (const answer of answers) { if(!answer.entry)continue; const k = cardKey(course,answer.entry); grouped.set(k, (grouped.get(k) ?? true) && answer.correct); }
   for (const [k, success] of grouped) updated.cards[k] = scheduleCard(updated.cards[k], success, now.getTime());
   return { progress: updated, xp, accuracy };
 }
@@ -106,6 +110,13 @@ export function safeProgress(value) {
       if (field === 'activity' && (!/^\d{4}-\d{2}-\d{2}$/.test(key) || !Number.isInteger(item) || item < 0)) throw new Error('Invalid activity record.');
       if (field === 'awards' && item !== true) throw new Error('Invalid XP award.');
       result[field][key] = item;
+    }
+  }
+  if(value.writing != null){
+    if(typeof value.writing !== 'object' || Array.isArray(value.writing) || Object.keys(value.writing).length>20000)throw new Error('Invalid writing backup.');
+    for(const [key,item] of Object.entries(value.writing)){
+      if(!/^[a-z][a-z0-9-]{0,63}:[a-z][a-z0-9-]{0,63}$/.test(key)||!item||typeof item.text!=='string'||item.text.length>6000||!Number.isFinite(item.updated))throw new Error('Invalid saved writing.');
+      result.writing[key]={text:item.text,updated:item.updated};
     }
   }
   return result;

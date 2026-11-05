@@ -1,0 +1,321 @@
+{
+  "schemaVersion": 1,
+  "id": "tara-fil-en-c2",
+  "title": "Tara! · Filipino · C2 practice",
+  "author": "Tara contributors · CC BY-SA 4.0",
+  "language": "en",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What does this mean in English?\n\nKapwa may batayan ang dalawang pagbasa.",
+      "answers": [
+        "Both readings have a basis.",
+        "The ending does not entirely dispel the ambiguity.",
+        "The reading is stronger when linked to the earlier scene.",
+        "Silence should not be mistaken for agreement."
+      ],
+      "correct": 0,
+      "difficulty": 4,
+      "explanation": "Kapwa may batayan ang dalawang pagbasa. — Both readings have a basis.\nAn advanced response can preserve ambiguity rather than force one answer. Compare the explanatory strength and limits of each reading, and show what further context would change your judgment."
+    },
+    {
+      "id": "q2",
+      "prompt": "What does this mean in English?\n\nHindi ganap na napapawi ng wakas ang kalabuan.",
+      "answers": [
+        "Both readings have a basis.",
+        "The ending does not entirely dispel the ambiguity.",
+        "The reading is stronger when linked to the earlier scene.",
+        "Silence should not be mistaken for agreement."
+      ],
+      "correct": 1,
+      "difficulty": 4,
+      "explanation": "Hindi ganap na napapawi ng wakas ang kalabuan. — The ending does not entirely dispel the ambiguity.\nAn advanced response can preserve ambiguity rather than force one answer. Compare the explanatory strength and limits of each reading, and show what further context would change your judgment."
+    },
+    {
+      "id": "q3",
+      "prompt": "What does this mean in English?\n\nMas matibay ang pagbasa kung iuugnay sa naunang tagpo.",
+      "answers": [
+        "Both readings have a basis.",
+        "The ending does not entirely dispel the ambiguity.",
+        "The reading is stronger when linked to the earlier scene.",
+        "Silence should not be mistaken for agreement."
+      ],
+      "correct": 2,
+      "difficulty": 4,
+      "explanation": "Mas matibay ang pagbasa kung iuugnay sa naunang tagpo. — The reading is stronger when linked to the earlier scene.\nAn advanced response can preserve ambiguity rather than force one answer. Compare the explanatory strength and limits of each reading, and show what further context would change your judgment."
+    },
+    {
+      "id": "q4",
+      "prompt": "What does this mean in English?\n\nHindi dapat ipagkamali ang katahimikan sa pagsang-ayon.",
+      "answers": [
+        "Both readings have a basis.",
+        "The ending does not entirely dispel the ambiguity.",
+        "The reading is stronger when linked to the earlier scene.",
+        "Silence should not be mistaken for agreement."
+      ],
+      "correct": 3,
+      "difficulty": 4,
+      "explanation": "Hindi dapat ipagkamali ang katahimikan sa pagsang-ayon. — Silence should not be mistaken for agreement.\nAn advanced response can preserve ambiguity rather than force one answer. Compare the explanatory strength and limits of each reading, and show what further context would change your judgment."
+    },
+    {
+      "id": "q5",
+      "prompt": "What does this mean in English?\n\nSadyang iniiwang bukas ang ugnayan ng dalawang detalye.",
+      "answers": [
+        "The relationship between the two details is deliberately left open.",
+        "Both readings have a basis.",
+        "The ending does not entirely dispel the ambiguity.",
+        "The reading is stronger when linked to the earlier scene."
+      ],
+      "correct": 0,
+      "difficulty": 4,
+      "explanation": "Sadyang iniiwang bukas ang ugnayan ng dalawang detalye. — The relationship between the two details is deliberately left open.\nAn advanced response can preserve ambiguity rather than force one answer. Compare the explanatory strength and limits of each reading, and show what further context would change your judgment."
+    },
+    {
+      "id": "q6",
+      "prompt": "What does this mean in English?\n\nMababago ang hatol kung may dagdag na konteksto.",
+      "answers": [
+        "Both readings have a basis.",
+        "Additional context could change the judgment.",
+        "The ending does not entirely dispel the ambiguity.",
+        "The reading is stronger when linked to the earlier scene."
+      ],
+      "correct": 1,
+      "difficulty": 4,
+      "explanation": "Mababago ang hatol kung may dagdag na konteksto. — Additional context could change the judgment.\nAn advanced response can preserve ambiguity rather than force one answer. Compare the explanatory strength and limits of each reading, and show what further context would change your judgment."
+    },
+    {
+      "id": "q7",
+      "prompt": "What does this mean in English?\n\nHindi pa naihihiwalay ang ugnayan sa sanhi.",
+      "answers": [
+        "Several explanations may operate at the same time.",
+        "The bases of comparison need to be comparable.",
+        "Association has not yet been distinguished from cause.",
+        "This limitation does not invalidate the entire observation."
+      ],
+      "correct": 2,
+      "difficulty": 4,
+      "explanation": "Hindi pa naihihiwalay ang ugnayan sa sanhi. — Association has not yet been distinguished from cause.\nDistinguish an observation from a causal explanation. Agreement on a trend does not identify its cause. Examine alternatives, comparability and the information needed to distinguish them."
+    },
+    {
+      "id": "q8",
+      "prompt": "What does this mean in English?\n\nMaaaring sabay na umiiral ang ilang paliwanag.",
+      "answers": [
+        "Association has not yet been distinguished from cause.",
+        "The bases of comparison need to be comparable.",
+        "This limitation does not invalidate the entire observation.",
+        "Several explanations may operate at the same time."
+      ],
+      "correct": 3,
+      "difficulty": 4,
+      "explanation": "Maaaring sabay na umiiral ang ilang paliwanag. — Several explanations may operate at the same time.\nDistinguish an observation from a causal explanation. Agreement on a trend does not identify its cause. Examine alternatives, comparability and the information needed to distinguish them."
+    },
+    {
+      "id": "q9",
+      "prompt": "What does this mean in English?\n\nKailangang magkatulad ang batayan ng paghahambing.",
+      "answers": [
+        "The bases of comparison need to be comparable.",
+        "Association has not yet been distinguished from cause.",
+        "Several explanations may operate at the same time.",
+        "This limitation does not invalidate the entire observation."
+      ],
+      "correct": 0,
+      "difficulty": 4,
+      "explanation": "Kailangang magkatulad ang batayan ng paghahambing. — The bases of comparison need to be comparable.\nDistinguish an observation from a causal explanation. Agreement on a trend does not identify its cause. Examine alternatives, comparability and the information needed to distinguish them."
+    },
+    {
+      "id": "q10",
+      "prompt": "What does this mean in English?\n\nHindi pinabubulaanan ng limitasyong ito ang buong obserbasyon.",
+      "answers": [
+        "Association has not yet been distinguished from cause.",
+        "This limitation does not invalidate the entire observation.",
+        "Several explanations may operate at the same time.",
+        "The bases of comparison need to be comparable."
+      ],
+      "correct": 1,
+      "difficulty": 4,
+      "explanation": "Hindi pinabubulaanan ng limitasyong ito ang buong obserbasyon. — This limitation does not invalidate the entire observation.\nDistinguish an observation from a causal explanation. Agreement on a trend does not identify its cause. Examine alternatives, comparability and the information needed to distinguish them."
+    },
+    {
+      "id": "q11",
+      "prompt": "What does this mean in English?\n\nNararapat na pansamantala ang konklusyon.",
+      "answers": [
+        "Association has not yet been distinguished from cause.",
+        "Several explanations may operate at the same time.",
+        "The conclusion should remain provisional.",
+        "The bases of comparison need to be comparable."
+      ],
+      "correct": 2,
+      "difficulty": 4,
+      "explanation": "Nararapat na pansamantala ang konklusyon. — The conclusion should remain provisional.\nDistinguish an observation from a causal explanation. Agreement on a trend does not identify its cause. Examine alternatives, comparability and the information needed to distinguish them."
+    },
+    {
+      "id": "q12",
+      "prompt": "What does this mean in English?\n\nAng mahalaga ay kung anong ebidensiya ang makapagpapabago sa hatol.",
+      "answers": [
+        "Association has not yet been distinguished from cause.",
+        "Several explanations may operate at the same time.",
+        "The bases of comparison need to be comparable.",
+        "What matters is what evidence could change the judgment."
+      ],
+      "correct": 3,
+      "difficulty": 4,
+      "explanation": "Ang mahalaga ay kung anong ebidensiya ang makapagpapabago sa hatol. — What matters is what evidence could change the judgment.\nDistinguish an observation from a causal explanation. Agreement on a trend does not identify its cause. Examine alternatives, comparability and the information needed to distinguish them."
+    },
+    {
+      "id": "q13",
+      "prompt": "What does this mean in English?\n\nMagkapareho ang hangarin ngunit magkaiba ang prayoridad.",
+      "answers": [
+        "The aim is shared but priorities differ.",
+        "Could we clarify which point remains disputed?",
+        "We need not deny the difference in order to act.",
+        "Let’s first separate criticism from assumptions about motives."
+      ],
+      "correct": 0,
+      "difficulty": 4,
+      "explanation": "Magkapareho ang hangarin ngunit magkaiba ang prayoridad. — The aim is shared but priorities differ.\nMediation does not mean pretending everyone agrees. Distinguish shared goals, conflicting priorities and negotiable actions. Reformulate an accusation as a concern without erasing responsibility."
+    },
+    {
+      "id": "q14",
+      "prompt": "What does this mean in English?\n\nMaaari bang linawin kung alin ang hindi mapagkakasunduan?",
+      "answers": [
+        "The aim is shared but priorities differ.",
+        "Could we clarify which point remains disputed?",
+        "We need not deny the difference in order to act.",
+        "Let’s first separate criticism from assumptions about motives."
+      ],
+      "correct": 1,
+      "difficulty": 4,
+      "explanation": "Maaari bang linawin kung alin ang hindi mapagkakasunduan? — Could we clarify which point remains disputed?\nMediation does not mean pretending everyone agrees. Distinguish shared goals, conflicting priorities and negotiable actions. Reformulate an accusation as a concern without erasing responsibility."
+    },
+    {
+      "id": "q15",
+      "prompt": "What does this mean in English?\n\nHindi natin kailangang itanggi ang pagkakaiba upang makakilos.",
+      "answers": [
+        "The aim is shared but priorities differ.",
+        "Could we clarify which point remains disputed?",
+        "We need not deny the difference in order to act.",
+        "Let’s first separate criticism from assumptions about motives."
+      ],
+      "correct": 2,
+      "difficulty": 4,
+      "explanation": "Hindi natin kailangang itanggi ang pagkakaiba upang makakilos. — We need not deny the difference in order to act.\nMediation does not mean pretending everyone agrees. Distinguish shared goals, conflicting priorities and negotiable actions. Reformulate an accusation as a concern without erasing responsibility."
+    },
+    {
+      "id": "q16",
+      "prompt": "What does this mean in English?\n\nIhiwalay muna natin ang puna sa pagpapalagay sa motibo.",
+      "answers": [
+        "The aim is shared but priorities differ.",
+        "Could we clarify which point remains disputed?",
+        "We need not deny the difference in order to act.",
+        "Let’s first separate criticism from assumptions about motives."
+      ],
+      "correct": 3,
+      "difficulty": 4,
+      "explanation": "Ihiwalay muna natin ang puna sa pagpapalagay sa motibo. — Let’s first separate criticism from assumptions about motives.\nMediation does not mean pretending everyone agrees. Distinguish shared goals, conflicting priorities and negotiable actions. Reformulate an accusation as a concern without erasing responsibility."
+    },
+    {
+      "id": "q17",
+      "prompt": "What does this mean in English?\n\nMay pansamantalang hakbang na katanggap-tanggap sa magkabilang panig.",
+      "answers": [
+        "There is an interim step acceptable to both sides.",
+        "The aim is shared but priorities differ.",
+        "Could we clarify which point remains disputed?",
+        "We need not deny the difference in order to act."
+      ],
+      "correct": 0,
+      "difficulty": 4,
+      "explanation": "May pansamantalang hakbang na katanggap-tanggap sa magkabilang panig. — There is an interim step acceptable to both sides.\nMediation does not mean pretending everyone agrees. Distinguish shared goals, conflicting priorities and negotiable actions. Reformulate an accusation as a concern without erasing responsibility."
+    },
+    {
+      "id": "q18",
+      "prompt": "What does this mean in English?\n\nDapat manatiling malinaw kung sino ang may pananagutan.",
+      "answers": [
+        "The aim is shared but priorities differ.",
+        "Responsibility should remain clear.",
+        "Could we clarify which point remains disputed?",
+        "We need not deny the difference in order to act."
+      ],
+      "correct": 1,
+      "difficulty": 4,
+      "explanation": "Dapat manatiling malinaw kung sino ang may pananagutan. — Responsibility should remain clear.\nMediation does not mean pretending everyone agrees. Distinguish shared goals, conflicting priorities and negotiable actions. Reformulate an accusation as a concern without erasing responsibility."
+    },
+    {
+      "id": "q19",
+      "prompt": "What does this mean in English?\n\nMaaari kong ipagtanggol ang interpretasyon nang hindi isinasara ang usapan.",
+      "answers": [
+        "I revised the thesis after examining the objection.",
+        "I adapt the explanation to the reader’s knowledge.",
+        "I can defend an interpretation without closing the discussion.",
+        "I preserved the important differences in the synthesis."
+      ],
+      "correct": 2,
+      "difficulty": 4,
+      "explanation": "Maaari kong ipagtanggol ang interpretasyon nang hindi isinasara ang usapan. — I can defend an interpretation without closing the discussion.\nThis capstone is guided practice, not a certified C2 assessment. Show how your reasoning changes after a counterexample or new detail. Use a portfolio to identify what you still need to practise with a fluent reader or teacher."
+    },
+    {
+      "id": "q20",
+      "prompt": "What does this mean in English?\n\nBinago ko ang tesis matapos suriin ang pagtutol.",
+      "answers": [
+        "I can defend an interpretation without closing the discussion.",
+        "I adapt the explanation to the reader’s knowledge.",
+        "I preserved the important differences in the synthesis.",
+        "I revised the thesis after examining the objection."
+      ],
+      "correct": 3,
+      "difficulty": 4,
+      "explanation": "Binago ko ang tesis matapos suriin ang pagtutol. — I revised the thesis after examining the objection.\nThis capstone is guided practice, not a certified C2 assessment. Show how your reasoning changes after a counterexample or new detail. Use a portfolio to identify what you still need to practise with a fluent reader or teacher."
+    },
+    {
+      "id": "q21",
+      "prompt": "What does this mean in English?\n\nIbinabagay ko ang paliwanag sa kaalaman ng mambabasa.",
+      "answers": [
+        "I adapt the explanation to the reader’s knowledge.",
+        "I can defend an interpretation without closing the discussion.",
+        "I revised the thesis after examining the objection.",
+        "I preserved the important differences in the synthesis."
+      ],
+      "correct": 0,
+      "difficulty": 4,
+      "explanation": "Ibinabagay ko ang paliwanag sa kaalaman ng mambabasa. — I adapt the explanation to the reader’s knowledge.\nThis capstone is guided practice, not a certified C2 assessment. Show how your reasoning changes after a counterexample or new detail. Use a portfolio to identify what you still need to practise with a fluent reader or teacher."
+    },
+    {
+      "id": "q22",
+      "prompt": "What does this mean in English?\n\nNapanatili ko ang mahahalagang pagkakaiba sa sintesis.",
+      "answers": [
+        "I can defend an interpretation without closing the discussion.",
+        "I preserved the important differences in the synthesis.",
+        "I revised the thesis after examining the objection.",
+        "I adapt the explanation to the reader’s knowledge."
+      ],
+      "correct": 1,
+      "difficulty": 4,
+      "explanation": "Napanatili ko ang mahahalagang pagkakaiba sa sintesis. — I preserved the important differences in the synthesis.\nThis capstone is guided practice, not a certified C2 assessment. Show how your reasoning changes after a counterexample or new detail. Use a portfolio to identify what you still need to practise with a fluent reader or teacher."
+    },
+    {
+      "id": "q23",
+      "prompt": "What does this mean in English?\n\nKailangan ko pa ng puna sa likas na daloy ng wika.",
+      "answers": [
+        "I can defend an interpretation without closing the discussion.",
+        "I revised the thesis after examining the objection.",
+        "I still need feedback on the language’s natural flow.",
+        "I adapt the explanation to the reader’s knowledge."
+      ],
+      "correct": 2,
+      "difficulty": 4,
+      "explanation": "Kailangan ko pa ng puna sa likas na daloy ng wika. — I still need feedback on the language’s natural flow.\nThis capstone is guided practice, not a certified C2 assessment. Show how your reasoning changes after a counterexample or new detail. Use a portfolio to identify what you still need to practise with a fluent reader or teacher."
+    },
+    {
+      "id": "q24",
+      "prompt": "What does this mean in English?\n\nAng pagtatapos ng pagsasanay ay hindi katumbas ng sertipikasyon.",
+      "answers": [
+        "I can defend an interpretation without closing the discussion.",
+        "I revised the thesis after examining the objection.",
+        "I adapt the explanation to the reader’s knowledge.",
+        "Completing practice is not equivalent to certification."
+      ],
+      "correct": 3,
+      "difficulty": 4,
+      "explanation": "Ang pagtatapos ng pagsasanay ay hindi katumbas ng sertipikasyon. — Completing practice is not equivalent to certification.\nThis capstone is guided practice, not a certified C2 assessment. Show how your reasoning changes after a counterexample or new detail. Use a portfolio to identify what you still need to practise with a fluent reader or teacher."
+    }
+  ]
+}

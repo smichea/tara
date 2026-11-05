@@ -7,3 +7,9 @@ artifacts/
 .env.*
 *.tar.gz
 .DS_Store
+
+.museum/
+.venv-audio/
+__pycache__/
+audio-review/*.json
+audio-review/*/

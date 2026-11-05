@@ -1,0 +1,425 @@
+{
+  "schemaVersion": 1,
+  "id": "tara-fil-en-school-foundations",
+  "title": "Tara! · Filipino · Foundations",
+  "author": "Tara contributors · CC BY-SA 4.0",
+  "language": "en",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What does this mean in English?\n\nA, e, i, o, u.",
+      "answers": [
+        "The five vowel letters.",
+        "The syllable division is ba-ta.",
+        "Bata has two syllables.",
+        "Let us read slowly."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "A, e, i, o, u. — The five vowel letters.\nFilipino uses the vowel letters a, e, i, o and u. A syllable has a vowel sound; syllables are not the same as letters. English spelling habits can mislead. Use a reviewed recording or a fluent listener for sound and stress, rather than guessing from English."
+    },
+    {
+      "id": "q2",
+      "prompt": "What does this mean in English?\n\nBa-ta ang hati sa pantig.",
+      "answers": [
+        "The five vowel letters.",
+        "The syllable division is ba-ta.",
+        "Bata has two syllables.",
+        "Let us read slowly."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Ba-ta ang hati sa pantig. — The syllable division is ba-ta.\nFilipino uses the vowel letters a, e, i, o and u. A syllable has a vowel sound; syllables are not the same as letters. English spelling habits can mislead. Use a reviewed recording or a fluent listener for sound and stress, rather than guessing from English."
+    },
+    {
+      "id": "q3",
+      "prompt": "What does this mean in English?\n\nDalawang pantig ang bata.",
+      "answers": [
+        "The five vowel letters.",
+        "The syllable division is ba-ta.",
+        "Bata has two syllables.",
+        "Let us read slowly."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Dalawang pantig ang bata. — Bata has two syllables.\nFilipino uses the vowel letters a, e, i, o and u. A syllable has a vowel sound; syllables are not the same as letters. English spelling habits can mislead. Use a reviewed recording or a fluent listener for sound and stress, rather than guessing from English."
+    },
+    {
+      "id": "q4",
+      "prompt": "What does this mean in English?\n\nBasahin natin nang dahan-dahan.",
+      "answers": [
+        "The five vowel letters.",
+        "The syllable division is ba-ta.",
+        "Bata has two syllables.",
+        "Let us read slowly."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Basahin natin nang dahan-dahan. — Let us read slowly.\nFilipino uses the vowel letters a, e, i, o and u. A syllable has a vowel sound; syllables are not the same as letters. English spelling habits can mislead. Use a reviewed recording or a fluent listener for sound and stress, rather than guessing from English."
+    },
+    {
+      "id": "q5",
+      "prompt": "What does this mean in English?\n\nMay ngiti siya.",
+      "answers": [
+        "They have a smile.",
+        "These are books.",
+        "The teacher’s book.",
+        "There are three pencils."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "May ngiti siya. — They have a smile.\nNg can appear within a word such as ngiti, and ng is also a separate grammatical word. Mga marks plurality before a noun. Their pronunciation cannot safely be inferred from English letter names. Learn each in a short phrase and check a reviewed recording."
+    },
+    {
+      "id": "q6",
+      "prompt": "What does this mean in English?\n\nMga aklat ito.",
+      "answers": [
+        "They have a smile.",
+        "These are books.",
+        "The teacher’s book.",
+        "There are three pencils."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Mga aklat ito. — These are books.\nNg can appear within a word such as ngiti, and ng is also a separate grammatical word. Mga marks plurality before a noun. Their pronunciation cannot safely be inferred from English letter names. Learn each in a short phrase and check a reviewed recording."
+    },
+    {
+      "id": "q7",
+      "prompt": "What does this mean in English?\n\nAklat ng guro.",
+      "answers": [
+        "They have a smile.",
+        "These are books.",
+        "The teacher’s book.",
+        "There are three pencils."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Aklat ng guro. — The teacher’s book.\nNg can appear within a word such as ngiti, and ng is also a separate grammatical word. Mga marks plurality before a noun. Their pronunciation cannot safely be inferred from English letter names. Learn each in a short phrase and check a reviewed recording."
+    },
+    {
+      "id": "q8",
+      "prompt": "What does this mean in English?\n\nMay tatlong lapis.",
+      "answers": [
+        "They have a smile.",
+        "These are books.",
+        "The teacher’s book.",
+        "There are three pencils."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "May tatlong lapis. — There are three pencils.\nNg can appear within a word such as ngiti, and ng is also a separate grammatical word. Mga marks plurality before a noun. Their pronunciation cannot safely be inferred from English letter names. Learn each in a short phrase and check a reviewed recording."
+    },
+    {
+      "id": "q9",
+      "prompt": "What does this mean in English?\n\nEstudyante ako.",
+      "answers": [
+        "I am a student.",
+        "Are you ready?",
+        "They are my friend.",
+        "I am Niko."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Estudyante ako. — I am a student.\nAko refers to the speaker, ka to the person addressed in this pattern, and siya to another person. Siya does not specify gender. The order in Ako si… differs from Estudyante ako; learn complete patterns rather than inserting English word order."
+    },
+    {
+      "id": "q10",
+      "prompt": "What does this mean in English?\n\nHanda ka na ba?",
+      "answers": [
+        "I am a student.",
+        "Are you ready?",
+        "They are my friend.",
+        "I am Niko."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Handa ka na ba? — Are you ready?\nAko refers to the speaker, ka to the person addressed in this pattern, and siya to another person. Siya does not specify gender. The order in Ako si… differs from Estudyante ako; learn complete patterns rather than inserting English word order."
+    },
+    {
+      "id": "q11",
+      "prompt": "What does this mean in English?\n\nKaibigan ko siya.",
+      "answers": [
+        "I am a student.",
+        "Are you ready?",
+        "They are my friend.",
+        "I am Niko."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Kaibigan ko siya. — They are my friend.\nAko refers to the speaker, ka to the person addressed in this pattern, and siya to another person. Siya does not specify gender. The order in Ako si… differs from Estudyante ako; learn complete patterns rather than inserting English word order."
+    },
+    {
+      "id": "q12",
+      "prompt": "What does this mean in English?\n\nAko si Niko.",
+      "answers": [
+        "I am a student.",
+        "Are you ready?",
+        "They are my friend.",
+        "I am Niko."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Ako si Niko. — I am Niko.\nAko refers to the speaker, ka to the person addressed in this pattern, and siya to another person. Siya does not specify gender. The order in Ako si… differs from Estudyante ako; learn complete patterns rather than inserting English word order."
+    },
+    {
+      "id": "q13",
+      "prompt": "What does this mean in English?\n\nAno ito?",
+      "answers": [
+        "What is this?",
+        "Who are they?",
+        "Where is the room?",
+        "Please repeat."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Ano ito? — What is this?\nAno asks what; sino asks who; saan asks where. Ba marks a yes/no question in patterns such as Handa ka na ba? A learner can ask for repetition politely without pretending to understand."
+    },
+    {
+      "id": "q14",
+      "prompt": "What does this mean in English?\n\nSino siya?",
+      "answers": [
+        "What is this?",
+        "Who are they?",
+        "Where is the room?",
+        "Please repeat."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Sino siya? — Who are they?\nAno asks what; sino asks who; saan asks where. Ba marks a yes/no question in patterns such as Handa ka na ba? A learner can ask for repetition politely without pretending to understand."
+    },
+    {
+      "id": "q15",
+      "prompt": "What does this mean in English?\n\nSaan ang silid?",
+      "answers": [
+        "What is this?",
+        "Who are they?",
+        "Where is the room?",
+        "Please repeat."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Saan ang silid? — Where is the room?\nAno asks what; sino asks who; saan asks where. Ba marks a yes/no question in patterns such as Handa ka na ba? A learner can ask for repetition politely without pretending to understand."
+    },
+    {
+      "id": "q16",
+      "prompt": "What does this mean in English?\n\nPakiulit po.",
+      "answers": [
+        "What is this?",
+        "Who are they?",
+        "Where is the room?",
+        "Please repeat."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Pakiulit po. — Please repeat.\nAno asks what; sino asks who; saan asks where. Ba marks a yes/no question in patterns such as Handa ka na ba? A learner can ask for repetition politely without pretending to understand."
+    },
+    {
+      "id": "q17",
+      "prompt": "What does this mean in English?\n\nBuksan ang aklat.",
+      "answers": [
+        "Open the book.",
+        "Write the name.",
+        "Put it in the bag.",
+        "Then sit down."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Buksan ang aklat. — Open the book.\nSa can introduce a location, such as sa mesa (on/at the table) or sa bag (in the bag), depending on context. Then is pagkatapos. Read all parts of a direction before acting; a small location word can change the task."
+    },
+    {
+      "id": "q18",
+      "prompt": "What does this mean in English?\n\nIsulat ang pangalan.",
+      "answers": [
+        "Open the book.",
+        "Write the name.",
+        "Put it in the bag.",
+        "Then sit down."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Isulat ang pangalan. — Write the name.\nSa can introduce a location, such as sa mesa (on/at the table) or sa bag (in the bag), depending on context. Then is pagkatapos. Read all parts of a direction before acting; a small location word can change the task."
+    },
+    {
+      "id": "q19",
+      "prompt": "What does this mean in English?\n\nIlagay sa bag.",
+      "answers": [
+        "Open the book.",
+        "Write the name.",
+        "Put it in the bag.",
+        "Then sit down."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Ilagay sa bag. — Put it in the bag.\nSa can introduce a location, such as sa mesa (on/at the table) or sa bag (in the bag), depending on context. Then is pagkatapos. Read all parts of a direction before acting; a small location word can change the task."
+    },
+    {
+      "id": "q20",
+      "prompt": "What does this mean in English?\n\nPagkatapos, umupo.",
+      "answers": [
+        "Open the book.",
+        "Write the name.",
+        "Put it in the bag.",
+        "Then sit down."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Pagkatapos, umupo. — Then sit down.\nSa can introduce a location, such as sa mesa (on/at the table) or sa bag (in the bag), depending on context. Then is pagkatapos. Read all parts of a direction before acting; a small location word can change the task."
+    },
+    {
+      "id": "q21",
+      "prompt": "What does this mean in English?\n\nMay lapis ako.",
+      "answers": [
+        "I have a pencil.",
+        "I do not have paper.",
+        "I am not a teacher.",
+        "It is not finished yet."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "May lapis ako. — I have a pencil.\nMay expresses existence or having something; wala expresses absence or not having it. Hindi negates many descriptions and actions. Wala akong lapis and Hindi ako guro use different patterns; one English word not cannot replace all Filipino negatives."
+    },
+    {
+      "id": "q22",
+      "prompt": "What does this mean in English?\n\nWala akong papel.",
+      "answers": [
+        "I have a pencil.",
+        "I do not have paper.",
+        "I am not a teacher.",
+        "It is not finished yet."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Wala akong papel. — I do not have paper.\nMay expresses existence or having something; wala expresses absence or not having it. Hindi negates many descriptions and actions. Wala akong lapis and Hindi ako guro use different patterns; one English word not cannot replace all Filipino negatives."
+    },
+    {
+      "id": "q23",
+      "prompt": "What does this mean in English?\n\nHindi ako guro.",
+      "answers": [
+        "I have a pencil.",
+        "I do not have paper.",
+        "I am not a teacher.",
+        "It is not finished yet."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Hindi ako guro. — I am not a teacher.\nMay expresses existence or having something; wala expresses absence or not having it. Hindi negates many descriptions and actions. Wala akong lapis and Hindi ako guro use different patterns; one English word not cannot replace all Filipino negatives."
+    },
+    {
+      "id": "q24",
+      "prompt": "What does this mean in English?\n\nHindi pa tapos.",
+      "answers": [
+        "I have a pencil.",
+        "I do not have paper.",
+        "I am not a teacher.",
+        "It is not finished yet."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Hindi pa tapos. — It is not finished yet.\nMay expresses existence or having something; wala expresses absence or not having it. Hindi negates many descriptions and actions. Wala akong lapis and Hindi ako guro use different patterns; one English word not cannot replace all Filipino negatives."
+    },
+    {
+      "id": "q25",
+      "prompt": "What does this mean in English?\n\nTahimik ang silid.",
+      "answers": [
+        "The room is quiet.",
+        "The book is on the table.",
+        "Where is the book?",
+        "The sentence is clear."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Tahimik ang silid. — The room is quiet.\nA short Filipino statement can be complete without an English-style verb be: Tahimik ang silid. Capital letters and end punctuation make meaning easier to follow. A question mark belongs to a question; punctuation does not replace a missing idea."
+    },
+    {
+      "id": "q26",
+      "prompt": "What does this mean in English?\n\nNasa mesa ang aklat.",
+      "answers": [
+        "The room is quiet.",
+        "The book is on the table.",
+        "The sentence is clear.",
+        "The five vowel letters."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Nasa mesa ang aklat. — The book is on the table.\nA short Filipino statement can be complete without an English-style verb be: Tahimik ang silid. Capital letters and end punctuation make meaning easier to follow. A question mark belongs to a question; punctuation does not replace a missing idea."
+    },
+    {
+      "id": "q27",
+      "prompt": "What does this mean in English?\n\nNasaan ang aklat?",
+      "answers": [
+        "The room is quiet.",
+        "The sentence is clear.",
+        "Where is the book?",
+        "The five vowel letters."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Nasaan ang aklat? — Where is the book?\nA short Filipino statement can be complete without an English-style verb be: Tahimik ang silid. Capital letters and end punctuation make meaning easier to follow. A question mark belongs to a question; punctuation does not replace a missing idea."
+    },
+    {
+      "id": "q28",
+      "prompt": "What does this mean in English?\n\nMalinaw ang pangungusap.",
+      "answers": [
+        "The room is quiet.",
+        "The book is on the table.",
+        "Where is the book?",
+        "The sentence is clear."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Malinaw ang pangungusap. — The sentence is clear.\nA short Filipino statement can be complete without an English-style verb be: Tahimik ang silid. Capital letters and end punctuation make meaning easier to follow. A question mark belongs to a question; punctuation does not replace a missing idea."
+    },
+    {
+      "id": "q29",
+      "prompt": "What does this mean in English?\n\nNagbasa si Ari.",
+      "answers": [
+        "Ari read.",
+        "Sam wrote.",
+        "They learned together.",
+        "I still have a question."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Nagbasa si Ari. — Ari read.\nWhen reading a short text, first find the people, objects and actions. Do not translate every word separately before checking what happens. At joins ideas and means and in these examples; pero signals a contrast."
+    },
+    {
+      "id": "q30",
+      "prompt": "What does this mean in English?\n\nSumulat si Sam.",
+      "answers": [
+        "Ari read.",
+        "Sam wrote.",
+        "They learned together.",
+        "I still have a question."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Sumulat si Sam. — Sam wrote.\nWhen reading a short text, first find the people, objects and actions. Do not translate every word separately before checking what happens. At joins ideas and means and in these examples; pero signals a contrast."
+    },
+    {
+      "id": "q31",
+      "prompt": "What does this mean in English?\n\nSabay silang natuto.",
+      "answers": [
+        "Ari read.",
+        "Sam wrote.",
+        "They learned together.",
+        "I still have a question."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Sabay silang natuto. — They learned together.\nWhen reading a short text, first find the people, objects and actions. Do not translate every word separately before checking what happens. At joins ideas and means and in these examples; pero signals a contrast."
+    },
+    {
+      "id": "q32",
+      "prompt": "What does this mean in English?\n\nMay tanong pa ako.",
+      "answers": [
+        "Ari read.",
+        "Sam wrote.",
+        "They learned together.",
+        "I still have a question."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "May tanong pa ako. — I still have a question.\nWhen reading a short text, first find the people, objects and actions. Do not translate every word separately before checking what happens. At joins ideas and means and in these examples; pero signals a contrast."
+    }
+  ]
+}
