@@ -1,0 +1,31 @@
+name: Suggest a word, phrase, lesson or language
+description: Help improve a shared course. No coding required.
+title: '[Course] '
+labels: []
+body:
+  - type: input
+    id: language
+    attributes:
+      label: Language pair
+      placeholder: English → Filipino
+    validations:
+      required: true
+  - type: textarea
+    id: contribution
+    attributes:
+      label: Your contribution
+      description: Paste the editor’s exported JSON in a code block, or describe the correction, new words, lesson or language you propose. Keep existing attribution.
+    validations:
+      required: true
+  - type: textarea
+    id: experience
+    attributes:
+      label: Language experience and context
+      description: What region or situation is this used in? Are you a fluent speaker? A public pseudonym is fine; no personal details needed.
+  - type: checkboxes
+    id: license
+    attributes:
+      label: Content permission
+      options:
+        - label: I wrote these additions or have permission to share them under CC BY-SA 4.0, and have not copied a proprietary course.
+          required: true

@@ -1,0 +1,459 @@
+{
+  "schemaVersion": 1,
+  "id": "fil-en",
+  "title": "Filipino for real life",
+  "language": "Filipino",
+  "languageCode": "fil",
+  "fromLanguage": "English",
+  "fromCode": "en",
+  "author": "Tara contributors",
+  "license": "CC-BY-SA-4.0",
+  "status": "draft",
+  "reviewers": [],
+  "lessons": [
+    {
+      "id": "say-hello",
+      "title": "Start a conversation",
+      "goal": "Say hello and keep a conversation going.",
+      "tip": "Kumusta works as a greeting. Ikaw means “you” in this question. Add po when speaking respectfully to an older person.",
+      "entries": [
+        {
+          "id": "say-hello-1",
+          "kind": "phrase",
+          "text": "Kumusta ka?",
+          "translation": "How are you?",
+          "note": "A friendly greeting.",
+          "accepted": [
+            "Kamusta ka?"
+          ]
+        },
+        {
+          "id": "say-hello-2",
+          "kind": "phrase",
+          "text": "Mabuti naman.",
+          "translation": "I’m doing well.",
+          "note": "A natural answer to “Kumusta ka?”"
+        },
+        {
+          "id": "say-hello-3",
+          "kind": "phrase",
+          "text": "Ikaw?",
+          "translation": "And you?",
+          "note": "Use this to return the question."
+        },
+        {
+          "id": "say-hello-4",
+          "kind": "phrase",
+          "text": "Salamat!",
+          "translation": "Thank you!",
+          "note": "Maraming salamat means “thank you very much”."
+        }
+      ]
+    },
+    {
+      "id": "introduce-yourself",
+      "title": "This is me",
+      "goal": "Introduce yourself to someone new.",
+      "tip": "Use Ako si + your name. You can swap Marco for your own name when you speak.",
+      "entries": [
+        {
+          "id": "introduce-yourself-1",
+          "kind": "phrase",
+          "text": "Ako si Marco.",
+          "translation": "I’m Marco.",
+          "note": "Si introduces a person’s name."
+        },
+        {
+          "id": "introduce-yourself-2",
+          "kind": "phrase",
+          "text": "Ano ang pangalan mo?",
+          "translation": "What’s your name?",
+          "note": "Mo means “your” here."
+        },
+        {
+          "id": "introduce-yourself-3",
+          "kind": "phrase",
+          "text": "Kaibigan ko siya.",
+          "translation": "He / she is my friend.",
+          "note": "Siya can mean he or she."
+        },
+        {
+          "id": "introduce-yourself-4",
+          "kind": "phrase",
+          "text": "Ikinagagalak kitang makilala.",
+          "translation": "Nice to meet you.",
+          "note": "A polite introduction; more formal than a simple hello."
+        }
+      ]
+    },
+    {
+      "id": "getting-unstuck",
+      "title": "Wait, say that again",
+      "goal": "Ask for help when you don’t understand.",
+      "tip": "You can add po to make a request respectful: Pakiulit po. It is fine to ask someone to slow down.",
+      "entries": [
+        {
+          "id": "getting-unstuck-1",
+          "kind": "phrase",
+          "text": "Hindi ko maintindihan.",
+          "translation": "I don’t understand.",
+          "note": "Use it when the meaning is not clear.",
+          "accepted": [
+            "Hindi ko naiintindihan."
+          ]
+        },
+        {
+          "id": "getting-unstuck-2",
+          "kind": "phrase",
+          "text": "Pakiulit.",
+          "translation": "Please repeat.",
+          "note": "Paki- makes a request polite."
+        },
+        {
+          "id": "getting-unstuck-3",
+          "kind": "phrase",
+          "text": "Dahan-dahan lang.",
+          "translation": "Slowly, please.",
+          "note": "Useful when someone is speaking quickly."
+        },
+        {
+          "id": "getting-unstuck-4",
+          "kind": "phrase",
+          "text": "Ano ang ibig sabihin nito?",
+          "translation": "What does this mean?",
+          "note": "Point to a word or object as you ask."
+        }
+      ]
+    },
+    {
+      "id": "friends",
+      "title": "With friends",
+      "goal": "Join in and make simple plans.",
+      "tip": "Tara is an invitation: “let’s go”. Tayo includes you and the person you are speaking to.",
+      "entries": [
+        {
+          "id": "friends-1",
+          "kind": "phrase",
+          "text": "Tara!",
+          "translation": "Let’s go!",
+          "note": "An everyday invitation."
+        },
+        {
+          "id": "friends-2",
+          "kind": "phrase",
+          "text": "Saan tayo pupunta?",
+          "translation": "Where are we going?",
+          "note": "Saan asks about a place."
+        },
+        {
+          "id": "friends-3",
+          "kind": "phrase",
+          "text": "Puwede ba akong sumali?",
+          "translation": "Can I join?",
+          "note": "For joining a game or activity.",
+          "accepted": [
+            "Pwede ba akong sumali?"
+          ]
+        },
+        {
+          "id": "friends-4",
+          "kind": "phrase",
+          "text": "Sandali lang.",
+          "translation": "Just a moment.",
+          "note": "Ask your friends to wait a little."
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "title": "Something to eat",
+      "goal": "Say how you feel and what you want.",
+      "tip": "Gusto ko means “I want” or “I like”, depending on context. Kanin is cooked rice; bigas is uncooked rice.",
+      "entries": [
+        {
+          "id": "food-1",
+          "kind": "phrase",
+          "text": "Gutom na ako.",
+          "translation": "I’m hungry now.",
+          "note": "Na adds the sense of “now” or “already”."
+        },
+        {
+          "id": "food-2",
+          "kind": "phrase",
+          "text": "Gusto ko ng tubig.",
+          "translation": "I want some water.",
+          "note": "Ng introduces what you want here."
+        },
+        {
+          "id": "food-3",
+          "kind": "phrase",
+          "text": "Masarap!",
+          "translation": "Delicious!",
+          "note": "Say this when you enjoy the food."
+        },
+        {
+          "id": "food-4",
+          "kind": "word",
+          "text": "Kanin",
+          "translation": "Cooked rice",
+          "note": "One of the most useful everyday food words."
+        }
+      ]
+    },
+    {
+      "id": "ordering",
+      "title": "At the canteen",
+      "goal": "Order politely and ask the price.",
+      "tip": "Po signals respect. You will hear it often with adults, shopkeepers and teachers. The word please has different forms depending on the request.",
+      "entries": [
+        {
+          "id": "ordering-1",
+          "kind": "phrase",
+          "text": "Pabili po.",
+          "translation": "I’d like to buy something, please.",
+          "note": "A common way to get a shopkeeper’s attention."
+        },
+        {
+          "id": "ordering-2",
+          "kind": "phrase",
+          "text": "Magkano po ito?",
+          "translation": "How much is this, please?",
+          "note": "Ito means “this”."
+        },
+        {
+          "id": "ordering-3",
+          "kind": "phrase",
+          "text": "Isa pa po.",
+          "translation": "One more, please.",
+          "note": "Isa means “one”."
+        },
+        {
+          "id": "ordering-4",
+          "kind": "phrase",
+          "text": "Salamat po.",
+          "translation": "Thank you, respectfully.",
+          "note": "Use po when you want to be respectful."
+        }
+      ]
+    },
+    {
+      "id": "school",
+      "title": "At school",
+      "goal": "Ask useful questions in class.",
+      "tip": "Nasaan asks where someone or something is. Meron is common in everyday speech; mayroon is a fuller form.",
+      "entries": [
+        {
+          "id": "school-1",
+          "kind": "phrase",
+          "text": "Nasaan ang libro ko?",
+          "translation": "Where is my book?",
+          "note": "Ko means “my” here."
+        },
+        {
+          "id": "school-2",
+          "kind": "phrase",
+          "text": "May tanong ako.",
+          "translation": "I have a question.",
+          "note": "May introduces something you have."
+        },
+        {
+          "id": "school-3",
+          "kind": "phrase",
+          "text": "Puwede po bang magtanong?",
+          "translation": "May I ask a question, please?",
+          "note": "A respectful way to speak to a teacher.",
+          "accepted": [
+            "Pwede po bang magtanong?"
+          ]
+        },
+        {
+          "id": "school-4",
+          "kind": "phrase",
+          "text": "Tapos na ako.",
+          "translation": "I’m finished.",
+          "note": "For finishing a task or activity."
+        }
+      ]
+    },
+    {
+      "id": "home",
+      "title": "Back home",
+      "goal": "Talk about home and family.",
+      "tip": "In Filipino, ate and kuya can address an older sister or brother, and also other people older than you in familiar situations.",
+      "entries": [
+        {
+          "id": "home-1",
+          "kind": "phrase",
+          "text": "Nasa bahay ako.",
+          "translation": "I’m at home.",
+          "note": "Nasa introduces a location."
+        },
+        {
+          "id": "home-2",
+          "kind": "phrase",
+          "text": "Nasaan si Mama?",
+          "translation": "Where is Mum?",
+          "note": "Use si before a person’s name or name-like family title."
+        },
+        {
+          "id": "home-3",
+          "kind": "word",
+          "text": "Ate",
+          "translation": "Older sister",
+          "note": "Also a familiar way to address an older girl or woman."
+        },
+        {
+          "id": "home-4",
+          "kind": "word",
+          "text": "Kuya",
+          "translation": "Older brother",
+          "note": "Also a familiar way to address an older boy or man."
+        }
+      ]
+    },
+    {
+      "id": "feelings",
+      "title": "How I’m feeling",
+      "goal": "Tell people how you feel.",
+      "tip": "Ako often follows the word describing your feeling. These short patterns work in everyday conversations.",
+      "entries": [
+        {
+          "id": "feelings-1",
+          "kind": "phrase",
+          "text": "Pagod ako.",
+          "translation": "I’m tired.",
+          "note": "After school or a game, for example."
+        },
+        {
+          "id": "feelings-2",
+          "kind": "phrase",
+          "text": "Masaya ako.",
+          "translation": "I’m happy.",
+          "note": "Masaya describes being happy."
+        },
+        {
+          "id": "feelings-3",
+          "kind": "phrase",
+          "text": "Ayos lang ako.",
+          "translation": "I’m okay.",
+          "note": "A natural response when someone checks on you."
+        },
+        {
+          "id": "feelings-4",
+          "kind": "phrase",
+          "text": "Inaantok ako.",
+          "translation": "I’m sleepy.",
+          "note": "Use when you feel like sleeping."
+        }
+      ]
+    },
+    {
+      "id": "getting-around",
+      "title": "Out and about",
+      "goal": "Ask where to go and get home.",
+      "tip": "Saan means “where”. Dito means “here”; doon means “there”. These questions are useful on a familiar route.",
+      "entries": [
+        {
+          "id": "getting-around-1",
+          "kind": "phrase",
+          "text": "Nasaan ang banyo?",
+          "translation": "Where is the bathroom?",
+          "note": "Banyo is a common word for bathroom."
+        },
+        {
+          "id": "getting-around-2",
+          "kind": "phrase",
+          "text": "Dito lang.",
+          "translation": "Just here.",
+          "note": "For pointing out a nearby place or where to stop."
+        },
+        {
+          "id": "getting-around-3",
+          "kind": "phrase",
+          "text": "Uuwi na ako.",
+          "translation": "I’m going home now.",
+          "note": "Uuwi refers to going home."
+        },
+        {
+          "id": "getting-around-4",
+          "kind": "phrase",
+          "text": "Malayo ba?",
+          "translation": "Is it far?",
+          "note": "Ba marks a yes/no question."
+        }
+      ]
+    },
+    {
+      "id": "small-talk",
+      "title": "Keep it going",
+      "goal": "Ask about someone’s interests.",
+      "tip": "Gusto mo ba…? asks “Do you like / want…?” The context tells you whether it is a preference or an invitation.",
+      "entries": [
+        {
+          "id": "small-talk-1",
+          "kind": "phrase",
+          "text": "Anong ginagawa mo?",
+          "translation": "What are you doing?",
+          "note": "Anong is a common contracted form of ano ang."
+        },
+        {
+          "id": "small-talk-2",
+          "kind": "phrase",
+          "text": "Gusto mo bang maglaro?",
+          "translation": "Do you want to play?",
+          "note": "An invitation to play."
+        },
+        {
+          "id": "small-talk-3",
+          "kind": "phrase",
+          "text": "Oo.",
+          "translation": "Yes.",
+          "note": "Opo is the respectful form."
+        },
+        {
+          "id": "small-talk-4",
+          "kind": "phrase",
+          "text": "Hindi.",
+          "translation": "No.",
+          "note": "Hindi po is a respectful form."
+        }
+      ]
+    },
+    {
+      "id": "learning",
+      "title": "A little every day",
+      "goal": "Tell people you’re learning and ask to practise.",
+      "tip": "Small conversations count. Try one phrase with someone you trust today, then notice how they respond.",
+      "entries": [
+        {
+          "id": "learning-1",
+          "kind": "phrase",
+          "text": "Nag-aaral ako ng Filipino.",
+          "translation": "I’m learning Filipino.",
+          "note": "Nag-aaral describes studying or learning."
+        },
+        {
+          "id": "learning-2",
+          "kind": "phrase",
+          "text": "Kaunti lang ang alam ko.",
+          "translation": "I only know a little.",
+          "note": "A useful way to explain your current level."
+        },
+        {
+          "id": "learning-3",
+          "kind": "phrase",
+          "text": "Tulungan mo ako.",
+          "translation": "Help me.",
+          "note": "With an adult, you can say “Tulungan ninyo po ako.”"
+        },
+        {
+          "id": "learning-4",
+          "kind": "phrase",
+          "text": "Salamat sa tulong mo.",
+          "translation": "Thank you for your help.",
+          "note": "Sa introduces what you are thanking someone for."
+        }
+      ]
+    }
+  ]
+}

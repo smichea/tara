@@ -1,0 +1,15 @@
+{
+  "name": "tara-language-learning",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "An open, community-built language learning app. Filipino first.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "python3 -m http.server 4173 --directory dist --bind 127.0.0.1",
+    "test": "node --test tests/*.test.mjs",
+    "validate": "node scripts/validate-courses.mjs",
+    "check": "npm run validate && npm test"
+  },
+  "engines": { "node": ">=20" }
+}
