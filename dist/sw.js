@@ -1,8 +1,8 @@
-import {audioURL,isSharedAudioURL,isSharedSpeakingURL} from './media.js';
+import {audioURL,isSharedAudioURL,isSharedSpeakingURL,isSharedTranslationURL} from './media.js';
 import {LESSON_CACHE_PREFIX,audioRangeResponse} from './offline.js';
-const CACHE = 'tara-shell-v13';
+const CACHE = 'tara-shell-v14';
 const ROOT = new URL('./', self.location.href);
-const FILES = ['./', './index.html', './app.js', './lib.js', './curriculum.js', './museum.js', './museum-link.js', './speech.js', './media.js', './offline.js', './glosses.js', './style.css', './icon.svg', './icon-192.png', './icon-512.png', './icon-maskable-512.png', './apple-touch-icon.png', './manifest.webmanifest', './LICENSE.txt', './NOTICE.txt', './courses/index.json', './pronunciation/assets.json', './pronunciation/assets.js', './pronunciation/practice.js', './pronunciation/phonetics.js', './pronunciation/engine-worker.js', './pronunciation/fbank.js', './pronunciation/capture-worklet.js'];
+const FILES = ['./', './index.html', './app.js', './lib.js', './curriculum.js', './museum.js', './museum-link.js', './speech.js', './media.js', './offline.js', './glosses.js', './style.css', './icon.svg', './icon-192.png', './icon-512.png', './icon-maskable-512.png', './apple-touch-icon.png', './manifest.webmanifest', './LICENSE.txt', './NOTICE.txt', './courses/index.json', './pronunciation/assets.json', './pronunciation/assets.js', './pronunciation/practice.js', './pronunciation/phonetics.js', './pronunciation/engine-worker.js', './pronunciation/fbank.js', './pronunciation/capture-worklet.js', './translation/assets.json', './translation/assets.js', './translation/checker.js', './translation/engine-worker.js', './translation/grading.js', './translation/marian.js', './translation/tokenizer.js'];
 self.addEventListener('install', event => {
   event.waitUntil((async()=>{
     const cache = await caches.open(CACHE);
@@ -24,11 +24,13 @@ self.addEventListener('activate', event=>event.waitUntil((async()=>{
   await self.clients.claim();
 })()));
 self.addEventListener('fetch', event=>{
-  if (event.request.method!=='GET' || (!event.request.url.startsWith(ROOT.href)&&!isSharedAudioURL(event.request.url)&&!isSharedSpeakingURL(event.request.url))) return;
+  if (event.request.method!=='GET' || (!event.request.url.startsWith(ROOT.href)&&!isSharedAudioURL(event.request.url)&&!isSharedSpeakingURL(event.request.url)&&!isSharedTranslationURL(event.request.url))) return;
   event.respondWith((async()=>{
     // Explicit downloads write only their own durable lesson cache.
     if(event.request.cache==='no-store')return fetch(event.request);
     // Speaking tools are downloaded explicitly and survive app-shell updates.
+    // The translation checker is also an explicit download in its own durable cache.
+    if(new URL(event.request.url).pathname.includes('/translation/vendor/')){const tools=await caches.open('tara-translation-v1'),stored=await tools.match(event.request.url);return stored||fetch(event.request);}
     if(new URL(event.request.url).pathname.includes('/pronunciation/vendor/')){const tools=await caches.open('tara-speaking-v1'),stored=await tools.match(event.request);return stored||fetch(event.request);}
     const isAudio=/\.(mp3|ogg|wav)$/.test(new URL(event.request.url).pathname);
     if(isAudio)for(const name of await caches.keys())if(name.startsWith(LESSON_CACHE_PREFIX)){

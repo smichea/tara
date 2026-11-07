@@ -1,0 +1,266 @@
+{
+  "version": 1,
+  "runtime": "onnxruntime-web 1.24.2",
+  "languages": {
+    "fil": {
+      "model": "Opus-MT mt-tl-en INT8",
+      "repo": "Helsinki-NLP/opus-mt-tl-en",
+      "revision": "8d2dee91f8b3fa48dda8ec06ee2af8f24970dcbc",
+      "license": "CC-BY-4.0",
+      "parts": {
+        "embed": {
+          "parts": [
+            "fil/embed-00.bin",
+            "fil/embed-01.bin",
+            "fil/embed-02.bin",
+            "fil/embed-03.bin",
+            "fil/embed-04.bin",
+            "fil/embed-05.bin",
+            "fil/embed-06.bin"
+          ],
+          "bytes": 29286205,
+          "sha256": "8d0f826ce0e485dc44ca265296726baf8ec408b5922353be1a02d3c5dbf667bc"
+        },
+        "encoder": {
+          "parts": [
+            "fil/encoder-00.bin",
+            "fil/encoder-01.bin",
+            "fil/encoder-02.bin",
+            "fil/encoder-03.bin",
+            "fil/encoder-04.bin"
+          ],
+          "bytes": 19461487,
+          "sha256": "bcec7f1e4c6af3a7fe3c521bdd95ab0af5d61a8b1db1b08d812c997d2a1667a8"
+        },
+        "decoder": {
+          "parts": [
+            "fil/decoder-00.bin",
+            "fil/decoder-01.bin",
+            "fil/decoder-02.bin",
+            "fil/decoder-03.bin",
+            "fil/decoder-04.bin",
+            "fil/decoder-05.bin",
+            "fil/decoder-06.bin",
+            "fil/decoder-07.bin",
+            "fil/decoder-08.bin",
+            "fil/decoder-09.bin",
+            "fil/decoder-10.bin",
+            "fil/decoder-11.bin",
+            "fil/decoder-12.bin",
+            "fil/decoder-13.bin"
+          ],
+          "bytes": 55491889,
+          "sha256": "4a3c50ba528812c0f452cacadc3d426581c46dee6f1e5ea868105e4f93f0c507"
+        }
+      },
+      "bytes": 119451081,
+      "files": [
+        {
+          "file": "ort.wasm.bundle.min.mjs",
+          "bytes": 72787,
+          "sha256": "3f8c055f038d84b3d48d9e2da56019f60ab4f75764a067d54d48bd9199bcb4fc",
+          "type": "text/javascript"
+        },
+        {
+          "file": "ort-wasm-simd-threaded.mjs",
+          "bytes": 24274,
+          "sha256": "b538a29137066dbed1f0f449fb081dfd35ccde3d5b155adc34532cefa3b23ee2",
+          "type": "text/javascript"
+        },
+        {
+          "file": "ORT-LICENSE.txt",
+          "bytes": 1073,
+          "sha256": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c",
+          "type": "text/plain"
+        },
+        {
+          "file": "ort-wasm-00.bin",
+          "bytes": 4194304,
+          "sha256": "3b73d643a77e253cd9c4bacbb3db3f0afee12229afb7ac9ca9de405129518244",
+          "type": "application/octet-stream"
+        },
+        {
+          "file": "ort-wasm-01.bin",
+          "bytes": 4194304,
+          "sha256": "56fb3eaaa04bc4b22b79d6ad0fe5d027305b064a1508d17a9656a258b096dcba",
+          "type": "application/octet-stream"
+        },
+        {
+          "file": "ort-wasm-02.bin",
+          "bytes": 3914522,
+          "sha256": "0ce909d80ccfe0ef6346fed6954a14aad6d5934c1de8ba0c5720b65a58fc71c2",
+          "type": "application/octet-stream"
+        },
+        {
+          "file": "fil/tokenizer.json",
+          "bytes": 2809955,
+          "sha256": "200531ea9afc6f6cbed8341dbf3479376acfdf52e24028f48f72bae40a6228de",
+          "type": "application/json"
+        },
+        {
+          "file": "fil/MODEL-LICENSE.txt",
+          "bytes": 281,
+          "sha256": "cc62dab80a82610419cec2c351009fc9d9780c8a9dbf13932d7555b0c16c753e",
+          "type": "text/plain"
+        },
+        {
+          "file": "fil/embed-00.bin",
+          "bytes": 4194304,
+          "sha256": "ec53eec723f81b4939c350249223a3e496ae2d97c405a99cb35b7a470012122a",
+          "type": "application/octet-stream"
+        },
+        {
+          "file": "fil/embed-01.bin",
+          "bytes": 4194304,
+          "sha256": "abe5ac99b5a88ba68a30dd8bd47e844938847c2e07004a6b8a5ac309d2bfb267",
+          "type": "application/octet-stream"
+        },
+        {
+          "file": "fil/embed-02.bin",
+          "bytes": 4194304,
+          "sha256": "34cfe93c3e1331d202b6928928efaf17a42a2e0fcbc2acbc183a7e7d562044b5",
+          "type": "application/octet-stream"
+        },
+        {
+          "file": "fil/embed-03.bin",
+          "bytes": 4194304,
+          "sha256": "4cf47e62bf632c545644843c38aecb7314ed05a2e0865ec9e706bc61b031d1ad",
+          "type": "application/octet-stream"
+        },
+        {
+          "file": "fil/embed-04.bin",
+          "bytes": 4194304,
+          "sha256": "307ef6bee9e9b6be04ea23f829cf93794dfdaf87ff4b5da4330b7fd013c71ab9",
+          "type": "application/octet-stream"
+        },
+        {
+          "file": "fil/embed-05.bin",
+          "bytes": 4194304,
+          "sha256": "281a7afbb2be7693b090ad58c07accd5ff7e08fe42424e8b5779ed79f0183974",
+          "type": "application/octet-stream"
+        },
+        {
+          "file": "fil/embed-06.bin",
+          "bytes": 4120381,
+          "sha256": "bf02557d78055636a4c70ad4ef80a17560c6235265077913a5c864bbfd6ec0ef",
+          "type": "application/octet-stream"
+        },
+        {
+          "file": "fil/encoder-00.bin",
+          "bytes": 4194304,
+          "sha256": "9f268de21b8fc74b05e62602425e128bbc15c67c340a8df0331c8d3bac9af002",
+          "type": "application/octet-stream"
+        },
+        {
+          "file": "fil/encoder-01.bin",
+          "bytes": 4194304,
+          "sha256": "d9469b68ab8614ade087db17d54e00001eaa3f1df6d67bf2f3bb33748032e32f",
+          "type": "application/octet-stream"
+        },
+        {
+          "file": "fil/encoder-02.bin",
+          "bytes": 4194304,
+          "sha256": "7655553530eb70afa193703aeaa24dc44faa920c847475ee5a0c6a827bdf545a",
+          "type": "application/octet-stream"
+        },
+        {
+          "file": "fil/encoder-03.bin",
+          "bytes": 4194304,
+          "sha256": "1cbbed9e88c786a95b48be37ab01b0a00e3d14f4d9a4e87e9bc783d5914dc165",
+          "type": "application/octet-stream"
+        },
+        {
+          "file": "fil/encoder-04.bin",
+          "bytes": 2684271,
+          "sha256": "a5b73084bd7d13284971af125cd8c88c6187c9c8fa478c05bba4f07be6069bdb",
+          "type": "application/octet-stream"
+        },
+        {
+          "file": "fil/decoder-00.bin",
+          "bytes": 4194304,
+          "sha256": "4fa7ae660d974a891b42352ccf5e9c2422603577437f87c48d69b8f23dea28f5",
+          "type": "application/octet-stream"
+        },
+        {
+          "file": "fil/decoder-01.bin",
+          "bytes": 4194304,
+          "sha256": "d90bce10fe82f8493783a3daf4fd4f6d9149ce1fea43e97f15ec11f69d7c7df7",
+          "type": "application/octet-stream"
+        },
+        {
+          "file": "fil/decoder-02.bin",
+          "bytes": 4194304,
+          "sha256": "c47b184fce45a6aba4723952d7599329a6f60edd7d4780b17931210c31b61078",
+          "type": "application/octet-stream"
+        },
+        {
+          "file": "fil/decoder-03.bin",
+          "bytes": 4194304,
+          "sha256": "06496a592bed369e0bc3225c81459f490f79c68fd488941fe1a9ebfe1a44c5a2",
+          "type": "application/octet-stream"
+        },
+        {
+          "file": "fil/decoder-04.bin",
+          "bytes": 4194304,
+          "sha256": "50282ef551f9e98d572d769121e3ed53fa07b6d8e56f6ab1d4cb812685f21bbf",
+          "type": "application/octet-stream"
+        },
+        {
+          "file": "fil/decoder-05.bin",
+          "bytes": 4194304,
+          "sha256": "e4b8a3ca8d961a730e80f2bc673809ae44cae77c43d034dfde8781091c22817a",
+          "type": "application/octet-stream"
+        },
+        {
+          "file": "fil/decoder-06.bin",
+          "bytes": 4194304,
+          "sha256": "04539f6d84d4220a6c1f679bc087c88fd464bb7085fa6ef0f48bbd6d47cfe1b9",
+          "type": "application/octet-stream"
+        },
+        {
+          "file": "fil/decoder-07.bin",
+          "bytes": 4194304,
+          "sha256": "6e817e546fbbcb3ce9697bfe445b340818136fb962435b13495f40cb3291e470",
+          "type": "application/octet-stream"
+        },
+        {
+          "file": "fil/decoder-08.bin",
+          "bytes": 4194304,
+          "sha256": "c64be2c0fa03eb88af434d7c0d6aa4a844e05d168c2a6e7fada6f168b43b8c3c",
+          "type": "application/octet-stream"
+        },
+        {
+          "file": "fil/decoder-09.bin",
+          "bytes": 4194304,
+          "sha256": "42e4d29e522e2c440f2face05725bed9ee27aebaf015fa131cbc587c2517881e",
+          "type": "application/octet-stream"
+        },
+        {
+          "file": "fil/decoder-10.bin",
+          "bytes": 4194304,
+          "sha256": "10490f43a44078bc9b2f15a74f4ea2193db34e86d6c6d1dd821ea107b3220741",
+          "type": "application/octet-stream"
+        },
+        {
+          "file": "fil/decoder-11.bin",
+          "bytes": 4194304,
+          "sha256": "074086bfee373d21c4f520ab80f81e73d7fd90c69914634209e3eb80d7c9c77d",
+          "type": "application/octet-stream"
+        },
+        {
+          "file": "fil/decoder-12.bin",
+          "bytes": 4194304,
+          "sha256": "bb3b96c5e36468c2b69f0ff123570380f7269c9a2559ad140409f6ae145b2f5a",
+          "type": "application/octet-stream"
+        },
+        {
+          "file": "fil/decoder-13.bin",
+          "bytes": 965937,
+          "sha256": "81f36080694e4d6296126da8550393cf9ae3934b2fd713c8655e34b3f9b6cb0f",
+          "type": "application/octet-stream"
+        }
+      ],
+      "language": "fil"
+    }
+  }
+}

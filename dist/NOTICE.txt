@@ -16,3 +16,7 @@ license text. Tara's quiz content remains CC BY-SA 4.0.
 Optional speaking recognition/synthesis components retain their own licenses.
 See pronunciation/vendor/NOTICE.txt for ZIPA (CC BY 4.0), ONNX Runtime (MIT),
 Kaldi Fbank (Apache-2.0) and eSpeak NG (GPL-3.0-or-later), plus source access.
+
+Optional translation checker: Helsinki-NLP Opus-MT models (CC BY 4.0), converted
+to ONNX with INT8 weights, and ONNX Runtime Web (MIT). See
+translation/vendor/<language>/MODEL-LICENSE.txt and translation/vendor/ORT-LICENSE.txt.

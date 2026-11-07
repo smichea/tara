@@ -12,3 +12,7 @@ see CONTENT-LICENSE.md. Identified historical public-domain excerpts retain that
 The quiz engine bundled in dist/museum/*.rmg.json is from manaty/game-quizz,
 under its existing MIT license. Each package preserves the upstream notice and
 license text. Tara's quiz content remains CC BY-SA 4.0.
+
+Optional translation checker: Helsinki-NLP Opus-MT models (CC BY 4.0), converted
+to ONNX with INT8 weights, and ONNX Runtime Web (MIT). See
+translation/vendor/<language>/MODEL-LICENSE.txt and translation/vendor/ORT-LICENSE.txt.

@@ -37,3 +37,4 @@
 @media(prefers-reduced-motion:reduce){.speaking-dialog,.speaking-word,.speaking-tools .recording{animation:none}.speaking-meter i{transition:none}}
 
 .speaking-dialog .speaking-target{color:#214e3e}.speaking-footer button{border:0;background:none;padding:10px 0;min-height:44px;color:#24593e;text-decoration:underline;text-align:left}.speaking-word button{min-height:36px}.speaking-tools button{min-height:44px}
+.translation-checker{margin-top:16px;padding-top:14px;border-top:1px solid rgba(20,93,66,.15)}.translation-checker .progress-track{margin:8px 0 12px;height:8px}.translation-self{margin-top:12px;flex-wrap:wrap;gap:8px}.feedback em{font-style:normal;font-weight:600}

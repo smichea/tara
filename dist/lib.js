@@ -85,6 +85,7 @@ export function scheduleCard(previous, correct, now = Date.now()) {
   return { successes, due: now + (correct ? days * 86400000 : 600000), mistakes: (previous?.mistakes || 0) + (correct ? 0 : 1) };
 }
 export function cardKey(course, entry) { return `${course.id}:${entry.id}`; }
+export const PRACTICE_SESSIONS = ['review', 'translate'];
 export function finishSession(progress, course, lessonId, answers, now = new Date()) {
   const updated = structuredClone(progress);
   const today = localDay(now);
@@ -95,7 +96,8 @@ export function finishSession(progress, course, lessonId, answers, now = new Dat
   const awardKey = `${key}:${today}`;
   const xp = updated.awards[awardKey] ? 0 : (first ? 50 : 10) + (accuracy === 100 ? 10 : 0);
   updated.xp += xp; updated.awards[awardKey] = true;
-  if (lessonId !== 'review') updated.lessons[key] = { accuracy: Math.max(updated.lessons[key]?.accuracy || 0, accuracy), completed: today };
+  // Review and translation practice update cards, not lesson completion.
+  if (!PRACTICE_SESSIONS.includes(lessonId)) updated.lessons[key] = { accuracy: Math.max(updated.lessons[key]?.accuracy || 0, accuracy), completed: today };
   updated.activity[today] = (updated.activity[today] || 0) + 1;
   // A corrected retry never erases a mistake made earlier in this session.
   const grouped = new Map();

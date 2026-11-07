@@ -1,0 +1,518 @@
+{
+ "note": "Hand-written learner answers used to calibrate LIKELY/UNLIKELY in dist/translation/grading.js. acceptable = a fluent reading would accept the meaning (draft; awaiting fluent-speaker review).",
+ "cases": [
+  {
+   "language": "fil",
+   "direction": "to-target",
+   "prompt": "I’d like to buy something, please.",
+   "references": [
+    "Pabili po."
+   ],
+   "answer": "Gusto ko pong bumili",
+   "acceptable": true
+  },
+  {
+   "language": "fil",
+   "direction": "to-target",
+   "prompt": "I’d like to buy something, please.",
+   "references": [
+    "Pabili po."
+   ],
+   "answer": "Pabili",
+   "acceptable": true
+  },
+  {
+   "language": "fil",
+   "direction": "to-target",
+   "prompt": "How much is this?",
+   "references": [
+    "Magkano ito?"
+   ],
+   "answer": "Magkano po ito",
+   "acceptable": true
+  },
+  {
+   "language": "fil",
+   "direction": "to-target",
+   "prompt": "How much is this?",
+   "references": [
+    "Magkano ito?"
+   ],
+   "answer": "Saan ito?",
+   "acceptable": false
+  },
+  {
+   "language": "fil",
+   "direction": "to-target",
+   "prompt": "How much is this?",
+   "references": [
+    "Magkano ito?"
+   ],
+   "answer": "Ano ito?",
+   "acceptable": false
+  },
+  {
+   "language": "fil",
+   "direction": "to-target",
+   "prompt": "I’m hungry now.",
+   "references": [
+    "Gutom na ako.",
+    "Gutom ako."
+   ],
+   "answer": "Nagugutom na ako",
+   "acceptable": true
+  },
+  {
+   "language": "fil",
+   "direction": "to-target",
+   "prompt": "I’m hungry now.",
+   "references": [
+    "Gutom na ako.",
+    "Gutom ako."
+   ],
+   "answer": "Hindi ako gutom",
+   "acceptable": false
+  },
+  {
+   "language": "fil",
+   "direction": "to-target",
+   "prompt": "I’m hungry now.",
+   "references": [
+    "Gutom na ako.",
+    "Gutom ako."
+   ],
+   "answer": "Busog na ako",
+   "acceptable": false
+  },
+  {
+   "language": "fil",
+   "direction": "to-target",
+   "prompt": "Where is the bathroom?",
+   "references": [
+    "Nasaan ang banyo?"
+   ],
+   "answer": "Saan ang CR?",
+   "acceptable": true
+  },
+  {
+   "language": "fil",
+   "direction": "to-target",
+   "prompt": "Where is the bathroom?",
+   "references": [
+    "Nasaan ang banyo?"
+   ],
+   "answer": "Nasaan ang kusina?",
+   "acceptable": false
+  },
+  {
+   "language": "fil",
+   "direction": "to-target",
+   "prompt": "My bag is small.",
+   "references": [
+    "Maliit ang bag ko."
+   ],
+   "answer": "Ang bag ko ay maliit",
+   "acceptable": true
+  },
+  {
+   "language": "fil",
+   "direction": "to-target",
+   "prompt": "My bag is small.",
+   "references": [
+    "Maliit ang bag ko."
+   ],
+   "answer": "Malaki ang bag ko",
+   "acceptable": false
+  },
+  {
+   "language": "fil",
+   "direction": "to-target",
+   "prompt": "My bag is small.",
+   "references": [
+    "Maliit ang bag ko."
+   ],
+   "answer": "Maliit ang bag mo",
+   "acceptable": false
+  },
+  {
+   "language": "fil",
+   "direction": "to-target",
+   "prompt": "I’m happy.",
+   "references": [
+    "Masaya ako."
+   ],
+   "answer": "Masaya ako ngayon",
+   "acceptable": true
+  },
+  {
+   "language": "fil",
+   "direction": "to-target",
+   "prompt": "I’m happy.",
+   "references": [
+    "Masaya ako."
+   ],
+   "answer": "Malungkot ako",
+   "acceptable": false
+  },
+  {
+   "language": "fil",
+   "direction": "to-target",
+   "prompt": "I’m happy.",
+   "references": [
+    "Masaya ako."
+   ],
+   "answer": "Masaya siya",
+   "acceptable": false
+  },
+  {
+   "language": "fil",
+   "direction": "to-target",
+   "prompt": "Then sit down.",
+   "references": [
+    "Pagkatapos, umupo."
+   ],
+   "answer": "Tapos umupo ka",
+   "acceptable": true
+  },
+  {
+   "language": "fil",
+   "direction": "to-target",
+   "prompt": "Then sit down.",
+   "references": [
+    "Pagkatapos, umupo."
+   ],
+   "answer": "Pagkatapos, tumayo.",
+   "acceptable": false
+  },
+  {
+   "language": "fil",
+   "direction": "to-target",
+   "prompt": "Read the question.",
+   "references": [
+    "Basahin ang tanong."
+   ],
+   "answer": "Basahin mo ang tanong",
+   "acceptable": true
+  },
+  {
+   "language": "fil",
+   "direction": "to-target",
+   "prompt": "Read the question.",
+   "references": [
+    "Basahin ang tanong."
+   ],
+   "answer": "Isulat ang tanong",
+   "acceptable": false
+  },
+  {
+   "language": "fil",
+   "direction": "to-target",
+   "prompt": "I do not have paper.",
+   "references": [
+    "Wala akong papel."
+   ],
+   "answer": "Wala ako papel",
+   "acceptable": true
+  },
+  {
+   "language": "fil",
+   "direction": "to-target",
+   "prompt": "I do not have paper.",
+   "references": [
+    "Wala akong papel."
+   ],
+   "answer": "May papel ako",
+   "acceptable": false
+  },
+  {
+   "language": "fil",
+   "direction": "to-target",
+   "prompt": "I do not have paper.",
+   "references": [
+    "Wala akong papel."
+   ],
+   "answer": "Wala akong lapis",
+   "acceptable": false
+  },
+  {
+   "language": "fil",
+   "direction": "to-target",
+   "prompt": "This is ten pesos.",
+   "references": [
+    "Sampung piso ito."
+   ],
+   "answer": "Ito ay sampung piso",
+   "acceptable": true
+  },
+  {
+   "language": "fil",
+   "direction": "to-target",
+   "prompt": "This is ten pesos.",
+   "references": [
+    "Sampung piso ito."
+   ],
+   "answer": "Limang piso ito",
+   "acceptable": false
+  },
+  {
+   "language": "fil",
+   "direction": "to-target",
+   "prompt": "It is two o’clock.",
+   "references": [
+    "Alas-dos na."
+   ],
+   "answer": "Alas dos na",
+   "acceptable": true
+  },
+  {
+   "language": "fil",
+   "direction": "to-target",
+   "prompt": "It is two o’clock.",
+   "references": [
+    "Alas-dos na."
+   ],
+   "answer": "Alas-tres na",
+   "acceptable": false
+  },
+  {
+   "language": "fil",
+   "direction": "to-target",
+   "prompt": "Thank you very much.",
+   "references": [
+    "Maraming salamat po."
+   ],
+   "answer": "Maraming salamat",
+   "acceptable": true
+  },
+  {
+   "language": "fil",
+   "direction": "to-target",
+   "prompt": "Put it in the bag.",
+   "references": [
+    "Ilagay sa bag."
+   ],
+   "answer": "Ilagay mo sa bag",
+   "acceptable": true
+  },
+  {
+   "language": "fil",
+   "direction": "to-target",
+   "prompt": "Put it in the bag.",
+   "references": [
+    "Ilagay sa bag."
+   ],
+   "answer": "Kunin sa bag",
+   "acceptable": false
+  },
+  {
+   "language": "fil",
+   "direction": "to-target",
+   "prompt": "I have a pencil.",
+   "references": [
+    "May lapis ako."
+   ],
+   "answer": "Mayroon akong lapis",
+   "acceptable": true
+  },
+  {
+   "language": "fil",
+   "direction": "to-target",
+   "prompt": "I have a pencil.",
+   "references": [
+    "May lapis ako."
+   ],
+   "answer": "Wala akong lapis",
+   "acceptable": false
+  },
+  {
+   "language": "fil",
+   "direction": "to-target",
+   "prompt": "I have a pencil.",
+   "references": [
+    "May lapis ako."
+   ],
+   "answer": "May aklat ako",
+   "acceptable": false
+  },
+  {
+   "language": "fil",
+   "direction": "to-target",
+   "prompt": "I will go to school tomorrow.",
+   "references": [
+    "Pupunta ako sa paaralan bukas."
+   ],
+   "answer": "Pupunta ako sa eskwela bukas",
+   "acceptable": true
+  },
+  {
+   "language": "fil",
+   "direction": "to-target",
+   "prompt": "I will go to school tomorrow.",
+   "references": [
+    "Pupunta ako sa paaralan bukas."
+   ],
+   "answer": "Pumunta ako sa paaralan kahapon",
+   "acceptable": false
+  },
+  {
+   "language": "fil",
+   "direction": "to-target",
+   "prompt": "My mother is a teacher.",
+   "references": [
+    "Guro ang nanay ko."
+   ],
+   "answer": "Ang nanay ko ay guro",
+   "acceptable": true
+  },
+  {
+   "language": "fil",
+   "direction": "to-target",
+   "prompt": "My mother is a teacher.",
+   "references": [
+    "Guro ang nanay ko."
+   ],
+   "answer": "Guro ang tatay ko",
+   "acceptable": false
+  },
+  {
+   "language": "fil",
+   "direction": "to-english",
+   "prompt": "Magkano ito?",
+   "references": [
+    "How much is this?"
+   ],
+   "answer": "How much does this cost",
+   "acceptable": true
+  },
+  {
+   "language": "fil",
+   "direction": "to-english",
+   "prompt": "Magkano ito?",
+   "references": [
+    "How much is this?"
+   ],
+   "answer": "What is this?",
+   "acceptable": false
+  },
+  {
+   "language": "fil",
+   "direction": "to-english",
+   "prompt": "Saan ang banyo?",
+   "references": [
+    "Where is the bathroom?"
+   ],
+   "answer": "where is the toilet",
+   "acceptable": true
+  },
+  {
+   "language": "fil",
+   "direction": "to-english",
+   "prompt": "Saan ang banyo?",
+   "references": [
+    "Where is the bathroom?"
+   ],
+   "answer": "Where is the kitchen?",
+   "acceptable": false
+  },
+  {
+   "language": "fil",
+   "direction": "to-english",
+   "prompt": "Gutom na ako.",
+   "references": [
+    "I’m hungry now."
+   ],
+   "answer": "I am hungry",
+   "acceptable": true
+  },
+  {
+   "language": "fil",
+   "direction": "to-english",
+   "prompt": "Gutom na ako.",
+   "references": [
+    "I’m hungry now."
+   ],
+   "answer": "I am not hungry",
+   "acceptable": false
+  },
+  {
+   "language": "fil",
+   "direction": "to-english",
+   "prompt": "Maliit ang bag ko.",
+   "references": [
+    "My bag is small."
+   ],
+   "answer": "my bag is little",
+   "acceptable": true
+  },
+  {
+   "language": "fil",
+   "direction": "to-english",
+   "prompt": "Maliit ang bag ko.",
+   "references": [
+    "My bag is small."
+   ],
+   "answer": "your bag is big",
+   "acceptable": false
+  },
+  {
+   "language": "fil",
+   "direction": "to-english",
+   "prompt": "May lapis ako.",
+   "references": [
+    "I have a pencil."
+   ],
+   "answer": "I got a pencil",
+   "acceptable": true
+  },
+  {
+   "language": "fil",
+   "direction": "to-english",
+   "prompt": "May lapis ako.",
+   "references": [
+    "I have a pencil."
+   ],
+   "answer": "I have a book",
+   "acceptable": false
+  },
+  {
+   "language": "fil",
+   "direction": "to-english",
+   "prompt": "Wala akong papel.",
+   "references": [
+    "I do not have paper."
+   ],
+   "answer": "I have no paper",
+   "acceptable": true
+  },
+  {
+   "language": "fil",
+   "direction": "to-english",
+   "prompt": "Wala akong papel.",
+   "references": [
+    "I do not have paper."
+   ],
+   "answer": "I have paper",
+   "acceptable": false
+  },
+  {
+   "language": "fil",
+   "direction": "to-english",
+   "prompt": "Basahin ang tanong.",
+   "references": [
+    "Read the question."
+   ],
+   "answer": "Read the question please",
+   "acceptable": true
+  },
+  {
+   "language": "fil",
+   "direction": "to-english",
+   "prompt": "Basahin ang tanong.",
+   "references": [
+    "Read the question."
+   ],
+   "answer": "Write the answer",
+   "acceptable": false
+  }
+ ]
+}
