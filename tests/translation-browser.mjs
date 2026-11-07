@@ -54,6 +54,9 @@ try{
  await modelRound();await context.setOffline(false);
 
  await page.goto(base+'#review');await page.getByRole('button',{name:'Remove checker'}).click();await download.waitFor();
+ // Translation practice is for the Filipino course only.
+ await page.locator('#course-select').selectOption('fr-en');await page.goto(base+'#review');await page.locator('.card').first().waitFor();assert.equal(await page.locator('#translation-card').count(),0);
+ await page.locator('#course-select').selectOption('fil-en');await page.goto(base+'#review');await download.waitFor();
  assert.equal(await page.evaluate(async()=>(await caches.keys()).includes('tara-translation-v1')),false);
- assert.deepEqual(errors,[]);console.log('Translation browser QA passed: explicit download, rule-based and self-assessed answers, local model feedback, override, offline reuse, phone layout and removal.');
+ assert.deepEqual(errors,[]);console.log('Translation browser QA passed: explicit download, rule-based and self-assessed answers, local model feedback, override, offline reuse, phone layout and removal; absent from the French course.');
 }finally{await browser.close();}

@@ -1,17 +1,13 @@
 """Maintainer-only translation-checker asset preparation. Never runs in a learner's browser.
 
-Exports pinned Helsinki-NLP Opus-MT models (to-English direction) to ONNX,
+Exports the pinned Helsinki-NLP Opus-MT Tagalog-to-English model to ONNX,
 quantizes their weights to INT8, writes SentencePiece vocabularies as JSON and
 splits large files into resumable 4 MiB parts:
 
   python3 -m venv /tmp/mt && . /tmp/mt/bin/activate
   pip install torch --index-url https://download.pytorch.org/whl/cpu
   pip install transformers sentencepiece onnx onnxruntime onnxscript
-  python3 scripts/prepare-translation-assets.py            # Filipino (shipped)
-  python3 scripts/prepare-translation-assets.py fil fr     # also French
-
-Each language adds about 135 MB of Git objects; French is supported by the
-engine but not shipped yet.
+  python3 scripts/prepare-translation-assets.py
 
 ONNX Runtime Web is the same pinned 1.24.2 runtime used by speaking practice
 (identical bytes, so Git stores it once). Re-run only to change a pinned model.
@@ -27,7 +23,6 @@ SPEAKING = ROOT / 'dist/pronunciation/vendor'
 PART = 4 * 1024 * 1024
 MODELS = {
     'fil': {'repo': 'Helsinki-NLP/opus-mt-tl-en', 'revision': '8d2dee91f8b3fa48dda8ec06ee2af8f24970dcbc'},
-    'fr': {'repo': 'Helsinki-NLP/opus-mt-fr-en', 'revision': 'c4aed37b318c763fd177aa449b44e3b783cc6c02'},
 }
 RUNTIME = ['ort.wasm.bundle.min.mjs', 'ort-wasm-simd-threaded.mjs', 'ORT-LICENSE.txt'] + [f'ort-wasm-{i:02d}.bin' for i in range(3)]
 
@@ -122,9 +117,8 @@ def export(language, spec, work):
 
 
 def main():
-    import sys
     import tempfile
-    languages = sys.argv[1:] or ['fil']
+    languages = list(MODELS)
     vendor = OUT / 'vendor'
     vendor.mkdir(parents=True, exist_ok=True)
     for name in RUNTIME:

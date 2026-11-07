@@ -1,6 +1,7 @@
 # Translation practice and the offline checker
 
-Review → **Translate sentences** asks the learner to translate up to eight
+Translation practice is part of the Filipino course (Marco). Review →
+**Translate sentences** asks the learner to translate up to eight
 learned phrases, mixing both directions (English → course language and course
 language → English). It works with or without the optional checker.
 
@@ -59,11 +60,6 @@ sometimes uses the past tense for present sentences.
   weights). Offered only after an explicit tap in Review; verified by SHA-256;
   stored in the `tara-translation-v1` cache, independent of app updates; usable
   offline; removable without touching progress.
-- French: the engine supports Helsinki-NLP/opus-mt-fr-en, but it is not
-  shipped yet (each language adds ~120 MB of Git objects). French translation
-  practice uses rules and self-assessment. To ship it:
-  `python3 scripts/prepare-translation-assets.py fil fr` then
-  `npm run test:translation` with French cases added to the fixture.
 
 Model license: CC BY 4.0 (Tiedemann & Thottingal, *OPUS-MT — Building open
 translation services for the World*, EAMT 2020). See

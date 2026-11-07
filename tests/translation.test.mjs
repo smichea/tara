@@ -51,7 +51,7 @@ test('the browser tokenizer reproduces the Marian SentencePiece tokenizer',async
  assert.equal(normalize('  a​b  '),'a b');
 });
 test('the checker download list is pinned, complete and verifiable',async()=>{
- const manifest=await json('../dist/translation/assets.json');assert(validManifest(manifest,'fil'));assert.equal(manifest.languages.fr,undefined);
+ const manifest=await json('../dist/translation/assets.json');assert(validManifest(manifest,'fil'));assert.deepEqual(Object.keys(manifest.languages),['fil']);
  const l=manifest.languages.fil;assert(l.bytes<130e6,'Keep the optional download small');
  for(const f of l.files){const data=await readFile(new URL('../dist/translation/vendor/'+f.file,import.meta.url));assert.equal(data.length,f.bytes,f.file);assert.equal(createHash('sha256').update(data).digest('hex'),f.sha256,f.file);}
  for(const part of Object.values(l.parts)){const hash=createHash('sha256');let n=0;for(const name of part.parts){const d=await readFile(new URL('../dist/translation/vendor/'+name,import.meta.url));hash.update(d);n+=d.length;}assert.equal(n,part.bytes);assert.equal(hash.digest('hex'),part.sha256);}
