@@ -4,6 +4,7 @@ import {glossedText,wordTokens,validGlosses,installWordGlosses} from './glosses.
 import {createMuseumQuiz,museumSelections} from './museum.js';
 import {validateCourse, freshProgress, safeProgress, normalize, accepts, shuffle, localDay, streak, finishSession, cardKey, forkCourse} from './lib.js';
 import {createSpeechPlayer,isReviewedAudio,isPlayableAudio} from './speech.js';
+import {reversible,reverseCourse} from './reverse.js';
 import {CEFR_LEVELS,CEFR_SOURCE,courseLevels,levelIndex,lessonQueue,SCHOOL_SOURCE,schoolLessons,schoolStages} from './curriculum.js';
 const $ = (s) => document.querySelector(s);
 const esc = (v) => String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -41,7 +42,7 @@ function learningPath(next){let previous;return visibleLessons().map((l,i)=>{con
 function nextRoute(r){if(session){confirmAction('Leave this lesson?','Your completed lessons are saved. This unfinished session will be lost.',()=>{session=null;result=null;location.hash=r;render();});return;}location.hash=r;if(route===r)render();}
 function speechError(error){toast(error==='unreviewed'?'A fluent reviewer has not approved a recording for this text yet.':'This recording could not be played. Try again when connected.');}
 function speak(entry,rate=1){speech.speak(entry,course.languageCode,rate);}
-function canSpeak(entry){return speech.supported&&isPlayableAudio(entry,course.audioVoiceApprovals);}
+function canSpeak(entry){return speech.supported&&isPlayableAudio(entry,course.audioVoiceApprovals)||speech.synthesizes(course.languageCode);}
 let speakingPractice;
 async function practiceSpeaking(entry){speech.stop();speakingPractice??=(await import('./pronunciation/practice.js')).createPronunciationPractice({stopModel:()=>speech.stop(),notify:toast});await speakingPractice.open(entry,course.languageCode);}
 // Translation practice: rule-based checking, plus an optional offline model.
@@ -347,6 +348,8 @@ async function boot(){try{
  const registry=await fetch('./courses/index.json').then(r=>{if(!r.ok)throw new Error('Course list is unavailable.');return r.json();});
  courses=await Promise.all(registry.map(async x=>{if(!/^[a-z0-9-]+\.json$/.test(x.file))throw new Error('Invalid course path.');const response=await fetch('./courses/'+x.file);if(!response.ok)throw new Error('Course unavailable.');const value=await response.json();const errors=validateCourse(value);if(errors.length)throw new Error(errors[0]);return value;}));
  if(!courses.length)throw new Error('No course is available.');
+ // English for speakers of each course language, built from the same lessons.
+ courses=[...courses,...courses.filter(reversible).map(reverseCourse).filter(c=>!validateCourse(c).length&&!courses.some(x=>x.id===c.id))];
  custom=read(CUSTOM,[]);if(!Array.isArray(custom))custom=[];custom=custom.filter(c=>!validateCourse(c).length&&!courses.some(x=>x.id===c.id)).map(c=>({...c,status:'draft',reviewers:[]}));
  course=[...courses,...custom].find(c=>c.id===read('tara-selected',null))||courses[0];
  loadProgress();

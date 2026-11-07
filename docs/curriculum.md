@@ -46,7 +46,8 @@ Examples in Tara are original; no exercise set or commercial lesson is copied.
 
 - Key expressions are taught before recall practice. Filipino politeness additions
   and declared answer variants remain supported.
-- Readings provide optional English support. Browser TTS is disabled; stored
+- Readings provide optional English support. Browser TTS is used only for English
+  in generated reverse courses; stored
   audio requires named pronunciation review. See [audio workflow](audio.md).
 - Reading questions test specific details, interpretation or argument structure,
   with explanations. They do not become vocabulary flashcards.

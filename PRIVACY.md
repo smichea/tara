@@ -16,7 +16,8 @@ external AI API calls. Learning does not require a Tara account.
 - Contributions submitted on the public repository are public. GitHub has its
   own account and privacy terms. The app never creates GitHub issues itself.
 - Sound plays stored files. The private Sites copy loads the shared public voice library from GitHub Pages; public and self-hosted copies serve their bundled files locally. Both cache recordings for offline use. Playback requires an individual recording review or a voice approved through listening tests in the course language. Browser text-to-speech
-  is disabled. Offline maintainer tools can send public course text to a chosen
+  is used only to read English phrases in the generated English courses, with the
+  device's speech voice; it is never used for Filipino or French. Offline maintainer tools can send public course text to a chosen
   synthesis provider; no API key or generation request is sent from the learning
   app. Playback runs only on a speaker-button tap. Optional speaking practice requests the microphone only after the learner chooses Start speaking.
 - Play in Retro Museum sends only the selected question bank and attribution to the chosen museum host, using a versioned link fragment. It sends no Tara progress, XP, learner profile or API key. The host clears the fragment after opening, keeps pending questions in session storage for reload, and creates a room when you choose its rules. Room creation submits the quiz to that host and pins its package in private room storage; it does not publish it to the public catalog.

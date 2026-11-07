@@ -1,7 +1,9 @@
 # Stored audio and pronunciation approval
 
-The app plays bundled MP3 files. It never invokes browser speech synthesis or
-an AI API. Slow playback preserves pitch. Course code remains AGPL-3.0-or-later;
+The app plays bundled MP3 files for Filipino and French. It never invokes an AI
+API. Browser speech synthesis is used only for English, the learning language of
+the generated reverse courses (English for Filipino or French speakers), which
+have no recordings; it never speaks Filipino or French. Slow playback preserves pitch. Course code remains AGPL-3.0-or-later;
 course text, annotations and audio retain CC BY-SA 4.0.
 
 ## Voice chosen through listening

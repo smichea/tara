@@ -1,8 +1,8 @@
 import {audioURL,isSharedAudioURL,isSharedSpeakingURL,isSharedTranslationURL} from './media.js';
 import {LESSON_CACHE_PREFIX,audioRangeResponse} from './offline.js';
-const CACHE = 'tara-shell-v14';
+const CACHE = 'tara-shell-v15';
 const ROOT = new URL('./', self.location.href);
-const FILES = ['./', './index.html', './app.js', './lib.js', './curriculum.js', './museum.js', './museum-link.js', './speech.js', './media.js', './offline.js', './glosses.js', './style.css', './icon.svg', './icon-192.png', './icon-512.png', './icon-maskable-512.png', './apple-touch-icon.png', './manifest.webmanifest', './LICENSE.txt', './NOTICE.txt', './courses/index.json', './pronunciation/assets.json', './pronunciation/assets.js', './pronunciation/practice.js', './pronunciation/phonetics.js', './pronunciation/engine-worker.js', './pronunciation/fbank.js', './pronunciation/capture-worklet.js', './translation/assets.json', './translation/assets.js', './translation/checker.js', './translation/engine-worker.js', './translation/grading.js', './translation/marian.js', './translation/tokenizer.js'];
+const FILES = ['./', './index.html', './app.js', './lib.js', './curriculum.js', './museum.js', './museum-link.js', './speech.js', './reverse.js', './media.js', './offline.js', './glosses.js', './style.css', './icon.svg', './icon-192.png', './icon-512.png', './icon-maskable-512.png', './apple-touch-icon.png', './manifest.webmanifest', './LICENSE.txt', './NOTICE.txt', './courses/index.json', './pronunciation/assets.json', './pronunciation/assets.js', './pronunciation/practice.js', './pronunciation/phonetics.js', './pronunciation/engine-worker.js', './pronunciation/fbank.js', './pronunciation/capture-worklet.js', './translation/assets.json', './translation/assets.js', './translation/checker.js', './translation/engine-worker.js', './translation/grading.js', './translation/marian.js', './translation/tokenizer.js'];
 self.addEventListener('install', event => {
   event.waitUntil((async()=>{
     const cache = await caches.open(CACHE);

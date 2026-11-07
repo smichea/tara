@@ -86,7 +86,7 @@ In Filipino courses, adding one optional `po` or `ho` is also accepted when the
 answer otherwise matches. Required respectful forms are preserved. Other words,
 including negation and pronouns, are not discarded. Distinct meanings serve as choice distractors.
 
-Sound uses individually reviewed recordings or an explicitly approved voice pilot; browser text-to-speech is disabled. Files
+Sound uses individually reviewed recordings or an explicitly approved voice pilot; browser text-to-speech is used only for English in generated reverse courses (see [reverse courses](reverse-courses.md)). Files
 are served locally and cached for offline use. A text edit invalidates its old
 pronunciation review, so replace the audio/review or remove the audio reference.
 For writing systems with no spaces, written
